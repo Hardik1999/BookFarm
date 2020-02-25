@@ -1,0 +1,363 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "deviceForPosition"
+- "thumbnailFromVideoPath"
+- "setFocusPointOnDevice"
+- "setFocusPointOnCurrentDevice"
+- "toggledPositionForDevice"
+- "flippedDeviceInputForInput"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private "AVAssetImageGenerator"
+- "AVCaptureDevice"
+- "AVCaptureDeviceInput"
+- !private "AVMediaType"
+- !private "AVURLAsset"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "CGImage"
+- "CGPoint"
+- !private "CMTimeMake"
+- !private "CMTimeMakeWithSeconds"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "TernaryPrecedence"
+- "UIImage"
+- "URL"
+- "deviceForPosition"
+- "flippedDeviceInputForInput"
+- "setFocusPointOnCurrentDevice"
+- "setFocusPointOnDevice"
+- "thumbnailFromVideoPath"
+- "toggledPositionForDevice"
+depends-member:
+- !private ["So7AVAssetC", "init"]
+- !private ["So21AVAssetImageGeneratorC", "appliesPreferredTrackTransform"]
+- !private ["So21AVAssetImageGeneratorC", "copyCGImage"]
+- !private ["So21AVAssetImageGeneratorC", "init"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "init"]
+- !private ["So15AVCaptureDeviceC", "ExposureMode"]
+- !private ["So15AVCaptureDeviceC", "FocusMode"]
+- ["So15AVCaptureDeviceC", "Position"]
+- !private ["So15AVCaptureDeviceC", "default"]
+- !private ["So15AVCaptureDeviceC", "devices"]
+- !private ["So15AVCaptureDeviceC", "exposureMode"]
+- !private ["So15AVCaptureDeviceC", "exposurePointOfInterest"]
+- !private ["So15AVCaptureDeviceC", "focusMode"]
+- !private ["So15AVCaptureDeviceC", "focusPointOfInterest"]
+- !private ["So15AVCaptureDeviceC", "isExposureModeSupported"]
+- !private ["So15AVCaptureDeviceC", "isFocusModeSupported"]
+- !private ["So15AVCaptureDeviceC", "lockForConfiguration"]
+- !private ["So15AVCaptureDeviceC", "position"]
+- !private ["So15AVCaptureDeviceC", "unlockForConfiguration"]
+- !private ["So20AVCaptureDeviceInputC", "device"]
+- !private ["So20AVCaptureDeviceInputC", "init"]
+- !private ["So14AVCaptureInputC", "device"]
+- !private ["So14AVCaptureInputC", "init"]
+- !private ["So21AVContentKeyRecipientP", "init"]
+- !private ["So11AVMediaTypea", "video"]
+- !private ["So10AVURLAssetC", "init"]
+- !private ["s7CVarArgP", "ExposureMode"]
+- !private ["s7CVarArgP", "FocusMode"]
+- ["s7CVarArgP", "Position"]
+- !private ["s7CVarArgP", "appliesPreferredTrackTransform"]
+- !private ["s7CVarArgP", "copyCGImage"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "device"]
+- !private ["s7CVarArgP", "devices"]
+- !private ["s7CVarArgP", "exposureMode"]
+- !private ["s7CVarArgP", "exposurePointOfInterest"]
+- !private ["s7CVarArgP", "focusMode"]
+- !private ["s7CVarArgP", "focusPointOfInterest"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isExposureModeSupported"]
+- !private ["s7CVarArgP", "isFocusModeSupported"]
+- !private ["s7CVarArgP", "lockForConfiguration"]
+- !private ["s7CVarArgP", "position"]
+- !private ["s7CVarArgP", "unlockForConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "ExposureMode"]
+- !private ["s28CustomDebugStringConvertibleP", "FocusMode"]
+- ["s28CustomDebugStringConvertibleP", "Position"]
+- !private ["s28CustomDebugStringConvertibleP", "appliesPreferredTrackTransform"]
+- !private ["s28CustomDebugStringConvertibleP", "copyCGImage"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "device"]
+- !private ["s28CustomDebugStringConvertibleP", "devices"]
+- !private ["s28CustomDebugStringConvertibleP", "exposureMode"]
+- !private ["s28CustomDebugStringConvertibleP", "exposurePointOfInterest"]
+- !private ["s28CustomDebugStringConvertibleP", "focusMode"]
+- !private ["s28CustomDebugStringConvertibleP", "focusPointOfInterest"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isExposureModeSupported"]
+- !private ["s28CustomDebugStringConvertibleP", "isFocusModeSupported"]
+- !private ["s28CustomDebugStringConvertibleP", "lockForConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "position"]
+- !private ["s28CustomDebugStringConvertibleP", "unlockForConfiguration"]
+- !private ["s23CustomStringConvertibleP", "ExposureMode"]
+- !private ["s23CustomStringConvertibleP", "FocusMode"]
+- ["s23CustomStringConvertibleP", "Position"]
+- !private ["s23CustomStringConvertibleP", "appliesPreferredTrackTransform"]
+- !private ["s23CustomStringConvertibleP", "copyCGImage"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "device"]
+- !private ["s23CustomStringConvertibleP", "devices"]
+- !private ["s23CustomStringConvertibleP", "exposureMode"]
+- !private ["s23CustomStringConvertibleP", "exposurePointOfInterest"]
+- !private ["s23CustomStringConvertibleP", "focusMode"]
+- !private ["s23CustomStringConvertibleP", "focusPointOfInterest"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isExposureModeSupported"]
+- !private ["s23CustomStringConvertibleP", "isFocusModeSupported"]
+- !private ["s23CustomStringConvertibleP", "lockForConfiguration"]
+- !private ["s23CustomStringConvertibleP", "position"]
+- !private ["s23CustomStringConvertibleP", "unlockForConfiguration"]
+- !private ["SQ", "ExposureMode"]
+- !private ["SQ", "FocusMode"]
+- ["SQ", "Position"]
+- !private ["SQ", "appliesPreferredTrackTransform"]
+- !private ["SQ", "autoFocus"]
+- !private ["SQ", "back"]
+- !private ["SQ", "continuousAutoExposure"]
+- !private ["SQ", "copyCGImage"]
+- !private ["SQ", "default"]
+- !private ["SQ", "device"]
+- !private ["SQ", "devices"]
+- !private ["SQ", "exposureMode"]
+- !private ["SQ", "exposurePointOfInterest"]
+- !private ["SQ", "focusMode"]
+- !private ["SQ", "focusPointOfInterest"]
+- !private ["SQ", "front"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isExposureModeSupported"]
+- !private ["SQ", "isFocusModeSupported"]
+- !private ["SQ", "lockForConfiguration"]
+- !private ["SQ", "position"]
+- !private ["SQ", "unlockForConfiguration"]
+- !private ["SQ", "video"]
+- !private ["So21AVCaptureExposureModeV", "continuousAutoExposure"]
+- !private ["So18AVCaptureFocusModeV", "autoFocus"]
+- !private ["SH", "ExposureMode"]
+- !private ["SH", "FocusMode"]
+- ["SH", "Position"]
+- !private ["SH", "appliesPreferredTrackTransform"]
+- !private ["SH", "autoFocus"]
+- !private ["SH", "back"]
+- !private ["SH", "continuousAutoExposure"]
+- !private ["SH", "copyCGImage"]
+- !private ["SH", "default"]
+- !private ["SH", "device"]
+- !private ["SH", "devices"]
+- !private ["SH", "exposureMode"]
+- !private ["SH", "exposurePointOfInterest"]
+- !private ["SH", "focusMode"]
+- !private ["SH", "focusPointOfInterest"]
+- !private ["SH", "front"]
+- !private ["SH", "init"]
+- !private ["SH", "isExposureModeSupported"]
+- !private ["SH", "isFocusModeSupported"]
+- !private ["SH", "lockForConfiguration"]
+- !private ["SH", "position"]
+- !private ["SH", "unlockForConfiguration"]
+- !private ["SH", "video"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSObjectC", "ExposureMode"]
+- !private ["So8NSObjectC", "FocusMode"]
+- ["So8NSObjectC", "Position"]
+- !private ["So8NSObjectC", "appliesPreferredTrackTransform"]
+- !private ["So8NSObjectC", "copyCGImage"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "device"]
+- !private ["So8NSObjectC", "devices"]
+- !private ["So8NSObjectC", "exposureMode"]
+- !private ["So8NSObjectC", "exposurePointOfInterest"]
+- !private ["So8NSObjectC", "focusMode"]
+- !private ["So8NSObjectC", "focusPointOfInterest"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isExposureModeSupported"]
+- !private ["So8NSObjectC", "isFocusModeSupported"]
+- !private ["So8NSObjectC", "lockForConfiguration"]
+- !private ["So8NSObjectC", "position"]
+- !private ["So8NSObjectC", "unlockForConfiguration"]
+- !private ["So8NSObjectP", "ExposureMode"]
+- !private ["So8NSObjectP", "FocusMode"]
+- ["So8NSObjectP", "Position"]
+- !private ["So8NSObjectP", "appliesPreferredTrackTransform"]
+- !private ["So8NSObjectP", "copyCGImage"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "device"]
+- !private ["So8NSObjectP", "devices"]
+- !private ["So8NSObjectP", "exposureMode"]
+- !private ["So8NSObjectP", "exposurePointOfInterest"]
+- !private ["So8NSObjectP", "focusMode"]
+- !private ["So8NSObjectP", "focusPointOfInterest"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isExposureModeSupported"]
+- !private ["So8NSObjectP", "isFocusModeSupported"]
+- !private ["So8NSObjectP", "lockForConfiguration"]
+- !private ["So8NSObjectP", "position"]
+- !private ["So8NSObjectP", "unlockForConfiguration"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So23AVCaptureDevicePositionV", "back"]
+- !private ["So23AVCaptureDevicePositionV", "front"]
+- !private ["SY", "autoFocus"]
+- !private ["SY", "back"]
+- !private ["SY", "continuousAutoExposure"]
+- !private ["SY", "front"]
+- !private ["SY", "video"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "video"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ExposureMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FocusMode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Position"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appliesPreferredTrackTransform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "copyCGImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "device"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "devices"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "exposureMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "exposurePointOfInterest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "focusMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "focusPointOfInterest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isExposureModeSupported"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isFocusModeSupported"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lockForConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "position"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlockForConfiguration"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ExposureMode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FocusMode"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Position"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "appliesPreferredTrackTransform"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "copyCGImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "device"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "devices"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "exposureMode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "exposurePointOfInterest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "focusMode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "focusPointOfInterest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isExposureModeSupported"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isFocusModeSupported"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lockForConfiguration"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "position"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unlockForConfiguration"]
+- !private ["s21_ObjectiveCBridgeableP", "video"]
+- !private ["s20_SwiftNewtypeWrapperP", "video"]
+depends-nominal:
+- !private "So7AVAssetC"
+- !private "So21AVAssetImageGeneratorC"
+- !private "So29AVAsynchronousKeyValueLoadingP"
+- "So15AVCaptureDeviceC"
+- !private "So20AVCaptureDeviceInputC"
+- !private "So14AVCaptureInputC"
+- !private "So21AVContentKeyRecipientP"
+- !private "So11AVMediaTypea"
+- !private "So10AVURLAssetC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- !private "So21AVCaptureExposureModeV"
+- !private "So18AVCaptureFocusModeV"
+- "SH"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So23AVCaptureDevicePositionV"
+- !private "SY"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreLocation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Photos.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Modules/PryntTrimmerView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/Pods/Target Support Files/YPImagePicker/YPImagePicker-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/Pods/Target Support Files/SteviaLayout/SteviaLayout-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/Pods/Target Support Files/PryntTrimmerView/PryntTrimmerView-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Headers/PryntTrimmerView-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Pods.build/Debug-iphonesimulator/YPImagePicker.build/unextended-module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Pods.build/Debug-iphonesimulator/SteviaLayout.build/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Pods.build/Debug-iphonesimulator/PryntTrimmerView.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9268173769f15773534cfd7004da3eb8"

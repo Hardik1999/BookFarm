@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Kingfisher (5.13.0):
+    - Kingfisher/Core (= 5.13.0)
+  - Kingfisher/Core (5.13.0)
+  - PryntTrimmerView (4.0.0)
+  - SteviaLayout (4.7.3)
+  - SwiftyJSON (4.3.0)
+  - Toast-Swift (5.0.1)
+  - XLPagerTabStrip (9.0.0)
+  - YPImagePicker (4.2.0):
+    - PryntTrimmerView (~> 4.0.0)
+    - SteviaLayout (~> 4.7.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Kingfisher (~> 5.0)
+  - SwiftyJSON (~> 4.0)
+  - Toast-Swift (~> 5.0.0)
+  - XLPagerTabStrip (~> 9.0)
+  - YPImagePicker
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - PryntTrimmerView
+    - SteviaLayout
+    - SwiftyJSON
+    - Toast-Swift
+    - XLPagerTabStrip
+    - YPImagePicker
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Kingfisher: 0d334cada987fcddbe9b5cec516406e1ee9d4748
+  PryntTrimmerView: 67e67573ffd4c073f1308effa66aefd0cfa667a0
+  SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
+  YPImagePicker: accf310f9526641a84372c0ecf943547d9b1e52c
+
+PODFILE CHECKSUM: ebf4aa1db3e5c172d9acef606221968ff15d5dee
+
+COCOAPODS: 1.8.4

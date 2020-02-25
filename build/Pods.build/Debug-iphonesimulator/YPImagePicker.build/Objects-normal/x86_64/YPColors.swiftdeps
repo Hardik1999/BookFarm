@@ -1,0 +1,218 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "YPColors"
+provides-nominal:
+- "13YPImagePicker8YPColorsV"
+provides-member:
+- ["13YPImagePicker8YPColorsV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "UIColor"
+- "YPColors"
+depends-member:
+- ["s7CVarArgP", "clear"]
+- ["s7CVarArgP", "offWhiteOrBlack"]
+- ["s7CVarArgP", "ypLabel"]
+- ["s7CVarArgP", "ypSecondaryLabel"]
+- ["s7CVarArgP", "ypSystemBackground"]
+- ["s7CVarArgP", "ypSystemBlue"]
+- ["s28CustomDebugStringConvertibleP", "clear"]
+- ["s28CustomDebugStringConvertibleP", "offWhiteOrBlack"]
+- ["s28CustomDebugStringConvertibleP", "ypLabel"]
+- ["s28CustomDebugStringConvertibleP", "ypSecondaryLabel"]
+- ["s28CustomDebugStringConvertibleP", "ypSystemBackground"]
+- ["s28CustomDebugStringConvertibleP", "ypSystemBlue"]
+- ["s23CustomStringConvertibleP", "clear"]
+- ["s23CustomStringConvertibleP", "offWhiteOrBlack"]
+- ["s23CustomStringConvertibleP", "ypLabel"]
+- ["s23CustomStringConvertibleP", "ypSecondaryLabel"]
+- ["s23CustomStringConvertibleP", "ypSystemBackground"]
+- ["s23CustomStringConvertibleP", "ypSystemBlue"]
+- ["SQ", "clear"]
+- ["SQ", "offWhiteOrBlack"]
+- ["SQ", "ypLabel"]
+- ["SQ", "ypSecondaryLabel"]
+- ["SQ", "ypSystemBackground"]
+- ["SQ", "ypSystemBlue"]
+- ["SH", "clear"]
+- ["SH", "offWhiteOrBlack"]
+- ["SH", "ypLabel"]
+- ["SH", "ypSecondaryLabel"]
+- ["SH", "ypSystemBackground"]
+- ["SH", "ypSystemBlue"]
+- ["So8NSCodingP", "clear"]
+- ["So8NSCodingP", "offWhiteOrBlack"]
+- ["So8NSCodingP", "ypLabel"]
+- ["So8NSCodingP", "ypSecondaryLabel"]
+- ["So8NSCodingP", "ypSystemBackground"]
+- ["So8NSCodingP", "ypSystemBlue"]
+- ["So9NSCopyingP", "clear"]
+- ["So9NSCopyingP", "offWhiteOrBlack"]
+- ["So9NSCopyingP", "ypLabel"]
+- ["So9NSCopyingP", "ypSecondaryLabel"]
+- ["So9NSCopyingP", "ypSystemBackground"]
+- ["So9NSCopyingP", "ypSystemBlue"]
+- ["So21NSItemProviderReadingP", "clear"]
+- ["So21NSItemProviderReadingP", "offWhiteOrBlack"]
+- ["So21NSItemProviderReadingP", "ypLabel"]
+- ["So21NSItemProviderReadingP", "ypSecondaryLabel"]
+- ["So21NSItemProviderReadingP", "ypSystemBackground"]
+- ["So21NSItemProviderReadingP", "ypSystemBlue"]
+- ["So21NSItemProviderWritingP", "clear"]
+- ["So21NSItemProviderWritingP", "offWhiteOrBlack"]
+- ["So21NSItemProviderWritingP", "ypLabel"]
+- ["So21NSItemProviderWritingP", "ypSecondaryLabel"]
+- ["So21NSItemProviderWritingP", "ypSystemBackground"]
+- ["So21NSItemProviderWritingP", "ypSystemBlue"]
+- ["So8NSObjectC", "clear"]
+- ["So8NSObjectC", "offWhiteOrBlack"]
+- ["So8NSObjectC", "ypLabel"]
+- ["So8NSObjectC", "ypSecondaryLabel"]
+- ["So8NSObjectC", "ypSystemBackground"]
+- ["So8NSObjectC", "ypSystemBlue"]
+- ["So8NSObjectP", "clear"]
+- ["So8NSObjectP", "offWhiteOrBlack"]
+- ["So8NSObjectP", "ypLabel"]
+- ["So8NSObjectP", "ypSecondaryLabel"]
+- ["So8NSObjectP", "ypSystemBackground"]
+- ["So8NSObjectP", "ypSystemBlue"]
+- ["So14NSSecureCodingP", "clear"]
+- ["So14NSSecureCodingP", "offWhiteOrBlack"]
+- ["So14NSSecureCodingP", "ypLabel"]
+- ["So14NSSecureCodingP", "ypSecondaryLabel"]
+- ["So14NSSecureCodingP", "ypSystemBackground"]
+- ["So14NSSecureCodingP", "ypSystemBlue"]
+- ["So7UIColorC", "clear"]
+- ["So7UIColorC", "offWhiteOrBlack"]
+- ["So7UIColorC", "ypLabel"]
+- ["So7UIColorC", "ypSecondaryLabel"]
+- ["So7UIColorC", "ypSystemBackground"]
+- ["So7UIColorC", "ypSystemBlue"]
+- ["13YPImagePicker8YPColorsV", "UIColor"]
+- ["13YPImagePicker8YPColorsV", "assetViewBackgroundColor"]
+- ["13YPImagePicker8YPColorsV", "bottomMenuItemBackgroundColor"]
+- ["13YPImagePicker8YPColorsV", "bottomMenuItemSelectedTextColor"]
+- ["13YPImagePicker8YPColorsV", "bottomMenuItemUnselectedTextColor"]
+- ["13YPImagePicker8YPColorsV", "coverSelectorBorderColor"]
+- ["13YPImagePicker8YPColorsV", "filterBackgroundColor"]
+- ["13YPImagePicker8YPColorsV", "init"]
+- ["13YPImagePicker8YPColorsV", "libraryScreenBackgroundColor"]
+- ["13YPImagePicker8YPColorsV", "multipleItemsSelectedCircleColor"]
+- ["13YPImagePicker8YPColorsV", "navigationBarActivityIndicatorColor"]
+- ["13YPImagePicker8YPColorsV", "photoVideoScreenBackgroundColor"]
+- ["13YPImagePicker8YPColorsV", "positionLineColor"]
+- ["13YPImagePicker8YPColorsV", "progressBarCompletedColor"]
+- ["13YPImagePicker8YPColorsV", "progressBarTrackColor"]
+- ["13YPImagePicker8YPColorsV", "safeAreaBackgroundColor"]
+- ["13YPImagePicker8YPColorsV", "tintColor"]
+- ["13YPImagePicker8YPColorsV", "trimmerHandleColor"]
+- ["13YPImagePicker8YPColorsV", "trimmerMainColor"]
+- ["s26_ExpressibleByColorLiteralP", "clear"]
+- ["s26_ExpressibleByColorLiteralP", "offWhiteOrBlack"]
+- ["s26_ExpressibleByColorLiteralP", "ypLabel"]
+- ["s26_ExpressibleByColorLiteralP", "ypSecondaryLabel"]
+- ["s26_ExpressibleByColorLiteralP", "ypSystemBackground"]
+- ["s26_ExpressibleByColorLiteralP", "ypSystemBlue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "offWhiteOrBlack"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ypLabel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ypSecondaryLabel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ypSystemBackground"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ypSystemBlue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "clear"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "offWhiteOrBlack"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ypLabel"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ypSecondaryLabel"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ypSystemBackground"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ypSystemBlue"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "So7UIColorC"
+- "13YPImagePicker8YPColorsV"
+- "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreLocation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Photos.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Modules/PryntTrimmerView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/Pods/Target Support Files/YPImagePicker/YPImagePicker-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/Pods/Target Support Files/SteviaLayout/SteviaLayout-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/Pods/Target Support Files/PryntTrimmerView/PryntTrimmerView-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Headers/PryntTrimmerView-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Pods.build/Debug-iphonesimulator/YPImagePicker.build/unextended-module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Pods.build/Debug-iphonesimulator/SteviaLayout.build/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Pods.build/Debug-iphonesimulator/PryntTrimmerView.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1d58a12e006d8adfc0808c3f69b1cb00"

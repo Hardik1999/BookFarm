@@ -1,0 +1,899 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "loginVC"
+provides-nominal:
+- "8BookFarm7loginVCC"
+provides-member:
+- ["8BookFarm7loginVCC", ""]
+provides-dynamic-lookup:
+- "btnfp"
+- "btnsignin"
+- "btnsignup"
+- "tfemail"
+- "tfpassword"
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- !private "=="
+- !private "AlamofireSingleTon"
+- "BaseVC"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "ConstantStrings"
+- "FloatLiteralType"
+- !private "ForgotPasswordVC"
+- "IntegerLiteralType"
+- !private "JSONDecoder"
+- !private "JSONEncoder"
+- !private "LoginResponse"
+- !private "RegisterVC"
+- !private "ServiceNameConstants"
+- !private "StringLiteralType"
+- !private "TabBarVC"
+- !private "UIAlertAction"
+- !private "UIAlertController"
+- "UITextField"
+- !private "UserDefaults"
+- "loginVC"
+- !private "print"
+depends-member:
+- !private ["8BookFarm18AlamofireSingleTonC", "requestPost"]
+- !private ["8BookFarm18AlamofireSingleTonC", "sharedInstance"]
+- !private ["8BookFarm6BaseVCC", "AlamofireSingleTon"]
+- ["8BookFarm6BaseVCC", "Bool"]
+- !private ["8BookFarm6BaseVCC", "ConstantStrings"]
+- !private ["8BookFarm6BaseVCC", "ForgotPasswordVC"]
+- !private ["8BookFarm6BaseVCC", "JSONDecoder"]
+- !private ["8BookFarm6BaseVCC", "JSONEncoder"]
+- !private ["8BookFarm6BaseVCC", "LoginResponse"]
+- !private ["8BookFarm6BaseVCC", "RegisterVC"]
+- !private ["8BookFarm6BaseVCC", "ServiceNameConstants"]
+- !private ["8BookFarm6BaseVCC", "TabBarVC"]
+- !private ["8BookFarm6BaseVCC", "UIAlertAction"]
+- !private ["8BookFarm6BaseVCC", "UIAlertController"]
+- ["8BookFarm6BaseVCC", "UITextField"]
+- !private ["8BookFarm6BaseVCC", "UserDefaults"]
+- ["8BookFarm6BaseVCC", ""]
+- ["8BookFarm6BaseVCC", "btnfp"]
+- ["8BookFarm6BaseVCC", "btnsignin"]
+- ["8BookFarm6BaseVCC", "btnsignup"]
+- !private ["8BookFarm6BaseVCC", "deinit"]
+- ["8BookFarm6BaseVCC", "doCallLoginAPI"]
+- ["8BookFarm6BaseVCC", "dovalidate"]
+- ["8BookFarm6BaseVCC", "init"]
+- !private ["8BookFarm6BaseVCC", "navigationController"]
+- !private ["8BookFarm6BaseVCC", "present"]
+- !private ["8BookFarm6BaseVCC", "print"]
+- !private ["8BookFarm6BaseVCC", "storyboard"]
+- ["8BookFarm6BaseVCC", "tfemail"]
+- ["8BookFarm6BaseVCC", "tfpassword"]
+- ["8BookFarm6BaseVCC", "viewDidLoad"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "AlamofireSingleTon"]
+- !private ["s7CVarArgP", "ConstantStrings"]
+- !private ["s7CVarArgP", "JSONDecoder"]
+- !private ["s7CVarArgP", "JSONEncoder"]
+- !private ["s7CVarArgP", "LoginResponse"]
+- !private ["s7CVarArgP", "ServiceNameConstants"]
+- !private ["s7CVarArgP", "UIAlertAction"]
+- !private ["s7CVarArgP", "UIAlertController"]
+- !private ["s7CVarArgP", "UserDefaults"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addAction"]
+- !private ["s7CVarArgP", "doCallLoginAPI"]
+- !private ["s7CVarArgP", "dovalidate"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "pushViewController"]
+- !private ["s7CVarArgP", "requestPost"]
+- !private ["s7CVarArgP", "set"]
+- !private ["s7CVarArgP", "sharedInstance"]
+- !private ["s7CVarArgP", "standard"]
+- !private ["s7CVarArgP", "storyboard"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "tfemail"]
+- !private ["s7CVarArgP", "tfpassword"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["8BookFarm15ConstantStringsV", "APIKey"]
+- !private ["8BookFarm15ConstantStringsV", "LoginDone"]
+- !private ["8BookFarm15ConstantStringsV", "isLoggedIn"]
+- !private ["s28CustomDebugStringConvertibleP", "AlamofireSingleTon"]
+- !private ["s28CustomDebugStringConvertibleP", "ConstantStrings"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONDecoder"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONEncoder"]
+- !private ["s28CustomDebugStringConvertibleP", "LoginResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "ServiceNameConstants"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
+- !private ["s28CustomDebugStringConvertibleP", "UserDefaults"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addAction"]
+- !private ["s28CustomDebugStringConvertibleP", "doCallLoginAPI"]
+- !private ["s28CustomDebugStringConvertibleP", "dovalidate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "pushViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "requestPost"]
+- !private ["s28CustomDebugStringConvertibleP", "set"]
+- !private ["s28CustomDebugStringConvertibleP", "sharedInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s28CustomDebugStringConvertibleP", "storyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "tfemail"]
+- !private ["s28CustomDebugStringConvertibleP", "tfpassword"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "AlamofireSingleTon"]
+- !private ["s23CustomStringConvertibleP", "ConstantStrings"]
+- !private ["s23CustomStringConvertibleP", "JSONDecoder"]
+- !private ["s23CustomStringConvertibleP", "JSONEncoder"]
+- !private ["s23CustomStringConvertibleP", "LoginResponse"]
+- !private ["s23CustomStringConvertibleP", "ServiceNameConstants"]
+- !private ["s23CustomStringConvertibleP", "UIAlertAction"]
+- !private ["s23CustomStringConvertibleP", "UIAlertController"]
+- !private ["s23CustomStringConvertibleP", "UserDefaults"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addAction"]
+- !private ["s23CustomStringConvertibleP", "doCallLoginAPI"]
+- !private ["s23CustomStringConvertibleP", "dovalidate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "pushViewController"]
+- !private ["s23CustomStringConvertibleP", "requestPost"]
+- !private ["s23CustomStringConvertibleP", "set"]
+- !private ["s23CustomStringConvertibleP", "sharedInstance"]
+- !private ["s23CustomStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", "storyboard"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "tfemail"]
+- !private ["s23CustomStringConvertibleP", "tfpassword"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "message"]
+- !private ["Se", "status"]
+- !private ["Se", "text"]
+- !private ["SE", "message"]
+- !private ["SE", "status"]
+- !private ["SE", "text"]
+- !private ["SQ", "AlamofireSingleTon"]
+- !private ["SQ", "ConstantStrings"]
+- !private ["SQ", "JSONDecoder"]
+- !private ["SQ", "JSONEncoder"]
+- !private ["SQ", "LoginResponse"]
+- !private ["SQ", "ServiceNameConstants"]
+- !private ["SQ", "UIAlertAction"]
+- !private ["SQ", "UIAlertController"]
+- !private ["SQ", "UserDefaults"]
+- ["SQ", ""]
+- !private ["SQ", "addAction"]
+- !private ["SQ", "alert"]
+- !private ["SQ", "cancel"]
+- !private ["SQ", "doCallLoginAPI"]
+- !private ["SQ", "dovalidate"]
+- !private ["SQ", "init"]
+- !private ["SQ", "instantiateViewController"]
+- !private ["SQ", "navigationController"]
+- !private ["SQ", "present"]
+- !private ["SQ", "print"]
+- !private ["SQ", "pushViewController"]
+- !private ["SQ", "requestPost"]
+- !private ["SQ", "set"]
+- !private ["SQ", "sharedInstance"]
+- !private ["SQ", "standard"]
+- !private ["SQ", "storyboard"]
+- !private ["SQ", "text"]
+- !private ["SQ", "tfemail"]
+- !private ["SQ", "tfpassword"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["SH", "AlamofireSingleTon"]
+- !private ["SH", "ConstantStrings"]
+- !private ["SH", "JSONDecoder"]
+- !private ["SH", "JSONEncoder"]
+- !private ["SH", "LoginResponse"]
+- !private ["SH", "ServiceNameConstants"]
+- !private ["SH", "UIAlertAction"]
+- !private ["SH", "UIAlertController"]
+- !private ["SH", "UserDefaults"]
+- ["SH", ""]
+- !private ["SH", "addAction"]
+- !private ["SH", "alert"]
+- !private ["SH", "cancel"]
+- !private ["SH", "doCallLoginAPI"]
+- !private ["SH", "dovalidate"]
+- !private ["SH", "init"]
+- !private ["SH", "instantiateViewController"]
+- !private ["SH", "navigationController"]
+- !private ["SH", "present"]
+- !private ["SH", "print"]
+- !private ["SH", "pushViewController"]
+- !private ["SH", "requestPost"]
+- !private ["SH", "set"]
+- !private ["SH", "sharedInstance"]
+- !private ["SH", "standard"]
+- !private ["SH", "storyboard"]
+- !private ["SH", "text"]
+- !private ["SH", "tfemail"]
+- !private ["SH", "tfpassword"]
+- !private ["SH", "viewDidLoad"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["10Foundation11JSONEncoderC", "init"]
+- !private ["8BookFarm13LoginResponseV", "deinit"]
+- !private ["8BookFarm13LoginResponseV", "message"]
+- !private ["8BookFarm13LoginResponseV", "status"]
+- !private ["So8NSCodingP", "AlamofireSingleTon"]
+- !private ["So8NSCodingP", "ConstantStrings"]
+- !private ["So8NSCodingP", "JSONDecoder"]
+- !private ["So8NSCodingP", "JSONEncoder"]
+- !private ["So8NSCodingP", "LoginResponse"]
+- !private ["So8NSCodingP", "ServiceNameConstants"]
+- !private ["So8NSCodingP", "UIAlertAction"]
+- !private ["So8NSCodingP", "UIAlertController"]
+- !private ["So8NSCodingP", "UserDefaults"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addAction"]
+- !private ["So8NSCodingP", "doCallLoginAPI"]
+- !private ["So8NSCodingP", "dovalidate"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "pushViewController"]
+- !private ["So8NSCodingP", "storyboard"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "tfemail"]
+- !private ["So8NSCodingP", "tfpassword"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "AlamofireSingleTon"]
+- !private ["So26NSExtensionRequestHandlingP", "ConstantStrings"]
+- !private ["So26NSExtensionRequestHandlingP", "JSONDecoder"]
+- !private ["So26NSExtensionRequestHandlingP", "JSONEncoder"]
+- !private ["So26NSExtensionRequestHandlingP", "LoginResponse"]
+- !private ["So26NSExtensionRequestHandlingP", "ServiceNameConstants"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertAction"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertController"]
+- !private ["So26NSExtensionRequestHandlingP", "UserDefaults"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "addAction"]
+- !private ["So26NSExtensionRequestHandlingP", "doCallLoginAPI"]
+- !private ["So26NSExtensionRequestHandlingP", "dovalidate"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "pushViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "storyboard"]
+- !private ["So26NSExtensionRequestHandlingP", "tfemail"]
+- !private ["So26NSExtensionRequestHandlingP", "tfpassword"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "AlamofireSingleTon"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "ConstantStrings"]
+- !private ["So8NSObjectC", "ForgotPasswordVC"]
+- !private ["So8NSObjectC", "JSONDecoder"]
+- !private ["So8NSObjectC", "JSONEncoder"]
+- !private ["So8NSObjectC", "LoginResponse"]
+- !private ["So8NSObjectC", "RegisterVC"]
+- !private ["So8NSObjectC", "ServiceNameConstants"]
+- !private ["So8NSObjectC", "TabBarVC"]
+- !private ["So8NSObjectC", "UIAlertAction"]
+- !private ["So8NSObjectC", "UIAlertController"]
+- ["So8NSObjectC", "UITextField"]
+- !private ["So8NSObjectC", "UserDefaults"]
+- !private ["So8NSObjectC", "addAction"]
+- ["So8NSObjectC", "btnfp"]
+- ["So8NSObjectC", "btnsignin"]
+- ["So8NSObjectC", "btnsignup"]
+- ["So8NSObjectC", "doCallLoginAPI"]
+- ["So8NSObjectC", "dovalidate"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- !private ["So8NSObjectC", "navigationController"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "pushViewController"]
+- !private ["So8NSObjectC", "requestPost"]
+- !private ["So8NSObjectC", "set"]
+- !private ["So8NSObjectC", "sharedInstance"]
+- !private ["So8NSObjectC", "standard"]
+- !private ["So8NSObjectC", "storyboard"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "tfemail"]
+- ["So8NSObjectC", "tfpassword"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "AlamofireSingleTon"]
+- !private ["So8NSObjectP", "ConstantStrings"]
+- !private ["So8NSObjectP", "JSONDecoder"]
+- !private ["So8NSObjectP", "JSONEncoder"]
+- !private ["So8NSObjectP", "LoginResponse"]
+- !private ["So8NSObjectP", "ServiceNameConstants"]
+- !private ["So8NSObjectP", "UIAlertAction"]
+- !private ["So8NSObjectP", "UIAlertController"]
+- !private ["So8NSObjectP", "UserDefaults"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addAction"]
+- !private ["So8NSObjectP", "doCallLoginAPI"]
+- !private ["So8NSObjectP", "dovalidate"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "navigationController"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "pushViewController"]
+- !private ["So8NSObjectP", "requestPost"]
+- !private ["So8NSObjectP", "set"]
+- !private ["So8NSObjectP", "sharedInstance"]
+- !private ["So8NSObjectP", "standard"]
+- !private ["So8NSObjectP", "storyboard"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "tfemail"]
+- !private ["So8NSObjectP", "tfpassword"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sq", "text"]
+- !private ["SY", "alert"]
+- !private ["SY", "cancel"]
+- !private ["So30SWRevealViewControllerDelegateP", "AlamofireSingleTon"]
+- !private ["So30SWRevealViewControllerDelegateP", "ConstantStrings"]
+- !private ["So30SWRevealViewControllerDelegateP", "JSONDecoder"]
+- !private ["So30SWRevealViewControllerDelegateP", "JSONEncoder"]
+- !private ["So30SWRevealViewControllerDelegateP", "LoginResponse"]
+- !private ["So30SWRevealViewControllerDelegateP", "ServiceNameConstants"]
+- !private ["So30SWRevealViewControllerDelegateP", "UIAlertAction"]
+- !private ["So30SWRevealViewControllerDelegateP", "UIAlertController"]
+- !private ["So30SWRevealViewControllerDelegateP", "UserDefaults"]
+- ["So30SWRevealViewControllerDelegateP", ""]
+- !private ["So30SWRevealViewControllerDelegateP", "doCallLoginAPI"]
+- !private ["So30SWRevealViewControllerDelegateP", "dovalidate"]
+- !private ["So30SWRevealViewControllerDelegateP", "init"]
+- !private ["So30SWRevealViewControllerDelegateP", "navigationController"]
+- !private ["So30SWRevealViewControllerDelegateP", "present"]
+- !private ["So30SWRevealViewControllerDelegateP", "print"]
+- !private ["So30SWRevealViewControllerDelegateP", "storyboard"]
+- !private ["So30SWRevealViewControllerDelegateP", "tfemail"]
+- !private ["So30SWRevealViewControllerDelegateP", "tfpassword"]
+- !private ["So30SWRevealViewControllerDelegateP", "viewDidLoad"]
+- !private ["8BookFarm20ServiceNameConstantsV", "loginController"]
+- !private ["So22UIAlertControllerStyleV", "alert"]
+- !private ["So18UIAlertActionStyleV", "cancel"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- !private ["7Combine15TopLevelEncoderP", "encode"]
+- !private ["7Combine15TopLevelEncoderP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So13UIAlertActionC", "init"]
+- !private ["So17UIAlertControllerC", "addAction"]
+- !private ["So17UIAlertControllerC", "init"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "AlamofireSingleTon"]
+- !private ["So21UIAppearanceContainerP", "ConstantStrings"]
+- !private ["So21UIAppearanceContainerP", "JSONDecoder"]
+- !private ["So21UIAppearanceContainerP", "JSONEncoder"]
+- !private ["So21UIAppearanceContainerP", "LoginResponse"]
+- !private ["So21UIAppearanceContainerP", "ServiceNameConstants"]
+- !private ["So21UIAppearanceContainerP", "UIAlertAction"]
+- !private ["So21UIAppearanceContainerP", "UIAlertController"]
+- !private ["So21UIAppearanceContainerP", "UserDefaults"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addAction"]
+- !private ["So21UIAppearanceContainerP", "doCallLoginAPI"]
+- !private ["So21UIAppearanceContainerP", "dovalidate"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "pushViewController"]
+- !private ["So21UIAppearanceContainerP", "storyboard"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "tfemail"]
+- !private ["So21UIAppearanceContainerP", "tfpassword"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "AlamofireSingleTon"]
+- !private ["So18UIContentContainerP", "ConstantStrings"]
+- !private ["So18UIContentContainerP", "JSONDecoder"]
+- !private ["So18UIContentContainerP", "JSONEncoder"]
+- !private ["So18UIContentContainerP", "LoginResponse"]
+- !private ["So18UIContentContainerP", "ServiceNameConstants"]
+- !private ["So18UIContentContainerP", "UIAlertAction"]
+- !private ["So18UIContentContainerP", "UIAlertController"]
+- !private ["So18UIContentContainerP", "UserDefaults"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "addAction"]
+- !private ["So18UIContentContainerP", "doCallLoginAPI"]
+- !private ["So18UIContentContainerP", "dovalidate"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "pushViewController"]
+- !private ["So18UIContentContainerP", "storyboard"]
+- !private ["So18UIContentContainerP", "tfemail"]
+- !private ["So18UIContentContainerP", "tfpassword"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "AlamofireSingleTon"]
+- !private ["So18UIFocusEnvironmentP", "ConstantStrings"]
+- !private ["So18UIFocusEnvironmentP", "JSONDecoder"]
+- !private ["So18UIFocusEnvironmentP", "JSONEncoder"]
+- !private ["So18UIFocusEnvironmentP", "LoginResponse"]
+- !private ["So18UIFocusEnvironmentP", "ServiceNameConstants"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertAction"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertController"]
+- !private ["So18UIFocusEnvironmentP", "UserDefaults"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addAction"]
+- !private ["So18UIFocusEnvironmentP", "doCallLoginAPI"]
+- !private ["So18UIFocusEnvironmentP", "dovalidate"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "pushViewController"]
+- !private ["So18UIFocusEnvironmentP", "storyboard"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "tfemail"]
+- !private ["So18UIFocusEnvironmentP", "tfpassword"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- !private ["So22UINavigationControllerC", "pushViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "AlamofireSingleTon"]
+- !private ["So30UIPasteConfigurationSupportingP", "ConstantStrings"]
+- !private ["So30UIPasteConfigurationSupportingP", "JSONDecoder"]
+- !private ["So30UIPasteConfigurationSupportingP", "JSONEncoder"]
+- !private ["So30UIPasteConfigurationSupportingP", "LoginResponse"]
+- !private ["So30UIPasteConfigurationSupportingP", "ServiceNameConstants"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UserDefaults"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "doCallLoginAPI"]
+- !private ["So30UIPasteConfigurationSupportingP", "dovalidate"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "pushViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "storyboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "tfemail"]
+- !private ["So30UIPasteConfigurationSupportingP", "tfpassword"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "AlamofireSingleTon"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "ConstantStrings"]
+- !private ["So11UIResponderC", "ForgotPasswordVC"]
+- !private ["So11UIResponderC", "JSONDecoder"]
+- !private ["So11UIResponderC", "JSONEncoder"]
+- !private ["So11UIResponderC", "LoginResponse"]
+- !private ["So11UIResponderC", "RegisterVC"]
+- !private ["So11UIResponderC", "ServiceNameConstants"]
+- !private ["So11UIResponderC", "TabBarVC"]
+- !private ["So11UIResponderC", "UIAlertAction"]
+- !private ["So11UIResponderC", "UIAlertController"]
+- ["So11UIResponderC", "UITextField"]
+- !private ["So11UIResponderC", "UserDefaults"]
+- !private ["So11UIResponderC", "addAction"]
+- ["So11UIResponderC", "btnfp"]
+- ["So11UIResponderC", "btnsignin"]
+- ["So11UIResponderC", "btnsignup"]
+- ["So11UIResponderC", "doCallLoginAPI"]
+- ["So11UIResponderC", "dovalidate"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "navigationController"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "pushViewController"]
+- !private ["So11UIResponderC", "storyboard"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "tfemail"]
+- ["So11UIResponderC", "tfpassword"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "AlamofireSingleTon"]
+- !private ["So30UIResponderStandardEditActionsP", "ConstantStrings"]
+- !private ["So30UIResponderStandardEditActionsP", "JSONDecoder"]
+- !private ["So30UIResponderStandardEditActionsP", "JSONEncoder"]
+- !private ["So30UIResponderStandardEditActionsP", "LoginResponse"]
+- !private ["So30UIResponderStandardEditActionsP", "ServiceNameConstants"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertAction"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertController"]
+- !private ["So30UIResponderStandardEditActionsP", "UserDefaults"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addAction"]
+- !private ["So30UIResponderStandardEditActionsP", "doCallLoginAPI"]
+- !private ["So30UIResponderStandardEditActionsP", "dovalidate"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "pushViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "storyboard"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "tfemail"]
+- !private ["So30UIResponderStandardEditActionsP", "tfpassword"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So16UIStateRestoringP", "AlamofireSingleTon"]
+- !private ["So16UIStateRestoringP", "ConstantStrings"]
+- !private ["So16UIStateRestoringP", "JSONDecoder"]
+- !private ["So16UIStateRestoringP", "JSONEncoder"]
+- !private ["So16UIStateRestoringP", "LoginResponse"]
+- !private ["So16UIStateRestoringP", "ServiceNameConstants"]
+- !private ["So16UIStateRestoringP", "UIAlertAction"]
+- !private ["So16UIStateRestoringP", "UIAlertController"]
+- !private ["So16UIStateRestoringP", "UserDefaults"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "addAction"]
+- !private ["So16UIStateRestoringP", "doCallLoginAPI"]
+- !private ["So16UIStateRestoringP", "dovalidate"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "pushViewController"]
+- !private ["So16UIStateRestoringP", "storyboard"]
+- !private ["So16UIStateRestoringP", "tfemail"]
+- !private ["So16UIStateRestoringP", "tfpassword"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So18UITraitEnvironmentP", "AlamofireSingleTon"]
+- !private ["So18UITraitEnvironmentP", "ConstantStrings"]
+- !private ["So18UITraitEnvironmentP", "JSONDecoder"]
+- !private ["So18UITraitEnvironmentP", "JSONEncoder"]
+- !private ["So18UITraitEnvironmentP", "LoginResponse"]
+- !private ["So18UITraitEnvironmentP", "ServiceNameConstants"]
+- !private ["So18UITraitEnvironmentP", "UIAlertAction"]
+- !private ["So18UITraitEnvironmentP", "UIAlertController"]
+- !private ["So18UITraitEnvironmentP", "UserDefaults"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addAction"]
+- !private ["So18UITraitEnvironmentP", "doCallLoginAPI"]
+- !private ["So18UITraitEnvironmentP", "dovalidate"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "pushViewController"]
+- !private ["So18UITraitEnvironmentP", "storyboard"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "tfemail"]
+- !private ["So18UITraitEnvironmentP", "tfpassword"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "AlamofireSingleTon"]
+- !private ["So23UIUserActivityRestoringP", "ConstantStrings"]
+- !private ["So23UIUserActivityRestoringP", "JSONDecoder"]
+- !private ["So23UIUserActivityRestoringP", "JSONEncoder"]
+- !private ["So23UIUserActivityRestoringP", "LoginResponse"]
+- !private ["So23UIUserActivityRestoringP", "ServiceNameConstants"]
+- !private ["So23UIUserActivityRestoringP", "UIAlertAction"]
+- !private ["So23UIUserActivityRestoringP", "UIAlertController"]
+- !private ["So23UIUserActivityRestoringP", "UserDefaults"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addAction"]
+- !private ["So23UIUserActivityRestoringP", "doCallLoginAPI"]
+- !private ["So23UIUserActivityRestoringP", "dovalidate"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "navigationController"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "pushViewController"]
+- !private ["So23UIUserActivityRestoringP", "storyboard"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "tfemail"]
+- !private ["So23UIUserActivityRestoringP", "tfpassword"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "AlamofireSingleTon"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "ConstantStrings"]
+- !private ["So16UIViewControllerC", "ForgotPasswordVC"]
+- !private ["So16UIViewControllerC", "JSONDecoder"]
+- !private ["So16UIViewControllerC", "JSONEncoder"]
+- !private ["So16UIViewControllerC", "LoginResponse"]
+- !private ["So16UIViewControllerC", "RegisterVC"]
+- !private ["So16UIViewControllerC", "ServiceNameConstants"]
+- !private ["So16UIViewControllerC", "TabBarVC"]
+- !private ["So16UIViewControllerC", "UIAlertAction"]
+- !private ["So16UIViewControllerC", "UIAlertController"]
+- ["So16UIViewControllerC", "UITextField"]
+- !private ["So16UIViewControllerC", "UserDefaults"]
+- !private ["So16UIViewControllerC", "addAction"]
+- ["So16UIViewControllerC", "btnfp"]
+- ["So16UIViewControllerC", "btnsignin"]
+- ["So16UIViewControllerC", "btnsignup"]
+- ["So16UIViewControllerC", "doCallLoginAPI"]
+- ["So16UIViewControllerC", "dovalidate"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "navigationController"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "print"]
+- !private ["So16UIViewControllerC", "pushViewController"]
+- !private ["So16UIViewControllerC", "storyboard"]
+- ["So16UIViewControllerC", "tfemail"]
+- ["So16UIViewControllerC", "tfpassword"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["So14NSUserDefaultsC", "set"]
+- !private ["So14NSUserDefaultsC", "standard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AlamofireSingleTon"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ConstantStrings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONDecoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONEncoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LoginResponse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ServiceNameConstants"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserDefaults"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "doCallLoginAPI"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dovalidate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pushViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestPost"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "set"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "storyboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tfemail"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tfpassword"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AlamofireSingleTon"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConstantStrings"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "JSONDecoder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "JSONEncoder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LoginResponse"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ServiceNameConstants"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIAlertAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIAlertController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UserDefaults"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "doCallLoginAPI"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dovalidate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "instantiateViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "present"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pushViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestPost"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "set"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sharedInstance"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "standard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "storyboard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tfemail"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tfpassword"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["8BookFarm7loginVCC", "AlamofireSingleTon"]
+- ["8BookFarm7loginVCC", "Bool"]
+- !private ["8BookFarm7loginVCC", "ConstantStrings"]
+- !private ["8BookFarm7loginVCC", "ForgotPasswordVC"]
+- !private ["8BookFarm7loginVCC", "JSONDecoder"]
+- !private ["8BookFarm7loginVCC", "JSONEncoder"]
+- !private ["8BookFarm7loginVCC", "LoginResponse"]
+- !private ["8BookFarm7loginVCC", "RegisterVC"]
+- !private ["8BookFarm7loginVCC", "ServiceNameConstants"]
+- !private ["8BookFarm7loginVCC", "TabBarVC"]
+- !private ["8BookFarm7loginVCC", "UIAlertAction"]
+- !private ["8BookFarm7loginVCC", "UIAlertController"]
+- ["8BookFarm7loginVCC", "UITextField"]
+- !private ["8BookFarm7loginVCC", "UserDefaults"]
+- ["8BookFarm7loginVCC", "btnfp"]
+- ["8BookFarm7loginVCC", "btnsignin"]
+- ["8BookFarm7loginVCC", "btnsignup"]
+- ["8BookFarm7loginVCC", "deinit"]
+- ["8BookFarm7loginVCC", "doCallLoginAPI"]
+- ["8BookFarm7loginVCC", "dovalidate"]
+- ["8BookFarm7loginVCC", "init"]
+- !private ["8BookFarm7loginVCC", "navigationController"]
+- !private ["8BookFarm7loginVCC", "present"]
+- !private ["8BookFarm7loginVCC", "print"]
+- !private ["8BookFarm7loginVCC", "storyboard"]
+- ["8BookFarm7loginVCC", "tfemail"]
+- ["8BookFarm7loginVCC", "tfpassword"]
+- ["8BookFarm7loginVCC", "viewDidLoad"]
+depends-nominal:
+- !private "8BookFarm18AlamofireSingleTonC"
+- "8BookFarm6BaseVCC"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "8BookFarm15ConstantStringsV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "10Foundation11JSONDecoderC"
+- !private "10Foundation11JSONEncoderC"
+- !private "8BookFarm13LoginResponseV"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "SY"
+- "So30SWRevealViewControllerDelegateP"
+- !private "8BookFarm20ServiceNameConstantsV"
+- !private "So22UIAlertControllerStyleV"
+- !private "So18UIAlertActionStyleV"
+- !private "7Combine15TopLevelDecoderP"
+- !private "7Combine15TopLevelEncoderP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So13UIAlertActionC"
+- !private "So17UIAlertControllerC"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So10UIKeyInputP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So22UINavigationControllerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So14NSUserDefaultsC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+- "8BookFarm7loginVCC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Accelerate.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreLocation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Photos.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/XLPagerTabStrip.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Modules/YPImagePicker.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Modules/PryntTrimmerView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Headers/YPImagePicker-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Headers/SteviaLayout-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Headers/PryntTrimmerView-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/BookFarm/Third Party Framework/iCarousel/iCarousel.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/FXPageControl.h"
+- "/Users/macbook/Desktop/BookFarm/BookFarm/Third Party Framework/Bridging Header.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/macbook/Desktop/BookFarm/BookFarm/Third Party Framework/SWRevealViewController/SWRevealViewController.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Headers/YPImagePicker-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Headers/PryntTrimmerView-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3c74ac79995749e32b1acd8f703975f5"

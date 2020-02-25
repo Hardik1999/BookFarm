@@ -1,0 +1,629 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MyStoreVC"
+provides-nominal:
+- "8BookFarm9MyStoreVCC"
+provides-member:
+- ["8BookFarm9MyStoreVCC", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "Bool"
+- !private "BooleanLiteralType"
+- "ButtonBarPagerTabStripViewController"
+- !private "ButtonBarViewCell"
+- !private "CGFloat"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "LanguageWiseBookVC"
+- !private "MyBookVC"
+- "MyStoreVC"
+- "PagerTabStripViewController"
+- !private "StringLiteralType"
+- !private "UIColor"
+- "UIViewController"
+- !private "Void"
+- !private "_ColorLiteralType"
+depends-member:
+- !private ["15XLPagerTabStrip014ButtonBarPagerbC8SettingsV", "style"]
+- !private ["15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC", "Bool"]
+- !private ["15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC", "ButtonBarViewCell"]
+- !private ["15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC", "CGFloat"]
+- !private ["15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC", "LanguageWiseBookVC"]
+- !private ["15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC", "MyBookVC"]
+- ["15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC", "PagerTabStripViewController"]
+- !private ["15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC", "UIColor"]
+- ["15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC", "UIViewController"]
+- !private ["15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC", "Void"]
+- ["15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC", ""]
+- !private ["15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC", "changeCurrentIndexProgressive"]
+- ["15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC", "design"]
+- ["15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC", "init"]
+- !private ["15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC", "settings"]
+- !private ["15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC", "storyboard"]
+- ["15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC", "viewControllers"]
+- ["15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC", "viewDidLoad"]
+- !private ["15XLPagerTabStrip17ButtonBarViewCellC", "label"]
+- !private ["So15CALayerDelegateP", "label"]
+- !private ["So15CALayerDelegateP", "textColor"]
+- !private ["s7CVarArgP", "UIColor"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "black"]
+- !private ["s7CVarArgP", "changeCurrentIndexProgressive"]
+- !private ["s7CVarArgP", "clear"]
+- !private ["s7CVarArgP", "design"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "label"]
+- !private ["s7CVarArgP", "settings"]
+- !private ["s7CVarArgP", "storyboard"]
+- !private ["s7CVarArgP", "textColor"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "white"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "changeCurrentIndexProgressive"]
+- !private ["s28CustomDebugStringConvertibleP", "clear"]
+- !private ["s28CustomDebugStringConvertibleP", "design"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "label"]
+- !private ["s28CustomDebugStringConvertibleP", "settings"]
+- !private ["s28CustomDebugStringConvertibleP", "storyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "textColor"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s17CustomReflectableP", "black"]
+- !private ["s17CustomReflectableP", "clear"]
+- !private ["s17CustomReflectableP", "textColor"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "changeCurrentIndexProgressive"]
+- !private ["s23CustomStringConvertibleP", "clear"]
+- !private ["s23CustomStringConvertibleP", "design"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "label"]
+- !private ["s23CustomStringConvertibleP", "settings"]
+- !private ["s23CustomStringConvertibleP", "storyboard"]
+- !private ["s23CustomStringConvertibleP", "textColor"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- !private ["Se", "black"]
+- !private ["Se", "clear"]
+- !private ["Se", "textColor"]
+- !private ["SE", "black"]
+- !private ["SE", "clear"]
+- !private ["SE", "textColor"]
+- !private ["SQ", "UIColor"]
+- ["SQ", ""]
+- !private ["SQ", "black"]
+- !private ["SQ", "changeCurrentIndexProgressive"]
+- !private ["SQ", "clear"]
+- !private ["SQ", "design"]
+- !private ["SQ", "init"]
+- !private ["SQ", "instantiateViewController"]
+- !private ["SQ", "label"]
+- !private ["SQ", "settings"]
+- !private ["SQ", "storyboard"]
+- !private ["SQ", "textColor"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "white"]
+- !private ["s23ExpressibleByNilLiteralP", "black"]
+- !private ["s23ExpressibleByNilLiteralP", "clear"]
+- !private ["s23ExpressibleByNilLiteralP", "textColor"]
+- !private ["SH", "UIColor"]
+- ["SH", ""]
+- !private ["SH", "black"]
+- !private ["SH", "changeCurrentIndexProgressive"]
+- !private ["SH", "clear"]
+- !private ["SH", "design"]
+- !private ["SH", "init"]
+- !private ["SH", "instantiateViewController"]
+- !private ["SH", "label"]
+- !private ["SH", "settings"]
+- !private ["SH", "storyboard"]
+- !private ["SH", "textColor"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "white"]
+- !private ["8BookFarm9MyStoreVCC", "Bool"]
+- !private ["8BookFarm9MyStoreVCC", "ButtonBarViewCell"]
+- !private ["8BookFarm9MyStoreVCC", "CGFloat"]
+- !private ["8BookFarm9MyStoreVCC", "LanguageWiseBookVC"]
+- !private ["8BookFarm9MyStoreVCC", "MyBookVC"]
+- ["8BookFarm9MyStoreVCC", "PagerTabStripViewController"]
+- !private ["8BookFarm9MyStoreVCC", "UIColor"]
+- ["8BookFarm9MyStoreVCC", "UIViewController"]
+- !private ["8BookFarm9MyStoreVCC", "Void"]
+- !private ["8BookFarm9MyStoreVCC", "changeCurrentIndexProgressive"]
+- ["8BookFarm9MyStoreVCC", "deinit"]
+- ["8BookFarm9MyStoreVCC", "design"]
+- ["8BookFarm9MyStoreVCC", "init"]
+- !private ["8BookFarm9MyStoreVCC", "settings"]
+- !private ["8BookFarm9MyStoreVCC", "storyboard"]
+- ["8BookFarm9MyStoreVCC", "viewControllers"]
+- ["8BookFarm9MyStoreVCC", "viewDidLoad"]
+- !private ["So8NSCodingP", "UIColor"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "black"]
+- !private ["So8NSCodingP", "changeCurrentIndexProgressive"]
+- !private ["So8NSCodingP", "clear"]
+- !private ["So8NSCodingP", "design"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "label"]
+- !private ["So8NSCodingP", "settings"]
+- !private ["So8NSCodingP", "storyboard"]
+- !private ["So8NSCodingP", "textColor"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "black"]
+- !private ["So9NSCopyingP", "clear"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So26NSExtensionRequestHandlingP", "UIColor"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "changeCurrentIndexProgressive"]
+- !private ["So26NSExtensionRequestHandlingP", "design"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "settings"]
+- !private ["So26NSExtensionRequestHandlingP", "storyboard"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "black"]
+- !private ["So21NSItemProviderReadingP", "clear"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "black"]
+- !private ["So21NSItemProviderWritingP", "clear"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- !private ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "ButtonBarViewCell"]
+- !private ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "LanguageWiseBookVC"]
+- !private ["So8NSObjectC", "MyBookVC"]
+- ["So8NSObjectC", "PagerTabStripViewController"]
+- !private ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIViewController"]
+- !private ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "black"]
+- !private ["So8NSObjectC", "changeCurrentIndexProgressive"]
+- !private ["So8NSObjectC", "clear"]
+- ["So8NSObjectC", "design"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- !private ["So8NSObjectC", "label"]
+- !private ["So8NSObjectC", "settings"]
+- !private ["So8NSObjectC", "storyboard"]
+- !private ["So8NSObjectC", "textColor"]
+- ["So8NSObjectC", "viewControllers"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectC", "white"]
+- !private ["So8NSObjectP", "UIColor"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "black"]
+- !private ["So8NSObjectP", "changeCurrentIndexProgressive"]
+- !private ["So8NSObjectP", "clear"]
+- !private ["So8NSObjectP", "design"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "label"]
+- !private ["So8NSObjectP", "settings"]
+- !private ["So8NSObjectP", "storyboard"]
+- !private ["So8NSObjectP", "textColor"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So8NSObjectP", "white"]
+- !private ["So14NSSecureCodingP", "black"]
+- !private ["So14NSSecureCodingP", "clear"]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["Sq", "black"]
+- !private ["Sq", "clear"]
+- !private ["Sq", "textColor"]
+- !private ["15XLPagerTabStrip05PagerbC10DataSourceP", "UIColor"]
+- ["15XLPagerTabStrip05PagerbC10DataSourceP", ""]
+- !private ["15XLPagerTabStrip05PagerbC10DataSourceP", "changeCurrentIndexProgressive"]
+- !private ["15XLPagerTabStrip05PagerbC10DataSourceP", "design"]
+- !private ["15XLPagerTabStrip05PagerbC10DataSourceP", "init"]
+- !private ["15XLPagerTabStrip05PagerbC10DataSourceP", "settings"]
+- !private ["15XLPagerTabStrip05PagerbC10DataSourceP", "storyboard"]
+- !private ["15XLPagerTabStrip05PagerbC10DataSourceP", "viewDidLoad"]
+- !private ["15XLPagerTabStrip05PagerbC8DelegateP", "UIColor"]
+- ["15XLPagerTabStrip05PagerbC8DelegateP", ""]
+- !private ["15XLPagerTabStrip05PagerbC8DelegateP", "changeCurrentIndexProgressive"]
+- !private ["15XLPagerTabStrip05PagerbC8DelegateP", "design"]
+- !private ["15XLPagerTabStrip05PagerbC8DelegateP", "init"]
+- !private ["15XLPagerTabStrip05PagerbC8DelegateP", "settings"]
+- !private ["15XLPagerTabStrip05PagerbC8DelegateP", "storyboard"]
+- !private ["15XLPagerTabStrip05PagerbC8DelegateP", "viewDidLoad"]
+- !private ["15XLPagerTabStrip05PagerbC21IsProgressiveDelegateP", "UIColor"]
+- ["15XLPagerTabStrip05PagerbC21IsProgressiveDelegateP", ""]
+- !private ["15XLPagerTabStrip05PagerbC21IsProgressiveDelegateP", "changeCurrentIndexProgressive"]
+- !private ["15XLPagerTabStrip05PagerbC21IsProgressiveDelegateP", "design"]
+- !private ["15XLPagerTabStrip05PagerbC21IsProgressiveDelegateP", "init"]
+- !private ["15XLPagerTabStrip05PagerbC21IsProgressiveDelegateP", "settings"]
+- !private ["15XLPagerTabStrip05PagerbC21IsProgressiveDelegateP", "storyboard"]
+- !private ["15XLPagerTabStrip05PagerbC21IsProgressiveDelegateP", "viewDidLoad"]
+- !private ["15XLPagerTabStrip05PagerbC14ViewControllerC", "Bool"]
+- !private ["15XLPagerTabStrip05PagerbC14ViewControllerC", "ButtonBarViewCell"]
+- !private ["15XLPagerTabStrip05PagerbC14ViewControllerC", "CGFloat"]
+- !private ["15XLPagerTabStrip05PagerbC14ViewControllerC", "LanguageWiseBookVC"]
+- !private ["15XLPagerTabStrip05PagerbC14ViewControllerC", "MyBookVC"]
+- ["15XLPagerTabStrip05PagerbC14ViewControllerC", "PagerTabStripViewController"]
+- !private ["15XLPagerTabStrip05PagerbC14ViewControllerC", "UIColor"]
+- ["15XLPagerTabStrip05PagerbC14ViewControllerC", "UIViewController"]
+- !private ["15XLPagerTabStrip05PagerbC14ViewControllerC", "Void"]
+- !private ["15XLPagerTabStrip05PagerbC14ViewControllerC", "changeCurrentIndexProgressive"]
+- ["15XLPagerTabStrip05PagerbC14ViewControllerC", "design"]
+- ["15XLPagerTabStrip05PagerbC14ViewControllerC", "init"]
+- !private ["15XLPagerTabStrip05PagerbC14ViewControllerC", "settings"]
+- !private ["15XLPagerTabStrip05PagerbC14ViewControllerC", "storyboard"]
+- ["15XLPagerTabStrip05PagerbC14ViewControllerC", "viewControllers"]
+- ["15XLPagerTabStrip05PagerbC14ViewControllerC", "viewDidLoad"]
+- !private ["15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV", "buttonBarBackgroundColor"]
+- !private ["15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV", "buttonBarItemBackgroundColor"]
+- !private ["15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV", "buttonBarItemTitleColor"]
+- !private ["15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV", "buttonBarItemsShouldFillAvailableWidth"]
+- !private ["15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV", "buttonBarMinimumLineSpacing"]
+- !private ["15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV", "selectedBarBackgroundColor"]
+- !private ["15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV", "selectedBarHeight"]
+- !private ["So29UIAccessibilityIdentificationP", "label"]
+- !private ["So29UIAccessibilityIdentificationP", "textColor"]
+- !private ["So12UIAppearanceP", "label"]
+- !private ["So12UIAppearanceP", "textColor"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "changeCurrentIndexProgressive"]
+- !private ["So21UIAppearanceContainerP", "design"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "label"]
+- !private ["So21UIAppearanceContainerP", "settings"]
+- !private ["So21UIAppearanceContainerP", "storyboard"]
+- !private ["So21UIAppearanceContainerP", "textColor"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So24UICollectionReusableViewC", "label"]
+- !private ["So20UICollectionViewCellC", "label"]
+- !private ["So26UICollectionViewDataSourceP", "UIColor"]
+- ["So26UICollectionViewDataSourceP", ""]
+- !private ["So26UICollectionViewDataSourceP", "changeCurrentIndexProgressive"]
+- !private ["So26UICollectionViewDataSourceP", "design"]
+- !private ["So26UICollectionViewDataSourceP", "init"]
+- !private ["So26UICollectionViewDataSourceP", "settings"]
+- !private ["So26UICollectionViewDataSourceP", "storyboard"]
+- !private ["So26UICollectionViewDataSourceP", "viewDidLoad"]
+- !private ["So24UICollectionViewDelegateP", "UIColor"]
+- ["So24UICollectionViewDelegateP", ""]
+- !private ["So24UICollectionViewDelegateP", "changeCurrentIndexProgressive"]
+- !private ["So24UICollectionViewDelegateP", "design"]
+- !private ["So24UICollectionViewDelegateP", "init"]
+- !private ["So24UICollectionViewDelegateP", "settings"]
+- !private ["So24UICollectionViewDelegateP", "storyboard"]
+- !private ["So24UICollectionViewDelegateP", "viewDidLoad"]
+- !private ["So7UIColorC", "black"]
+- !private ["So7UIColorC", "clear"]
+- !private ["So7UIColorC", "white"]
+- !private ["So18UIContentContainerP", "UIColor"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "changeCurrentIndexProgressive"]
+- !private ["So18UIContentContainerP", "design"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "settings"]
+- !private ["So18UIContentContainerP", "storyboard"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "textColor"]
+- !private ["So17UICoordinateSpaceP", "label"]
+- !private ["So17UICoordinateSpaceP", "textColor"]
+- !private ["So13UIDynamicItemP", "label"]
+- !private ["So13UIDynamicItemP", "textColor"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "changeCurrentIndexProgressive"]
+- !private ["So18UIFocusEnvironmentP", "design"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "label"]
+- !private ["So18UIFocusEnvironmentP", "settings"]
+- !private ["So18UIFocusEnvironmentP", "storyboard"]
+- !private ["So18UIFocusEnvironmentP", "textColor"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "label"]
+- !private ["So11UIFocusItemP", "textColor"]
+- !private ["So20UIFocusItemContainerP", "label"]
+- !private ["So20UIFocusItemContainerP", "textColor"]
+- !private ["So7UILabelC", "textColor"]
+- !private ["So24UILargeContentViewerItemP", "label"]
+- !private ["So24UILargeContentViewerItemP", "textColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "changeCurrentIndexProgressive"]
+- !private ["So30UIPasteConfigurationSupportingP", "design"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "label"]
+- !private ["So30UIPasteConfigurationSupportingP", "settings"]
+- !private ["So30UIPasteConfigurationSupportingP", "storyboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "textColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "ButtonBarViewCell"]
+- !private ["So11UIResponderC", "CGFloat"]
+- !private ["So11UIResponderC", "LanguageWiseBookVC"]
+- !private ["So11UIResponderC", "MyBookVC"]
+- ["So11UIResponderC", "PagerTabStripViewController"]
+- !private ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UIViewController"]
+- !private ["So11UIResponderC", "Void"]
+- !private ["So11UIResponderC", "changeCurrentIndexProgressive"]
+- ["So11UIResponderC", "design"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "label"]
+- !private ["So11UIResponderC", "settings"]
+- !private ["So11UIResponderC", "storyboard"]
+- !private ["So11UIResponderC", "textColor"]
+- ["So11UIResponderC", "viewControllers"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "changeCurrentIndexProgressive"]
+- !private ["So30UIResponderStandardEditActionsP", "design"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "label"]
+- !private ["So30UIResponderStandardEditActionsP", "settings"]
+- !private ["So30UIResponderStandardEditActionsP", "storyboard"]
+- !private ["So30UIResponderStandardEditActionsP", "textColor"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So20UIScrollViewDelegateP", "UIColor"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So20UIScrollViewDelegateP", "changeCurrentIndexProgressive"]
+- !private ["So20UIScrollViewDelegateP", "design"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "settings"]
+- !private ["So20UIScrollViewDelegateP", "storyboard"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "UIColor"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "changeCurrentIndexProgressive"]
+- !private ["So16UIStateRestoringP", "design"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "settings"]
+- !private ["So16UIStateRestoringP", "storyboard"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "changeCurrentIndexProgressive"]
+- !private ["So18UITraitEnvironmentP", "design"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "label"]
+- !private ["So18UITraitEnvironmentP", "settings"]
+- !private ["So18UITraitEnvironmentP", "storyboard"]
+- !private ["So18UITraitEnvironmentP", "textColor"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "UIColor"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "changeCurrentIndexProgressive"]
+- !private ["So23UIUserActivityRestoringP", "design"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "label"]
+- !private ["So23UIUserActivityRestoringP", "settings"]
+- !private ["So23UIUserActivityRestoringP", "storyboard"]
+- !private ["So23UIUserActivityRestoringP", "textColor"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "label"]
+- !private ["So6UIViewC", "textColor"]
+- !private ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "ButtonBarViewCell"]
+- !private ["So16UIViewControllerC", "CGFloat"]
+- !private ["So16UIViewControllerC", "LanguageWiseBookVC"]
+- !private ["So16UIViewControllerC", "MyBookVC"]
+- ["So16UIViewControllerC", "PagerTabStripViewController"]
+- !private ["So16UIViewControllerC", "UIColor"]
+- ["So16UIViewControllerC", "UIViewController"]
+- !private ["So16UIViewControllerC", "Void"]
+- !private ["So16UIViewControllerC", "changeCurrentIndexProgressive"]
+- ["So16UIViewControllerC", "design"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "settings"]
+- !private ["So16UIViewControllerC", "storyboard"]
+- ["So16UIViewControllerC", "viewControllers"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s26_ExpressibleByColorLiteralP", "black"]
+- !private ["s26_ExpressibleByColorLiteralP", "clear"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "changeCurrentIndexProgressive"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "design"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "label"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "settings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "storyboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIColor"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "black"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "changeCurrentIndexProgressive"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "clear"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "design"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "instantiateViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "label"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "settings"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "storyboard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "white"]
+- !private ["s21_ObjectiveCBridgeableP", "black"]
+- !private ["s21_ObjectiveCBridgeableP", "clear"]
+- !private ["s21_ObjectiveCBridgeableP", "textColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "label"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "textColor"]
+depends-nominal:
+- !private "15XLPagerTabStrip014ButtonBarPagerbC8SettingsV"
+- "15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC"
+- !private "15XLPagerTabStrip17ButtonBarViewCellC"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "8BookFarm9MyStoreVCC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- "15XLPagerTabStrip05PagerbC10DataSourceP"
+- "15XLPagerTabStrip05PagerbC8DelegateP"
+- "15XLPagerTabStrip05PagerbC21IsProgressiveDelegateP"
+- "15XLPagerTabStrip05PagerbC14ViewControllerC"
+- !private "15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So24UICollectionReusableViewC"
+- !private "So20UICollectionViewCellC"
+- "So26UICollectionViewDataSourceP"
+- "So24UICollectionViewDelegateP"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So7UILabelC"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So20UIScrollViewDelegateP"
+- "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Accelerate.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreLocation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Photos.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/XLPagerTabStrip.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Modules/YPImagePicker.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Modules/PryntTrimmerView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Headers/YPImagePicker-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Headers/SteviaLayout-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Headers/PryntTrimmerView-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/BookFarm/Third Party Framework/iCarousel/iCarousel.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/FXPageControl.h"
+- "/Users/macbook/Desktop/BookFarm/BookFarm/Third Party Framework/Bridging Header.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/macbook/Desktop/BookFarm/BookFarm/Third Party Framework/SWRevealViewController/SWRevealViewController.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Headers/YPImagePicker-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Headers/PryntTrimmerView-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "853614b14ddb61a4352681fb21c39e95"

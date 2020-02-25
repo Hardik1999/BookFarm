@@ -1,0 +1,865 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SellDetailsVC"
+provides-nominal:
+- "8BookFarm13SellDetailsVCC"
+provides-member:
+- ["8BookFarm13SellDetailsVCC", ""]
+provides-dynamic-lookup:
+- "onClickBack"
+- "onClickNext"
+- "tfBookAuthor"
+- "tfBookEdition"
+- "tfBookLanguage"
+- "tfBookMRP"
+- "tfBookName"
+- "tvDetails"
+- "viewDidLoad"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "Book"
+- !private "BookProfileVC"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "SellDetailsVC"
+- "StringLiteralType"
+- !private "UIAlertAction"
+- !private "UIAlertController"
+- "UITextField"
+- "UITextView"
+- "UIViewController"
+depends-member:
+- !private ["8BookFarm0A9ProfileVCC", "bookAuthorName"]
+- !private ["8BookFarm0A9ProfileVCC", "bookCatID"]
+- !private ["8BookFarm0A9ProfileVCC", "bookDescription"]
+- !private ["8BookFarm0A9ProfileVCC", "bookEdition"]
+- !private ["8BookFarm0A9ProfileVCC", "bookName"]
+- !private ["8BookFarm0A9ProfileVCC", "booklanguage"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "UIAlertAction"]
+- !private ["s7CVarArgP", "UIAlertController"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addAction"]
+- !private ["s7CVarArgP", "bookAuthorName"]
+- !private ["s7CVarArgP", "bookCatID"]
+- !private ["s7CVarArgP", "bookDescription"]
+- !private ["s7CVarArgP", "bookEdition"]
+- !private ["s7CVarArgP", "bookName"]
+- !private ["s7CVarArgP", "bookcatname"]
+- !private ["s7CVarArgP", "booklanguage"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "popViewController"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "pushViewController"]
+- !private ["s7CVarArgP", "storyboard"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "tfBookAuthor"]
+- !private ["s7CVarArgP", "tfBookEdition"]
+- !private ["s7CVarArgP", "tfBookLanguage"]
+- !private ["s7CVarArgP", "tfBookMRP"]
+- !private ["s7CVarArgP", "tfBookName"]
+- !private ["s7CVarArgP", "tvDetails"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addAction"]
+- !private ["s28CustomDebugStringConvertibleP", "bookAuthorName"]
+- !private ["s28CustomDebugStringConvertibleP", "bookCatID"]
+- !private ["s28CustomDebugStringConvertibleP", "bookDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "bookEdition"]
+- !private ["s28CustomDebugStringConvertibleP", "bookName"]
+- !private ["s28CustomDebugStringConvertibleP", "bookcatname"]
+- !private ["s28CustomDebugStringConvertibleP", "booklanguage"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "popViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "pushViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "storyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "tfBookAuthor"]
+- !private ["s28CustomDebugStringConvertibleP", "tfBookEdition"]
+- !private ["s28CustomDebugStringConvertibleP", "tfBookLanguage"]
+- !private ["s28CustomDebugStringConvertibleP", "tfBookMRP"]
+- !private ["s28CustomDebugStringConvertibleP", "tfBookName"]
+- !private ["s28CustomDebugStringConvertibleP", "tvDetails"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "UIAlertAction"]
+- !private ["s23CustomStringConvertibleP", "UIAlertController"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addAction"]
+- !private ["s23CustomStringConvertibleP", "bookAuthorName"]
+- !private ["s23CustomStringConvertibleP", "bookCatID"]
+- !private ["s23CustomStringConvertibleP", "bookDescription"]
+- !private ["s23CustomStringConvertibleP", "bookEdition"]
+- !private ["s23CustomStringConvertibleP", "bookName"]
+- !private ["s23CustomStringConvertibleP", "bookcatname"]
+- !private ["s23CustomStringConvertibleP", "booklanguage"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "popViewController"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "pushViewController"]
+- !private ["s23CustomStringConvertibleP", "storyboard"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "tfBookAuthor"]
+- !private ["s23CustomStringConvertibleP", "tfBookEdition"]
+- !private ["s23CustomStringConvertibleP", "tfBookLanguage"]
+- !private ["s23CustomStringConvertibleP", "tfBookMRP"]
+- !private ["s23CustomStringConvertibleP", "tfBookName"]
+- !private ["s23CustomStringConvertibleP", "tvDetails"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "text"]
+- !private ["SE", "text"]
+- !private ["SQ", "UIAlertAction"]
+- !private ["SQ", "UIAlertController"]
+- ["SQ", ""]
+- !private ["SQ", "addAction"]
+- !private ["SQ", "alert"]
+- !private ["SQ", "bookAuthorName"]
+- !private ["SQ", "bookCatID"]
+- !private ["SQ", "bookDescription"]
+- !private ["SQ", "bookEdition"]
+- !private ["SQ", "bookName"]
+- !private ["SQ", "bookcatname"]
+- !private ["SQ", "booklanguage"]
+- !private ["SQ", "cancel"]
+- !private ["SQ", "init"]
+- !private ["SQ", "instantiateViewController"]
+- !private ["SQ", "navigationController"]
+- !private ["SQ", "popViewController"]
+- !private ["SQ", "present"]
+- !private ["SQ", "pushViewController"]
+- !private ["SQ", "storyboard"]
+- !private ["SQ", "text"]
+- !private ["SQ", "tfBookAuthor"]
+- !private ["SQ", "tfBookEdition"]
+- !private ["SQ", "tfBookLanguage"]
+- !private ["SQ", "tfBookMRP"]
+- !private ["SQ", "tfBookName"]
+- !private ["SQ", "tvDetails"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["SH", "UIAlertAction"]
+- !private ["SH", "UIAlertController"]
+- ["SH", ""]
+- !private ["SH", "addAction"]
+- !private ["SH", "alert"]
+- !private ["SH", "bookAuthorName"]
+- !private ["SH", "bookCatID"]
+- !private ["SH", "bookDescription"]
+- !private ["SH", "bookEdition"]
+- !private ["SH", "bookName"]
+- !private ["SH", "bookcatname"]
+- !private ["SH", "booklanguage"]
+- !private ["SH", "cancel"]
+- !private ["SH", "init"]
+- !private ["SH", "instantiateViewController"]
+- !private ["SH", "navigationController"]
+- !private ["SH", "popViewController"]
+- !private ["SH", "present"]
+- !private ["SH", "pushViewController"]
+- !private ["SH", "storyboard"]
+- !private ["SH", "text"]
+- !private ["SH", "tfBookAuthor"]
+- !private ["SH", "tfBookEdition"]
+- !private ["SH", "tfBookLanguage"]
+- !private ["SH", "tfBookMRP"]
+- !private ["SH", "tfBookName"]
+- !private ["SH", "tvDetails"]
+- !private ["SH", "viewDidLoad"]
+- !private ["So8NSCodingP", "UIAlertAction"]
+- !private ["So8NSCodingP", "UIAlertController"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addAction"]
+- !private ["So8NSCodingP", "bookAuthorName"]
+- !private ["So8NSCodingP", "bookCatID"]
+- !private ["So8NSCodingP", "bookDescription"]
+- !private ["So8NSCodingP", "bookEdition"]
+- !private ["So8NSCodingP", "bookName"]
+- !private ["So8NSCodingP", "bookcatname"]
+- !private ["So8NSCodingP", "booklanguage"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "popViewController"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "pushViewController"]
+- !private ["So8NSCodingP", "storyboard"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "tfBookAuthor"]
+- !private ["So8NSCodingP", "tfBookEdition"]
+- !private ["So8NSCodingP", "tfBookLanguage"]
+- !private ["So8NSCodingP", "tfBookMRP"]
+- !private ["So8NSCodingP", "tfBookName"]
+- !private ["So8NSCodingP", "tvDetails"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertAction"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertController"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "addAction"]
+- !private ["So26NSExtensionRequestHandlingP", "bookAuthorName"]
+- !private ["So26NSExtensionRequestHandlingP", "bookCatID"]
+- !private ["So26NSExtensionRequestHandlingP", "bookDescription"]
+- !private ["So26NSExtensionRequestHandlingP", "bookEdition"]
+- !private ["So26NSExtensionRequestHandlingP", "bookName"]
+- !private ["So26NSExtensionRequestHandlingP", "bookcatname"]
+- !private ["So26NSExtensionRequestHandlingP", "booklanguage"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "popViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "pushViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "storyboard"]
+- !private ["So26NSExtensionRequestHandlingP", "tfBookAuthor"]
+- !private ["So26NSExtensionRequestHandlingP", "tfBookEdition"]
+- !private ["So26NSExtensionRequestHandlingP", "tfBookLanguage"]
+- !private ["So26NSExtensionRequestHandlingP", "tfBookMRP"]
+- !private ["So26NSExtensionRequestHandlingP", "tfBookName"]
+- !private ["So26NSExtensionRequestHandlingP", "tvDetails"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "Book"]
+- !private ["So8NSObjectC", "BookProfileVC"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "UIAlertAction"]
+- !private ["So8NSObjectC", "UIAlertController"]
+- ["So8NSObjectC", "UITextField"]
+- ["So8NSObjectC", "UITextView"]
+- !private ["So8NSObjectC", "addAction"]
+- !private ["So8NSObjectC", "bookAuthorName"]
+- ["So8NSObjectC", "bookCatID"]
+- !private ["So8NSObjectC", "bookDescription"]
+- !private ["So8NSObjectC", "bookEdition"]
+- ["So8NSObjectC", "bookList"]
+- !private ["So8NSObjectC", "bookName"]
+- ["So8NSObjectC", "bookcatname"]
+- !private ["So8NSObjectC", "booklanguage"]
+- ["So8NSObjectC", "dovalidate"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- !private ["So8NSObjectC", "navigationController"]
+- ["So8NSObjectC", "onClickBack"]
+- ["So8NSObjectC", "onClickNext"]
+- !private ["So8NSObjectC", "popViewController"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "pushViewController"]
+- !private ["So8NSObjectC", "storyboard"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "tfBookAuthor"]
+- ["So8NSObjectC", "tfBookEdition"]
+- ["So8NSObjectC", "tfBookLanguage"]
+- ["So8NSObjectC", "tfBookMRP"]
+- ["So8NSObjectC", "tfBookName"]
+- ["So8NSObjectC", "tvDetails"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "UIAlertAction"]
+- !private ["So8NSObjectP", "UIAlertController"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addAction"]
+- !private ["So8NSObjectP", "bookAuthorName"]
+- !private ["So8NSObjectP", "bookCatID"]
+- !private ["So8NSObjectP", "bookDescription"]
+- !private ["So8NSObjectP", "bookEdition"]
+- !private ["So8NSObjectP", "bookName"]
+- !private ["So8NSObjectP", "bookcatname"]
+- !private ["So8NSObjectP", "booklanguage"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "navigationController"]
+- !private ["So8NSObjectP", "popViewController"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "pushViewController"]
+- !private ["So8NSObjectP", "storyboard"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "tfBookAuthor"]
+- !private ["So8NSObjectP", "tfBookEdition"]
+- !private ["So8NSObjectP", "tfBookLanguage"]
+- !private ["So8NSObjectP", "tfBookMRP"]
+- !private ["So8NSObjectP", "tfBookName"]
+- !private ["So8NSObjectP", "tvDetails"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sq", "text"]
+- !private ["SY", "alert"]
+- !private ["SY", "cancel"]
+- ["8BookFarm13SellDetailsVCC", "Book"]
+- !private ["8BookFarm13SellDetailsVCC", "BookProfileVC"]
+- ["8BookFarm13SellDetailsVCC", "Bool"]
+- !private ["8BookFarm13SellDetailsVCC", "UIAlertAction"]
+- !private ["8BookFarm13SellDetailsVCC", "UIAlertController"]
+- ["8BookFarm13SellDetailsVCC", "UITextField"]
+- ["8BookFarm13SellDetailsVCC", "UITextView"]
+- ["8BookFarm13SellDetailsVCC", "bookCatID"]
+- ["8BookFarm13SellDetailsVCC", "bookList"]
+- ["8BookFarm13SellDetailsVCC", "bookcatname"]
+- ["8BookFarm13SellDetailsVCC", "deinit"]
+- ["8BookFarm13SellDetailsVCC", "dovalidate"]
+- ["8BookFarm13SellDetailsVCC", "init"]
+- !private ["8BookFarm13SellDetailsVCC", "navigationController"]
+- ["8BookFarm13SellDetailsVCC", "onClickBack"]
+- ["8BookFarm13SellDetailsVCC", "onClickNext"]
+- !private ["8BookFarm13SellDetailsVCC", "present"]
+- !private ["8BookFarm13SellDetailsVCC", "storyboard"]
+- ["8BookFarm13SellDetailsVCC", "tfBookAuthor"]
+- ["8BookFarm13SellDetailsVCC", "tfBookEdition"]
+- ["8BookFarm13SellDetailsVCC", "tfBookLanguage"]
+- ["8BookFarm13SellDetailsVCC", "tfBookMRP"]
+- ["8BookFarm13SellDetailsVCC", "tfBookName"]
+- ["8BookFarm13SellDetailsVCC", "tvDetails"]
+- ["8BookFarm13SellDetailsVCC", "viewDidLoad"]
+- !private ["So22UIAlertControllerStyleV", "alert"]
+- !private ["So18UIAlertActionStyleV", "cancel"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So13UIAlertActionC", "init"]
+- !private ["So17UIAlertControllerC", "addAction"]
+- !private ["So17UIAlertControllerC", "init"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "UIAlertAction"]
+- !private ["So21UIAppearanceContainerP", "UIAlertController"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addAction"]
+- !private ["So21UIAppearanceContainerP", "bookAuthorName"]
+- !private ["So21UIAppearanceContainerP", "bookCatID"]
+- !private ["So21UIAppearanceContainerP", "bookDescription"]
+- !private ["So21UIAppearanceContainerP", "bookEdition"]
+- !private ["So21UIAppearanceContainerP", "bookName"]
+- !private ["So21UIAppearanceContainerP", "bookcatname"]
+- !private ["So21UIAppearanceContainerP", "booklanguage"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "popViewController"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "pushViewController"]
+- !private ["So21UIAppearanceContainerP", "storyboard"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "tfBookAuthor"]
+- !private ["So21UIAppearanceContainerP", "tfBookEdition"]
+- !private ["So21UIAppearanceContainerP", "tfBookLanguage"]
+- !private ["So21UIAppearanceContainerP", "tfBookMRP"]
+- !private ["So21UIAppearanceContainerP", "tfBookName"]
+- !private ["So21UIAppearanceContainerP", "tvDetails"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So26UICollectionViewDataSourceP", "bookAuthorName"]
+- !private ["So26UICollectionViewDataSourceP", "bookCatID"]
+- !private ["So26UICollectionViewDataSourceP", "bookDescription"]
+- !private ["So26UICollectionViewDataSourceP", "bookEdition"]
+- !private ["So26UICollectionViewDataSourceP", "bookName"]
+- !private ["So26UICollectionViewDataSourceP", "booklanguage"]
+- !private ["So24UICollectionViewDelegateP", "bookAuthorName"]
+- !private ["So24UICollectionViewDelegateP", "bookCatID"]
+- !private ["So24UICollectionViewDelegateP", "bookDescription"]
+- !private ["So24UICollectionViewDelegateP", "bookEdition"]
+- !private ["So24UICollectionViewDelegateP", "bookName"]
+- !private ["So24UICollectionViewDelegateP", "booklanguage"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "bookAuthorName"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "bookCatID"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "bookDescription"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "bookEdition"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "bookName"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "booklanguage"]
+- !private ["So18UIContentContainerP", "UIAlertAction"]
+- !private ["So18UIContentContainerP", "UIAlertController"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "addAction"]
+- !private ["So18UIContentContainerP", "bookAuthorName"]
+- !private ["So18UIContentContainerP", "bookCatID"]
+- !private ["So18UIContentContainerP", "bookDescription"]
+- !private ["So18UIContentContainerP", "bookEdition"]
+- !private ["So18UIContentContainerP", "bookName"]
+- !private ["So18UIContentContainerP", "bookcatname"]
+- !private ["So18UIContentContainerP", "booklanguage"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- !private ["So18UIContentContainerP", "popViewController"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "pushViewController"]
+- !private ["So18UIContentContainerP", "storyboard"]
+- !private ["So18UIContentContainerP", "tfBookAuthor"]
+- !private ["So18UIContentContainerP", "tfBookEdition"]
+- !private ["So18UIContentContainerP", "tfBookLanguage"]
+- !private ["So18UIContentContainerP", "tfBookMRP"]
+- !private ["So18UIContentContainerP", "tfBookName"]
+- !private ["So18UIContentContainerP", "tvDetails"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertAction"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertController"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addAction"]
+- !private ["So18UIFocusEnvironmentP", "bookAuthorName"]
+- !private ["So18UIFocusEnvironmentP", "bookCatID"]
+- !private ["So18UIFocusEnvironmentP", "bookDescription"]
+- !private ["So18UIFocusEnvironmentP", "bookEdition"]
+- !private ["So18UIFocusEnvironmentP", "bookName"]
+- !private ["So18UIFocusEnvironmentP", "bookcatname"]
+- !private ["So18UIFocusEnvironmentP", "booklanguage"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "popViewController"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "pushViewController"]
+- !private ["So18UIFocusEnvironmentP", "storyboard"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "tfBookAuthor"]
+- !private ["So18UIFocusEnvironmentP", "tfBookEdition"]
+- !private ["So18UIFocusEnvironmentP", "tfBookLanguage"]
+- !private ["So18UIFocusEnvironmentP", "tfBookMRP"]
+- !private ["So18UIFocusEnvironmentP", "tfBookName"]
+- !private ["So18UIFocusEnvironmentP", "tvDetails"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So30UIFocusItemScrollableContainerP", "text"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- !private ["So22UINavigationControllerC", "popViewController"]
+- !private ["So22UINavigationControllerC", "pushViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertController"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "bookAuthorName"]
+- !private ["So30UIPasteConfigurationSupportingP", "bookCatID"]
+- !private ["So30UIPasteConfigurationSupportingP", "bookDescription"]
+- !private ["So30UIPasteConfigurationSupportingP", "bookEdition"]
+- !private ["So30UIPasteConfigurationSupportingP", "bookName"]
+- !private ["So30UIPasteConfigurationSupportingP", "bookcatname"]
+- !private ["So30UIPasteConfigurationSupportingP", "booklanguage"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "popViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "pushViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "storyboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "tfBookAuthor"]
+- !private ["So30UIPasteConfigurationSupportingP", "tfBookEdition"]
+- !private ["So30UIPasteConfigurationSupportingP", "tfBookLanguage"]
+- !private ["So30UIPasteConfigurationSupportingP", "tfBookMRP"]
+- !private ["So30UIPasteConfigurationSupportingP", "tfBookName"]
+- !private ["So30UIPasteConfigurationSupportingP", "tvDetails"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "Book"]
+- !private ["So11UIResponderC", "BookProfileVC"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "UIAlertAction"]
+- !private ["So11UIResponderC", "UIAlertController"]
+- ["So11UIResponderC", "UITextField"]
+- ["So11UIResponderC", "UITextView"]
+- !private ["So11UIResponderC", "addAction"]
+- !private ["So11UIResponderC", "bookAuthorName"]
+- ["So11UIResponderC", "bookCatID"]
+- !private ["So11UIResponderC", "bookDescription"]
+- !private ["So11UIResponderC", "bookEdition"]
+- ["So11UIResponderC", "bookList"]
+- !private ["So11UIResponderC", "bookName"]
+- ["So11UIResponderC", "bookcatname"]
+- !private ["So11UIResponderC", "booklanguage"]
+- ["So11UIResponderC", "dovalidate"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "navigationController"]
+- ["So11UIResponderC", "onClickBack"]
+- ["So11UIResponderC", "onClickNext"]
+- !private ["So11UIResponderC", "popViewController"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "pushViewController"]
+- !private ["So11UIResponderC", "storyboard"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "tfBookAuthor"]
+- ["So11UIResponderC", "tfBookEdition"]
+- ["So11UIResponderC", "tfBookLanguage"]
+- ["So11UIResponderC", "tfBookMRP"]
+- ["So11UIResponderC", "tfBookName"]
+- ["So11UIResponderC", "tvDetails"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertAction"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertController"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addAction"]
+- !private ["So30UIResponderStandardEditActionsP", "bookAuthorName"]
+- !private ["So30UIResponderStandardEditActionsP", "bookCatID"]
+- !private ["So30UIResponderStandardEditActionsP", "bookDescription"]
+- !private ["So30UIResponderStandardEditActionsP", "bookEdition"]
+- !private ["So30UIResponderStandardEditActionsP", "bookName"]
+- !private ["So30UIResponderStandardEditActionsP", "bookcatname"]
+- !private ["So30UIResponderStandardEditActionsP", "booklanguage"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "popViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "pushViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "storyboard"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "tfBookAuthor"]
+- !private ["So30UIResponderStandardEditActionsP", "tfBookEdition"]
+- !private ["So30UIResponderStandardEditActionsP", "tfBookLanguage"]
+- !private ["So30UIResponderStandardEditActionsP", "tfBookMRP"]
+- !private ["So30UIResponderStandardEditActionsP", "tfBookName"]
+- !private ["So30UIResponderStandardEditActionsP", "tvDetails"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So12UIScrollViewC", "text"]
+- !private ["So20UIScrollViewDelegateP", "bookAuthorName"]
+- !private ["So20UIScrollViewDelegateP", "bookCatID"]
+- !private ["So20UIScrollViewDelegateP", "bookDescription"]
+- !private ["So20UIScrollViewDelegateP", "bookEdition"]
+- !private ["So20UIScrollViewDelegateP", "bookName"]
+- !private ["So20UIScrollViewDelegateP", "booklanguage"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So16UIStateRestoringP", "UIAlertAction"]
+- !private ["So16UIStateRestoringP", "UIAlertController"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "addAction"]
+- !private ["So16UIStateRestoringP", "bookAuthorName"]
+- !private ["So16UIStateRestoringP", "bookCatID"]
+- !private ["So16UIStateRestoringP", "bookDescription"]
+- !private ["So16UIStateRestoringP", "bookEdition"]
+- !private ["So16UIStateRestoringP", "bookName"]
+- !private ["So16UIStateRestoringP", "bookcatname"]
+- !private ["So16UIStateRestoringP", "booklanguage"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- !private ["So16UIStateRestoringP", "popViewController"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "pushViewController"]
+- !private ["So16UIStateRestoringP", "storyboard"]
+- !private ["So16UIStateRestoringP", "tfBookAuthor"]
+- !private ["So16UIStateRestoringP", "tfBookEdition"]
+- !private ["So16UIStateRestoringP", "tfBookLanguage"]
+- !private ["So16UIStateRestoringP", "tfBookMRP"]
+- !private ["So16UIStateRestoringP", "tfBookName"]
+- !private ["So16UIStateRestoringP", "tvDetails"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So10UITextViewC", "text"]
+- !private ["So18UITraitEnvironmentP", "UIAlertAction"]
+- !private ["So18UITraitEnvironmentP", "UIAlertController"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addAction"]
+- !private ["So18UITraitEnvironmentP", "bookAuthorName"]
+- !private ["So18UITraitEnvironmentP", "bookCatID"]
+- !private ["So18UITraitEnvironmentP", "bookDescription"]
+- !private ["So18UITraitEnvironmentP", "bookEdition"]
+- !private ["So18UITraitEnvironmentP", "bookName"]
+- !private ["So18UITraitEnvironmentP", "bookcatname"]
+- !private ["So18UITraitEnvironmentP", "booklanguage"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "popViewController"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "pushViewController"]
+- !private ["So18UITraitEnvironmentP", "storyboard"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "tfBookAuthor"]
+- !private ["So18UITraitEnvironmentP", "tfBookEdition"]
+- !private ["So18UITraitEnvironmentP", "tfBookLanguage"]
+- !private ["So18UITraitEnvironmentP", "tfBookMRP"]
+- !private ["So18UITraitEnvironmentP", "tfBookName"]
+- !private ["So18UITraitEnvironmentP", "tvDetails"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "UIAlertAction"]
+- !private ["So23UIUserActivityRestoringP", "UIAlertController"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addAction"]
+- !private ["So23UIUserActivityRestoringP", "bookAuthorName"]
+- !private ["So23UIUserActivityRestoringP", "bookCatID"]
+- !private ["So23UIUserActivityRestoringP", "bookDescription"]
+- !private ["So23UIUserActivityRestoringP", "bookEdition"]
+- !private ["So23UIUserActivityRestoringP", "bookName"]
+- !private ["So23UIUserActivityRestoringP", "bookcatname"]
+- !private ["So23UIUserActivityRestoringP", "booklanguage"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "navigationController"]
+- !private ["So23UIUserActivityRestoringP", "popViewController"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "pushViewController"]
+- !private ["So23UIUserActivityRestoringP", "storyboard"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "tfBookAuthor"]
+- !private ["So23UIUserActivityRestoringP", "tfBookEdition"]
+- !private ["So23UIUserActivityRestoringP", "tfBookLanguage"]
+- !private ["So23UIUserActivityRestoringP", "tfBookMRP"]
+- !private ["So23UIUserActivityRestoringP", "tfBookName"]
+- !private ["So23UIUserActivityRestoringP", "tvDetails"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "Book"]
+- !private ["So16UIViewControllerC", "BookProfileVC"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "UIAlertAction"]
+- !private ["So16UIViewControllerC", "UIAlertController"]
+- ["So16UIViewControllerC", "UITextField"]
+- ["So16UIViewControllerC", "UITextView"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "addAction"]
+- !private ["So16UIViewControllerC", "bookAuthorName"]
+- ["So16UIViewControllerC", "bookCatID"]
+- !private ["So16UIViewControllerC", "bookDescription"]
+- !private ["So16UIViewControllerC", "bookEdition"]
+- ["So16UIViewControllerC", "bookList"]
+- !private ["So16UIViewControllerC", "bookName"]
+- ["So16UIViewControllerC", "bookcatname"]
+- !private ["So16UIViewControllerC", "booklanguage"]
+- ["So16UIViewControllerC", "dovalidate"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "navigationController"]
+- ["So16UIViewControllerC", "onClickBack"]
+- ["So16UIViewControllerC", "onClickNext"]
+- !private ["So16UIViewControllerC", "popViewController"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "pushViewController"]
+- !private ["So16UIViewControllerC", "storyboard"]
+- ["So16UIViewControllerC", "tfBookAuthor"]
+- ["So16UIViewControllerC", "tfBookEdition"]
+- ["So16UIViewControllerC", "tfBookLanguage"]
+- ["So16UIViewControllerC", "tfBookMRP"]
+- ["So16UIViewControllerC", "tfBookName"]
+- ["So16UIViewControllerC", "tvDetails"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bookAuthorName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bookCatID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bookDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bookEdition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bookName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bookcatname"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "booklanguage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "popViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pushViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "storyboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tfBookAuthor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tfBookEdition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tfBookLanguage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tfBookMRP"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tfBookName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tvDetails"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIAlertAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIAlertController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bookAuthorName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bookCatID"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bookDescription"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bookEdition"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bookName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bookcatname"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "booklanguage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "instantiateViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "popViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "present"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pushViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "storyboard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tfBookAuthor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tfBookEdition"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tfBookLanguage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tfBookMRP"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tfBookName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tvDetails"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["8BookFarm11deleteimageP", "bookAuthorName"]
+- !private ["8BookFarm11deleteimageP", "bookCatID"]
+- !private ["8BookFarm11deleteimageP", "bookDescription"]
+- !private ["8BookFarm11deleteimageP", "bookEdition"]
+- !private ["8BookFarm11deleteimageP", "bookName"]
+- !private ["8BookFarm11deleteimageP", "booklanguage"]
+depends-nominal:
+- !private "8BookFarm0A9ProfileVCC"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "SY"
+- "8BookFarm13SellDetailsVCC"
+- !private "So22UIAlertControllerStyleV"
+- !private "So18UIAlertActionStyleV"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So13UIAlertActionC"
+- !private "So17UIAlertControllerC"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So26UICollectionViewDataSourceP"
+- !private "So24UICollectionViewDelegateP"
+- !private "So34UICollectionViewDelegateFlowLayoutP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So10UIKeyInputP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So22UINavigationControllerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- !private "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- !private "So10UITextViewC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+- !private "8BookFarm11deleteimageP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Accelerate.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreLocation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Photos.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/XLPagerTabStrip.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Modules/YPImagePicker.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Modules/PryntTrimmerView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Headers/YPImagePicker-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Headers/SteviaLayout-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Headers/PryntTrimmerView-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/BookFarm/Third Party Framework/iCarousel/iCarousel.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/FXPageControl.h"
+- "/Users/macbook/Desktop/BookFarm/BookFarm/Third Party Framework/Bridging Header.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/macbook/Desktop/BookFarm/BookFarm/Third Party Framework/SWRevealViewController/SWRevealViewController.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Headers/YPImagePicker-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Headers/PryntTrimmerView-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1beccf2cdf0c1963a68d6e504e36a51f"

@@ -1,0 +1,815 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CompletionHandler"
+- "ImageDownloaderCompletionHandler"
+- "RetrieveImageDownloadTask"
+- "RetrieveImageTask"
+- "ImageDownloaderProgressBlock"
+- "KingfisherErrorDomain"
+- "KingfisherErrorStatusCodeKey"
+- "DefaultImageModifier"
+provides-nominal:
+- "10Kingfisher17RetrieveImageTaskC"
+- "10Kingfisher25RetrieveImageDownloadTaskV"
+- "10Kingfisher20DefaultImageModifierV"
+provides-member:
+- ["10Kingfisher0A7WrapperV", ""]
+- ["10Kingfisher17RetrieveImageTaskC", ""]
+- ["10Kingfisher0A7ManagerC", ""]
+- ["10Kingfisher15ImageDownloaderC", ""]
+- ["10Kingfisher25RetrieveImageDownloadTaskV", ""]
+- ["10Kingfisher10ImageCacheC", ""]
+- ["Sl", ""]
+- ["10Kingfisher20DefaultImageModifierV", ""]
+- ["10Kingfisher0A7WrapperV", "image"]
+- ["10Kingfisher0A7WrapperV", "animated"]
+- ["10Kingfisher17RetrieveImageTaskC", "empty"]
+- ["10Kingfisher0A7ManagerC", "retrieveImage"]
+- ["10Kingfisher15ImageDownloaderC", "downloadImage"]
+- ["10Kingfisher0A7WrapperV", "setImage"]
+- ["10Kingfisher0A7WrapperV", "setImage"]
+- ["10Kingfisher0A7WrapperV", "setBackgroundImage"]
+- ["10Kingfisher10ImageCacheC", "maxMemoryCost"]
+- ["10Kingfisher10ImageCacheC", "defaultDiskCachePathClosure"]
+- ["10Kingfisher10ImageCacheC", "pathExtension"]
+- ["10Kingfisher10ImageCacheC", "diskCachePath"]
+- ["10Kingfisher10ImageCacheC", "maxDiskCacheSize"]
+- ["10Kingfisher10ImageCacheC", "cachePath"]
+- ["10Kingfisher10ImageCacheC", "retrieveImageInDiskCache"]
+- ["10Kingfisher10ImageCacheC", "retrieveImage"]
+- ["10Kingfisher10ImageCacheC", "maxCachePeriodInSecond"]
+- ["10Kingfisher10ImageCacheC", "store"]
+- ["10Kingfisher10ImageCacheC", "calculateDiskCacheSize"]
+- ["Sl", "callbackDispatchQueue"]
+- ["Sl", "targetCache"]
+- ["Sl", "originalCache"]
+- ["Sl", "downloader"]
+- ["Sl", "transition"]
+- ["Sl", "downloadPriority"]
+- ["Sl", "forceRefresh"]
+- ["Sl", "fromMemoryCacheOrRefresh"]
+- ["Sl", "forceTransition"]
+- ["Sl", "cacheMemoryOnly"]
+- ["Sl", "waitForCache"]
+- ["Sl", "onlyFromCache"]
+- ["Sl", "backgroundDecode"]
+- ["Sl", "preloadAllAnimationData"]
+- ["Sl", "callbackQueue"]
+- ["Sl", "scaleFactor"]
+- ["Sl", "modifier"]
+- ["Sl", "processor"]
+- ["Sl", "imageModifier"]
+- ["Sl", "cacheSerializer"]
+- ["Sl", "keepCurrentImageWhileLoading"]
+- ["Sl", "onlyLoadFirstFrame"]
+- ["Sl", "cacheOriginalImage"]
+- ["Sl", "onFailureImage"]
+- ["Sl", "alsoPrefetchToMemory"]
+- ["Sl", "loadDiskFileSynchronously"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "<"
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CGFloat"
+- "CacheSerializer"
+- "CacheType"
+- "CallbackQueue"
+- "CastingPrecedence"
+- "Collection"
+- "CompletionHandler"
+- "Data"
+- !private "DefaultCacheSerializer"
+- "DefaultImageModifier"
+- "DispatchQueue"
+- "DownloadProgressBlock"
+- "DownloadTask"
+- "Float"
+- !private "FloatLiteralType"
+- "Image"
+- "ImageCache"
+- !private "ImageCreatingOptions"
+- "ImageDownloadRequestModifier"
+- "ImageDownloader"
+- "ImageDownloaderCompletionHandler"
+- "ImageDownloaderProgressBlock"
+- "ImageModifier"
+- "ImageProcessor"
+- "ImageTransition"
+- "ImageView"
+- "Int"
+- !private "IntegerLiteralType"
+- "KingfisherErrorDomain"
+- "KingfisherErrorStatusCodeKey"
+- "KingfisherManager"
+- "KingfisherOptionsInfo"
+- "KingfisherOptionsInfoItem"
+- !private "KingfisherParsedOptionsInfo"
+- "KingfisherWrapper"
+- "NSError"
+- !private "NSSearchPathForDirectoriesInDomains"
+- !private "NSString"
+- "Optional"
+- "Placeholder"
+- "Resource"
+- "RetrieveImageDownloadTask"
+- "RetrieveImageTask"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- "TimeInterval"
+- "UIButton"
+- "UIControl"
+- "UIImage"
+- "UInt"
+- "URL"
+- "Void"
+depends-member:
+- !private ["10Accelerate0A6BufferP", "cacheSerializer"]
+- !private ["10Accelerate0A6BufferP", "callbackDispatchQueue"]
+- !private ["10Accelerate0A6BufferP", "empty"]
+- !private ["10Accelerate0A6BufferP", "first"]
+- !private ["10Accelerate0A6BufferP", "init"]
+- !private ["10Accelerate0A6BufferP", "processor"]
+- !private ["10Accelerate0A13MutableBufferP", "cacheSerializer"]
+- !private ["10Accelerate0A13MutableBufferP", "callbackDispatchQueue"]
+- !private ["10Accelerate0A13MutableBufferP", "empty"]
+- !private ["10Accelerate0A13MutableBufferP", "first"]
+- !private ["10Accelerate0A13MutableBufferP", "init"]
+- !private ["10Accelerate0A13MutableBufferP", "processor"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "cacheSerializer"]
+- !private ["Sa", "callbackDispatchQueue"]
+- !private ["Sa", "empty"]
+- !private ["Sa", "first"]
+- !private ["Sa", "init"]
+- !private ["Sa", "processor"]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "downloadImage"]
+- !private ["10Kingfisher11DiskStorageO7BackendC", "cacheFileURL"]
+- !private ["10Kingfisher11DiskStorageO7BackendC", "config"]
+- !private ["10Kingfisher13MemoryStorageO7BackendC", "config"]
+- !private ["10Kingfisher11DiskStorageO7BackendC", "directoryURL"]
+- !private ["10Kingfisher11DiskStorageO7BackendC", "value"]
+- !private ["SK", "cacheSerializer"]
+- !private ["SK", "callbackDispatchQueue"]
+- !private ["SK", "computedKey"]
+- !private ["SK", "empty"]
+- !private ["SK", "first"]
+- !private ["SK", "init"]
+- !private ["SK", "processor"]
+- !private ["Sz", "init"]
+- ["So15CALayerDelegateP", "State"]
+- ["s7CVarArgP", "State"]
+- !private ["s7CVarArgP", "appendingPathComponent"]
+- !private ["s7CVarArgP", "cacheSerializer"]
+- !private ["s7CVarArgP", "callbackDispatchQueue"]
+- !private ["s7CVarArgP", "computedKey"]
+- !private ["s7CVarArgP", "empty"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "processor"]
+- !private ["10Kingfisher15CacheSerializerP", "default"]
+- !private ["10Kingfisher15CacheSerializerP", "image"]
+- !private ["10Kingfisher9CacheTypeO", "none"]
+- !private ["10Kingfisher13CallbackQueueO", "dispatch"]
+- !private ["10Kingfisher13CallbackQueueO", "queue"]
+- !private ["Sl", "Array"]
+- ["Sl", "Bool"]
+- ["Sl", "CGFloat"]
+- ["Sl", "CacheSerializer"]
+- ["Sl", "CallbackQueue"]
+- ["Sl", "DispatchQueue"]
+- ["Sl", "Float"]
+- ["Sl", "Image"]
+- ["Sl", "ImageCache"]
+- ["Sl", "ImageDownloadRequestModifier"]
+- ["Sl", "ImageDownloader"]
+- ["Sl", "ImageModifier"]
+- ["Sl", "ImageProcessor"]
+- ["Sl", "ImageTransition"]
+- ["Sl", "Iterator"]
+- ["Sl", "KingfisherOptionsInfoItem"]
+- !private ["Sl", "KingfisherParsedOptionsInfo"]
+- ["Sl", "Optional"]
+- ["Sl", "alsoPrefetchToMemory"]
+- ["Sl", "backgroundDecode"]
+- ["Sl", "cacheMemoryOnly"]
+- ["Sl", "cacheOriginalImage"]
+- ["Sl", "cacheSerializer"]
+- ["Sl", "callbackDispatchQueue"]
+- ["Sl", "callbackQueue"]
+- !private ["Sl", "computedKey"]
+- ["Sl", "downloadPriority"]
+- ["Sl", "downloader"]
+- !private ["Sl", "empty"]
+- !private ["Sl", "first"]
+- ["Sl", "forceRefresh"]
+- ["Sl", "forceTransition"]
+- ["Sl", "fromMemoryCacheOrRefresh"]
+- ["Sl", "imageModifier"]
+- !private ["Sl", "init"]
+- ["Sl", "keepCurrentImageWhileLoading"]
+- ["Sl", "loadDiskFileSynchronously"]
+- ["Sl", "modifier"]
+- ["Sl", "onFailureImage"]
+- ["Sl", "onlyFromCache"]
+- ["Sl", "onlyLoadFirstFrame"]
+- ["Sl", "originalCache"]
+- ["Sl", "preloadAllAnimationData"]
+- ["Sl", "processor"]
+- ["Sl", "scaleFactor"]
+- ["Sl", "targetCache"]
+- ["Sl", "transition"]
+- ["Sl", "waitForCache"]
+- !private ["SL", "computedKey"]
+- !private ["SL", "init"]
+- !private ["10Kingfisher11DiskStorageO6ConfigV", "expiration"]
+- !private ["10Kingfisher11DiskStorageO6ConfigV", "pathExtension"]
+- !private ["10Kingfisher11DiskStorageO6ConfigV", "sizeLimit"]
+- !private ["10Kingfisher13MemoryStorageO6ConfigV", "totalCostLimit"]
+- !private ["10Foundation15ContiguousBytesP", "cacheSerializer"]
+- !private ["10Foundation15ContiguousBytesP", "callbackDispatchQueue"]
+- !private ["10Foundation15ContiguousBytesP", "empty"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "processor"]
+- ["s28CustomDebugStringConvertibleP", "State"]
+- !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "cacheSerializer"]
+- !private ["s28CustomDebugStringConvertibleP", "callbackDispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "computedKey"]
+- !private ["s28CustomDebugStringConvertibleP", "empty"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "processor"]
+- !private ["s17CustomReflectableP", "cacheSerializer"]
+- !private ["s17CustomReflectableP", "callbackDispatchQueue"]
+- !private ["s17CustomReflectableP", "computedKey"]
+- !private ["s17CustomReflectableP", "empty"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "processor"]
+- ["s23CustomStringConvertibleP", "State"]
+- !private ["s23CustomStringConvertibleP", "absoluteString"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "cacheSerializer"]
+- !private ["s23CustomStringConvertibleP", "callbackDispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "computedKey"]
+- !private ["s23CustomStringConvertibleP", "empty"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "processor"]
+- !private ["10Foundation4DataV", "deinit"]
+- !private ["10Foundation12DataProtocolP", "cacheSerializer"]
+- !private ["10Foundation12DataProtocolP", "callbackDispatchQueue"]
+- !private ["10Foundation12DataProtocolP", "empty"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "processor"]
+- !private ["Se", "absoluteString"]
+- !private ["Se", "cacheSerializer"]
+- !private ["Se", "callbackDispatchQueue"]
+- !private ["Se", "computedKey"]
+- !private ["Se", "empty"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["Se", "path"]
+- !private ["Se", "processor"]
+- !private ["10Kingfisher22DefaultCacheSerializerV", "default"]
+- !private ["10Kingfisher22DefaultCacheSerializerV", "deinit"]
+- ["10Kingfisher20DefaultImageModifierV", "DefaultImageModifier"]
+- ["10Kingfisher20DefaultImageModifierV", "Image"]
+- ["10Kingfisher20DefaultImageModifierV", "default"]
+- ["10Kingfisher20DefaultImageModifierV", "deinit"]
+- ["10Kingfisher20DefaultImageModifierV", "init"]
+- ["10Kingfisher20DefaultImageModifierV", "modify"]
+- !private ["SE", "absoluteString"]
+- !private ["SE", "cacheSerializer"]
+- !private ["SE", "callbackDispatchQueue"]
+- !private ["SE", "computedKey"]
+- !private ["SE", "empty"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "path"]
+- !private ["SE", "processor"]
+- ["SQ", "State"]
+- !private ["SQ", "absoluteString"]
+- !private ["SQ", "appendingPathComponent"]
+- !private ["SQ", "cacheSerializer"]
+- !private ["SQ", "cachesDirectory"]
+- !private ["SQ", "callbackDispatchQueue"]
+- !private ["SQ", "computedKey"]
+- !private ["SQ", "empty"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "first"]
+- !private ["SQ", "get"]
+- !private ["SQ", "init"]
+- !private ["SQ", "none"]
+- !private ["SQ", "path"]
+- !private ["SQ", "processor"]
+- !private ["SQ", "success"]
+- !private ["SQ", "userDomainMask"]
+- !private ["s25ExpressibleByArrayLiteralP", "cacheSerializer"]
+- !private ["s25ExpressibleByArrayLiteralP", "callbackDispatchQueue"]
+- !private ["s25ExpressibleByArrayLiteralP", "empty"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "processor"]
+- !private ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "appendingPathComponent"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "computedKey"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "callbackDispatchQueue"]
+- !private ["s23ExpressibleByNilLiteralP", "empty"]
+- !private ["s32ExpressibleByStringInterpolationP", "computedKey"]
+- !private ["s26ExpressibleByStringLiteralP", "appendingPathComponent"]
+- !private ["s26ExpressibleByStringLiteralP", "computedKey"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "appendingPathComponent"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "computedKey"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", "State"]
+- !private ["SH", "absoluteString"]
+- !private ["SH", "appendingPathComponent"]
+- !private ["SH", "cacheSerializer"]
+- !private ["SH", "cachesDirectory"]
+- !private ["SH", "callbackDispatchQueue"]
+- !private ["SH", "computedKey"]
+- !private ["SH", "empty"]
+- !private ["SH", "failure"]
+- !private ["SH", "first"]
+- !private ["SH", "get"]
+- !private ["SH", "init"]
+- !private ["SH", "none"]
+- !private ["SH", "path"]
+- !private ["SH", "processor"]
+- !private ["SH", "success"]
+- ["10Kingfisher10ImageCacheC", "Bool"]
+- ["10Kingfisher10ImageCacheC", "CacheSerializer"]
+- ["10Kingfisher10ImageCacheC", "CacheType"]
+- ["10Kingfisher10ImageCacheC", "Data"]
+- !private ["10Kingfisher10ImageCacheC", "DefaultCacheSerializer"]
+- ["10Kingfisher10ImageCacheC", "Image"]
+- ["10Kingfisher10ImageCacheC", "Int"]
+- ["10Kingfisher10ImageCacheC", "KingfisherOptionsInfo"]
+- !private ["10Kingfisher10ImageCacheC", "NSSearchPathForDirectoriesInDomains"]
+- !private ["10Kingfisher10ImageCacheC", "NSString"]
+- ["10Kingfisher10ImageCacheC", "String"]
+- ["10Kingfisher10ImageCacheC", "TimeInterval"]
+- ["10Kingfisher10ImageCacheC", "UInt"]
+- ["10Kingfisher10ImageCacheC", "Void"]
+- ["10Kingfisher10ImageCacheC", "cachePath"]
+- ["10Kingfisher10ImageCacheC", "calculateDiskCacheSize"]
+- !private ["10Kingfisher10ImageCacheC", "calculateDiskStorageSize"]
+- ["10Kingfisher10ImageCacheC", "defaultDiskCachePathClosure"]
+- ["10Kingfisher10ImageCacheC", "diskCachePath"]
+- !private ["10Kingfisher10ImageCacheC", "diskStorage"]
+- ["10Kingfisher10ImageCacheC", "maxCachePeriodInSecond"]
+- ["10Kingfisher10ImageCacheC", "maxDiskCacheSize"]
+- ["10Kingfisher10ImageCacheC", "maxMemoryCost"]
+- !private ["10Kingfisher10ImageCacheC", "memoryStorage"]
+- ["10Kingfisher10ImageCacheC", "pathExtension"]
+- ["10Kingfisher10ImageCacheC", "retrieveImage"]
+- ["10Kingfisher10ImageCacheC", "retrieveImageInDiskCache"]
+- ["10Kingfisher10ImageCacheC", "store"]
+- !private ["10Kingfisher16ImageCacheResultO", "cacheType"]
+- !private ["10Kingfisher16ImageCacheResultO", "image"]
+- !private ["10Kingfisher20ImageCreatingOptionsV", "init"]
+- ["10Kingfisher15ImageDownloaderC", "DownloadTask"]
+- ["10Kingfisher15ImageDownloaderC", "ImageDownloaderCompletionHandler"]
+- ["10Kingfisher15ImageDownloaderC", "ImageDownloaderProgressBlock"]
+- ["10Kingfisher15ImageDownloaderC", "KingfisherOptionsInfo"]
+- !private ["10Kingfisher15ImageDownloaderC", "NSError"]
+- ["10Kingfisher15ImageDownloaderC", "RetrieveImageTask"]
+- ["10Kingfisher15ImageDownloaderC", "URL"]
+- ["10Kingfisher15ImageDownloaderC", "downloadImage"]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "downloadImage"]
+- !private ["10Kingfisher18ImageLoadingResultV", "image"]
+- !private ["10Kingfisher18ImageLoadingResultV", "originalData"]
+- !private ["10Kingfisher18ImageLoadingResultV", "url"]
+- ["10Kingfisher13ImageModifierP", "DefaultImageModifier"]
+- ["10Kingfisher13ImageModifierP", ""]
+- ["10Kingfisher13ImageModifierP", "init"]
+- ["10Kingfisher13ImageModifierP", "modify"]
+- !private ["10Kingfisher14ImageProcessorP", "identifier"]
+- !private ["10Kingfisher0A15CompatibleValueP", "computedKey"]
+- !private ["10Kingfisher0A5ErrorO", "deinit"]
+- ["10Kingfisher0A7ManagerC", "CompletionHandler"]
+- ["10Kingfisher0A7ManagerC", "DownloadProgressBlock"]
+- ["10Kingfisher0A7ManagerC", "DownloadTask"]
+- ["10Kingfisher0A7ManagerC", "KingfisherOptionsInfo"]
+- !private ["10Kingfisher0A7ManagerC", "NSError"]
+- ["10Kingfisher0A7ManagerC", "Resource"]
+- ["10Kingfisher0A7ManagerC", "retrieveImage"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "alsoPrefetchToMemory"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "backgroundDecode"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "cacheMemoryOnly"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "cacheOriginalImage"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "cacheSerializer"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "callbackQueue"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "downloadPriority"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "downloader"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "forceRefresh"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "forceTransition"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "fromMemoryCacheOrRefresh"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "imageModifier"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "init"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "keepCurrentImageWhileLoading"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "loadDiskFileSynchronously"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "onFailureImage"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "onlyFromCache"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "onlyLoadFirstFrame"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "originalCache"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "preloadAllAnimationData"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "processor"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "requestModifier"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "scaleFactor"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "targetCache"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "transition"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "waitForCache"]
+- ["10Kingfisher0A7WrapperV", "Bool"]
+- ["10Kingfisher0A7WrapperV", "CGFloat"]
+- ["10Kingfisher0A7WrapperV", "CompletionHandler"]
+- ["10Kingfisher0A7WrapperV", "Data"]
+- ["10Kingfisher0A7WrapperV", "DownloadProgressBlock"]
+- ["10Kingfisher0A7WrapperV", "DownloadTask"]
+- ["10Kingfisher0A7WrapperV", "Image"]
+- !private ["10Kingfisher0A7WrapperV", "ImageCreatingOptions"]
+- ["10Kingfisher0A7WrapperV", "ImageView"]
+- ["10Kingfisher0A7WrapperV", "KingfisherOptionsInfo"]
+- !private ["10Kingfisher0A7WrapperV", "KingfisherWrapper"]
+- !private ["10Kingfisher0A7WrapperV", "NSError"]
+- ["10Kingfisher0A7WrapperV", "Placeholder"]
+- ["10Kingfisher0A7WrapperV", "Resource"]
+- ["10Kingfisher0A7WrapperV", "TimeInterval"]
+- ["10Kingfisher0A7WrapperV", "UIButton"]
+- ["10Kingfisher0A7WrapperV", "UIControl"]
+- ["10Kingfisher0A7WrapperV", "UIImage"]
+- ["10Kingfisher0A7WrapperV", "animated"]
+- !private ["10Kingfisher0A7WrapperV", "animatedImage"]
+- ["10Kingfisher0A7WrapperV", "image"]
+- ["10Kingfisher0A7WrapperV", "setBackgroundImage"]
+- ["10Kingfisher0A7WrapperV", "setImage"]
+- !private ["s25LosslessStringConvertibleP", "computedKey"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "computedKey"]
+- !private ["SM", "cacheSerializer"]
+- !private ["SM", "callbackDispatchQueue"]
+- !private ["SM", "empty"]
+- !private ["SM", "first"]
+- !private ["SM", "init"]
+- !private ["SM", "processor"]
+- !private ["10Foundation19MutableDataProtocolP", "cacheSerializer"]
+- !private ["10Foundation19MutableDataProtocolP", "callbackDispatchQueue"]
+- !private ["10Foundation19MutableDataProtocolP", "empty"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "processor"]
+- ["So8NSCodingP", "State"]
+- !private ["So8NSCodingP", "appendingPathComponent"]
+- !private ["So8NSCodingP", "computedKey"]
+- !private ["So9NSCopyingP", "appendingPathComponent"]
+- !private ["So9NSCopyingP", "computedKey"]
+- !private ["So21NSItemProviderReadingP", "appendingPathComponent"]
+- !private ["So21NSItemProviderReadingP", "computedKey"]
+- !private ["So21NSItemProviderWritingP", "appendingPathComponent"]
+- !private ["So21NSItemProviderWritingP", "computedKey"]
+- !private ["So16NSMutableCopyingP", "appendingPathComponent"]
+- !private ["So16NSMutableCopyingP", "computedKey"]
+- ["So8NSObjectC", "State"]
+- !private ["So8NSObjectC", "appendingPathComponent"]
+- !private ["So8NSObjectC", "computedKey"]
+- ["So8NSObjectP", "State"]
+- !private ["So8NSObjectP", "appendingPathComponent"]
+- !private ["So8NSObjectP", "computedKey"]
+- !private ["So14NSSecureCodingP", "appendingPathComponent"]
+- !private ["So14NSSecureCodingP", "computedKey"]
+- !private ["So8NSStringC", "appendingPathComponent"]
+- !private ["So8NSStringC", "computedKey"]
+- !private ["Sj", "init"]
+- !private ["s9OptionSetP", "userDomainMask"]
+- !private ["Sq", "callbackDispatchQueue"]
+- !private ["Sq", "empty"]
+- !private ["Sk", "cacheSerializer"]
+- !private ["Sk", "callbackDispatchQueue"]
+- !private ["Sk", "empty"]
+- !private ["Sk", "first"]
+- !private ["Sk", "init"]
+- !private ["Sk", "processor"]
+- !private ["Sm", "cacheSerializer"]
+- !private ["Sm", "callbackDispatchQueue"]
+- !private ["Sm", "computedKey"]
+- !private ["Sm", "empty"]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["Sm", "processor"]
+- !private ["SY", "cachesDirectory"]
+- !private ["SY", "userDomainMask"]
+- !private ["10Foundation20ReferenceConvertibleP", "absoluteString"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["10Kingfisher8ResourceP", "absoluteString"]
+- !private ["10Kingfisher8ResourceP", "downloadURL"]
+- !private ["10Kingfisher8ResourceP", "path"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "get"]
+- !private ["s6ResultO", "success"]
+- ["10Kingfisher25RetrieveImageDownloadTaskV", "init"]
+- !private ["10Kingfisher19RetrieveImageResultV", "cacheType"]
+- !private ["10Kingfisher19RetrieveImageResultV", "image"]
+- !private ["10Kingfisher19RetrieveImageResultV", "source"]
+- ["10Kingfisher17RetrieveImageTaskC", "RetrieveImageTask"]
+- ["10Kingfisher17RetrieveImageTaskC", "empty"]
+- ["10Kingfisher17RetrieveImageTaskC", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["So21NSSearchPathDirectoryV", "cachesDirectory"]
+- !private ["So22NSSearchPathDomainMaskV", "userDomainMask"]
+- !private ["ST", "Array"]
+- ["ST", "Bool"]
+- ["ST", "CGFloat"]
+- ["ST", "CacheSerializer"]
+- ["ST", "CallbackQueue"]
+- ["ST", "DispatchQueue"]
+- ["ST", "Float"]
+- ["ST", "Image"]
+- ["ST", "ImageCache"]
+- ["ST", "ImageDownloadRequestModifier"]
+- ["ST", "ImageDownloader"]
+- ["ST", "ImageModifier"]
+- ["ST", "ImageProcessor"]
+- ["ST", "ImageTransition"]
+- ["ST", "Iterator"]
+- ["ST", "KingfisherOptionsInfoItem"]
+- !private ["ST", "KingfisherParsedOptionsInfo"]
+- ["ST", "Optional"]
+- !private ["ST", "cacheSerializer"]
+- !private ["ST", "callbackDispatchQueue"]
+- !private ["ST", "computedKey"]
+- !private ["ST", "empty"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "processor"]
+- !private ["s10SetAlgebraP", "userDomainMask"]
+- !private ["10Kingfisher6SourceO", "url"]
+- !private ["10Kingfisher17StorageExpirationO", "never"]
+- !private ["10Kingfisher17StorageExpirationO", "seconds"]
+- !private ["10Kingfisher17StorageExpirationO", "timeInterval"]
+- !private ["Sx", "init"]
+- !private ["SS", "computedKey"]
+- !private ["Sy", "computedKey"]
+- !private ["s16TextOutputStreamP", "computedKey"]
+- !private ["s20TextOutputStreamableP", "computedKey"]
+- ["So29UIAccessibilityIdentificationP", "State"]
+- ["So12UIAppearanceP", "State"]
+- ["So21UIAppearanceContainerP", "State"]
+- ["So9UIControlC", "State"]
+- ["So17UICoordinateSpaceP", "State"]
+- ["So13UIDynamicItemP", "State"]
+- ["So18UIFocusEnvironmentP", "State"]
+- ["So11UIFocusItemP", "State"]
+- ["So20UIFocusItemContainerP", "State"]
+- !private ["So7UIImageC", "deinit"]
+- ["So24UILargeContentViewerItemP", "State"]
+- ["So30UIPasteConfigurationSupportingP", "State"]
+- ["So11UIResponderC", "State"]
+- ["So30UIResponderStandardEditActionsP", "State"]
+- ["So18UITraitEnvironmentP", "State"]
+- ["So23UIUserActivityRestoringP", "State"]
+- ["So6UIViewC", "State"]
+- !private ["Su", "init"]
+- !private ["10Foundation3URLV", "absoluteString"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "cacheSerializer"]
+- !private ["s14_ArrayProtocolP", "callbackDispatchQueue"]
+- !private ["s14_ArrayProtocolP", "empty"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "processor"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "absoluteString"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "computedKey"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "path"]
+- !private ["s24_DestructorSafeContainerP", "cacheSerializer"]
+- !private ["s24_DestructorSafeContainerP", "callbackDispatchQueue"]
+- !private ["s24_DestructorSafeContainerP", "empty"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "processor"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "computedKey"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "computedKey"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "computedKey"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "absoluteString"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- !private ["s19_HasContiguousBytesP", "cacheSerializer"]
+- !private ["s19_HasContiguousBytesP", "callbackDispatchQueue"]
+- !private ["s19_HasContiguousBytesP", "computedKey"]
+- !private ["s19_HasContiguousBytesP", "empty"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "processor"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "appendingPathComponent"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "cacheSerializer"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "callbackDispatchQueue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "computedKey"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "empty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "processor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "State"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appendingPathComponent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "computedKey"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "State"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "appendingPathComponent"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "computedKey"]
+- !private ["s21_ObjectiveCBridgeableP", "absoluteString"]
+- !private ["s21_ObjectiveCBridgeableP", "cacheSerializer"]
+- !private ["s21_ObjectiveCBridgeableP", "callbackDispatchQueue"]
+- !private ["s21_ObjectiveCBridgeableP", "computedKey"]
+- !private ["s21_ObjectiveCBridgeableP", "empty"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+- !private ["s21_ObjectiveCBridgeableP", "processor"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "State"]
+depends-nominal:
+- !private "10Accelerate0A6BufferP"
+- !private "10Accelerate0A13MutableBufferP"
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "10Kingfisher34AuthenticationChallengeResponsableP"
+- !private "10Kingfisher11DiskStorageO7BackendC"
+- !private "10Kingfisher13MemoryStorageO7BackendC"
+- !private "10Kingfisher11DiskStorageO7BackendC"
+- !private "SK"
+- !private "Sz"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "10Kingfisher15CacheSerializerP"
+- !private "10Kingfisher9CacheTypeO"
+- !private "10Kingfisher13CallbackQueueO"
+- "Sl"
+- !private "SL"
+- !private "10Kingfisher11DiskStorageO6ConfigV"
+- !private "10Kingfisher13MemoryStorageO6ConfigV"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "10Kingfisher22DefaultCacheSerializerV"
+- "10Kingfisher20DefaultImageModifierV"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- "10Kingfisher10ImageCacheC"
+- !private "10Kingfisher16ImageCacheResultO"
+- !private "10Kingfisher20ImageCreatingOptionsV"
+- "10Kingfisher15ImageDownloaderC"
+- !private "10Kingfisher23ImageDownloaderDelegateP"
+- !private "10Kingfisher18ImageLoadingResultV"
+- "10Kingfisher13ImageModifierP"
+- !private "10Kingfisher14ImageProcessorP"
+- !private "10Kingfisher0A15CompatibleValueP"
+- !private "10Kingfisher0A5ErrorO"
+- "10Kingfisher0A7ManagerC"
+- !private "10Kingfisher0A17ParsedOptionsInfoV"
+- "10Kingfisher0A7WrapperV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "10Kingfisher8ResourceP"
+- !private "s6ResultO"
+- "10Kingfisher25RetrieveImageDownloadTaskV"
+- !private "10Kingfisher19RetrieveImageResultV"
+- "10Kingfisher17RetrieveImageTaskC"
+- !private "s10SIMDScalarP"
+- !private "So21NSSearchPathDirectoryV"
+- !private "So22NSSearchPathDomainMaskV"
+- "ST"
+- !private "s10SetAlgebraP"
+- !private "10Kingfisher6SourceO"
+- !private "10Kingfisher17StorageExpirationO"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- !private "So7UIImageC"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "Su"
+- !private "10Foundation3URLV"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Accelerate.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/Pods/Kingfisher/Sources/Kingfisher.h"
+- "/Users/macbook/Desktop/BookFarm/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a0d534eef5d60cedb966abad9ca8367b"

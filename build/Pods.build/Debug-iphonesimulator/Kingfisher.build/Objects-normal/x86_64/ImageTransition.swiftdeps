@@ -1,0 +1,212 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ImageTransition"
+provides-nominal:
+- "10Kingfisher15ImageTransitionO"
+provides-member:
+- ["10Kingfisher15ImageTransitionO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AssignmentPrecedence"
+- "Bool"
+- !private "FloatLiteralType"
+- "ImageTransition"
+- !private "IntegerLiteralType"
+- "TimeInterval"
+- "UIImage"
+- "UIImageView"
+- "UIView"
+- "Void"
+depends-member:
+- !private ["So22UIViewAnimationOptionsV", "transitionCrossDissolve"]
+- !private ["So22UIViewAnimationOptionsV", "transitionFlipFromBottom"]
+- !private ["So22UIViewAnimationOptionsV", "transitionFlipFromLeft"]
+- !private ["So22UIViewAnimationOptionsV", "transitionFlipFromRight"]
+- !private ["So22UIViewAnimationOptionsV", "transitionFlipFromTop"]
+- ["So15CALayerDelegateP", "AnimationOptions"]
+- !private ["So15CALayerDelegateP", "image"]
+- ["s7CVarArgP", "AnimationOptions"]
+- !private ["s7CVarArgP", "image"]
+- ["s28CustomDebugStringConvertibleP", "AnimationOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- ["s23CustomStringConvertibleP", "AnimationOptions"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- ["SQ", "AnimationOptions"]
+- !private ["SQ", "image"]
+- !private ["SQ", "transitionCrossDissolve"]
+- !private ["SQ", "transitionFlipFromBottom"]
+- !private ["SQ", "transitionFlipFromLeft"]
+- !private ["SQ", "transitionFlipFromRight"]
+- !private ["SQ", "transitionFlipFromTop"]
+- !private ["s25ExpressibleByArrayLiteralP", "transitionCrossDissolve"]
+- !private ["s25ExpressibleByArrayLiteralP", "transitionFlipFromBottom"]
+- !private ["s25ExpressibleByArrayLiteralP", "transitionFlipFromLeft"]
+- !private ["s25ExpressibleByArrayLiteralP", "transitionFlipFromRight"]
+- !private ["s25ExpressibleByArrayLiteralP", "transitionFlipFromTop"]
+- ["SH", "AnimationOptions"]
+- !private ["SH", "image"]
+- ["10Kingfisher15ImageTransitionO", "Bool"]
+- ["10Kingfisher15ImageTransitionO", "TimeInterval"]
+- ["10Kingfisher15ImageTransitionO", "UIImage"]
+- ["10Kingfisher15ImageTransitionO", "UIImageView"]
+- ["10Kingfisher15ImageTransitionO", "UIView"]
+- ["10Kingfisher15ImageTransitionO", "Void"]
+- ["10Kingfisher15ImageTransitionO", "animationOptions"]
+- ["10Kingfisher15ImageTransitionO", "animations"]
+- ["10Kingfisher15ImageTransitionO", "completion"]
+- ["10Kingfisher15ImageTransitionO", "custom"]
+- ["10Kingfisher15ImageTransitionO", "duration"]
+- ["10Kingfisher15ImageTransitionO", "fade"]
+- ["10Kingfisher15ImageTransitionO", "flipFromBottom"]
+- ["10Kingfisher15ImageTransitionO", "flipFromLeft"]
+- ["10Kingfisher15ImageTransitionO", "flipFromRight"]
+- ["10Kingfisher15ImageTransitionO", "flipFromTop"]
+- ["10Kingfisher15ImageTransitionO", "none"]
+- !private ["10Kingfisher0A10CompatibleP", "image"]
+- ["So8NSCodingP", "AnimationOptions"]
+- !private ["So8NSCodingP", "image"]
+- ["So8NSObjectC", "AnimationOptions"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectP", "AnimationOptions"]
+- !private ["So8NSObjectP", "image"]
+- !private ["s9OptionSetP", "transitionCrossDissolve"]
+- !private ["s9OptionSetP", "transitionFlipFromBottom"]
+- !private ["s9OptionSetP", "transitionFlipFromLeft"]
+- !private ["s9OptionSetP", "transitionFlipFromRight"]
+- !private ["s9OptionSetP", "transitionFlipFromTop"]
+- !private ["SY", "transitionCrossDissolve"]
+- !private ["SY", "transitionFlipFromBottom"]
+- !private ["SY", "transitionFlipFromLeft"]
+- !private ["SY", "transitionFlipFromRight"]
+- !private ["SY", "transitionFlipFromTop"]
+- !private ["s10SetAlgebraP", "transitionCrossDissolve"]
+- !private ["s10SetAlgebraP", "transitionFlipFromBottom"]
+- !private ["s10SetAlgebraP", "transitionFlipFromLeft"]
+- !private ["s10SetAlgebraP", "transitionFlipFromRight"]
+- !private ["s10SetAlgebraP", "transitionFlipFromTop"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- ["So29UIAccessibilityIdentificationP", "AnimationOptions"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- ["So12UIAppearanceP", "AnimationOptions"]
+- !private ["So12UIAppearanceP", "image"]
+- ["So21UIAppearanceContainerP", "AnimationOptions"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- ["So17UICoordinateSpaceP", "AnimationOptions"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- ["So13UIDynamicItemP", "AnimationOptions"]
+- !private ["So13UIDynamicItemP", "image"]
+- ["So18UIFocusEnvironmentP", "AnimationOptions"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- ["So11UIFocusItemP", "AnimationOptions"]
+- !private ["So11UIFocusItemP", "image"]
+- ["So20UIFocusItemContainerP", "AnimationOptions"]
+- !private ["So20UIFocusItemContainerP", "image"]
+- !private ["So11UIImageViewC", "image"]
+- ["So24UILargeContentViewerItemP", "AnimationOptions"]
+- !private ["So24UILargeContentViewerItemP", "image"]
+- ["So30UIPasteConfigurationSupportingP", "AnimationOptions"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- ["So11UIResponderC", "AnimationOptions"]
+- !private ["So11UIResponderC", "image"]
+- ["So30UIResponderStandardEditActionsP", "AnimationOptions"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- ["So18UITraitEnvironmentP", "AnimationOptions"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- ["So23UIUserActivityRestoringP", "AnimationOptions"]
+- !private ["So23UIUserActivityRestoringP", "image"]
+- ["So6UIViewC", "AnimationOptions"]
+- !private ["So6UIViewC", "image"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AnimationOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AnimationOptions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "image"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "AnimationOptions"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "image"]
+depends-nominal:
+- !private "So22UIViewAnimationOptionsV"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "10Kingfisher15ImageTransitionO"
+- !private "10Kingfisher0A10CompatibleP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "s9OptionSetP"
+- !private "SY"
+- !private "s10SetAlgebraP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- !private "So11UIImageViewC"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Accelerate.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/Pods/Kingfisher/Sources/Kingfisher.h"
+- "/Users/macbook/Desktop/BookFarm/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a0eb557f09ed9a6a6ffa119f0feabed2"

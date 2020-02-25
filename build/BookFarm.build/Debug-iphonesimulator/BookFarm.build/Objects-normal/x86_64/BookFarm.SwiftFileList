@@ -1,0 +1,57 @@
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Common/XIB/CategoryCell.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Common/XIB/SellCategoryCell.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/ViewController.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Common/ServiceNameConstants.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/My\ Store/MyBookVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Common/XIB/PagerCell.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/My\ Account/SettingsVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Home/HomeVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/My\ Account/ChatVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/My\ Store/MyStoreVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Sell/moreCategoryDetailsVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Sell/RentBookVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Common/utils.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Common/ConstantString.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Home/DialogVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Prime/PrimeVideoVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Prime/PrimeVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/TimelineVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Prime/PrimeTestPaperVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/My\ Store/MyBookDetailsVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Common/XIB/TimeLineCarouselCell.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Prime/PrimeAudioVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/loginVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Common/XIB/TimelineCell.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Prime/PrimeBlogVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Common/Extentios.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Home/CategoryViseBookVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/TabBarVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/App\ Delegate/AppDelegate.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/SceneDelegate.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Common/XIB/AddProfileCell.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Home/ResetPasswordVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Common/ResponseStructs.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/My\ Account/MyAccountVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Sell/SellTypeVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Common/XIB/AllCategoryBookCell.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Common/XIB/NewAllBookCell.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Sell/SellCategoryVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Sell/SellBookVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Third\ Party\ Framework/SWRevealViewController/AlamofireSingleTon.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/RegisterVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Prime/PrimeE-BookVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Home/AllBookVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Sell/SellBookPriceVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Home/FilterVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Home/AllCategoryVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Common/BaseVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/My\ Store/LanguageWiseBookVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/SplashVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/ForgotPasswordVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Common/XIB/chatCell.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Prime/PrimebookVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Home/CallDetailsVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Sell/BookProfileVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Sell/SellDetailsVC.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Common/XIB/NewBookCell.swift
+/Users/macbook/Desktop/BookFarm/BookFarm/Application\ Layer/Controller/Sell/BothBookVC.swift

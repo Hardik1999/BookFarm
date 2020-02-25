@@ -1,0 +1,1214 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KingfisherDiskCacheCleanedHashKey"
+- "CacheType"
+- "CacheStoreResult"
+- "ImageCacheResult"
+- "ImageCache"
+provides-nominal:
+- "10Kingfisher9CacheTypeO"
+- "10Kingfisher16CacheStoreResultV"
+- "So7UIImageC"
+- "10Foundation4DataV"
+- "10Kingfisher16ImageCacheResultO"
+- "10Kingfisher10ImageCacheC"
+- "So13UIApplicationC"
+provides-member:
+- ["So18NSNotificationNamea", ""]
+- ["10Kingfisher9CacheTypeO", ""]
+- ["10Kingfisher16CacheStoreResultV", ""]
+- ["So7UIImageC", ""]
+- ["10Foundation4DataV", ""]
+- ["10Kingfisher16ImageCacheResultO", ""]
+- ["10Kingfisher10ImageCacheC", ""]
+- ["SD", ""]
+- ["So13UIApplicationC", ""]
+- ["10Kingfisher0A7WrapperV", ""]
+- ["SS", ""]
+- ["So18NSNotificationNamea", "KingfisherDidCleanDiskCache"]
+- ["SD", "keysSortedByValue"]
+- ["10Kingfisher0A7WrapperV", "shared"]
+- ["SS", "computedKey"]
+- ["10Kingfisher10ImageCacheC", "init"]
+provides-dynamic-lookup:
+- "backgroundCleanExpiredDiskCache"
+- "cleanExpiredDiskCache"
+- "clearMemoryCache"
+depends-top-level:
+- !private "!"
+- !private "/"
+- "=="
+- !private ">"
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CacheCostCalculable"
+- "CacheSerializer"
+- "CacheStoreResult"
+- "CacheType"
+- "CallbackQueue"
+- "CastingPrecedence"
+- "Data"
+- "DataTransformable"
+- !private "DefaultCacheSerializer"
+- !private "DefaultImageProcessor"
+- "Dictionary"
+- "DiskStorage"
+- "DispatchQueue"
+- !private "FloatLiteralType"
+- "Image"
+- "ImageCache"
+- "ImageCacheResult"
+- !private "ImageProcessItem"
+- !private "ImageProcessor"
+- "Int"
+- !private "IntegerLiteralType"
+- "KingfisherCompatible"
+- "KingfisherDiskCacheCleanedHashKey"
+- "KingfisherError"
+- "KingfisherOptionsInfo"
+- "KingfisherParsedOptionsInfo"
+- "KingfisherWrapper"
+- "MemoryStorage"
+- !private "NSSelectorFromString"
+- "Never"
+- "Notification"
+- !private "NotificationCenter"
+- !private "ProcessInfo"
+- "Result"
+- !private "Selector"
+- "StorageExpiration"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- "UIApplication"
+- !private "UIBackgroundTaskIdentifier"
+- "UInt"
+- "URL"
+- !private "UUID"
+- !private "UnicodeScalarType"
+- "Void"
+- !private "assertionFailure"
+- !private "fatalError"
+depends-member:
+- !private ["10Accelerate0A6BufferP", "append"]
+- !private ["10Accelerate0A6BufferP", "forEach"]
+- !private ["10Accelerate0A6BufferP", "init"]
+- !private ["10Accelerate0A6BufferP", "isEmpty"]
+- !private ["10Accelerate0A6BufferP", "map"]
+- !private ["10Accelerate0A6BufferP", "sorted"]
+- !private ["10Accelerate0A13MutableBufferP", "append"]
+- !private ["10Accelerate0A13MutableBufferP", "forEach"]
+- !private ["10Accelerate0A13MutableBufferP", "init"]
+- !private ["10Accelerate0A13MutableBufferP", "isEmpty"]
+- !private ["10Accelerate0A13MutableBufferP", "map"]
+- !private ["10Accelerate0A13MutableBufferP", "sorted"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["s18AdditiveArithmeticP", "max"]
+- !private ["Sa", "append"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "map"]
+- !private ["Sa", "sorted"]
+- !private ["10Kingfisher11DiskStorageO7BackendC", "cacheFileName"]
+- !private ["10Kingfisher11DiskStorageO7BackendC", "cacheFileURL"]
+- !private ["10Kingfisher11DiskStorageO7BackendC", "init"]
+- !private ["10Kingfisher13MemoryStorageO7BackendC", "init"]
+- !private ["10Kingfisher11DiskStorageO7BackendC", "isCached"]
+- !private ["10Kingfisher13MemoryStorageO7BackendC", "isCached"]
+- !private ["10Kingfisher11DiskStorageO7BackendC", "remove"]
+- !private ["10Kingfisher13MemoryStorageO7BackendC", "remove"]
+- !private ["10Kingfisher11DiskStorageO7BackendC", "removeAll"]
+- !private ["10Kingfisher13MemoryStorageO7BackendC", "removeAll"]
+- !private ["10Kingfisher13MemoryStorageO7BackendC", "removeExpired"]
+- !private ["10Kingfisher11DiskStorageO7BackendC", "removeExpiredValues"]
+- !private ["10Kingfisher11DiskStorageO7BackendC", "removeSizeExceededValues"]
+- !private ["10Kingfisher11DiskStorageO7BackendC", "store"]
+- !private ["10Kingfisher13MemoryStorageO7BackendC", "storeNoThrow"]
+- !private ["10Kingfisher11DiskStorageO7BackendC", "totalSize"]
+- !private ["10Kingfisher11DiskStorageO7BackendC", "value"]
+- !private ["10Kingfisher13MemoryStorageO7BackendC", "value"]
+- ["SK", "Data"]
+- !private ["SK", "append"]
+- !private ["SK", "appending"]
+- !private ["SK", "computedKey"]
+- ["SK", "empty"]
+- !private ["SK", "forEach"]
+- ["SK", "fromData"]
+- ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "map"]
+- !private ["SK", "sorted"]
+- ["SK", "toData"]
+- !private ["Sz", "init"]
+- !private ["Sz", "max"]
+- !private ["s7CVarArgP", "Array"]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "appending"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "beginBackgroundTask"]
+- ["s7CVarArgP", "cacheCost"]
+- !private ["s7CVarArgP", "computedKey"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "didEnterBackgroundNotification"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarningNotification"]
+- !private ["s7CVarArgP", "endBackgroundTask"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "kf"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "max"]
+- !private ["s7CVarArgP", "perform"]
+- !private ["s7CVarArgP", "physicalMemory"]
+- !private ["s7CVarArgP", "post"]
+- !private ["s7CVarArgP", "processInfo"]
+- !private ["s7CVarArgP", "removeObserver"]
+- !private ["s7CVarArgP", "responds"]
+- !private ["s7CVarArgP", "sorted"]
+- !private ["s7CVarArgP", "willTerminateNotification"]
+- ["10Kingfisher19CacheCostCalculableP", ""]
+- ["10Kingfisher19CacheCostCalculableP", "cacheCost"]
+- !private ["10Kingfisher19CacheCostCalculableP", "kf"]
+- !private ["10Kingfisher0A5ErrorO05CacheB6ReasonO", "cannotConvertToData"]
+- !private ["10Kingfisher0A5ErrorO05CacheB6ReasonO", "cannotSerializeImage"]
+- !private ["10Kingfisher15CacheSerializerP", "data"]
+- !private ["10Kingfisher15CacheSerializerP", "default"]
+- !private ["10Kingfisher15CacheSerializerP", "image"]
+- ["10Kingfisher16CacheStoreResultV", "KingfisherError"]
+- ["10Kingfisher16CacheStoreResultV", "Never"]
+- ["10Kingfisher16CacheStoreResultV", "Result"]
+- ["10Kingfisher16CacheStoreResultV", "diskCacheResult"]
+- ["10Kingfisher16CacheStoreResultV", "init"]
+- ["10Kingfisher16CacheStoreResultV", "memoryCacheResult"]
+- ["10Kingfisher9CacheTypeO", "=="]
+- ["10Kingfisher9CacheTypeO", "Bool"]
+- ["10Kingfisher9CacheTypeO", "__derived_enum_equals"]
+- ["10Kingfisher9CacheTypeO", "_rawHashValue"]
+- ["10Kingfisher9CacheTypeO", "cached"]
+- ["10Kingfisher9CacheTypeO", "deinit"]
+- ["10Kingfisher9CacheTypeO", "disk"]
+- ["10Kingfisher9CacheTypeO", "hash"]
+- ["10Kingfisher9CacheTypeO", "hashValue"]
+- ["10Kingfisher9CacheTypeO", "memory"]
+- ["10Kingfisher9CacheTypeO", "none"]
+- !private ["10Kingfisher13CallbackQueueO", "dispatch"]
+- !private ["10Kingfisher13CallbackQueueO", "execute"]
+- !private ["10Kingfisher13CallbackQueueO", "untouch"]
+- !private ["Sl", "Array"]
+- ["Sl", "Data"]
+- !private ["Sl", "append"]
+- !private ["Sl", "appending"]
+- !private ["Sl", "computedKey"]
+- ["Sl", "empty"]
+- !private ["Sl", "forEach"]
+- ["Sl", "fromData"]
+- ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "map"]
+- !private ["Sl", "sorted"]
+- ["Sl", "toData"]
+- !private ["SL", "appending"]
+- !private ["SL", "computedKey"]
+- !private ["SL", "init"]
+- !private ["SL", "isEmpty"]
+- !private ["SL", "max"]
+- !private ["10Kingfisher11DiskStorageO6ConfigV", "cachePathBlock"]
+- !private ["10Kingfisher11DiskStorageO6ConfigV", "init"]
+- !private ["10Kingfisher13MemoryStorageO6ConfigV", "init"]
+- ["10Foundation15ContiguousBytesP", "Data"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- ["10Foundation15ContiguousBytesP", "empty"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- ["10Foundation15ContiguousBytesP", "fromData"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "sorted"]
+- ["10Foundation15ContiguousBytesP", "toData"]
+- !private ["s28CustomDebugStringConvertibleP", "Array"]
+- ["s28CustomDebugStringConvertibleP", "Data"]
+- ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "appending"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "beginBackgroundTask"]
+- ["s28CustomDebugStringConvertibleP", "cacheCost"]
+- !private ["s28CustomDebugStringConvertibleP", "computedKey"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "didEnterBackgroundNotification"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarningNotification"]
+- ["s28CustomDebugStringConvertibleP", "empty"]
+- !private ["s28CustomDebugStringConvertibleP", "endBackgroundTask"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- ["s28CustomDebugStringConvertibleP", "fromData"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "kf"]
+- !private ["s28CustomDebugStringConvertibleP", "lastPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "perform"]
+- !private ["s28CustomDebugStringConvertibleP", "physicalMemory"]
+- !private ["s28CustomDebugStringConvertibleP", "post"]
+- !private ["s28CustomDebugStringConvertibleP", "processInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "responds"]
+- !private ["s28CustomDebugStringConvertibleP", "sorted"]
+- !private ["s28CustomDebugStringConvertibleP", "takeUnretainedValue"]
+- ["s28CustomDebugStringConvertibleP", "toData"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s28CustomDebugStringConvertibleP", "willTerminateNotification"]
+- !private ["10Foundation13CustomNSErrorP", "cacheError"]
+- !private ["s17CustomReflectableP", "Array"]
+- ["s17CustomReflectableP", "Data"]
+- ["s17CustomReflectableP", "Name"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "appending"]
+- !private ["s17CustomReflectableP", "computedKey"]
+- ["s17CustomReflectableP", "empty"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "forEach"]
+- ["s17CustomReflectableP", "fromData"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "max"]
+- !private ["s17CustomReflectableP", "sorted"]
+- !private ["s17CustomReflectableP", "takeUnretainedValue"]
+- ["s17CustomReflectableP", "toData"]
+- !private ["s17CustomReflectableP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "Array"]
+- ["s23CustomStringConvertibleP", "Data"]
+- ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "appending"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "beginBackgroundTask"]
+- ["s23CustomStringConvertibleP", "cacheCost"]
+- !private ["s23CustomStringConvertibleP", "computedKey"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "didEnterBackgroundNotification"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarningNotification"]
+- ["s23CustomStringConvertibleP", "empty"]
+- !private ["s23CustomStringConvertibleP", "endBackgroundTask"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- ["s23CustomStringConvertibleP", "fromData"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "kf"]
+- !private ["s23CustomStringConvertibleP", "lastPathComponent"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "perform"]
+- !private ["s23CustomStringConvertibleP", "physicalMemory"]
+- !private ["s23CustomStringConvertibleP", "post"]
+- !private ["s23CustomStringConvertibleP", "processInfo"]
+- !private ["s23CustomStringConvertibleP", "removeObserver"]
+- !private ["s23CustomStringConvertibleP", "responds"]
+- !private ["s23CustomStringConvertibleP", "sorted"]
+- ["s23CustomStringConvertibleP", "toData"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "willTerminateNotification"]
+- ["10Foundation4DataV", "Data"]
+- ["10Foundation4DataV", "deinit"]
+- ["10Foundation4DataV", "empty"]
+- ["10Foundation4DataV", "fromData"]
+- ["10Foundation4DataV", "init"]
+- ["10Foundation4DataV", "toData"]
+- ["10Foundation12DataProtocolP", "Data"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- ["10Foundation12DataProtocolP", "empty"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- ["10Foundation12DataProtocolP", "fromData"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "sorted"]
+- ["10Foundation12DataProtocolP", "toData"]
+- ["10Kingfisher17DataTransformableP", "Data"]
+- ["10Kingfisher17DataTransformableP", ""]
+- ["10Kingfisher17DataTransformableP", "empty"]
+- ["10Kingfisher17DataTransformableP", "fromData"]
+- ["10Kingfisher17DataTransformableP", "init"]
+- ["10Kingfisher17DataTransformableP", "toData"]
+- !private ["Se", "Array"]
+- ["Se", "Data"]
+- !private ["Se", "append"]
+- !private ["Se", "appending"]
+- !private ["Se", "computedKey"]
+- ["Se", "empty"]
+- !private ["Se", "flatMap"]
+- !private ["Se", "forEach"]
+- ["Se", "fromData"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "lastPathComponent"]
+- !private ["Se", "map"]
+- !private ["Se", "max"]
+- !private ["Se", "path"]
+- !private ["Se", "sorted"]
+- !private ["Se", "takeUnretainedValue"]
+- ["Se", "toData"]
+- !private ["Se", "uuidString"]
+- !private ["10Kingfisher22DefaultCacheSerializerV", "default"]
+- !private ["10Kingfisher22DefaultCacheSerializerV", "deinit"]
+- !private ["10Kingfisher21DefaultImageProcessorV", "default"]
+- !private ["10Kingfisher21DefaultImageProcessorV", "deinit"]
+- !private ["10Kingfisher21DefaultImageProcessorV", "identifier"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "Array"]
+- ["SD", "Bool"]
+- ["SD", "keysSortedByValue"]
+- ["10Kingfisher11DiskStorageO", "Backend"]
+- !private ["10Kingfisher11DiskStorageO", "Config"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "init"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "Array"]
+- ["SE", "Data"]
+- !private ["SE", "append"]
+- !private ["SE", "appending"]
+- !private ["SE", "computedKey"]
+- ["SE", "empty"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "forEach"]
+- ["SE", "fromData"]
+- ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "lastPathComponent"]
+- !private ["SE", "map"]
+- !private ["SE", "max"]
+- !private ["SE", "path"]
+- !private ["SE", "sorted"]
+- !private ["SE", "takeUnretainedValue"]
+- ["SE", "toData"]
+- !private ["SE", "uuidString"]
+- ["SQ", "=="]
+- !private ["SQ", "Array"]
+- ["SQ", "Data"]
+- !private ["SQ", "KingfisherDidCleanDiskCache"]
+- ["SQ", "Name"]
+- ["SQ", "Notification"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "addObserver"]
+- !private ["SQ", "append"]
+- !private ["SQ", "appending"]
+- !private ["SQ", "async"]
+- !private ["SQ", "beginBackgroundTask"]
+- ["SQ", "cacheCost"]
+- !private ["SQ", "cached"]
+- !private ["SQ", "computedKey"]
+- !private ["SQ", "default"]
+- !private ["SQ", "didEnterBackgroundNotification"]
+- !private ["SQ", "didReceiveMemoryWarningNotification"]
+- ["SQ", "disk"]
+- ["SQ", "empty"]
+- !private ["SQ", "endBackgroundTask"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "forEach"]
+- ["SQ", "fromData"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "invalid"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "kf"]
+- !private ["SQ", "lastPathComponent"]
+- !private ["SQ", "main"]
+- !private ["SQ", "map"]
+- !private ["SQ", "max"]
+- ["SQ", "memory"]
+- ["SQ", "none"]
+- !private ["SQ", "path"]
+- !private ["SQ", "perform"]
+- !private ["SQ", "physicalMemory"]
+- !private ["SQ", "post"]
+- !private ["SQ", "processInfo"]
+- !private ["SQ", "removeObserver"]
+- !private ["SQ", "responds"]
+- !private ["SQ", "sorted"]
+- !private ["SQ", "success"]
+- !private ["SQ", "takeUnretainedValue"]
+- ["SQ", "toData"]
+- !private ["SQ", "uuidString"]
+- !private ["SQ", "willTerminateNotification"]
+- !private ["s5ErrorP", "cacheError"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "sorted"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Array"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "appending"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "computedKey"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "max"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["s23ExpressibleByNilLiteralP", "takeUnretainedValue"]
+- !private ["s32ExpressibleByStringInterpolationP", "appending"]
+- !private ["s32ExpressibleByStringInterpolationP", "computedKey"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "appending"]
+- !private ["s26ExpressibleByStringLiteralP", "computedKey"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "appending"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "computedKey"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "max"]
+- ["SH", "=="]
+- !private ["SH", "Array"]
+- ["SH", "Data"]
+- !private ["SH", "KingfisherDidCleanDiskCache"]
+- ["SH", "Name"]
+- ["SH", "Notification"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "addObserver"]
+- !private ["SH", "append"]
+- !private ["SH", "appending"]
+- !private ["SH", "async"]
+- !private ["SH", "beginBackgroundTask"]
+- ["SH", "cacheCost"]
+- !private ["SH", "cached"]
+- !private ["SH", "computedKey"]
+- !private ["SH", "default"]
+- !private ["SH", "didEnterBackgroundNotification"]
+- !private ["SH", "didReceiveMemoryWarningNotification"]
+- ["SH", "disk"]
+- ["SH", "empty"]
+- !private ["SH", "endBackgroundTask"]
+- !private ["SH", "failure"]
+- !private ["SH", "flatMap"]
+- !private ["SH", "forEach"]
+- ["SH", "fromData"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "invalid"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "kf"]
+- !private ["SH", "lastPathComponent"]
+- !private ["SH", "main"]
+- !private ["SH", "map"]
+- !private ["SH", "max"]
+- ["SH", "memory"]
+- ["SH", "none"]
+- !private ["SH", "path"]
+- !private ["SH", "perform"]
+- !private ["SH", "physicalMemory"]
+- !private ["SH", "post"]
+- !private ["SH", "processInfo"]
+- !private ["SH", "removeObserver"]
+- !private ["SH", "responds"]
+- !private ["SH", "sorted"]
+- !private ["SH", "success"]
+- !private ["SH", "takeUnretainedValue"]
+- ["SH", "toData"]
+- !private ["SH", "uuidString"]
+- !private ["SH", "willTerminateNotification"]
+- !private ["s6HasherV", "combine"]
+- ["10Kingfisher10ImageCacheC", "Bool"]
+- ["10Kingfisher10ImageCacheC", "CacheSerializer"]
+- ["10Kingfisher10ImageCacheC", "CacheStoreResult"]
+- ["10Kingfisher10ImageCacheC", "CacheType"]
+- ["10Kingfisher10ImageCacheC", "CallbackQueue"]
+- ["10Kingfisher10ImageCacheC", "Data"]
+- !private ["10Kingfisher10ImageCacheC", "DefaultCacheSerializer"]
+- !private ["10Kingfisher10ImageCacheC", "DefaultImageProcessor"]
+- ["10Kingfisher10ImageCacheC", "DiskCachePathClosure"]
+- ["10Kingfisher10ImageCacheC", "DiskStorage"]
+- ["10Kingfisher10ImageCacheC", "DispatchQueue"]
+- ["10Kingfisher10ImageCacheC", "Image"]
+- ["10Kingfisher10ImageCacheC", "ImageCache"]
+- ["10Kingfisher10ImageCacheC", "ImageCacheResult"]
+- !private ["10Kingfisher10ImageCacheC", "ImageProcessItem"]
+- !private ["10Kingfisher10ImageCacheC", "ImageProcessor"]
+- !private ["10Kingfisher10ImageCacheC", "Int"]
+- !private ["10Kingfisher10ImageCacheC", "KingfisherDiskCacheCleanedHashKey"]
+- ["10Kingfisher10ImageCacheC", "KingfisherError"]
+- ["10Kingfisher10ImageCacheC", "KingfisherOptionsInfo"]
+- ["10Kingfisher10ImageCacheC", "KingfisherParsedOptionsInfo"]
+- !private ["10Kingfisher10ImageCacheC", "KingfisherWrapper"]
+- ["10Kingfisher10ImageCacheC", "MemoryStorage"]
+- !private ["10Kingfisher10ImageCacheC", "Notification"]
+- !private ["10Kingfisher10ImageCacheC", "NotificationCenter"]
+- !private ["10Kingfisher10ImageCacheC", "ProcessInfo"]
+- ["10Kingfisher10ImageCacheC", "Result"]
+- !private ["10Kingfisher10ImageCacheC", "Selector"]
+- ["10Kingfisher10ImageCacheC", "StorageExpiration"]
+- ["10Kingfisher10ImageCacheC", "String"]
+- !private ["10Kingfisher10ImageCacheC", "UIApplication"]
+- !private ["10Kingfisher10ImageCacheC", "UIBackgroundTaskIdentifier"]
+- ["10Kingfisher10ImageCacheC", "UInt"]
+- ["10Kingfisher10ImageCacheC", "URL"]
+- !private ["10Kingfisher10ImageCacheC", "UUID"]
+- ["10Kingfisher10ImageCacheC", "Void"]
+- !private ["10Kingfisher10ImageCacheC", "assertionFailure"]
+- ["10Kingfisher10ImageCacheC", "backgroundCleanExpiredDiskCache"]
+- ["10Kingfisher10ImageCacheC", "cachePath"]
+- ["10Kingfisher10ImageCacheC", "calculateDiskStorageSize"]
+- ["10Kingfisher10ImageCacheC", "cleanExpiredDiskCache"]
+- ["10Kingfisher10ImageCacheC", "cleanExpiredMemoryCache"]
+- ["10Kingfisher10ImageCacheC", "clearDiskCache"]
+- ["10Kingfisher10ImageCacheC", "clearMemoryCache"]
+- ["10Kingfisher10ImageCacheC", "default"]
+- ["10Kingfisher10ImageCacheC", "deinit"]
+- ["10Kingfisher10ImageCacheC", "diskStorage"]
+- !private ["10Kingfisher10ImageCacheC", "fatalError"]
+- ["10Kingfisher10ImageCacheC", "hash"]
+- ["10Kingfisher10ImageCacheC", "imageCachedType"]
+- ["10Kingfisher10ImageCacheC", "init"]
+- !private ["10Kingfisher10ImageCacheC", "ioQueue"]
+- ["10Kingfisher10ImageCacheC", "isCached"]
+- ["10Kingfisher10ImageCacheC", "memoryStorage"]
+- ["10Kingfisher10ImageCacheC", "removeImage"]
+- ["10Kingfisher10ImageCacheC", "retrieveImage"]
+- ["10Kingfisher10ImageCacheC", "retrieveImageInDiskCache"]
+- ["10Kingfisher10ImageCacheC", "retrieveImageInMemoryCache"]
+- ["10Kingfisher10ImageCacheC", "store"]
+- ["10Kingfisher10ImageCacheC", "storeToDisk"]
+- !private ["10Kingfisher10ImageCacheC", "syncStoreToDisk"]
+- ["10Kingfisher16ImageCacheResultO", "CacheType"]
+- ["10Kingfisher16ImageCacheResultO", "Image"]
+- ["10Kingfisher16ImageCacheResultO", "cacheType"]
+- ["10Kingfisher16ImageCacheResultO", "disk"]
+- ["10Kingfisher16ImageCacheResultO", "image"]
+- ["10Kingfisher16ImageCacheResultO", "memory"]
+- ["10Kingfisher16ImageCacheResultO", "none"]
+- !private ["10Kingfisher13ImageModifierP", "modify"]
+- !private ["10Kingfisher14ImageProcessorP", ""]
+- !private ["10Kingfisher14ImageProcessorP", "default"]
+- !private ["10Kingfisher14ImageProcessorP", "identifier"]
+- !private ["10Kingfisher14ImageProcessorP", "init"]
+- !private ["10Kingfisher14ImageProcessorP", "process"]
+- !private ["Si", "init"]
+- !private ["Si", "max"]
+- ["10Kingfisher0A10CompatibleP", ""]
+- !private ["10Kingfisher0A10CompatibleP", "beginBackgroundTask"]
+- ["10Kingfisher0A10CompatibleP", "cacheCost"]
+- !private ["10Kingfisher0A10CompatibleP", "didEnterBackgroundNotification"]
+- !private ["10Kingfisher0A10CompatibleP", "didReceiveMemoryWarningNotification"]
+- !private ["10Kingfisher0A10CompatibleP", "endBackgroundTask"]
+- !private ["10Kingfisher0A10CompatibleP", "kf"]
+- !private ["10Kingfisher0A10CompatibleP", "perform"]
+- !private ["10Kingfisher0A10CompatibleP", "responds"]
+- !private ["10Kingfisher0A10CompatibleP", "willTerminateNotification"]
+- ["10Kingfisher0A15CompatibleValueP", "Data"]
+- !private ["10Kingfisher0A15CompatibleValueP", "appending"]
+- !private ["10Kingfisher0A15CompatibleValueP", "computedKey"]
+- ["10Kingfisher0A15CompatibleValueP", "empty"]
+- ["10Kingfisher0A15CompatibleValueP", "fromData"]
+- ["10Kingfisher0A15CompatibleValueP", "init"]
+- !private ["10Kingfisher0A15CompatibleValueP", "isEmpty"]
+- ["10Kingfisher0A15CompatibleValueP", "toData"]
+- !private ["10Kingfisher0A5ErrorO", "cacheError"]
+- ["10Kingfisher0A5ErrorO", "deinit"]
+- !private ["10Kingfisher0A15OptionsInfoItemO", "cacheSerializer"]
+- !private ["10Kingfisher0A15OptionsInfoItemO", "callbackQueue"]
+- !private ["10Kingfisher0A15OptionsInfoItemO", "processor"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "cacheSerializer"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "callbackQueue"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "diskCacheExpiration"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "fromMemoryCacheOrRefresh"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "imageModifier"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "init"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "loadDiskFileSynchronously"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "memoryCacheAccessExtendingExpiration"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "memoryCacheExpiration"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "processor"]
+- !private ["10Kingfisher0A7WrapperV", "NSSelectorFromString"]
+- ["10Kingfisher0A7WrapperV", "UIApplication"]
+- !private ["10Kingfisher0A7WrapperV", "cost"]
+- ["10Kingfisher0A7WrapperV", "shared"]
+- !private ["10Foundation14LocalizedErrorP", "cacheError"]
+- !private ["s25LosslessStringConvertibleP", "appending"]
+- !private ["s25LosslessStringConvertibleP", "computedKey"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s25LosslessStringConvertibleP", "max"]
+- ["10Kingfisher13MemoryStorageO", "Backend"]
+- !private ["s10MirrorPathP", "appending"]
+- !private ["s10MirrorPathP", "computedKey"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["s10MirrorPathP", "max"]
+- ["SM", "Data"]
+- !private ["SM", "append"]
+- ["SM", "empty"]
+- !private ["SM", "forEach"]
+- ["SM", "fromData"]
+- ["SM", "init"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "map"]
+- !private ["SM", "sorted"]
+- ["SM", "toData"]
+- ["10Foundation19MutableDataProtocolP", "Data"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- ["10Foundation19MutableDataProtocolP", "empty"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- ["10Foundation19MutableDataProtocolP", "fromData"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "sorted"]
+- ["10Foundation19MutableDataProtocolP", "toData"]
+- !private ["So8NSCodingP", "appending"]
+- ["So8NSCodingP", "cacheCost"]
+- !private ["So8NSCodingP", "computedKey"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So8NSCodingP", "kf"]
+- !private ["So9NSCopyingP", "appending"]
+- !private ["So9NSCopyingP", "computedKey"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "appending"]
+- ["So21NSItemProviderReadingP", "cacheCost"]
+- !private ["So21NSItemProviderReadingP", "computedKey"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "kf"]
+- !private ["So21NSItemProviderWritingP", "appending"]
+- ["So21NSItemProviderWritingP", "cacheCost"]
+- !private ["So21NSItemProviderWritingP", "computedKey"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "kf"]
+- !private ["So16NSMutableCopyingP", "appending"]
+- !private ["So16NSMutableCopyingP", "computedKey"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "addObserver"]
+- !private ["So8NSObjectC", "appending"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "beginBackgroundTask"]
+- ["So8NSObjectC", "cacheCost"]
+- !private ["So8NSObjectC", "computedKey"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "didEnterBackgroundNotification"]
+- !private ["So8NSObjectC", "didReceiveMemoryWarningNotification"]
+- !private ["So8NSObjectC", "endBackgroundTask"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "kf"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "perform"]
+- !private ["So8NSObjectC", "physicalMemory"]
+- !private ["So8NSObjectC", "post"]
+- !private ["So8NSObjectC", "processInfo"]
+- !private ["So8NSObjectC", "removeObserver"]
+- !private ["So8NSObjectC", "responds"]
+- !private ["So8NSObjectC", "willTerminateNotification"]
+- !private ["So8NSObjectP", "addObserver"]
+- !private ["So8NSObjectP", "appending"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "beginBackgroundTask"]
+- ["So8NSObjectP", "cacheCost"]
+- !private ["So8NSObjectP", "computedKey"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "didEnterBackgroundNotification"]
+- !private ["So8NSObjectP", "didReceiveMemoryWarningNotification"]
+- !private ["So8NSObjectP", "endBackgroundTask"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So8NSObjectP", "kf"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "perform"]
+- !private ["So8NSObjectP", "physicalMemory"]
+- !private ["So8NSObjectP", "post"]
+- !private ["So8NSObjectP", "processInfo"]
+- !private ["So8NSObjectP", "removeObserver"]
+- !private ["So8NSObjectP", "responds"]
+- !private ["So8NSObjectP", "willTerminateNotification"]
+- !private ["So14NSSecureCodingP", "appending"]
+- ["So14NSSecureCodingP", "cacheCost"]
+- !private ["So14NSSecureCodingP", "computedKey"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "kf"]
+- !private ["So8NSStringC", "appending"]
+- !private ["So8NSStringC", "computedKey"]
+- !private ["So8NSStringC", "isEmpty"]
+- ["So18NSNotificationNamea", "KingfisherDidCleanDiskCache"]
+- ["So18NSNotificationNamea", "Notification"]
+- ["So18NSNotificationNamea", "init"]
+- ["10Foundation12NotificationV", "Name"]
+- !private ["So20NSNotificationCenterC", "addObserver"]
+- !private ["So20NSNotificationCenterC", "default"]
+- !private ["So20NSNotificationCenterC", "post"]
+- !private ["So20NSNotificationCenterC", "removeObserver"]
+- !private ["Sj", "init"]
+- !private ["Sj", "max"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "main"]
+- !private ["Sq", "flatMap"]
+- !private ["Sq", "takeUnretainedValue"]
+- ["10Kingfisher11PlaceholderP", "cacheCost"]
+- !private ["10Kingfisher11PlaceholderP", "kf"]
+- !private ["So13NSProcessInfoC", "physicalMemory"]
+- !private ["So13NSProcessInfoC", "processInfo"]
+- ["Sk", "Data"]
+- !private ["Sk", "append"]
+- ["Sk", "empty"]
+- !private ["Sk", "forEach"]
+- ["Sk", "fromData"]
+- ["Sk", "init"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "map"]
+- !private ["Sk", "sorted"]
+- ["Sk", "toData"]
+- ["Sm", "Data"]
+- !private ["Sm", "append"]
+- !private ["Sm", "appending"]
+- !private ["Sm", "computedKey"]
+- ["Sm", "empty"]
+- !private ["Sm", "forEach"]
+- ["Sm", "fromData"]
+- ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "map"]
+- !private ["Sm", "sorted"]
+- ["Sm", "toData"]
+- !private ["SY", "KingfisherDidCleanDiskCache"]
+- ["SY", "Notification"]
+- ["SY", "init"]
+- !private ["SY", "invalid"]
+- ["10Foundation20ReferenceConvertibleP", "Data"]
+- ["10Foundation20ReferenceConvertibleP", "Name"]
+- ["10Foundation20ReferenceConvertibleP", "empty"]
+- ["10Foundation20ReferenceConvertibleP", "fromData"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "lastPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- ["10Foundation20ReferenceConvertibleP", "toData"]
+- !private ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- !private ["10Kingfisher8ResourceP", "init"]
+- !private ["10Kingfisher8ResourceP", "lastPathComponent"]
+- !private ["10Kingfisher8ResourceP", "path"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s10SIMDScalarP", "max"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "init"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["ST", "Array"]
+- ["ST", "Data"]
+- !private ["ST", "append"]
+- !private ["ST", "appending"]
+- !private ["ST", "computedKey"]
+- ["ST", "empty"]
+- !private ["ST", "forEach"]
+- ["ST", "fromData"]
+- ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "map"]
+- !private ["ST", "sorted"]
+- ["ST", "toData"]
+- !private ["SZ", "init"]
+- !private ["SZ", "max"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "max"]
+- !private ["Sx", "init"]
+- !private ["Sx", "max"]
+- ["SS", "String"]
+- !private ["SS", "appending"]
+- ["SS", "computedKey"]
+- !private ["SS", "isEmpty"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "appending"]
+- !private ["Sy", "computedKey"]
+- !private ["Sy", "isEmpty"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appending"]
+- !private ["s16TextOutputStreamP", "computedKey"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "appending"]
+- !private ["s20TextOutputStreamableP", "computedKey"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- ["So29UIAccessibilityIdentificationP", "cacheCost"]
+- !private ["So29UIAccessibilityIdentificationP", "kf"]
+- !private ["So13UIApplicationC", "beginBackgroundTask"]
+- ["So13UIApplicationC", "deinit"]
+- !private ["So13UIApplicationC", "didEnterBackgroundNotification"]
+- !private ["So13UIApplicationC", "didReceiveMemoryWarningNotification"]
+- !private ["So13UIApplicationC", "endBackgroundTask"]
+- !private ["So13UIApplicationC", "perform"]
+- !private ["So13UIApplicationC", "responds"]
+- !private ["So13UIApplicationC", "willTerminateNotification"]
+- !private ["So26UIBackgroundTaskIdentifiera", "invalid"]
+- ["So7UIImageC", "Int"]
+- ["So7UIImageC", "cacheCost"]
+- ["So7UIImageC", "deinit"]
+- !private ["So7UIImageC", "kf"]
+- ["So39UIItemProviderPresentationSizeProvidingP", "cacheCost"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "kf"]
+- !private ["So30UIPasteConfigurationSupportingP", "beginBackgroundTask"]
+- !private ["So30UIPasteConfigurationSupportingP", "didEnterBackgroundNotification"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarningNotification"]
+- !private ["So30UIPasteConfigurationSupportingP", "endBackgroundTask"]
+- !private ["So30UIPasteConfigurationSupportingP", "perform"]
+- !private ["So30UIPasteConfigurationSupportingP", "responds"]
+- !private ["So30UIPasteConfigurationSupportingP", "willTerminateNotification"]
+- !private ["So11UIResponderC", "beginBackgroundTask"]
+- !private ["So11UIResponderC", "didEnterBackgroundNotification"]
+- !private ["So11UIResponderC", "didReceiveMemoryWarningNotification"]
+- !private ["So11UIResponderC", "endBackgroundTask"]
+- !private ["So11UIResponderC", "perform"]
+- !private ["So11UIResponderC", "responds"]
+- !private ["So11UIResponderC", "willTerminateNotification"]
+- !private ["So30UIResponderStandardEditActionsP", "beginBackgroundTask"]
+- !private ["So30UIResponderStandardEditActionsP", "didEnterBackgroundNotification"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarningNotification"]
+- !private ["So30UIResponderStandardEditActionsP", "endBackgroundTask"]
+- !private ["So30UIResponderStandardEditActionsP", "perform"]
+- !private ["So30UIResponderStandardEditActionsP", "responds"]
+- !private ["So30UIResponderStandardEditActionsP", "willTerminateNotification"]
+- !private ["So23UIUserActivityRestoringP", "beginBackgroundTask"]
+- !private ["So23UIUserActivityRestoringP", "didEnterBackgroundNotification"]
+- !private ["So23UIUserActivityRestoringP", "didReceiveMemoryWarningNotification"]
+- !private ["So23UIUserActivityRestoringP", "endBackgroundTask"]
+- !private ["So23UIUserActivityRestoringP", "perform"]
+- !private ["So23UIUserActivityRestoringP", "responds"]
+- !private ["So23UIUserActivityRestoringP", "willTerminateNotification"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation3URLV", "lastPathComponent"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["10Foundation4UUIDV", "init"]
+- !private ["10Foundation4UUIDV", "uuidString"]
+- !private ["s9UnmanagedV", "takeUnretainedValue"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "sorted"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "appending"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "computedKey"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "lastPathComponent"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "max"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "path"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "sorted"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "appending"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "computedKey"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "max"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "appending"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "computedKey"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "appending"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "computedKey"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "lastPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- ["s26_ExpressibleByImageLiteralP", "cacheCost"]
+- !private ["s26_ExpressibleByImageLiteralP", "kf"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "appending"]
+- !private ["s19_HasContiguousBytesP", "computedKey"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "sorted"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Array"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "KingfisherDidCleanDiskCache"]
+- ["s35_HasCustomAnyHashableRepresentationP", "Notification"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "appending"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "computedKey"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "invalid"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "max"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "sorted"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appending"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "beginBackgroundTask"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "cacheCost"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "computedKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didEnterBackgroundNotification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarningNotification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endBackgroundTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kf"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "perform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "physicalMemory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "post"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "processInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "responds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "willTerminateNotification"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addObserver"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "appending"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "beginBackgroundTask"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cacheCost"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "computedKey"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didEnterBackgroundNotification"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didReceiveMemoryWarningNotification"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "endBackgroundTask"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "kf"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "perform"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "physicalMemory"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "post"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "processInfo"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeObserver"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "responds"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "willTerminateNotification"]
+- !private ["s21_ObjectiveCBridgeableP", "Array"]
+- ["s21_ObjectiveCBridgeableP", "Data"]
+- !private ["s21_ObjectiveCBridgeableP", "KingfisherDidCleanDiskCache"]
+- ["s21_ObjectiveCBridgeableP", "Name"]
+- ["s21_ObjectiveCBridgeableP", "Notification"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "appending"]
+- !private ["s21_ObjectiveCBridgeableP", "computedKey"]
+- ["s21_ObjectiveCBridgeableP", "empty"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- ["s21_ObjectiveCBridgeableP", "fromData"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "invalid"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "lastPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "max"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+- !private ["s21_ObjectiveCBridgeableP", "sorted"]
+- !private ["s21_ObjectiveCBridgeableP", "takeUnretainedValue"]
+- ["s21_ObjectiveCBridgeableP", "toData"]
+- !private ["s21_ObjectiveCBridgeableP", "uuidString"]
+- !private ["s20_SwiftNewtypeWrapperP", "KingfisherDidCleanDiskCache"]
+- ["s20_SwiftNewtypeWrapperP", "Notification"]
+- ["s20_SwiftNewtypeWrapperP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "invalid"]
+depends-nominal:
+- !private "10Accelerate0A6BufferP"
+- !private "10Accelerate0A13MutableBufferP"
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "10Kingfisher11DiskStorageO7BackendC"
+- !private "10Kingfisher13MemoryStorageO7BackendC"
+- !private "10Kingfisher11DiskStorageO7BackendC"
+- !private "10Kingfisher13MemoryStorageO7BackendC"
+- !private "10Kingfisher11DiskStorageO7BackendC"
+- !private "10Kingfisher13MemoryStorageO7BackendC"
+- !private "10Kingfisher11DiskStorageO7BackendC"
+- !private "10Kingfisher13MemoryStorageO7BackendC"
+- !private "10Kingfisher11DiskStorageO7BackendC"
+- !private "10Kingfisher13MemoryStorageO7BackendC"
+- !private "10Kingfisher11DiskStorageO7BackendC"
+- !private "10Kingfisher13MemoryStorageO7BackendC"
+- "SK"
+- !private "Sz"
+- "s7CVarArgP"
+- "10Kingfisher19CacheCostCalculableP"
+- !private "10Kingfisher0A5ErrorO05CacheB6ReasonO"
+- !private "10Kingfisher15CacheSerializerP"
+- "10Kingfisher16CacheStoreResultV"
+- "10Kingfisher9CacheTypeO"
+- !private "10Kingfisher13CallbackQueueO"
+- "Sl"
+- !private "SL"
+- !private "10Kingfisher11DiskStorageO6ConfigV"
+- !private "10Kingfisher13MemoryStorageO6ConfigV"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "10Foundation13CustomNSErrorP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DataV"
+- "10Foundation12DataProtocolP"
+- "10Kingfisher17DataTransformableP"
+- "Se"
+- !private "10Kingfisher22DefaultCacheSerializerV"
+- !private "10Kingfisher21DefaultImageProcessorV"
+- !private "s26DefaultStringInterpolationV"
+- "SD"
+- "10Kingfisher11DiskStorageO"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s6HasherV"
+- "10Kingfisher10ImageCacheC"
+- "10Kingfisher16ImageCacheResultO"
+- !private "10Kingfisher13ImageModifierP"
+- !private "10Kingfisher14ImageProcessorP"
+- !private "Si"
+- "10Kingfisher0A10CompatibleP"
+- "10Kingfisher0A15CompatibleValueP"
+- "10Kingfisher0A5ErrorO"
+- !private "10Kingfisher0A15OptionsInfoItemO"
+- !private "10Kingfisher0A17ParsedOptionsInfoV"
+- "10Kingfisher0A7WrapperV"
+- !private "10Foundation14LocalizedErrorP"
+- !private "s25LosslessStringConvertibleP"
+- "10Kingfisher13MemoryStorageO"
+- !private "s10MirrorPathP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "So18NSNotificationNamea"
+- "10Foundation12NotificationV"
+- !private "So20NSNotificationCenterC"
+- !private "Sj"
+- !private "So9OS_objectC"
+- !private "Sq"
+- "10Kingfisher11PlaceholderP"
+- !private "So13NSProcessInfoC"
+- "Sk"
+- "Sm"
+- "SY"
+- "10Foundation20ReferenceConvertibleP"
+- !private "10Kingfisher8ResourceP"
+- !private "s6ResultO"
+- !private "s10SIMDScalarP"
+- !private "7Combine9SchedulerP"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So13UIApplicationC"
+- !private "So26UIBackgroundTaskIdentifiera"
+- "So7UIImageC"
+- "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So23UIUserActivityRestoringP"
+- !private "10Foundation3URLV"
+- !private "10Foundation4UUIDV"
+- !private "s9UnmanagedV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s26_ExpressibleByImageLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Accelerate.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/Pods/Kingfisher/Sources/Kingfisher.h"
+- "/Users/macbook/Desktop/BookFarm/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c188b5d2a8e94cb0292f83190a4a85c0"

@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "613ac22f1f68373cd4e645214266cdca"
+build_time: [1581658402, 312511000]
+inputs:
+  "/Users/macbook/Desktop/BookFarm/Pods/Alamofire/Source/AFError.swift": [1580266378, 818220040]
+  "/Users/macbook/Desktop/BookFarm/Pods/Alamofire/Source/Alamofire.swift": [1580266378, 822018835]
+  "/Users/macbook/Desktop/BookFarm/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1580266378, 815042618]
+  "/Users/macbook/Desktop/BookFarm/Pods/Alamofire/Source/MultipartFormData.swift": [1580266378, 812471386]
+  "/Users/macbook/Desktop/BookFarm/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1580266378, 813501474]
+  "/Users/macbook/Desktop/BookFarm/Pods/Alamofire/Source/Notifications.swift": [1580266378, 819753700]
+  "/Users/macbook/Desktop/BookFarm/Pods/Alamofire/Source/ParameterEncoding.swift": [1580266378, 817041539]
+  "/Users/macbook/Desktop/BookFarm/Pods/Alamofire/Source/Request.swift": [1580266378, 822979294]
+  "/Users/macbook/Desktop/BookFarm/Pods/Alamofire/Source/Response.swift": [1580266378, 820935095]
+  "/Users/macbook/Desktop/BookFarm/Pods/Alamofire/Source/ResponseSerialization.swift": [1580266378, 825264409]
+  "/Users/macbook/Desktop/BookFarm/Pods/Alamofire/Source/Result.swift": [1580266378, 815861339]
+  "/Users/macbook/Desktop/BookFarm/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1580266378, 826052766]
+  "/Users/macbook/Desktop/BookFarm/Pods/Alamofire/Source/SessionDelegate.swift": [1580266378, 827199489]
+  "/Users/macbook/Desktop/BookFarm/Pods/Alamofire/Source/SessionManager.swift": [1580266378, 824053093]
+  "/Users/macbook/Desktop/BookFarm/Pods/Alamofire/Source/TaskDelegate.swift": [1580266378, 811384381]
+  "/Users/macbook/Desktop/BookFarm/Pods/Alamofire/Source/Timeline.swift": [1580266378, 814226240]
+  "/Users/macbook/Desktop/BookFarm/Pods/Alamofire/Source/Validation.swift": [1580266378, 819025673]

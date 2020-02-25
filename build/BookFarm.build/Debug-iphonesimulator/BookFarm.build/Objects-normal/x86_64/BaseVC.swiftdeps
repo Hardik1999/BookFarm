@@ -1,0 +1,1249 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseVC"
+provides-nominal:
+- "8BookFarm6BaseVCC"
+provides-member:
+- ["8BookFarm6BaseVCC", ""]
+- ["10Foundation4DateV", ""]
+- ["10Foundation4DateV", "milisecondsSince1970"]
+- ["10Foundation4DateV", "init"]
+provides-dynamic-lookup:
+- "revealController"
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- !private "*"
+- !private "/"
+- !private "=="
+- "AssignmentPrecedence"
+- "BaseVC"
+- !private "CGRect"
+- !private "ConstantStrings"
+- "Date"
+- !private "FloatLiteralType"
+- "FrontViewPosition"
+- "Int"
+- "Int64"
+- !private "IntegerLiteralType"
+- !private "JSONDecoder"
+- "LoginResponse"
+- "SWRevealViewController"
+- "SWRevealViewControllerDelegate"
+- "String"
+- "StringLiteralType"
+- !private "TimeInterval"
+- "UIButton"
+- "UIImageView"
+- "UIView"
+- "UIViewController"
+- !private "UserDefaults"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["s18AdditiveArithmeticP", "rounded"]
+- !private ["So27NSDataBase64EncodingOptionsV", "lineLength64Characters"]
+- !private ["8BookFarm6BaseVCC", "CGRect"]
+- !private ["8BookFarm6BaseVCC", "ConstantStrings"]
+- ["8BookFarm6BaseVCC", "FrontViewPosition"]
+- !private ["8BookFarm6BaseVCC", "JSONDecoder"]
+- ["8BookFarm6BaseVCC", "LoginResponse"]
+- ["8BookFarm6BaseVCC", "SWRevealViewController"]
+- ["8BookFarm6BaseVCC", "String"]
+- ["8BookFarm6BaseVCC", "UIButton"]
+- ["8BookFarm6BaseVCC", "UIImageView"]
+- ["8BookFarm6BaseVCC", "UIView"]
+- !private ["8BookFarm6BaseVCC", "UserDefaults"]
+- ["8BookFarm6BaseVCC", "baseurl"]
+- ["8BookFarm6BaseVCC", "convertImageToBase64"]
+- ["8BookFarm6BaseVCC", "deinit"]
+- ["8BookFarm6BaseVCC", "doAddSlideMenuToController"]
+- ["8BookFarm6BaseVCC", "dogetlocaldatauser"]
+- ["8BookFarm6BaseVCC", "init"]
+- ["8BookFarm6BaseVCC", "overlyView"]
+- ["8BookFarm6BaseVCC", "revealController"]
+- ["8BookFarm6BaseVCC", "revealControllerPanGestureBegan"]
+- ["8BookFarm6BaseVCC", "revealControllerPanGestureEnded"]
+- ["8BookFarm6BaseVCC", "revealControllerPanGestureShouldBegin"]
+- ["8BookFarm6BaseVCC", "revealControllerTapGestureShouldBegin"]
+- !private ["8BookFarm6BaseVCC", "revealViewController"]
+- !private ["8BookFarm6BaseVCC", "view"]
+- ["8BookFarm6BaseVCC", "viewDidLoad"]
+- !private ["SK", "base64EncodedString"]
+- !private ["SB", "init"]
+- !private ["SB", "rounded"]
+- !private ["Sz", "init"]
+- !private ["So15CALayerDelegateP", "addGestureRecognizer"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "addTarget"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "image"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "removeFromSuperview"]
+- !private ["So6CGRectV", "init"]
+- !private ["So6CGRectV", "size"]
+- !private ["So6CGSizeV", "height"]
+- !private ["So6CGSizeV", "width"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "ConstantStrings"]
+- !private ["s7CVarArgP", "FrontViewPosition"]
+- !private ["s7CVarArgP", "JSONDecoder"]
+- !private ["s7CVarArgP", "LoginResponse"]
+- !private ["s7CVarArgP", "SWRevealViewController"]
+- ["s7CVarArgP", "UIView"]
+- !private ["s7CVarArgP", "UserDefaults"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addGestureRecognizer"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "addTarget"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "frontViewPosition"]
+- !private ["s7CVarArgP", "image"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jpegData"]
+- !private ["s7CVarArgP", "overlyView"]
+- !private ["s7CVarArgP", "panGestureRecognizer"]
+- !private ["s7CVarArgP", "removeFromSuperview"]
+- ["s7CVarArgP", "revealController"]
+- ["s7CVarArgP", "revealControllerPanGestureBegan"]
+- ["s7CVarArgP", "revealControllerPanGestureEnded"]
+- ["s7CVarArgP", "revealControllerPanGestureShouldBegin"]
+- ["s7CVarArgP", "revealControllerTapGestureShouldBegin"]
+- !private ["s7CVarArgP", "revealToggle"]
+- !private ["s7CVarArgP", "revealViewController"]
+- !private ["s7CVarArgP", "rounded"]
+- !private ["s7CVarArgP", "standard"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["10Kingfisher19CacheCostCalculableP", "jpegData"]
+- !private ["Sl", "base64EncodedString"]
+- !private ["SL", "Date"]
+- !private ["SL", "Int64"]
+- !private ["SL", "TimeInterval"]
+- !private ["SL", "init"]
+- !private ["SL", "rounded"]
+- !private ["SL", "timeIntervalSince1970"]
+- !private ["8BookFarm15ConstantStringsV", "LoginDone"]
+- !private ["10Foundation15ContiguousBytesP", "base64EncodedString"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "ConstantStrings"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "FrontViewPosition"]
+- !private ["s28CustomDebugStringConvertibleP", "Int64"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONDecoder"]
+- !private ["s28CustomDebugStringConvertibleP", "LoginResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "SWRevealViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "TimeInterval"]
+- ["s28CustomDebugStringConvertibleP", "UIView"]
+- !private ["s28CustomDebugStringConvertibleP", "UserDefaults"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "base64EncodedString"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "frontViewPosition"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jpegData"]
+- !private ["s28CustomDebugStringConvertibleP", "overlyView"]
+- !private ["s28CustomDebugStringConvertibleP", "panGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFromSuperview"]
+- ["s28CustomDebugStringConvertibleP", "revealController"]
+- ["s28CustomDebugStringConvertibleP", "revealControllerPanGestureBegan"]
+- ["s28CustomDebugStringConvertibleP", "revealControllerPanGestureEnded"]
+- ["s28CustomDebugStringConvertibleP", "revealControllerPanGestureShouldBegin"]
+- ["s28CustomDebugStringConvertibleP", "revealControllerTapGestureShouldBegin"]
+- !private ["s28CustomDebugStringConvertibleP", "revealToggle"]
+- !private ["s28CustomDebugStringConvertibleP", "revealViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "rounded"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s17CustomReflectableP", "Date"]
+- !private ["s17CustomReflectableP", "Int64"]
+- !private ["s17CustomReflectableP", "TimeInterval"]
+- !private ["s17CustomReflectableP", "addGestureRecognizer"]
+- !private ["s17CustomReflectableP", "addSubview"]
+- !private ["s17CustomReflectableP", "base64EncodedString"]
+- !private ["s17CustomReflectableP", "delegate"]
+- !private ["s17CustomReflectableP", "frame"]
+- !private ["s17CustomReflectableP", "frontViewPosition"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "panGestureRecognizer"]
+- !private ["s17CustomReflectableP", "rounded"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "timeIntervalSince1970"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "ConstantStrings"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "FrontViewPosition"]
+- !private ["s23CustomStringConvertibleP", "Int64"]
+- !private ["s23CustomStringConvertibleP", "JSONDecoder"]
+- !private ["s23CustomStringConvertibleP", "LoginResponse"]
+- !private ["s23CustomStringConvertibleP", "SWRevealViewController"]
+- !private ["s23CustomStringConvertibleP", "TimeInterval"]
+- ["s23CustomStringConvertibleP", "UIView"]
+- !private ["s23CustomStringConvertibleP", "UserDefaults"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "base64EncodedString"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "frontViewPosition"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jpegData"]
+- !private ["s23CustomStringConvertibleP", "overlyView"]
+- !private ["s23CustomStringConvertibleP", "panGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "removeFromSuperview"]
+- ["s23CustomStringConvertibleP", "revealController"]
+- ["s23CustomStringConvertibleP", "revealControllerPanGestureBegan"]
+- ["s23CustomStringConvertibleP", "revealControllerPanGestureEnded"]
+- ["s23CustomStringConvertibleP", "revealControllerPanGestureShouldBegin"]
+- ["s23CustomStringConvertibleP", "revealControllerTapGestureShouldBegin"]
+- !private ["s23CustomStringConvertibleP", "revealToggle"]
+- !private ["s23CustomStringConvertibleP", "revealViewController"]
+- !private ["s23CustomStringConvertibleP", "rounded"]
+- !private ["s23CustomStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["10Foundation4DataV", "base64EncodedString"]
+- !private ["10Foundation12DataProtocolP", "base64EncodedString"]
+- !private ["10Kingfisher17DataTransformableP", "base64EncodedString"]
+- !private ["10Foundation4DateV", "Date"]
+- ["10Foundation4DateV", "Int"]
+- ["10Foundation4DateV", "Int64"]
+- !private ["10Foundation4DateV", "TimeInterval"]
+- ["10Foundation4DateV", "init"]
+- ["10Foundation4DateV", "milisecondsSince1970"]
+- !private ["10Foundation4DateV", "timeIntervalSince1970"]
+- !private ["Se", "Date"]
+- !private ["Se", "Int64"]
+- !private ["Se", "TimeInterval"]
+- !private ["Se", "addGestureRecognizer"]
+- !private ["Se", "addSubview"]
+- !private ["Se", "base64EncodedString"]
+- !private ["Se", "delegate"]
+- !private ["Se", "frame"]
+- !private ["Se", "frontViewPosition"]
+- !private ["Se", "height"]
+- !private ["Se", "init"]
+- !private ["Se", "panGestureRecognizer"]
+- !private ["Se", "rounded"]
+- !private ["Se", "size"]
+- !private ["Se", "timeIntervalSince1970"]
+- !private ["Se", "width"]
+- !private ["Sd", "init"]
+- !private ["Sd", "rounded"]
+- !private ["SE", "Date"]
+- !private ["SE", "Int64"]
+- !private ["SE", "TimeInterval"]
+- !private ["SE", "addGestureRecognizer"]
+- !private ["SE", "addSubview"]
+- !private ["SE", "base64EncodedString"]
+- !private ["SE", "delegate"]
+- !private ["SE", "frame"]
+- !private ["SE", "frontViewPosition"]
+- !private ["SE", "height"]
+- !private ["SE", "init"]
+- !private ["SE", "panGestureRecognizer"]
+- !private ["SE", "rounded"]
+- !private ["SE", "size"]
+- !private ["SE", "timeIntervalSince1970"]
+- !private ["SE", "width"]
+- !private ["SQ", "CGRect"]
+- !private ["SQ", "ConstantStrings"]
+- !private ["SQ", "Date"]
+- !private ["SQ", "FrontViewPosition"]
+- !private ["SQ", "Int64"]
+- !private ["SQ", "JSONDecoder"]
+- !private ["SQ", "LoginResponse"]
+- !private ["SQ", "SWRevealViewController"]
+- !private ["SQ", "TimeInterval"]
+- ["SQ", "UIView"]
+- !private ["SQ", "UserDefaults"]
+- ["SQ", ""]
+- !private ["SQ", "addGestureRecognizer"]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "addTarget"]
+- !private ["SQ", "base64EncodedString"]
+- !private ["SQ", "data"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "frontViewPosition"]
+- !private ["SQ", "height"]
+- !private ["SQ", "image"]
+- ["SQ", "init"]
+- !private ["SQ", "jpegData"]
+- !private ["SQ", "left"]
+- !private ["SQ", "lineLength64Characters"]
+- !private ["SQ", "overlyView"]
+- !private ["SQ", "panGestureRecognizer"]
+- !private ["SQ", "removeFromSuperview"]
+- ["SQ", "revealController"]
+- ["SQ", "revealControllerPanGestureBegan"]
+- ["SQ", "revealControllerPanGestureEnded"]
+- ["SQ", "revealControllerPanGestureShouldBegin"]
+- ["SQ", "revealControllerTapGestureShouldBegin"]
+- !private ["SQ", "revealToggle"]
+- !private ["SQ", "revealViewController"]
+- !private ["SQ", "rounded"]
+- !private ["SQ", "size"]
+- !private ["SQ", "standard"]
+- !private ["SQ", "timeIntervalSince1970"]
+- !private ["SQ", "touchUpInside"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "width"]
+- !private ["So15UIControlEventsV", "touchUpInside"]
+- !private ["s25ExpressibleByArrayLiteralP", "lineLength64Characters"]
+- !private ["s25ExpressibleByArrayLiteralP", "touchUpInside"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "rounded"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "rounded"]
+- !private ["s23ExpressibleByNilLiteralP", "addGestureRecognizer"]
+- !private ["s23ExpressibleByNilLiteralP", "addSubview"]
+- !private ["s23ExpressibleByNilLiteralP", "delegate"]
+- !private ["s23ExpressibleByNilLiteralP", "frame"]
+- !private ["s23ExpressibleByNilLiteralP", "frontViewPosition"]
+- !private ["s23ExpressibleByNilLiteralP", "panGestureRecognizer"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SF", "init"]
+- !private ["SF", "rounded"]
+- !private ["So17FrontViewPositionV", "left"]
+- !private ["SH", "CGRect"]
+- !private ["SH", "ConstantStrings"]
+- !private ["SH", "Date"]
+- !private ["SH", "FrontViewPosition"]
+- !private ["SH", "Int64"]
+- !private ["SH", "JSONDecoder"]
+- !private ["SH", "LoginResponse"]
+- !private ["SH", "SWRevealViewController"]
+- !private ["SH", "TimeInterval"]
+- ["SH", "UIView"]
+- !private ["SH", "UserDefaults"]
+- ["SH", ""]
+- !private ["SH", "addGestureRecognizer"]
+- !private ["SH", "addSubview"]
+- !private ["SH", "addTarget"]
+- !private ["SH", "base64EncodedString"]
+- !private ["SH", "data"]
+- !private ["SH", "delegate"]
+- !private ["SH", "frame"]
+- !private ["SH", "frontViewPosition"]
+- !private ["SH", "image"]
+- ["SH", "init"]
+- !private ["SH", "jpegData"]
+- !private ["SH", "left"]
+- !private ["SH", "overlyView"]
+- !private ["SH", "panGestureRecognizer"]
+- !private ["SH", "removeFromSuperview"]
+- ["SH", "revealController"]
+- ["SH", "revealControllerPanGestureBegan"]
+- ["SH", "revealControllerPanGestureEnded"]
+- ["SH", "revealControllerPanGestureShouldBegin"]
+- ["SH", "revealControllerTapGestureShouldBegin"]
+- !private ["SH", "revealToggle"]
+- !private ["SH", "revealViewController"]
+- !private ["SH", "rounded"]
+- !private ["SH", "standard"]
+- !private ["SH", "timeIntervalSince1970"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidLoad"]
+- !private ["s5Int64V", "init"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Kingfisher0A10CompatibleP", "addTarget"]
+- !private ["10Kingfisher0A10CompatibleP", "image"]
+- !private ["10Kingfisher0A10CompatibleP", "jpegData"]
+- !private ["10Kingfisher0A15CompatibleValueP", "base64EncodedString"]
+- !private ["10Kingfisher0A15CompatibleValueP", "height"]
+- !private ["10Kingfisher0A15CompatibleValueP", "width"]
+- !private ["8BookFarm13LoginResponseV", "deinit"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "rounded"]
+- !private ["10Foundation11MeasurementV", "rounded"]
+- !private ["SM", "base64EncodedString"]
+- !private ["10Foundation19MutableDataProtocolP", "base64EncodedString"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "ConstantStrings"]
+- !private ["So8NSCodingP", "FrontViewPosition"]
+- !private ["So8NSCodingP", "JSONDecoder"]
+- !private ["So8NSCodingP", "LoginResponse"]
+- !private ["So8NSCodingP", "SWRevealViewController"]
+- ["So8NSCodingP", "UIView"]
+- !private ["So8NSCodingP", "UserDefaults"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addGestureRecognizer"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "addTarget"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "frontViewPosition"]
+- !private ["So8NSCodingP", "image"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "jpegData"]
+- !private ["So8NSCodingP", "overlyView"]
+- !private ["So8NSCodingP", "panGestureRecognizer"]
+- !private ["So8NSCodingP", "removeFromSuperview"]
+- ["So8NSCodingP", "revealController"]
+- ["So8NSCodingP", "revealControllerPanGestureBegan"]
+- ["So8NSCodingP", "revealControllerPanGestureEnded"]
+- ["So8NSCodingP", "revealControllerPanGestureShouldBegin"]
+- ["So8NSCodingP", "revealControllerTapGestureShouldBegin"]
+- !private ["So8NSCodingP", "revealToggle"]
+- !private ["So8NSCodingP", "revealViewController"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "CGRect"]
+- !private ["So26NSExtensionRequestHandlingP", "ConstantStrings"]
+- !private ["So26NSExtensionRequestHandlingP", "FrontViewPosition"]
+- !private ["So26NSExtensionRequestHandlingP", "JSONDecoder"]
+- !private ["So26NSExtensionRequestHandlingP", "LoginResponse"]
+- !private ["So26NSExtensionRequestHandlingP", "SWRevealViewController"]
+- ["So26NSExtensionRequestHandlingP", "UIView"]
+- !private ["So26NSExtensionRequestHandlingP", "UserDefaults"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "delegate"]
+- !private ["So26NSExtensionRequestHandlingP", "frontViewPosition"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "overlyView"]
+- !private ["So26NSExtensionRequestHandlingP", "panGestureRecognizer"]
+- ["So26NSExtensionRequestHandlingP", "revealController"]
+- ["So26NSExtensionRequestHandlingP", "revealControllerPanGestureBegan"]
+- ["So26NSExtensionRequestHandlingP", "revealControllerPanGestureEnded"]
+- ["So26NSExtensionRequestHandlingP", "revealControllerPanGestureShouldBegin"]
+- ["So26NSExtensionRequestHandlingP", "revealControllerTapGestureShouldBegin"]
+- !private ["So26NSExtensionRequestHandlingP", "revealToggle"]
+- !private ["So26NSExtensionRequestHandlingP", "revealViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "jpegData"]
+- !private ["So21NSItemProviderWritingP", "jpegData"]
+- !private ["So8NSObjectC", "CGRect"]
+- !private ["So8NSObjectC", "ConstantStrings"]
+- ["So8NSObjectC", "FrontViewPosition"]
+- !private ["So8NSObjectC", "JSONDecoder"]
+- ["So8NSObjectC", "LoginResponse"]
+- ["So8NSObjectC", "SWRevealViewController"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "UserDefaults"]
+- !private ["So8NSObjectC", "addGestureRecognizer"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "addTarget"]
+- ["So8NSObjectC", "baseurl"]
+- ["So8NSObjectC", "convertImageToBase64"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "doAddSlideMenuToController"]
+- ["So8NSObjectC", "dogetlocaldatauser"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "frontViewPosition"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "jpegData"]
+- ["So8NSObjectC", "overlyView"]
+- !private ["So8NSObjectC", "panGestureRecognizer"]
+- !private ["So8NSObjectC", "removeFromSuperview"]
+- ["So8NSObjectC", "revealController"]
+- ["So8NSObjectC", "revealControllerPanGestureBegan"]
+- ["So8NSObjectC", "revealControllerPanGestureEnded"]
+- ["So8NSObjectC", "revealControllerPanGestureShouldBegin"]
+- ["So8NSObjectC", "revealControllerTapGestureShouldBegin"]
+- !private ["So8NSObjectC", "revealToggle"]
+- !private ["So8NSObjectC", "revealViewController"]
+- !private ["So8NSObjectC", "standard"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "CGRect"]
+- !private ["So8NSObjectP", "ConstantStrings"]
+- !private ["So8NSObjectP", "FrontViewPosition"]
+- !private ["So8NSObjectP", "JSONDecoder"]
+- !private ["So8NSObjectP", "LoginResponse"]
+- !private ["So8NSObjectP", "SWRevealViewController"]
+- ["So8NSObjectP", "UIView"]
+- !private ["So8NSObjectP", "UserDefaults"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addGestureRecognizer"]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "addTarget"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "frontViewPosition"]
+- !private ["So8NSObjectP", "image"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "jpegData"]
+- !private ["So8NSObjectP", "overlyView"]
+- !private ["So8NSObjectP", "panGestureRecognizer"]
+- !private ["So8NSObjectP", "removeFromSuperview"]
+- ["So8NSObjectP", "revealController"]
+- ["So8NSObjectP", "revealControllerPanGestureBegan"]
+- ["So8NSObjectP", "revealControllerPanGestureEnded"]
+- ["So8NSObjectP", "revealControllerPanGestureShouldBegin"]
+- ["So8NSObjectP", "revealControllerTapGestureShouldBegin"]
+- !private ["So8NSObjectP", "revealToggle"]
+- !private ["So8NSObjectP", "revealViewController"]
+- !private ["So8NSObjectP", "standard"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "jpegData"]
+- !private ["Sj", "init"]
+- !private ["Sj", "rounded"]
+- !private ["s9OptionSetP", "lineLength64Characters"]
+- !private ["s9OptionSetP", "touchUpInside"]
+- !private ["Sq", "addGestureRecognizer"]
+- !private ["Sq", "addSubview"]
+- !private ["Sq", "delegate"]
+- !private ["Sq", "frame"]
+- !private ["Sq", "frontViewPosition"]
+- !private ["Sq", "panGestureRecognizer"]
+- !private ["10Kingfisher11PlaceholderP", "jpegData"]
+- !private ["Sk", "base64EncodedString"]
+- !private ["Sm", "base64EncodedString"]
+- !private ["SY", "left"]
+- !private ["SY", "lineLength64Characters"]
+- !private ["SY", "touchUpInside"]
+- !private ["10Foundation20ReferenceConvertibleP", "Date"]
+- !private ["10Foundation20ReferenceConvertibleP", "Int64"]
+- !private ["10Foundation20ReferenceConvertibleP", "TimeInterval"]
+- !private ["10Foundation20ReferenceConvertibleP", "base64EncodedString"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "rounded"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince1970"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s10SIMDScalarP", "rounded"]
+- !private ["So22SWRevealViewControllerC", "delegate"]
+- !private ["So22SWRevealViewControllerC", "frontViewPosition"]
+- !private ["So22SWRevealViewControllerC", "panGestureRecognizer"]
+- !private ["So22SWRevealViewControllerC", "revealToggle"]
+- !private ["So30SWRevealViewControllerDelegateP", "CGRect"]
+- !private ["So30SWRevealViewControllerDelegateP", "ConstantStrings"]
+- !private ["So30SWRevealViewControllerDelegateP", "FrontViewPosition"]
+- !private ["So30SWRevealViewControllerDelegateP", "JSONDecoder"]
+- !private ["So30SWRevealViewControllerDelegateP", "LoginResponse"]
+- !private ["So30SWRevealViewControllerDelegateP", "SWRevealViewController"]
+- ["So30SWRevealViewControllerDelegateP", "UIView"]
+- !private ["So30SWRevealViewControllerDelegateP", "UserDefaults"]
+- ["So30SWRevealViewControllerDelegateP", ""]
+- !private ["So30SWRevealViewControllerDelegateP", "overlyView"]
+- ["So30SWRevealViewControllerDelegateP", "revealController"]
+- ["So30SWRevealViewControllerDelegateP", "revealControllerPanGestureBegan"]
+- ["So30SWRevealViewControllerDelegateP", "revealControllerPanGestureEnded"]
+- ["So30SWRevealViewControllerDelegateP", "revealControllerPanGestureShouldBegin"]
+- ["So30SWRevealViewControllerDelegateP", "revealControllerTapGestureShouldBegin"]
+- !private ["So30SWRevealViewControllerDelegateP", "revealViewController"]
+- !private ["So30SWRevealViewControllerDelegateP", "view"]
+- !private ["ST", "base64EncodedString"]
+- !private ["s10SetAlgebraP", "lineLength64Characters"]
+- !private ["s10SetAlgebraP", "touchUpInside"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "rounded"]
+- !private ["Sx", "init"]
+- !private ["Sx", "rounded"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "rounded"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "addTarget"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "addGestureRecognizer"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "addTarget"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "jpegData"]
+- !private ["So29UIAccessibilityIdentificationP", "removeFromSuperview"]
+- !private ["So12UIAppearanceP", "addGestureRecognizer"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "addTarget"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "image"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "removeFromSuperview"]
+- !private ["So21UIAppearanceContainerP", "CGRect"]
+- !private ["So21UIAppearanceContainerP", "ConstantStrings"]
+- !private ["So21UIAppearanceContainerP", "FrontViewPosition"]
+- !private ["So21UIAppearanceContainerP", "JSONDecoder"]
+- !private ["So21UIAppearanceContainerP", "LoginResponse"]
+- !private ["So21UIAppearanceContainerP", "SWRevealViewController"]
+- ["So21UIAppearanceContainerP", "UIView"]
+- !private ["So21UIAppearanceContainerP", "UserDefaults"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "addTarget"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "frontViewPosition"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "overlyView"]
+- !private ["So21UIAppearanceContainerP", "panGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "removeFromSuperview"]
+- ["So21UIAppearanceContainerP", "revealController"]
+- ["So21UIAppearanceContainerP", "revealControllerPanGestureBegan"]
+- ["So21UIAppearanceContainerP", "revealControllerPanGestureEnded"]
+- ["So21UIAppearanceContainerP", "revealControllerPanGestureShouldBegin"]
+- ["So21UIAppearanceContainerP", "revealControllerTapGestureShouldBegin"]
+- !private ["So21UIAppearanceContainerP", "revealToggle"]
+- !private ["So21UIAppearanceContainerP", "revealViewController"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So8UIButtonC", "addTarget"]
+- !private ["So18UIContentContainerP", "CGRect"]
+- !private ["So18UIContentContainerP", "ConstantStrings"]
+- !private ["So18UIContentContainerP", "FrontViewPosition"]
+- !private ["So18UIContentContainerP", "JSONDecoder"]
+- !private ["So18UIContentContainerP", "LoginResponse"]
+- !private ["So18UIContentContainerP", "SWRevealViewController"]
+- ["So18UIContentContainerP", "UIView"]
+- !private ["So18UIContentContainerP", "UserDefaults"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "delegate"]
+- !private ["So18UIContentContainerP", "frontViewPosition"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "overlyView"]
+- !private ["So18UIContentContainerP", "panGestureRecognizer"]
+- ["So18UIContentContainerP", "revealController"]
+- ["So18UIContentContainerP", "revealControllerPanGestureBegan"]
+- ["So18UIContentContainerP", "revealControllerPanGestureEnded"]
+- ["So18UIContentContainerP", "revealControllerPanGestureShouldBegin"]
+- ["So18UIContentContainerP", "revealControllerTapGestureShouldBegin"]
+- !private ["So18UIContentContainerP", "revealToggle"]
+- !private ["So18UIContentContainerP", "revealViewController"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So9UIControlC", "addTarget"]
+- !private ["So17UICoordinateSpaceP", "addGestureRecognizer"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "addTarget"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "removeFromSuperview"]
+- !private ["So13UIDynamicItemP", "addGestureRecognizer"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "addTarget"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "image"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "removeFromSuperview"]
+- !private ["So18UIFocusEnvironmentP", "CGRect"]
+- !private ["So18UIFocusEnvironmentP", "ConstantStrings"]
+- !private ["So18UIFocusEnvironmentP", "FrontViewPosition"]
+- !private ["So18UIFocusEnvironmentP", "JSONDecoder"]
+- !private ["So18UIFocusEnvironmentP", "LoginResponse"]
+- !private ["So18UIFocusEnvironmentP", "SWRevealViewController"]
+- ["So18UIFocusEnvironmentP", "UIView"]
+- !private ["So18UIFocusEnvironmentP", "UserDefaults"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "addTarget"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "frontViewPosition"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "overlyView"]
+- !private ["So18UIFocusEnvironmentP", "panGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "removeFromSuperview"]
+- ["So18UIFocusEnvironmentP", "revealController"]
+- ["So18UIFocusEnvironmentP", "revealControllerPanGestureBegan"]
+- ["So18UIFocusEnvironmentP", "revealControllerPanGestureEnded"]
+- ["So18UIFocusEnvironmentP", "revealControllerPanGestureShouldBegin"]
+- ["So18UIFocusEnvironmentP", "revealControllerTapGestureShouldBegin"]
+- !private ["So18UIFocusEnvironmentP", "revealToggle"]
+- !private ["So18UIFocusEnvironmentP", "revealViewController"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "addGestureRecognizer"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "addTarget"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "image"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "removeFromSuperview"]
+- !private ["So20UIFocusItemContainerP", "addGestureRecognizer"]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "addTarget"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- !private ["So20UIFocusItemContainerP", "image"]
+- ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "removeFromSuperview"]
+- !private ["So7UIImageC", "jpegData"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "jpegData"]
+- !private ["So24UILargeContentViewerItemP", "addGestureRecognizer"]
+- !private ["So24UILargeContentViewerItemP", "addSubview"]
+- !private ["So24UILargeContentViewerItemP", "addTarget"]
+- !private ["So24UILargeContentViewerItemP", "frame"]
+- !private ["So24UILargeContentViewerItemP", "image"]
+- ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "removeFromSuperview"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- !private ["So30UIPasteConfigurationSupportingP", "ConstantStrings"]
+- !private ["So30UIPasteConfigurationSupportingP", "FrontViewPosition"]
+- !private ["So30UIPasteConfigurationSupportingP", "JSONDecoder"]
+- !private ["So30UIPasteConfigurationSupportingP", "LoginResponse"]
+- !private ["So30UIPasteConfigurationSupportingP", "SWRevealViewController"]
+- ["So30UIPasteConfigurationSupportingP", "UIView"]
+- !private ["So30UIPasteConfigurationSupportingP", "UserDefaults"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "addTarget"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "frontViewPosition"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "overlyView"]
+- !private ["So30UIPasteConfigurationSupportingP", "panGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "removeFromSuperview"]
+- ["So30UIPasteConfigurationSupportingP", "revealController"]
+- ["So30UIPasteConfigurationSupportingP", "revealControllerPanGestureBegan"]
+- ["So30UIPasteConfigurationSupportingP", "revealControllerPanGestureEnded"]
+- ["So30UIPasteConfigurationSupportingP", "revealControllerPanGestureShouldBegin"]
+- ["So30UIPasteConfigurationSupportingP", "revealControllerTapGestureShouldBegin"]
+- !private ["So30UIPasteConfigurationSupportingP", "revealToggle"]
+- !private ["So30UIPasteConfigurationSupportingP", "revealViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "CGRect"]
+- !private ["So11UIResponderC", "ConstantStrings"]
+- ["So11UIResponderC", "FrontViewPosition"]
+- !private ["So11UIResponderC", "JSONDecoder"]
+- ["So11UIResponderC", "LoginResponse"]
+- ["So11UIResponderC", "SWRevealViewController"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "UserDefaults"]
+- !private ["So11UIResponderC", "addGestureRecognizer"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "addTarget"]
+- ["So11UIResponderC", "baseurl"]
+- ["So11UIResponderC", "convertImageToBase64"]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "doAddSlideMenuToController"]
+- ["So11UIResponderC", "dogetlocaldatauser"]
+- !private ["So11UIResponderC", "frame"]
+- !private ["So11UIResponderC", "frontViewPosition"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "overlyView"]
+- !private ["So11UIResponderC", "panGestureRecognizer"]
+- !private ["So11UIResponderC", "removeFromSuperview"]
+- ["So11UIResponderC", "revealController"]
+- ["So11UIResponderC", "revealControllerPanGestureBegan"]
+- ["So11UIResponderC", "revealControllerPanGestureEnded"]
+- ["So11UIResponderC", "revealControllerPanGestureShouldBegin"]
+- ["So11UIResponderC", "revealControllerTapGestureShouldBegin"]
+- !private ["So11UIResponderC", "revealToggle"]
+- !private ["So11UIResponderC", "revealViewController"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+- !private ["So30UIResponderStandardEditActionsP", "ConstantStrings"]
+- !private ["So30UIResponderStandardEditActionsP", "FrontViewPosition"]
+- !private ["So30UIResponderStandardEditActionsP", "JSONDecoder"]
+- !private ["So30UIResponderStandardEditActionsP", "LoginResponse"]
+- !private ["So30UIResponderStandardEditActionsP", "SWRevealViewController"]
+- ["So30UIResponderStandardEditActionsP", "UIView"]
+- !private ["So30UIResponderStandardEditActionsP", "UserDefaults"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "addTarget"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "frontViewPosition"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "overlyView"]
+- !private ["So30UIResponderStandardEditActionsP", "panGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "removeFromSuperview"]
+- ["So30UIResponderStandardEditActionsP", "revealController"]
+- ["So30UIResponderStandardEditActionsP", "revealControllerPanGestureBegan"]
+- ["So30UIResponderStandardEditActionsP", "revealControllerPanGestureEnded"]
+- ["So30UIResponderStandardEditActionsP", "revealControllerPanGestureShouldBegin"]
+- ["So30UIResponderStandardEditActionsP", "revealControllerTapGestureShouldBegin"]
+- !private ["So30UIResponderStandardEditActionsP", "revealToggle"]
+- !private ["So30UIResponderStandardEditActionsP", "revealViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addTarget"]
+- !private ["So16UIStateRestoringP", "CGRect"]
+- !private ["So16UIStateRestoringP", "ConstantStrings"]
+- !private ["So16UIStateRestoringP", "FrontViewPosition"]
+- !private ["So16UIStateRestoringP", "JSONDecoder"]
+- !private ["So16UIStateRestoringP", "LoginResponse"]
+- !private ["So16UIStateRestoringP", "SWRevealViewController"]
+- ["So16UIStateRestoringP", "UIView"]
+- !private ["So16UIStateRestoringP", "UserDefaults"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "delegate"]
+- !private ["So16UIStateRestoringP", "frontViewPosition"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "overlyView"]
+- !private ["So16UIStateRestoringP", "panGestureRecognizer"]
+- ["So16UIStateRestoringP", "revealController"]
+- ["So16UIStateRestoringP", "revealControllerPanGestureBegan"]
+- ["So16UIStateRestoringP", "revealControllerPanGestureEnded"]
+- ["So16UIStateRestoringP", "revealControllerPanGestureShouldBegin"]
+- ["So16UIStateRestoringP", "revealControllerTapGestureShouldBegin"]
+- !private ["So16UIStateRestoringP", "revealToggle"]
+- !private ["So16UIStateRestoringP", "revealViewController"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "CGRect"]
+- !private ["So18UITraitEnvironmentP", "ConstantStrings"]
+- !private ["So18UITraitEnvironmentP", "FrontViewPosition"]
+- !private ["So18UITraitEnvironmentP", "JSONDecoder"]
+- !private ["So18UITraitEnvironmentP", "LoginResponse"]
+- !private ["So18UITraitEnvironmentP", "SWRevealViewController"]
+- ["So18UITraitEnvironmentP", "UIView"]
+- !private ["So18UITraitEnvironmentP", "UserDefaults"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "addTarget"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "frontViewPosition"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "overlyView"]
+- !private ["So18UITraitEnvironmentP", "panGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "removeFromSuperview"]
+- ["So18UITraitEnvironmentP", "revealController"]
+- ["So18UITraitEnvironmentP", "revealControllerPanGestureBegan"]
+- ["So18UITraitEnvironmentP", "revealControllerPanGestureEnded"]
+- ["So18UITraitEnvironmentP", "revealControllerPanGestureShouldBegin"]
+- ["So18UITraitEnvironmentP", "revealControllerTapGestureShouldBegin"]
+- !private ["So18UITraitEnvironmentP", "revealToggle"]
+- !private ["So18UITraitEnvironmentP", "revealViewController"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "CGRect"]
+- !private ["So23UIUserActivityRestoringP", "ConstantStrings"]
+- !private ["So23UIUserActivityRestoringP", "FrontViewPosition"]
+- !private ["So23UIUserActivityRestoringP", "JSONDecoder"]
+- !private ["So23UIUserActivityRestoringP", "LoginResponse"]
+- !private ["So23UIUserActivityRestoringP", "SWRevealViewController"]
+- ["So23UIUserActivityRestoringP", "UIView"]
+- !private ["So23UIUserActivityRestoringP", "UserDefaults"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addGestureRecognizer"]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "addTarget"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "frontViewPosition"]
+- !private ["So23UIUserActivityRestoringP", "image"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "overlyView"]
+- !private ["So23UIUserActivityRestoringP", "panGestureRecognizer"]
+- !private ["So23UIUserActivityRestoringP", "removeFromSuperview"]
+- ["So23UIUserActivityRestoringP", "revealController"]
+- ["So23UIUserActivityRestoringP", "revealControllerPanGestureBegan"]
+- ["So23UIUserActivityRestoringP", "revealControllerPanGestureEnded"]
+- ["So23UIUserActivityRestoringP", "revealControllerPanGestureShouldBegin"]
+- ["So23UIUserActivityRestoringP", "revealControllerTapGestureShouldBegin"]
+- !private ["So23UIUserActivityRestoringP", "revealToggle"]
+- !private ["So23UIUserActivityRestoringP", "revealViewController"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "addGestureRecognizer"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "addTarget"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "image"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "removeFromSuperview"]
+- !private ["So16UIViewControllerC", "CGRect"]
+- !private ["So16UIViewControllerC", "ConstantStrings"]
+- ["So16UIViewControllerC", "FrontViewPosition"]
+- !private ["So16UIViewControllerC", "JSONDecoder"]
+- ["So16UIViewControllerC", "LoginResponse"]
+- ["So16UIViewControllerC", "SWRevealViewController"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UIImageView"]
+- ["So16UIViewControllerC", "UIView"]
+- !private ["So16UIViewControllerC", "UserDefaults"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "baseurl"]
+- ["So16UIViewControllerC", "convertImageToBase64"]
+- !private ["So16UIViewControllerC", "delegate"]
+- ["So16UIViewControllerC", "doAddSlideMenuToController"]
+- ["So16UIViewControllerC", "dogetlocaldatauser"]
+- !private ["So16UIViewControllerC", "frontViewPosition"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "overlyView"]
+- !private ["So16UIViewControllerC", "panGestureRecognizer"]
+- ["So16UIViewControllerC", "revealController"]
+- ["So16UIViewControllerC", "revealControllerPanGestureBegan"]
+- ["So16UIViewControllerC", "revealControllerPanGestureEnded"]
+- ["So16UIViewControllerC", "revealControllerPanGestureShouldBegin"]
+- ["So16UIViewControllerC", "revealControllerTapGestureShouldBegin"]
+- !private ["So16UIViewControllerC", "revealToggle"]
+- !private ["So16UIViewControllerC", "revealViewController"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["So14NSUserDefaultsC", "data"]
+- !private ["So14NSUserDefaultsC", "standard"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "rounded"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "rounded"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Date"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Int64"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "TimeInterval"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "height"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "rounded"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "size"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "width"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "rounded"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "rounded"]
+- !private ["s26_ExpressibleByImageLiteralP", "jpegData"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "rounded"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ConstantStrings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FrontViewPosition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONDecoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LoginResponse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SWRevealViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserDefaults"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frontViewPosition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jpegData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "overlyView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "panGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeFromSuperview"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "revealController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "revealControllerPanGestureBegan"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "revealControllerPanGestureEnded"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "revealControllerPanGestureShouldBegin"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "revealControllerTapGestureShouldBegin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "revealToggle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "revealViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CGRect"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConstantStrings"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FrontViewPosition"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "JSONDecoder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LoginResponse"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SWRevealViewController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UserDefaults"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addGestureRecognizer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addSubview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addTarget"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "frame"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "frontViewPosition"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "image"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "jpegData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "overlyView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "panGestureRecognizer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeFromSuperview"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "revealController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "revealControllerPanGestureBegan"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "revealControllerPanGestureEnded"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "revealControllerPanGestureShouldBegin"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "revealControllerTapGestureShouldBegin"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "revealToggle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "revealViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "standard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "Date"]
+- !private ["s21_ObjectiveCBridgeableP", "Int64"]
+- !private ["s21_ObjectiveCBridgeableP", "TimeInterval"]
+- !private ["s21_ObjectiveCBridgeableP", "addGestureRecognizer"]
+- !private ["s21_ObjectiveCBridgeableP", "addSubview"]
+- !private ["s21_ObjectiveCBridgeableP", "base64EncodedString"]
+- !private ["s21_ObjectiveCBridgeableP", "delegate"]
+- !private ["s21_ObjectiveCBridgeableP", "frame"]
+- !private ["s21_ObjectiveCBridgeableP", "frontViewPosition"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "panGestureRecognizer"]
+- !private ["s21_ObjectiveCBridgeableP", "rounded"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince1970"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addGestureRecognizer"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addTarget"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "image"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "removeFromSuperview"]
+- !private ["10Accelerate34vDSP_FloatingPointBiquadFilterableP", "init"]
+- !private ["10Accelerate34vDSP_FloatingPointBiquadFilterableP", "rounded"]
+- !private ["10Accelerate29vDSP_FloatingPointConvertableP", "init"]
+- !private ["10Accelerate29vDSP_FloatingPointConvertableP", "rounded"]
+- !private ["10Accelerate46vDSP_FloatingPointDiscreteFourierTransformableP", "init"]
+- !private ["10Accelerate46vDSP_FloatingPointDiscreteFourierTransformableP", "rounded"]
+- !private ["10Accelerate29vDSP_FloatingPointGeneratableP", "init"]
+- !private ["10Accelerate29vDSP_FloatingPointGeneratableP", "rounded"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "So27NSDataBase64EncodingOptionsV"
+- "8BookFarm6BaseVCC"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- !private "So6CGSizeV"
+- "s7CVarArgP"
+- !private "10Kingfisher19CacheCostCalculableP"
+- !private "Sl"
+- !private "SL"
+- !private "8BookFarm15ConstantStringsV"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "10Kingfisher17DataTransformableP"
+- "10Foundation4DateV"
+- !private "Se"
+- !private "Sd"
+- !private "SE"
+- "SQ"
+- !private "So15UIControlEventsV"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- !private "So17FrontViewPositionV"
+- "SH"
+- !private "s5Int64V"
+- !private "10Foundation11JSONDecoderC"
+- !private "10Kingfisher0A10CompatibleP"
+- !private "10Kingfisher0A15CompatibleValueP"
+- !private "8BookFarm13LoginResponseV"
+- !private "s25LosslessStringConvertibleP"
+- !private "10Foundation11MeasurementV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "10Kingfisher11PlaceholderP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "So22SWRevealViewControllerC"
+- "So30SWRevealViewControllerDelegateP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- !private "7Combine15TopLevelDecoderP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- "So18UIContentContainerP"
+- !private "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- !private "So7UIImageC"
+- !private "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So14NSUserDefaultsC"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+- !private "10Accelerate34vDSP_FloatingPointBiquadFilterableP"
+- !private "10Accelerate29vDSP_FloatingPointConvertableP"
+- !private "10Accelerate46vDSP_FloatingPointDiscreteFourierTransformableP"
+- !private "10Accelerate29vDSP_FloatingPointGeneratableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Accelerate.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreLocation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Photos.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/XLPagerTabStrip.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Modules/YPImagePicker.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Modules/PryntTrimmerView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Headers/YPImagePicker-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Headers/SteviaLayout-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Headers/PryntTrimmerView-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/BookFarm/Third Party Framework/iCarousel/iCarousel.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/FXPageControl.h"
+- "/Users/macbook/Desktop/BookFarm/BookFarm/Third Party Framework/Bridging Header.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/macbook/Desktop/BookFarm/BookFarm/Third Party Framework/SWRevealViewController/SWRevealViewController.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Headers/YPImagePicker-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Headers/PryntTrimmerView-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0d16b94789a467692ca8efef1dad4035"

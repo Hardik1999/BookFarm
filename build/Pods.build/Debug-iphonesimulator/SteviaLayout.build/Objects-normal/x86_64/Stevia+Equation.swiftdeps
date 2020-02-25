@@ -1,0 +1,371 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SteviaAttribute"
+- "=="
+- "commonParent"
+- ">="
+- "<="
+- "+"
+- "-"
+- "*"
+- "/"
+- "%"
+- "=="
+- ">="
+- "<="
+provides-nominal:
+- "6Stevia0A9AttributeV"
+provides-member:
+- ["6Stevia0A9AttributeV", ""]
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "Width"]
+- ["So6UIViewC", "Height"]
+- ["So6UIViewC", "Top"]
+- ["So6UIViewC", "Bottom"]
+- ["So6UIViewC", "Left"]
+- ["So6UIViewC", "Right"]
+- ["So6UIViewC", "Leading"]
+- ["So6UIViewC", "Trailing"]
+- ["So6UIViewC", "CenterX"]
+- ["So6UIViewC", "CenterY"]
+- ["So6UIViewC", "FirstBaseline"]
+- ["So6UIViewC", "LastBaseline"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "%"
+- !private "&&"
+- "*"
+- "+"
+- "-"
+- "/"
+- "<="
+- "=="
+- ">="
+- !private "??"
+- "AssignmentPrecedence"
+- "CGFloat"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSLayoutConstraint"
+- "SteviaAttribute"
+- "UIView"
+- !private "applyRelation"
+- "commonParent"
+- !private "||"
+depends-member:
+- !private ["So17NSLayoutAttributeV", "bottom"]
+- !private ["So17NSLayoutAttributeV", "centerX"]
+- !private ["So17NSLayoutAttributeV", "centerY"]
+- !private ["So17NSLayoutAttributeV", "firstBaseline"]
+- !private ["So17NSLayoutAttributeV", "height"]
+- !private ["So17NSLayoutAttributeV", "lastBaseline"]
+- !private ["So17NSLayoutAttributeV", "leading"]
+- !private ["So17NSLayoutAttributeV", "left"]
+- !private ["So17NSLayoutAttributeV", "right"]
+- !private ["So17NSLayoutAttributeV", "top"]
+- !private ["So17NSLayoutAttributeV", "trailing"]
+- !private ["So17NSLayoutAttributeV", "width"]
+- !private ["So15CALayerDelegateP", "SteviaAttribute"]
+- !private ["So15CALayerDelegateP", "addConstraint"]
+- !private ["So15CALayerDelegateP", "isDescendant"]
+- !private ["So15CALayerDelegateP", "superview"]
+- ["s7CVarArgP", "Attribute"]
+- ["s7CVarArgP", "Relation"]
+- !private ["s7CVarArgP", "SteviaAttribute"]
+- !private ["s7CVarArgP", "addConstraint"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isDescendant"]
+- !private ["s7CVarArgP", "superview"]
+- ["s28CustomDebugStringConvertibleP", "Attribute"]
+- ["s28CustomDebugStringConvertibleP", "Relation"]
+- !private ["s28CustomDebugStringConvertibleP", "SteviaAttribute"]
+- !private ["s28CustomDebugStringConvertibleP", "addConstraint"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isDescendant"]
+- !private ["s28CustomDebugStringConvertibleP", "superview"]
+- ["s23CustomStringConvertibleP", "Attribute"]
+- ["s23CustomStringConvertibleP", "Relation"]
+- !private ["s23CustomStringConvertibleP", "SteviaAttribute"]
+- !private ["s23CustomStringConvertibleP", "addConstraint"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isDescendant"]
+- !private ["s23CustomStringConvertibleP", "superview"]
+- ["SQ", "Attribute"]
+- ["SQ", "Relation"]
+- !private ["SQ", "SteviaAttribute"]
+- !private ["SQ", "addConstraint"]
+- !private ["SQ", "bottom"]
+- !private ["SQ", "centerX"]
+- !private ["SQ", "centerY"]
+- !private ["SQ", "firstBaseline"]
+- !private ["SQ", "greaterThanOrEqual"]
+- !private ["SQ", "height"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isDescendant"]
+- !private ["SQ", "lastBaseline"]
+- !private ["SQ", "leading"]
+- !private ["SQ", "left"]
+- !private ["SQ", "lessThanOrEqual"]
+- !private ["SQ", "right"]
+- !private ["SQ", "superview"]
+- !private ["SQ", "top"]
+- !private ["SQ", "trailing"]
+- !private ["SQ", "width"]
+- ["SH", "Attribute"]
+- ["SH", "Relation"]
+- !private ["SH", "SteviaAttribute"]
+- !private ["SH", "addConstraint"]
+- !private ["SH", "bottom"]
+- !private ["SH", "centerX"]
+- !private ["SH", "centerY"]
+- !private ["SH", "firstBaseline"]
+- !private ["SH", "greaterThanOrEqual"]
+- !private ["SH", "height"]
+- !private ["SH", "init"]
+- !private ["SH", "isDescendant"]
+- !private ["SH", "lastBaseline"]
+- !private ["SH", "leading"]
+- !private ["SH", "left"]
+- !private ["SH", "lessThanOrEqual"]
+- !private ["SH", "right"]
+- !private ["SH", "superview"]
+- !private ["SH", "top"]
+- !private ["SH", "trailing"]
+- !private ["SH", "width"]
+- !private ["So8NSCodingP", "SteviaAttribute"]
+- !private ["So8NSCodingP", "addConstraint"]
+- !private ["So8NSCodingP", "isDescendant"]
+- !private ["So8NSCodingP", "superview"]
+- ["So18NSLayoutConstraintC", "Attribute"]
+- ["So18NSLayoutConstraintC", "Relation"]
+- !private ["So18NSLayoutConstraintC", "init"]
+- ["So8NSObjectC", "Attribute"]
+- ["So8NSObjectC", "Bottom"]
+- ["So8NSObjectC", "CenterX"]
+- ["So8NSObjectC", "CenterY"]
+- ["So8NSObjectC", "FirstBaseline"]
+- ["So8NSObjectC", "Height"]
+- ["So8NSObjectC", "LastBaseline"]
+- ["So8NSObjectC", "Leading"]
+- ["So8NSObjectC", "Left"]
+- ["So8NSObjectC", "Relation"]
+- ["So8NSObjectC", "Right"]
+- ["So8NSObjectC", "SteviaAttribute"]
+- ["So8NSObjectC", "Top"]
+- ["So8NSObjectC", "Trailing"]
+- ["So8NSObjectC", "Width"]
+- !private ["So8NSObjectC", "addConstraint"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isDescendant"]
+- !private ["So8NSObjectC", "superview"]
+- ["So8NSObjectP", "Attribute"]
+- ["So8NSObjectP", "Relation"]
+- !private ["So8NSObjectP", "SteviaAttribute"]
+- !private ["So8NSObjectP", "addConstraint"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isDescendant"]
+- !private ["So8NSObjectP", "superview"]
+- !private ["SY", "bottom"]
+- !private ["SY", "centerX"]
+- !private ["SY", "centerY"]
+- !private ["SY", "firstBaseline"]
+- !private ["SY", "greaterThanOrEqual"]
+- !private ["SY", "height"]
+- !private ["SY", "lastBaseline"]
+- !private ["SY", "leading"]
+- !private ["SY", "left"]
+- !private ["SY", "lessThanOrEqual"]
+- !private ["SY", "right"]
+- !private ["SY", "top"]
+- !private ["SY", "trailing"]
+- !private ["SY", "width"]
+- !private ["So16NSLayoutRelationV", "greaterThanOrEqual"]
+- !private ["So16NSLayoutRelationV", "lessThanOrEqual"]
+- ["6Stevia0A9AttributeV", "CGFloat"]
+- ["6Stevia0A9AttributeV", "NSLayoutConstraint"]
+- ["6Stevia0A9AttributeV", "UIView"]
+- ["6Stevia0A9AttributeV", "attribute"]
+- ["6Stevia0A9AttributeV", "constant"]
+- ["6Stevia0A9AttributeV", "init"]
+- ["6Stevia0A9AttributeV", "multiplier"]
+- ["6Stevia0A9AttributeV", "view"]
+- !private ["So29UIAccessibilityIdentificationP", "SteviaAttribute"]
+- !private ["So29UIAccessibilityIdentificationP", "addConstraint"]
+- !private ["So29UIAccessibilityIdentificationP", "isDescendant"]
+- !private ["So29UIAccessibilityIdentificationP", "superview"]
+- !private ["So12UIAppearanceP", "SteviaAttribute"]
+- !private ["So12UIAppearanceP", "addConstraint"]
+- !private ["So12UIAppearanceP", "isDescendant"]
+- !private ["So12UIAppearanceP", "superview"]
+- !private ["So21UIAppearanceContainerP", "SteviaAttribute"]
+- !private ["So21UIAppearanceContainerP", "addConstraint"]
+- !private ["So21UIAppearanceContainerP", "isDescendant"]
+- !private ["So21UIAppearanceContainerP", "superview"]
+- !private ["So17UICoordinateSpaceP", "SteviaAttribute"]
+- !private ["So17UICoordinateSpaceP", "addConstraint"]
+- !private ["So17UICoordinateSpaceP", "isDescendant"]
+- !private ["So17UICoordinateSpaceP", "superview"]
+- !private ["So13UIDynamicItemP", "SteviaAttribute"]
+- !private ["So13UIDynamicItemP", "addConstraint"]
+- !private ["So13UIDynamicItemP", "isDescendant"]
+- !private ["So13UIDynamicItemP", "superview"]
+- !private ["So18UIFocusEnvironmentP", "SteviaAttribute"]
+- !private ["So18UIFocusEnvironmentP", "addConstraint"]
+- !private ["So18UIFocusEnvironmentP", "isDescendant"]
+- !private ["So18UIFocusEnvironmentP", "superview"]
+- !private ["So11UIFocusItemP", "SteviaAttribute"]
+- !private ["So11UIFocusItemP", "addConstraint"]
+- !private ["So11UIFocusItemP", "isDescendant"]
+- !private ["So11UIFocusItemP", "superview"]
+- !private ["So20UIFocusItemContainerP", "SteviaAttribute"]
+- !private ["So20UIFocusItemContainerP", "addConstraint"]
+- !private ["So20UIFocusItemContainerP", "isDescendant"]
+- !private ["So20UIFocusItemContainerP", "superview"]
+- !private ["So24UILargeContentViewerItemP", "SteviaAttribute"]
+- !private ["So24UILargeContentViewerItemP", "addConstraint"]
+- !private ["So24UILargeContentViewerItemP", "isDescendant"]
+- !private ["So24UILargeContentViewerItemP", "superview"]
+- !private ["So30UIPasteConfigurationSupportingP", "SteviaAttribute"]
+- !private ["So30UIPasteConfigurationSupportingP", "addConstraint"]
+- !private ["So30UIPasteConfigurationSupportingP", "isDescendant"]
+- !private ["So30UIPasteConfigurationSupportingP", "superview"]
+- ["So11UIResponderC", "Bottom"]
+- ["So11UIResponderC", "CenterX"]
+- ["So11UIResponderC", "CenterY"]
+- ["So11UIResponderC", "FirstBaseline"]
+- ["So11UIResponderC", "Height"]
+- ["So11UIResponderC", "LastBaseline"]
+- ["So11UIResponderC", "Leading"]
+- ["So11UIResponderC", "Left"]
+- ["So11UIResponderC", "Right"]
+- ["So11UIResponderC", "SteviaAttribute"]
+- ["So11UIResponderC", "Top"]
+- ["So11UIResponderC", "Trailing"]
+- ["So11UIResponderC", "Width"]
+- !private ["So11UIResponderC", "addConstraint"]
+- !private ["So11UIResponderC", "isDescendant"]
+- !private ["So11UIResponderC", "superview"]
+- !private ["So30UIResponderStandardEditActionsP", "SteviaAttribute"]
+- !private ["So30UIResponderStandardEditActionsP", "addConstraint"]
+- !private ["So30UIResponderStandardEditActionsP", "isDescendant"]
+- !private ["So30UIResponderStandardEditActionsP", "superview"]
+- !private ["So18UITraitEnvironmentP", "SteviaAttribute"]
+- !private ["So18UITraitEnvironmentP", "addConstraint"]
+- !private ["So18UITraitEnvironmentP", "isDescendant"]
+- !private ["So18UITraitEnvironmentP", "superview"]
+- !private ["So23UIUserActivityRestoringP", "SteviaAttribute"]
+- !private ["So23UIUserActivityRestoringP", "addConstraint"]
+- !private ["So23UIUserActivityRestoringP", "isDescendant"]
+- !private ["So23UIUserActivityRestoringP", "superview"]
+- ["So6UIViewC", "Bottom"]
+- ["So6UIViewC", "CenterX"]
+- ["So6UIViewC", "CenterY"]
+- ["So6UIViewC", "FirstBaseline"]
+- ["So6UIViewC", "Height"]
+- ["So6UIViewC", "LastBaseline"]
+- ["So6UIViewC", "Leading"]
+- ["So6UIViewC", "Left"]
+- ["So6UIViewC", "Right"]
+- ["So6UIViewC", "SteviaAttribute"]
+- ["So6UIViewC", "Top"]
+- ["So6UIViewC", "Trailing"]
+- ["So6UIViewC", "Width"]
+- !private ["So6UIViewC", "addConstraint"]
+- !private ["So6UIViewC", "isDescendant"]
+- !private ["So6UIViewC", "superview"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Attribute"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Relation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SteviaAttribute"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addConstraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isDescendant"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "superview"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Attribute"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Relation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SteviaAttribute"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addConstraint"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isDescendant"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "superview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "SteviaAttribute"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addConstraint"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isDescendant"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "superview"]
+depends-nominal:
+- !private "So17NSLayoutAttributeV"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- !private "So8NSCodingP"
+- "So18NSLayoutConstraintC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "SY"
+- !private "So16NSLayoutRelationV"
+- "6Stevia0A9AttributeV"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/Pods/Target Support Files/SteviaLayout/SteviaLayout-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Pods.build/Debug-iphonesimulator/SteviaLayout.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f50ba1ba6299348304f02c4709b94359"

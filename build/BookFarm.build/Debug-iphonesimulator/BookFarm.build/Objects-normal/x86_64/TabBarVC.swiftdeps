@@ -1,0 +1,1070 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TabBarVC"
+provides-nominal:
+- "8BookFarm8TabBarVCC"
+provides-member:
+- ["8BookFarm8TabBarVCC", ""]
+provides-dynamic-lookup:
+- "MainView"
+- "btntabbar"
+- "btntabbarClicked"
+- "imgtabbar"
+- "lbltabbar"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "FloatLiteralType"
+- !private "HomeVC"
+- "IntegerLiteralType"
+- !private "MyAccountVC"
+- !private "MyStoreVC"
+- !private "PrimeVC"
+- !private "SellCategoryVC"
+- !private "StringLiteralType"
+- "TabBarVC"
+- "UIButton"
+- "UIImageView"
+- "UILabel"
+- "UIView"
+- "UIViewController"
+- !private "_ColorLiteralType"
+depends-member:
+- !private ["10Accelerate0A6BufferP", "image"]
+- !private ["10Accelerate0A6BufferP", "subscript"]
+- !private ["10Accelerate0A6BufferP", "textColor"]
+- !private ["10Accelerate0A6BufferP", "tintColor"]
+- !private ["10Accelerate0A13MutableBufferP", "image"]
+- !private ["10Accelerate0A13MutableBufferP", "subscript"]
+- !private ["10Accelerate0A13MutableBufferP", "textColor"]
+- !private ["10Accelerate0A13MutableBufferP", "tintColor"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "image"]
+- !private ["s10ArraySliceV", "textColor"]
+- !private ["s10ArraySliceV", "tintColor"]
+- !private ["SK", "image"]
+- !private ["SK", "subscript"]
+- !private ["SK", "textColor"]
+- !private ["SK", "tintColor"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "bounds"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "removeFromSuperview"]
+- !private ["So15CALayerDelegateP", "tag"]
+- !private ["So15CALayerDelegateP", "textColor"]
+- !private ["So15CALayerDelegateP", "tintColor"]
+- !private ["s7CVarArgP", "MainView"]
+- !private ["s7CVarArgP", "MyStoreViewController"]
+- !private ["s7CVarArgP", "ViewController"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addChild"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "btntabbar"]
+- !private ["s7CVarArgP", "btntabbarClicked"]
+- !private ["s7CVarArgP", "chatViewController"]
+- !private ["s7CVarArgP", "didMove"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "homeViewController"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "imgtabbar"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "lbltabbar"]
+- !private ["s7CVarArgP", "myAccountViewController"]
+- !private ["s7CVarArgP", "removeFromParent"]
+- !private ["s7CVarArgP", "removeFromSuperview"]
+- !private ["s7CVarArgP", "selectedindex"]
+- !private ["s7CVarArgP", "sellBookViewController"]
+- !private ["s7CVarArgP", "storyboard"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "tag"]
+- !private ["s7CVarArgP", "textColor"]
+- !private ["s7CVarArgP", "tintColor"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "willMove"]
+- !private ["s7CVarArgP", "withRenderingMode"]
+- !private ["10Kingfisher19CacheCostCalculableP", "withRenderingMode"]
+- !private ["Sl", "image"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "textColor"]
+- !private ["Sl", "tintColor"]
+- !private ["10Foundation15ContiguousBytesP", "image"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "textColor"]
+- !private ["10Foundation15ContiguousBytesP", "tintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "MainView"]
+- !private ["s28CustomDebugStringConvertibleP", "MyStoreViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "ViewController"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addChild"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "btntabbar"]
+- !private ["s28CustomDebugStringConvertibleP", "btntabbarClicked"]
+- !private ["s28CustomDebugStringConvertibleP", "chatViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "didMove"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "homeViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "imgtabbar"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "lbltabbar"]
+- !private ["s28CustomDebugStringConvertibleP", "myAccountViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFromParent"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFromSuperview"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedindex"]
+- !private ["s28CustomDebugStringConvertibleP", "sellBookViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "storyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "tag"]
+- !private ["s28CustomDebugStringConvertibleP", "textColor"]
+- !private ["s28CustomDebugStringConvertibleP", "tintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "willMove"]
+- !private ["s28CustomDebugStringConvertibleP", "withRenderingMode"]
+- !private ["s17CustomReflectableP", "addSubview"]
+- !private ["s17CustomReflectableP", "bounds"]
+- !private ["s17CustomReflectableP", "frame"]
+- !private ["s17CustomReflectableP", "image"]
+- !private ["s17CustomReflectableP", "removeFromSuperview"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "textColor"]
+- !private ["s17CustomReflectableP", "tintColor"]
+- !private ["s23CustomStringConvertibleP", "MainView"]
+- !private ["s23CustomStringConvertibleP", "MyStoreViewController"]
+- !private ["s23CustomStringConvertibleP", "ViewController"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addChild"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "btntabbar"]
+- !private ["s23CustomStringConvertibleP", "btntabbarClicked"]
+- !private ["s23CustomStringConvertibleP", "chatViewController"]
+- !private ["s23CustomStringConvertibleP", "didMove"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "homeViewController"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "imgtabbar"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "lbltabbar"]
+- !private ["s23CustomStringConvertibleP", "myAccountViewController"]
+- !private ["s23CustomStringConvertibleP", "removeFromParent"]
+- !private ["s23CustomStringConvertibleP", "removeFromSuperview"]
+- !private ["s23CustomStringConvertibleP", "selectedindex"]
+- !private ["s23CustomStringConvertibleP", "sellBookViewController"]
+- !private ["s23CustomStringConvertibleP", "storyboard"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "tag"]
+- !private ["s23CustomStringConvertibleP", "textColor"]
+- !private ["s23CustomStringConvertibleP", "tintColor"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "willMove"]
+- !private ["s23CustomStringConvertibleP", "withRenderingMode"]
+- !private ["10Foundation12DataProtocolP", "image"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "textColor"]
+- !private ["10Foundation12DataProtocolP", "tintColor"]
+- !private ["Se", "addSubview"]
+- !private ["Se", "bounds"]
+- !private ["Se", "frame"]
+- !private ["Se", "removeFromSuperview"]
+- !private ["Se", "subscript"]
+- !private ["SE", "addSubview"]
+- !private ["SE", "bounds"]
+- !private ["SE", "frame"]
+- !private ["SE", "removeFromSuperview"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "MainView"]
+- !private ["SQ", "MyStoreViewController"]
+- !private ["SQ", "ViewController"]
+- ["SQ", ""]
+- !private ["SQ", "addChild"]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "alwaysTemplate"]
+- !private ["SQ", "bounds"]
+- !private ["SQ", "btntabbar"]
+- !private ["SQ", "btntabbarClicked"]
+- !private ["SQ", "chatViewController"]
+- !private ["SQ", "didMove"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "homeViewController"]
+- !private ["SQ", "image"]
+- !private ["SQ", "imgtabbar"]
+- !private ["SQ", "init"]
+- !private ["SQ", "instantiateViewController"]
+- !private ["SQ", "lbltabbar"]
+- !private ["SQ", "myAccountViewController"]
+- !private ["SQ", "removeFromParent"]
+- !private ["SQ", "removeFromSuperview"]
+- !private ["SQ", "selectedindex"]
+- !private ["SQ", "sellBookViewController"]
+- !private ["SQ", "storyboard"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "tag"]
+- !private ["SQ", "textColor"]
+- !private ["SQ", "tintColor"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "willMove"]
+- !private ["SQ", "withRenderingMode"]
+- !private ["s25ExpressibleByArrayLiteralP", "image"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "textColor"]
+- !private ["s25ExpressibleByArrayLiteralP", "tintColor"]
+- !private ["s23ExpressibleByNilLiteralP", "addSubview"]
+- !private ["s23ExpressibleByNilLiteralP", "bounds"]
+- !private ["s23ExpressibleByNilLiteralP", "frame"]
+- !private ["s23ExpressibleByNilLiteralP", "removeFromSuperview"]
+- !private ["s23ExpressibleByNilLiteralP", "subscript"]
+- !private ["SH", "MainView"]
+- !private ["SH", "MyStoreViewController"]
+- !private ["SH", "ViewController"]
+- ["SH", ""]
+- !private ["SH", "addChild"]
+- !private ["SH", "addSubview"]
+- !private ["SH", "alwaysTemplate"]
+- !private ["SH", "bounds"]
+- !private ["SH", "btntabbar"]
+- !private ["SH", "btntabbarClicked"]
+- !private ["SH", "chatViewController"]
+- !private ["SH", "didMove"]
+- !private ["SH", "frame"]
+- !private ["SH", "homeViewController"]
+- !private ["SH", "image"]
+- !private ["SH", "imgtabbar"]
+- !private ["SH", "init"]
+- !private ["SH", "instantiateViewController"]
+- !private ["SH", "lbltabbar"]
+- !private ["SH", "myAccountViewController"]
+- !private ["SH", "removeFromParent"]
+- !private ["SH", "removeFromSuperview"]
+- !private ["SH", "selectedindex"]
+- !private ["SH", "sellBookViewController"]
+- !private ["SH", "storyboard"]
+- !private ["SH", "subscript"]
+- !private ["SH", "tag"]
+- !private ["SH", "textColor"]
+- !private ["SH", "tintColor"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "willMove"]
+- !private ["SH", "withRenderingMode"]
+- !private ["10Kingfisher0A10CompatibleP", "image"]
+- !private ["10Kingfisher0A10CompatibleP", "tag"]
+- !private ["10Kingfisher0A10CompatibleP", "tintColor"]
+- !private ["10Kingfisher0A10CompatibleP", "withRenderingMode"]
+- !private ["SM", "image"]
+- !private ["SM", "subscript"]
+- !private ["SM", "textColor"]
+- !private ["SM", "tintColor"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "MainView"]
+- !private ["So8NSCodingP", "MyStoreViewController"]
+- !private ["So8NSCodingP", "ViewController"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addChild"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "btntabbar"]
+- !private ["So8NSCodingP", "btntabbarClicked"]
+- !private ["So8NSCodingP", "chatViewController"]
+- !private ["So8NSCodingP", "didMove"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "homeViewController"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "imgtabbar"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lbltabbar"]
+- !private ["So8NSCodingP", "myAccountViewController"]
+- !private ["So8NSCodingP", "removeFromParent"]
+- !private ["So8NSCodingP", "removeFromSuperview"]
+- !private ["So8NSCodingP", "selectedindex"]
+- !private ["So8NSCodingP", "sellBookViewController"]
+- !private ["So8NSCodingP", "storyboard"]
+- !private ["So8NSCodingP", "tag"]
+- !private ["So8NSCodingP", "textColor"]
+- !private ["So8NSCodingP", "tintColor"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "willMove"]
+- !private ["So8NSCodingP", "withRenderingMode"]
+- !private ["So26NSExtensionRequestHandlingP", "MainView"]
+- !private ["So26NSExtensionRequestHandlingP", "MyStoreViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "ViewController"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "addChild"]
+- !private ["So26NSExtensionRequestHandlingP", "btntabbar"]
+- !private ["So26NSExtensionRequestHandlingP", "btntabbarClicked"]
+- !private ["So26NSExtensionRequestHandlingP", "chatViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "didMove"]
+- !private ["So26NSExtensionRequestHandlingP", "homeViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "imgtabbar"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "lbltabbar"]
+- !private ["So26NSExtensionRequestHandlingP", "myAccountViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "removeFromParent"]
+- !private ["So26NSExtensionRequestHandlingP", "selectedindex"]
+- !private ["So26NSExtensionRequestHandlingP", "sellBookViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "storyboard"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "willMove"]
+- !private ["So21NSItemProviderReadingP", "withRenderingMode"]
+- !private ["So21NSItemProviderWritingP", "withRenderingMode"]
+- !private ["So8NSObjectC", "HomeVC"]
+- ["So8NSObjectC", "MainView"]
+- !private ["So8NSObjectC", "MyAccountVC"]
+- !private ["So8NSObjectC", "MyStoreVC"]
+- ["So8NSObjectC", "MyStoreViewController"]
+- !private ["So8NSObjectC", "PrimeVC"]
+- !private ["So8NSObjectC", "SellCategoryVC"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "UIViewController"]
+- ["So8NSObjectC", "ViewController"]
+- !private ["So8NSObjectC", "addChild"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "bounds"]
+- ["So8NSObjectC", "btntabbar"]
+- ["So8NSObjectC", "btntabbarClicked"]
+- ["So8NSObjectC", "chatViewController"]
+- !private ["So8NSObjectC", "didMove"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "homeViewController"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "imgtabbar"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- ["So8NSObjectC", "lbltabbar"]
+- ["So8NSObjectC", "myAccountViewController"]
+- !private ["So8NSObjectC", "removeFromParent"]
+- !private ["So8NSObjectC", "removeFromSuperview"]
+- ["So8NSObjectC", "selectedindex"]
+- ["So8NSObjectC", "sellBookViewController"]
+- !private ["So8NSObjectC", "storyboard"]
+- !private ["So8NSObjectC", "tag"]
+- !private ["So8NSObjectC", "textColor"]
+- !private ["So8NSObjectC", "tintColor"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectC", "willMove"]
+- !private ["So8NSObjectC", "withRenderingMode"]
+- !private ["So8NSObjectP", "MainView"]
+- !private ["So8NSObjectP", "MyStoreViewController"]
+- !private ["So8NSObjectP", "ViewController"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addChild"]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "bounds"]
+- !private ["So8NSObjectP", "btntabbar"]
+- !private ["So8NSObjectP", "btntabbarClicked"]
+- !private ["So8NSObjectP", "chatViewController"]
+- !private ["So8NSObjectP", "didMove"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "homeViewController"]
+- !private ["So8NSObjectP", "image"]
+- !private ["So8NSObjectP", "imgtabbar"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "lbltabbar"]
+- !private ["So8NSObjectP", "myAccountViewController"]
+- !private ["So8NSObjectP", "removeFromParent"]
+- !private ["So8NSObjectP", "removeFromSuperview"]
+- !private ["So8NSObjectP", "selectedindex"]
+- !private ["So8NSObjectP", "sellBookViewController"]
+- !private ["So8NSObjectP", "storyboard"]
+- !private ["So8NSObjectP", "tag"]
+- !private ["So8NSObjectP", "textColor"]
+- !private ["So8NSObjectP", "tintColor"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So8NSObjectP", "willMove"]
+- !private ["So8NSObjectP", "withRenderingMode"]
+- !private ["So14NSSecureCodingP", "withRenderingMode"]
+- !private ["Sq", "addSubview"]
+- !private ["Sq", "bounds"]
+- !private ["Sq", "frame"]
+- !private ["Sq", "removeFromSuperview"]
+- !private ["Sq", "subscript"]
+- !private ["10Kingfisher11PlaceholderP", "withRenderingMode"]
+- !private ["Sk", "image"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "textColor"]
+- !private ["Sk", "tintColor"]
+- !private ["Sm", "image"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "textColor"]
+- !private ["Sm", "tintColor"]
+- !private ["SY", "alwaysTemplate"]
+- !private ["So20UIImageRenderingModeV", "alwaysTemplate"]
+- !private ["ST", "image"]
+- !private ["ST", "subscript"]
+- !private ["ST", "textColor"]
+- !private ["ST", "tintColor"]
+- !private ["8BookFarm8TabBarVCC", "HomeVC"]
+- ["8BookFarm8TabBarVCC", "MainView"]
+- !private ["8BookFarm8TabBarVCC", "MyAccountVC"]
+- !private ["8BookFarm8TabBarVCC", "MyStoreVC"]
+- ["8BookFarm8TabBarVCC", "MyStoreViewController"]
+- !private ["8BookFarm8TabBarVCC", "PrimeVC"]
+- !private ["8BookFarm8TabBarVCC", "SellCategoryVC"]
+- ["8BookFarm8TabBarVCC", "UIButton"]
+- ["8BookFarm8TabBarVCC", "UIImageView"]
+- ["8BookFarm8TabBarVCC", "UILabel"]
+- ["8BookFarm8TabBarVCC", "UIView"]
+- ["8BookFarm8TabBarVCC", "UIViewController"]
+- ["8BookFarm8TabBarVCC", "ViewController"]
+- !private ["8BookFarm8TabBarVCC", "addChild"]
+- ["8BookFarm8TabBarVCC", "btntabbar"]
+- ["8BookFarm8TabBarVCC", "btntabbarClicked"]
+- ["8BookFarm8TabBarVCC", "chatViewController"]
+- ["8BookFarm8TabBarVCC", "deinit"]
+- ["8BookFarm8TabBarVCC", "homeViewController"]
+- ["8BookFarm8TabBarVCC", "imgtabbar"]
+- ["8BookFarm8TabBarVCC", "init"]
+- ["8BookFarm8TabBarVCC", "lbltabbar"]
+- ["8BookFarm8TabBarVCC", "myAccountViewController"]
+- ["8BookFarm8TabBarVCC", "selectedindex"]
+- ["8BookFarm8TabBarVCC", "sellBookViewController"]
+- !private ["8BookFarm8TabBarVCC", "storyboard"]
+- ["8BookFarm8TabBarVCC", "viewDidLoad"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "tag"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "tintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "bounds"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "removeFromSuperview"]
+- !private ["So29UIAccessibilityIdentificationP", "tag"]
+- !private ["So29UIAccessibilityIdentificationP", "textColor"]
+- !private ["So29UIAccessibilityIdentificationP", "tintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "withRenderingMode"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "bounds"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "removeFromSuperview"]
+- !private ["So12UIAppearanceP", "tag"]
+- !private ["So12UIAppearanceP", "textColor"]
+- !private ["So12UIAppearanceP", "tintColor"]
+- !private ["So21UIAppearanceContainerP", "MainView"]
+- !private ["So21UIAppearanceContainerP", "MyStoreViewController"]
+- !private ["So21UIAppearanceContainerP", "ViewController"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addChild"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "bounds"]
+- !private ["So21UIAppearanceContainerP", "btntabbar"]
+- !private ["So21UIAppearanceContainerP", "btntabbarClicked"]
+- !private ["So21UIAppearanceContainerP", "chatViewController"]
+- !private ["So21UIAppearanceContainerP", "didMove"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "homeViewController"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "imgtabbar"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "lbltabbar"]
+- !private ["So21UIAppearanceContainerP", "myAccountViewController"]
+- !private ["So21UIAppearanceContainerP", "removeFromParent"]
+- !private ["So21UIAppearanceContainerP", "removeFromSuperview"]
+- !private ["So21UIAppearanceContainerP", "selectedindex"]
+- !private ["So21UIAppearanceContainerP", "sellBookViewController"]
+- !private ["So21UIAppearanceContainerP", "storyboard"]
+- !private ["So21UIAppearanceContainerP", "tag"]
+- !private ["So21UIAppearanceContainerP", "textColor"]
+- !private ["So21UIAppearanceContainerP", "tintColor"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "willMove"]
+- !private ["So8UIButtonC", "tag"]
+- !private ["So18UIContentContainerP", "MainView"]
+- !private ["So18UIContentContainerP", "MyStoreViewController"]
+- !private ["So18UIContentContainerP", "ViewController"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "addChild"]
+- !private ["So18UIContentContainerP", "btntabbar"]
+- !private ["So18UIContentContainerP", "btntabbarClicked"]
+- !private ["So18UIContentContainerP", "chatViewController"]
+- !private ["So18UIContentContainerP", "didMove"]
+- !private ["So18UIContentContainerP", "homeViewController"]
+- !private ["So18UIContentContainerP", "imgtabbar"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "lbltabbar"]
+- !private ["So18UIContentContainerP", "myAccountViewController"]
+- !private ["So18UIContentContainerP", "removeFromParent"]
+- !private ["So18UIContentContainerP", "selectedindex"]
+- !private ["So18UIContentContainerP", "sellBookViewController"]
+- !private ["So18UIContentContainerP", "storyboard"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "willMove"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "textColor"]
+- !private ["So9UIControlC", "tag"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "bounds"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "removeFromSuperview"]
+- !private ["So17UICoordinateSpaceP", "tag"]
+- !private ["So17UICoordinateSpaceP", "textColor"]
+- !private ["So17UICoordinateSpaceP", "tintColor"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "bounds"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "removeFromSuperview"]
+- !private ["So13UIDynamicItemP", "tag"]
+- !private ["So13UIDynamicItemP", "textColor"]
+- !private ["So13UIDynamicItemP", "tintColor"]
+- !private ["So18UIFocusEnvironmentP", "MainView"]
+- !private ["So18UIFocusEnvironmentP", "MyStoreViewController"]
+- !private ["So18UIFocusEnvironmentP", "ViewController"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addChild"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "bounds"]
+- !private ["So18UIFocusEnvironmentP", "btntabbar"]
+- !private ["So18UIFocusEnvironmentP", "btntabbarClicked"]
+- !private ["So18UIFocusEnvironmentP", "chatViewController"]
+- !private ["So18UIFocusEnvironmentP", "didMove"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "homeViewController"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "imgtabbar"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "lbltabbar"]
+- !private ["So18UIFocusEnvironmentP", "myAccountViewController"]
+- !private ["So18UIFocusEnvironmentP", "removeFromParent"]
+- !private ["So18UIFocusEnvironmentP", "removeFromSuperview"]
+- !private ["So18UIFocusEnvironmentP", "selectedindex"]
+- !private ["So18UIFocusEnvironmentP", "sellBookViewController"]
+- !private ["So18UIFocusEnvironmentP", "storyboard"]
+- !private ["So18UIFocusEnvironmentP", "tag"]
+- !private ["So18UIFocusEnvironmentP", "textColor"]
+- !private ["So18UIFocusEnvironmentP", "tintColor"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "willMove"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "bounds"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "removeFromSuperview"]
+- !private ["So11UIFocusItemP", "tag"]
+- !private ["So11UIFocusItemP", "textColor"]
+- !private ["So11UIFocusItemP", "tintColor"]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "bounds"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- !private ["So20UIFocusItemContainerP", "image"]
+- !private ["So20UIFocusItemContainerP", "removeFromSuperview"]
+- !private ["So20UIFocusItemContainerP", "tag"]
+- !private ["So20UIFocusItemContainerP", "textColor"]
+- !private ["So20UIFocusItemContainerP", "tintColor"]
+- !private ["So7UIImageC", "withRenderingMode"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So11UIImageViewC", "tintColor"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "withRenderingMode"]
+- !private ["So7UILabelC", "textColor"]
+- !private ["So24UILargeContentViewerItemP", "addSubview"]
+- !private ["So24UILargeContentViewerItemP", "bounds"]
+- !private ["So24UILargeContentViewerItemP", "frame"]
+- !private ["So24UILargeContentViewerItemP", "image"]
+- !private ["So24UILargeContentViewerItemP", "removeFromSuperview"]
+- !private ["So24UILargeContentViewerItemP", "tag"]
+- !private ["So24UILargeContentViewerItemP", "textColor"]
+- !private ["So24UILargeContentViewerItemP", "tintColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "MainView"]
+- !private ["So30UIPasteConfigurationSupportingP", "MyStoreViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "ViewController"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addChild"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "bounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "btntabbar"]
+- !private ["So30UIPasteConfigurationSupportingP", "btntabbarClicked"]
+- !private ["So30UIPasteConfigurationSupportingP", "chatViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "didMove"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "homeViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "imgtabbar"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "lbltabbar"]
+- !private ["So30UIPasteConfigurationSupportingP", "myAccountViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "removeFromParent"]
+- !private ["So30UIPasteConfigurationSupportingP", "removeFromSuperview"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectedindex"]
+- !private ["So30UIPasteConfigurationSupportingP", "sellBookViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "storyboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "tag"]
+- !private ["So30UIPasteConfigurationSupportingP", "textColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "tintColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "willMove"]
+- !private ["So11UIResponderC", "HomeVC"]
+- ["So11UIResponderC", "MainView"]
+- !private ["So11UIResponderC", "MyAccountVC"]
+- !private ["So11UIResponderC", "MyStoreVC"]
+- ["So11UIResponderC", "MyStoreViewController"]
+- !private ["So11UIResponderC", "PrimeVC"]
+- !private ["So11UIResponderC", "SellCategoryVC"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UIView"]
+- ["So11UIResponderC", "UIViewController"]
+- ["So11UIResponderC", "ViewController"]
+- !private ["So11UIResponderC", "addChild"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "bounds"]
+- ["So11UIResponderC", "btntabbar"]
+- ["So11UIResponderC", "btntabbarClicked"]
+- ["So11UIResponderC", "chatViewController"]
+- !private ["So11UIResponderC", "didMove"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "homeViewController"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "imgtabbar"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "lbltabbar"]
+- ["So11UIResponderC", "myAccountViewController"]
+- !private ["So11UIResponderC", "removeFromParent"]
+- !private ["So11UIResponderC", "removeFromSuperview"]
+- ["So11UIResponderC", "selectedindex"]
+- ["So11UIResponderC", "sellBookViewController"]
+- !private ["So11UIResponderC", "storyboard"]
+- !private ["So11UIResponderC", "tag"]
+- !private ["So11UIResponderC", "textColor"]
+- !private ["So11UIResponderC", "tintColor"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So11UIResponderC", "willMove"]
+- !private ["So30UIResponderStandardEditActionsP", "MainView"]
+- !private ["So30UIResponderStandardEditActionsP", "MyStoreViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "ViewController"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addChild"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "bounds"]
+- !private ["So30UIResponderStandardEditActionsP", "btntabbar"]
+- !private ["So30UIResponderStandardEditActionsP", "btntabbarClicked"]
+- !private ["So30UIResponderStandardEditActionsP", "chatViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "didMove"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "homeViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "imgtabbar"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "lbltabbar"]
+- !private ["So30UIResponderStandardEditActionsP", "myAccountViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "removeFromParent"]
+- !private ["So30UIResponderStandardEditActionsP", "removeFromSuperview"]
+- !private ["So30UIResponderStandardEditActionsP", "selectedindex"]
+- !private ["So30UIResponderStandardEditActionsP", "sellBookViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "storyboard"]
+- !private ["So30UIResponderStandardEditActionsP", "tag"]
+- !private ["So30UIResponderStandardEditActionsP", "textColor"]
+- !private ["So30UIResponderStandardEditActionsP", "tintColor"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "willMove"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "tag"]
+- !private ["So16UIStateRestoringP", "MainView"]
+- !private ["So16UIStateRestoringP", "MyStoreViewController"]
+- !private ["So16UIStateRestoringP", "ViewController"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "addChild"]
+- !private ["So16UIStateRestoringP", "btntabbar"]
+- !private ["So16UIStateRestoringP", "btntabbarClicked"]
+- !private ["So16UIStateRestoringP", "chatViewController"]
+- !private ["So16UIStateRestoringP", "didMove"]
+- !private ["So16UIStateRestoringP", "homeViewController"]
+- !private ["So16UIStateRestoringP", "imgtabbar"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "lbltabbar"]
+- !private ["So16UIStateRestoringP", "myAccountViewController"]
+- !private ["So16UIStateRestoringP", "removeFromParent"]
+- !private ["So16UIStateRestoringP", "selectedindex"]
+- !private ["So16UIStateRestoringP", "sellBookViewController"]
+- !private ["So16UIStateRestoringP", "storyboard"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "willMove"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So18UITraitEnvironmentP", "MainView"]
+- !private ["So18UITraitEnvironmentP", "MyStoreViewController"]
+- !private ["So18UITraitEnvironmentP", "ViewController"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addChild"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "btntabbar"]
+- !private ["So18UITraitEnvironmentP", "btntabbarClicked"]
+- !private ["So18UITraitEnvironmentP", "chatViewController"]
+- !private ["So18UITraitEnvironmentP", "didMove"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "homeViewController"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "imgtabbar"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "lbltabbar"]
+- !private ["So18UITraitEnvironmentP", "myAccountViewController"]
+- !private ["So18UITraitEnvironmentP", "removeFromParent"]
+- !private ["So18UITraitEnvironmentP", "removeFromSuperview"]
+- !private ["So18UITraitEnvironmentP", "selectedindex"]
+- !private ["So18UITraitEnvironmentP", "sellBookViewController"]
+- !private ["So18UITraitEnvironmentP", "storyboard"]
+- !private ["So18UITraitEnvironmentP", "tag"]
+- !private ["So18UITraitEnvironmentP", "textColor"]
+- !private ["So18UITraitEnvironmentP", "tintColor"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "willMove"]
+- !private ["So23UIUserActivityRestoringP", "MainView"]
+- !private ["So23UIUserActivityRestoringP", "MyStoreViewController"]
+- !private ["So23UIUserActivityRestoringP", "ViewController"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addChild"]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "bounds"]
+- !private ["So23UIUserActivityRestoringP", "btntabbar"]
+- !private ["So23UIUserActivityRestoringP", "btntabbarClicked"]
+- !private ["So23UIUserActivityRestoringP", "chatViewController"]
+- !private ["So23UIUserActivityRestoringP", "didMove"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "homeViewController"]
+- !private ["So23UIUserActivityRestoringP", "image"]
+- !private ["So23UIUserActivityRestoringP", "imgtabbar"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "lbltabbar"]
+- !private ["So23UIUserActivityRestoringP", "myAccountViewController"]
+- !private ["So23UIUserActivityRestoringP", "removeFromParent"]
+- !private ["So23UIUserActivityRestoringP", "removeFromSuperview"]
+- !private ["So23UIUserActivityRestoringP", "selectedindex"]
+- !private ["So23UIUserActivityRestoringP", "sellBookViewController"]
+- !private ["So23UIUserActivityRestoringP", "storyboard"]
+- !private ["So23UIUserActivityRestoringP", "tag"]
+- !private ["So23UIUserActivityRestoringP", "textColor"]
+- !private ["So23UIUserActivityRestoringP", "tintColor"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "willMove"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "bounds"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "image"]
+- !private ["So6UIViewC", "removeFromSuperview"]
+- !private ["So6UIViewC", "tag"]
+- !private ["So6UIViewC", "textColor"]
+- !private ["So6UIViewC", "tintColor"]
+- !private ["So16UIViewControllerC", "HomeVC"]
+- ["So16UIViewControllerC", "MainView"]
+- !private ["So16UIViewControllerC", "MyAccountVC"]
+- !private ["So16UIViewControllerC", "MyStoreVC"]
+- ["So16UIViewControllerC", "MyStoreViewController"]
+- !private ["So16UIViewControllerC", "PrimeVC"]
+- !private ["So16UIViewControllerC", "SellCategoryVC"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UIImageView"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UIView"]
+- ["So16UIViewControllerC", "UIViewController"]
+- ["So16UIViewControllerC", "ViewController"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "addChild"]
+- ["So16UIViewControllerC", "btntabbar"]
+- ["So16UIViewControllerC", "btntabbarClicked"]
+- ["So16UIViewControllerC", "chatViewController"]
+- !private ["So16UIViewControllerC", "didMove"]
+- ["So16UIViewControllerC", "homeViewController"]
+- ["So16UIViewControllerC", "imgtabbar"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "lbltabbar"]
+- ["So16UIViewControllerC", "myAccountViewController"]
+- !private ["So16UIViewControllerC", "removeFromParent"]
+- ["So16UIViewControllerC", "selectedindex"]
+- ["So16UIViewControllerC", "sellBookViewController"]
+- !private ["So16UIViewControllerC", "storyboard"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["So16UIViewControllerC", "willMove"]
+- !private ["s14_ArrayProtocolP", "image"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "textColor"]
+- !private ["s14_ArrayProtocolP", "tintColor"]
+- !private ["s24_DestructorSafeContainerP", "image"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "textColor"]
+- !private ["s24_DestructorSafeContainerP", "tintColor"]
+- !private ["s26_ExpressibleByImageLiteralP", "withRenderingMode"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MainView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MyStoreViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addChild"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "btntabbar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "btntabbarClicked"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "chatViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didMove"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "homeViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imgtabbar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lbltabbar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "myAccountViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeFromParent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeFromSuperview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedindex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sellBookViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "storyboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "willMove"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "withRenderingMode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MainView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MyStoreViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ViewController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addChild"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addSubview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bounds"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "btntabbar"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "btntabbarClicked"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "chatViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didMove"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "frame"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "homeViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "image"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imgtabbar"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "instantiateViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lbltabbar"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "myAccountViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeFromParent"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeFromSuperview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "selectedindex"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sellBookViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "storyboard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tag"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tintColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "willMove"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "withRenderingMode"]
+- !private ["s21_ObjectiveCBridgeableP", "addSubview"]
+- !private ["s21_ObjectiveCBridgeableP", "bounds"]
+- !private ["s21_ObjectiveCBridgeableP", "frame"]
+- !private ["s21_ObjectiveCBridgeableP", "removeFromSuperview"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "bounds"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "removeFromSuperview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "tag"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "textColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "tintColor"]
+depends-nominal:
+- !private "10Accelerate0A6BufferP"
+- !private "10Accelerate0A13MutableBufferP"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "10Kingfisher19CacheCostCalculableP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "10Kingfisher0A10CompatibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- !private "10Kingfisher11PlaceholderP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "So20UIImageRenderingModeV"
+- !private "ST"
+- "8BookFarm8TabBarVCC"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So7UIImageC"
+- !private "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So7UILabelC"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Accelerate.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreLocation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Photos.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/XLPagerTabStrip.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Modules/YPImagePicker.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Modules/PryntTrimmerView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Headers/YPImagePicker-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Headers/SteviaLayout-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Headers/PryntTrimmerView-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/BookFarm/Third Party Framework/iCarousel/iCarousel.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/FXPageControl.h"
+- "/Users/macbook/Desktop/BookFarm/BookFarm/Third Party Framework/Bridging Header.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/macbook/Desktop/BookFarm/BookFarm/Third Party Framework/SWRevealViewController/SWRevealViewController.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Headers/YPImagePicker-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Headers/PryntTrimmerView-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5ec03b48321ba80a7b6c3d97f8d65d9f"

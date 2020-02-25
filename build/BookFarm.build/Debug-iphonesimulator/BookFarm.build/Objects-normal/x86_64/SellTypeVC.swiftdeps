@@ -1,0 +1,840 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SellTypeVC"
+provides-nominal:
+- "8BookFarm10SellTypeVCC"
+provides-member:
+- ["8BookFarm10SellTypeVCC", ""]
+provides-dynamic-lookup:
+- "handleGesture"
+- "onClickSell"
+- "onClickboth"
+- "onClickrent"
+- "viewDidLoad"
+depends-top-level:
+- !private "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "BothBookVC"
+- "CastingPrecedence"
+- !private "RentBookVC"
+- !private "SellBookPriceVC"
+- "SellTypeVC"
+- "StringLiteralType"
+- !private "TabBarVC"
+- "UIImage"
+- "UISwipeGestureRecognizer"
+- "UIViewController"
+- "Void"
+depends-member:
+- ["10Accelerate0A6BufferP", "init"]
+- ["10Accelerate0A13MutableBufferP", "init"]
+- ["Sa", "init"]
+- !private ["8BookFarm6BaseVCC", "bookAuthorName"]
+- !private ["8BookFarm6BaseVCC", "bookCatID"]
+- !private ["8BookFarm6BaseVCC", "bookDescription"]
+- !private ["8BookFarm6BaseVCC", "bookEdition"]
+- !private ["8BookFarm6BaseVCC", "bookName"]
+- !private ["8BookFarm6BaseVCC", "bookcatname"]
+- !private ["8BookFarm6BaseVCC", "booklanguage"]
+- !private ["8BookFarm6BaseVCC", "selectedimages"]
+- ["SK", "init"]
+- !private ["8BookFarm04BothA2VCC", "bookAuthorName"]
+- !private ["8BookFarm04BothA2VCC", "bookCatID"]
+- !private ["8BookFarm04BothA2VCC", "bookDescription"]
+- !private ["8BookFarm04BothA2VCC", "bookEdition"]
+- !private ["8BookFarm04BothA2VCC", "bookName"]
+- !private ["8BookFarm04BothA2VCC", "bookcatname"]
+- !private ["8BookFarm04BothA2VCC", "booklanguage"]
+- !private ["8BookFarm04BothA2VCC", "selectedimages"]
+- !private ["So15CALayerDelegateP", "addGestureRecognizer"]
+- !private ["s7CVarArgP", "TabBarVC"]
+- ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "UISwipeGestureRecognizer"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addGestureRecognizer"]
+- !private ["s7CVarArgP", "bookAuthorName"]
+- !private ["s7CVarArgP", "bookCatID"]
+- !private ["s7CVarArgP", "bookDescription"]
+- !private ["s7CVarArgP", "bookEdition"]
+- !private ["s7CVarArgP", "bookName"]
+- !private ["s7CVarArgP", "bookcatname"]
+- !private ["s7CVarArgP", "booklanguage"]
+- !private ["s7CVarArgP", "direction"]
+- !private ["s7CVarArgP", "handleGesture"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "isKind"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "popToViewController"]
+- !private ["s7CVarArgP", "pushViewController"]
+- !private ["s7CVarArgP", "selectedimages"]
+- !private ["s7CVarArgP", "storyboard"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewControllers"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["Sl", "init"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "TabBarVC"]
+- ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "UISwipeGestureRecognizer"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "bookAuthorName"]
+- !private ["s28CustomDebugStringConvertibleP", "bookCatID"]
+- !private ["s28CustomDebugStringConvertibleP", "bookDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "bookEdition"]
+- !private ["s28CustomDebugStringConvertibleP", "bookName"]
+- !private ["s28CustomDebugStringConvertibleP", "bookcatname"]
+- !private ["s28CustomDebugStringConvertibleP", "booklanguage"]
+- !private ["s28CustomDebugStringConvertibleP", "direction"]
+- !private ["s28CustomDebugStringConvertibleP", "handleGesture"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "isKind"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "popToViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "pushViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedimages"]
+- !private ["s28CustomDebugStringConvertibleP", "storyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewControllers"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "addGestureRecognizer"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "TabBarVC"]
+- ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "UISwipeGestureRecognizer"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "bookAuthorName"]
+- !private ["s23CustomStringConvertibleP", "bookCatID"]
+- !private ["s23CustomStringConvertibleP", "bookDescription"]
+- !private ["s23CustomStringConvertibleP", "bookEdition"]
+- !private ["s23CustomStringConvertibleP", "bookName"]
+- !private ["s23CustomStringConvertibleP", "bookcatname"]
+- !private ["s23CustomStringConvertibleP", "booklanguage"]
+- !private ["s23CustomStringConvertibleP", "direction"]
+- !private ["s23CustomStringConvertibleP", "handleGesture"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "isKind"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "popToViewController"]
+- !private ["s23CustomStringConvertibleP", "pushViewController"]
+- !private ["s23CustomStringConvertibleP", "selectedimages"]
+- !private ["s23CustomStringConvertibleP", "storyboard"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewControllers"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "addGestureRecognizer"]
+- ["Se", "init"]
+- !private ["So33UISwipeGestureRecognizerDirectionV", "right"]
+- !private ["SE", "addGestureRecognizer"]
+- ["SE", "init"]
+- !private ["SQ", "TabBarVC"]
+- ["SQ", "UIImage"]
+- !private ["SQ", "UISwipeGestureRecognizer"]
+- ["SQ", ""]
+- !private ["SQ", "addGestureRecognizer"]
+- !private ["SQ", "bookAuthorName"]
+- !private ["SQ", "bookCatID"]
+- !private ["SQ", "bookDescription"]
+- !private ["SQ", "bookEdition"]
+- !private ["SQ", "bookName"]
+- !private ["SQ", "bookcatname"]
+- !private ["SQ", "booklanguage"]
+- !private ["SQ", "direction"]
+- !private ["SQ", "handleGesture"]
+- ["SQ", "init"]
+- !private ["SQ", "instantiateViewController"]
+- !private ["SQ", "isKind"]
+- !private ["SQ", "navigationController"]
+- !private ["SQ", "popToViewController"]
+- !private ["SQ", "pushViewController"]
+- !private ["SQ", "right"]
+- !private ["SQ", "selectedimages"]
+- !private ["SQ", "storyboard"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewControllers"]
+- !private ["SQ", "viewDidLoad"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "right"]
+- !private ["s23ExpressibleByNilLiteralP", "addGestureRecognizer"]
+- !private ["SH", "TabBarVC"]
+- ["SH", "UIImage"]
+- !private ["SH", "UISwipeGestureRecognizer"]
+- ["SH", ""]
+- !private ["SH", "addGestureRecognizer"]
+- !private ["SH", "bookAuthorName"]
+- !private ["SH", "bookCatID"]
+- !private ["SH", "bookDescription"]
+- !private ["SH", "bookEdition"]
+- !private ["SH", "bookName"]
+- !private ["SH", "bookcatname"]
+- !private ["SH", "booklanguage"]
+- !private ["SH", "direction"]
+- !private ["SH", "handleGesture"]
+- ["SH", "init"]
+- !private ["SH", "instantiateViewController"]
+- !private ["SH", "isKind"]
+- !private ["SH", "navigationController"]
+- !private ["SH", "popToViewController"]
+- !private ["SH", "pushViewController"]
+- !private ["SH", "selectedimages"]
+- !private ["SH", "storyboard"]
+- !private ["SH", "view"]
+- !private ["SH", "viewControllers"]
+- !private ["SH", "viewDidLoad"]
+- ["SM", "init"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["So8NSCodingP", "TabBarVC"]
+- ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "UISwipeGestureRecognizer"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addGestureRecognizer"]
+- !private ["So8NSCodingP", "bookAuthorName"]
+- !private ["So8NSCodingP", "bookCatID"]
+- !private ["So8NSCodingP", "bookDescription"]
+- !private ["So8NSCodingP", "bookEdition"]
+- !private ["So8NSCodingP", "bookName"]
+- !private ["So8NSCodingP", "bookcatname"]
+- !private ["So8NSCodingP", "booklanguage"]
+- !private ["So8NSCodingP", "handleGesture"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isKind"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "popToViewController"]
+- !private ["So8NSCodingP", "pushViewController"]
+- !private ["So8NSCodingP", "selectedimages"]
+- !private ["So8NSCodingP", "storyboard"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewControllers"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "TabBarVC"]
+- ["So26NSExtensionRequestHandlingP", "UIImage"]
+- !private ["So26NSExtensionRequestHandlingP", "UISwipeGestureRecognizer"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "bookAuthorName"]
+- !private ["So26NSExtensionRequestHandlingP", "bookCatID"]
+- !private ["So26NSExtensionRequestHandlingP", "bookDescription"]
+- !private ["So26NSExtensionRequestHandlingP", "bookEdition"]
+- !private ["So26NSExtensionRequestHandlingP", "bookName"]
+- !private ["So26NSExtensionRequestHandlingP", "bookcatname"]
+- !private ["So26NSExtensionRequestHandlingP", "booklanguage"]
+- !private ["So26NSExtensionRequestHandlingP", "handleGesture"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "isKind"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "popToViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "pushViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "selectedimages"]
+- !private ["So26NSExtensionRequestHandlingP", "storyboard"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewControllers"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "Array"]
+- !private ["So8NSObjectC", "BothBookVC"]
+- !private ["So8NSObjectC", "RentBookVC"]
+- !private ["So8NSObjectC", "SellBookPriceVC"]
+- !private ["So8NSObjectC", "TabBarVC"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UISwipeGestureRecognizer"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "addGestureRecognizer"]
+- ["So8NSObjectC", "bookAuthorName"]
+- ["So8NSObjectC", "bookCatID"]
+- ["So8NSObjectC", "bookDescription"]
+- ["So8NSObjectC", "bookEdition"]
+- ["So8NSObjectC", "bookName"]
+- ["So8NSObjectC", "bookcatname"]
+- ["So8NSObjectC", "booklanguage"]
+- !private ["So8NSObjectC", "direction"]
+- ["So8NSObjectC", "handleGesture"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- !private ["So8NSObjectC", "isKind"]
+- !private ["So8NSObjectC", "navigationController"]
+- ["So8NSObjectC", "onClickSell"]
+- ["So8NSObjectC", "onClickboth"]
+- ["So8NSObjectC", "onClickrent"]
+- !private ["So8NSObjectC", "popToViewController"]
+- !private ["So8NSObjectC", "pushViewController"]
+- ["So8NSObjectC", "selectedimages"]
+- !private ["So8NSObjectC", "storyboard"]
+- !private ["So8NSObjectC", "view"]
+- !private ["So8NSObjectC", "viewControllers"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "TabBarVC"]
+- ["So8NSObjectP", "UIImage"]
+- !private ["So8NSObjectP", "UISwipeGestureRecognizer"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addGestureRecognizer"]
+- !private ["So8NSObjectP", "bookAuthorName"]
+- !private ["So8NSObjectP", "bookCatID"]
+- !private ["So8NSObjectP", "bookDescription"]
+- !private ["So8NSObjectP", "bookEdition"]
+- !private ["So8NSObjectP", "bookName"]
+- !private ["So8NSObjectP", "bookcatname"]
+- !private ["So8NSObjectP", "booklanguage"]
+- !private ["So8NSObjectP", "direction"]
+- !private ["So8NSObjectP", "handleGesture"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "isKind"]
+- !private ["So8NSObjectP", "navigationController"]
+- !private ["So8NSObjectP", "popToViewController"]
+- !private ["So8NSObjectP", "pushViewController"]
+- !private ["So8NSObjectP", "selectedimages"]
+- !private ["So8NSObjectP", "storyboard"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewControllers"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["s9OptionSetP", "right"]
+- !private ["Sq", "addGestureRecognizer"]
+- ["Sk", "init"]
+- ["Sm", "init"]
+- !private ["SY", "right"]
+- !private ["8BookFarm04RentA2VCC", "bookAuthorName"]
+- !private ["8BookFarm04RentA2VCC", "bookCatID"]
+- !private ["8BookFarm04RentA2VCC", "bookDescription"]
+- !private ["8BookFarm04RentA2VCC", "bookEdition"]
+- !private ["8BookFarm04RentA2VCC", "bookName"]
+- !private ["8BookFarm04RentA2VCC", "bookcatname"]
+- !private ["8BookFarm04RentA2VCC", "booklanguage"]
+- !private ["8BookFarm04RentA2VCC", "selectedimages"]
+- !private ["So30SWRevealViewControllerDelegateP", "bookAuthorName"]
+- !private ["So30SWRevealViewControllerDelegateP", "bookCatID"]
+- !private ["So30SWRevealViewControllerDelegateP", "bookDescription"]
+- !private ["So30SWRevealViewControllerDelegateP", "bookEdition"]
+- !private ["So30SWRevealViewControllerDelegateP", "bookName"]
+- !private ["So30SWRevealViewControllerDelegateP", "bookcatname"]
+- !private ["So30SWRevealViewControllerDelegateP", "booklanguage"]
+- !private ["So30SWRevealViewControllerDelegateP", "selectedimages"]
+- !private ["8BookFarm04SellA7PriceVCC", "bookAuthorName"]
+- !private ["8BookFarm04SellA7PriceVCC", "bookCatID"]
+- !private ["8BookFarm04SellA7PriceVCC", "bookDescription"]
+- !private ["8BookFarm04SellA7PriceVCC", "bookEdition"]
+- !private ["8BookFarm04SellA7PriceVCC", "bookName"]
+- !private ["8BookFarm04SellA7PriceVCC", "bookcatname"]
+- !private ["8BookFarm04SellA7PriceVCC", "booklanguage"]
+- !private ["8BookFarm04SellA7PriceVCC", "selectedimages"]
+- !private ["8BookFarm10SellTypeVCC", "Array"]
+- !private ["8BookFarm10SellTypeVCC", "BothBookVC"]
+- !private ["8BookFarm10SellTypeVCC", "RentBookVC"]
+- !private ["8BookFarm10SellTypeVCC", "SellBookPriceVC"]
+- !private ["8BookFarm10SellTypeVCC", "TabBarVC"]
+- ["8BookFarm10SellTypeVCC", "UIImage"]
+- ["8BookFarm10SellTypeVCC", "UISwipeGestureRecognizer"]
+- ["8BookFarm10SellTypeVCC", "Void"]
+- ["8BookFarm10SellTypeVCC", "bookAuthorName"]
+- ["8BookFarm10SellTypeVCC", "bookCatID"]
+- ["8BookFarm10SellTypeVCC", "bookDescription"]
+- ["8BookFarm10SellTypeVCC", "bookEdition"]
+- ["8BookFarm10SellTypeVCC", "bookName"]
+- ["8BookFarm10SellTypeVCC", "bookcatname"]
+- ["8BookFarm10SellTypeVCC", "booklanguage"]
+- ["8BookFarm10SellTypeVCC", "deinit"]
+- ["8BookFarm10SellTypeVCC", "handleGesture"]
+- ["8BookFarm10SellTypeVCC", "init"]
+- !private ["8BookFarm10SellTypeVCC", "navigationController"]
+- ["8BookFarm10SellTypeVCC", "onClickSell"]
+- ["8BookFarm10SellTypeVCC", "onClickboth"]
+- ["8BookFarm10SellTypeVCC", "onClickrent"]
+- ["8BookFarm10SellTypeVCC", "selectedimages"]
+- !private ["8BookFarm10SellTypeVCC", "storyboard"]
+- !private ["8BookFarm10SellTypeVCC", "view"]
+- ["8BookFarm10SellTypeVCC", "viewDidLoad"]
+- ["ST", "init"]
+- !private ["s10SetAlgebraP", "right"]
+- !private ["So29UIAccessibilityIdentificationP", "addGestureRecognizer"]
+- !private ["So12UIAppearanceP", "addGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "TabBarVC"]
+- ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "UISwipeGestureRecognizer"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "bookAuthorName"]
+- !private ["So21UIAppearanceContainerP", "bookCatID"]
+- !private ["So21UIAppearanceContainerP", "bookDescription"]
+- !private ["So21UIAppearanceContainerP", "bookEdition"]
+- !private ["So21UIAppearanceContainerP", "bookName"]
+- !private ["So21UIAppearanceContainerP", "bookcatname"]
+- !private ["So21UIAppearanceContainerP", "booklanguage"]
+- !private ["So21UIAppearanceContainerP", "handleGesture"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isKind"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "popToViewController"]
+- !private ["So21UIAppearanceContainerP", "pushViewController"]
+- !private ["So21UIAppearanceContainerP", "selectedimages"]
+- !private ["So21UIAppearanceContainerP", "storyboard"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewControllers"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "TabBarVC"]
+- ["So18UIContentContainerP", "UIImage"]
+- !private ["So18UIContentContainerP", "UISwipeGestureRecognizer"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "bookAuthorName"]
+- !private ["So18UIContentContainerP", "bookCatID"]
+- !private ["So18UIContentContainerP", "bookDescription"]
+- !private ["So18UIContentContainerP", "bookEdition"]
+- !private ["So18UIContentContainerP", "bookName"]
+- !private ["So18UIContentContainerP", "bookcatname"]
+- !private ["So18UIContentContainerP", "booklanguage"]
+- !private ["So18UIContentContainerP", "handleGesture"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "isKind"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- !private ["So18UIContentContainerP", "popToViewController"]
+- !private ["So18UIContentContainerP", "pushViewController"]
+- !private ["So18UIContentContainerP", "selectedimages"]
+- !private ["So18UIContentContainerP", "storyboard"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewControllers"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "addGestureRecognizer"]
+- !private ["So13UIDynamicItemP", "addGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "TabBarVC"]
+- ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "UISwipeGestureRecognizer"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "bookAuthorName"]
+- !private ["So18UIFocusEnvironmentP", "bookCatID"]
+- !private ["So18UIFocusEnvironmentP", "bookDescription"]
+- !private ["So18UIFocusEnvironmentP", "bookEdition"]
+- !private ["So18UIFocusEnvironmentP", "bookName"]
+- !private ["So18UIFocusEnvironmentP", "bookcatname"]
+- !private ["So18UIFocusEnvironmentP", "booklanguage"]
+- !private ["So18UIFocusEnvironmentP", "handleGesture"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isKind"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "popToViewController"]
+- !private ["So18UIFocusEnvironmentP", "pushViewController"]
+- !private ["So18UIFocusEnvironmentP", "selectedimages"]
+- !private ["So18UIFocusEnvironmentP", "storyboard"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewControllers"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "addGestureRecognizer"]
+- !private ["So20UIFocusItemContainerP", "addGestureRecognizer"]
+- !private ["So19UIGestureRecognizerC", "direction"]
+- !private ["So19UIGestureRecognizerC", "init"]
+- !private ["So24UILargeContentViewerItemP", "addGestureRecognizer"]
+- !private ["So22UINavigationControllerC", "popToViewController"]
+- !private ["So22UINavigationControllerC", "pushViewController"]
+- !private ["So22UINavigationControllerC", "viewControllers"]
+- !private ["So30UIPasteConfigurationSupportingP", "TabBarVC"]
+- ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "UISwipeGestureRecognizer"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "bookAuthorName"]
+- !private ["So30UIPasteConfigurationSupportingP", "bookCatID"]
+- !private ["So30UIPasteConfigurationSupportingP", "bookDescription"]
+- !private ["So30UIPasteConfigurationSupportingP", "bookEdition"]
+- !private ["So30UIPasteConfigurationSupportingP", "bookName"]
+- !private ["So30UIPasteConfigurationSupportingP", "bookcatname"]
+- !private ["So30UIPasteConfigurationSupportingP", "booklanguage"]
+- !private ["So30UIPasteConfigurationSupportingP", "handleGesture"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isKind"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "popToViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "pushViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectedimages"]
+- !private ["So30UIPasteConfigurationSupportingP", "storyboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewControllers"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "Array"]
+- !private ["So11UIResponderC", "BothBookVC"]
+- !private ["So11UIResponderC", "RentBookVC"]
+- !private ["So11UIResponderC", "SellBookPriceVC"]
+- !private ["So11UIResponderC", "TabBarVC"]
+- ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UISwipeGestureRecognizer"]
+- ["So11UIResponderC", "Void"]
+- !private ["So11UIResponderC", "addGestureRecognizer"]
+- ["So11UIResponderC", "bookAuthorName"]
+- ["So11UIResponderC", "bookCatID"]
+- ["So11UIResponderC", "bookDescription"]
+- ["So11UIResponderC", "bookEdition"]
+- ["So11UIResponderC", "bookName"]
+- ["So11UIResponderC", "bookcatname"]
+- ["So11UIResponderC", "booklanguage"]
+- ["So11UIResponderC", "handleGesture"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isKind"]
+- !private ["So11UIResponderC", "navigationController"]
+- ["So11UIResponderC", "onClickSell"]
+- ["So11UIResponderC", "onClickboth"]
+- ["So11UIResponderC", "onClickrent"]
+- !private ["So11UIResponderC", "popToViewController"]
+- !private ["So11UIResponderC", "pushViewController"]
+- ["So11UIResponderC", "selectedimages"]
+- !private ["So11UIResponderC", "storyboard"]
+- !private ["So11UIResponderC", "view"]
+- !private ["So11UIResponderC", "viewControllers"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "TabBarVC"]
+- ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "UISwipeGestureRecognizer"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "bookAuthorName"]
+- !private ["So30UIResponderStandardEditActionsP", "bookCatID"]
+- !private ["So30UIResponderStandardEditActionsP", "bookDescription"]
+- !private ["So30UIResponderStandardEditActionsP", "bookEdition"]
+- !private ["So30UIResponderStandardEditActionsP", "bookName"]
+- !private ["So30UIResponderStandardEditActionsP", "bookcatname"]
+- !private ["So30UIResponderStandardEditActionsP", "booklanguage"]
+- !private ["So30UIResponderStandardEditActionsP", "handleGesture"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isKind"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "popToViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "pushViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "selectedimages"]
+- !private ["So30UIResponderStandardEditActionsP", "storyboard"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewControllers"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "TabBarVC"]
+- ["So16UIStateRestoringP", "UIImage"]
+- !private ["So16UIStateRestoringP", "UISwipeGestureRecognizer"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "bookAuthorName"]
+- !private ["So16UIStateRestoringP", "bookCatID"]
+- !private ["So16UIStateRestoringP", "bookDescription"]
+- !private ["So16UIStateRestoringP", "bookEdition"]
+- !private ["So16UIStateRestoringP", "bookName"]
+- !private ["So16UIStateRestoringP", "bookcatname"]
+- !private ["So16UIStateRestoringP", "booklanguage"]
+- !private ["So16UIStateRestoringP", "handleGesture"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "isKind"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- !private ["So16UIStateRestoringP", "popToViewController"]
+- !private ["So16UIStateRestoringP", "pushViewController"]
+- !private ["So16UIStateRestoringP", "selectedimages"]
+- !private ["So16UIStateRestoringP", "storyboard"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewControllers"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So24UISwipeGestureRecognizerC", "direction"]
+- !private ["So24UISwipeGestureRecognizerC", "init"]
+- !private ["So18UITraitEnvironmentP", "TabBarVC"]
+- ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "UISwipeGestureRecognizer"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "bookAuthorName"]
+- !private ["So18UITraitEnvironmentP", "bookCatID"]
+- !private ["So18UITraitEnvironmentP", "bookDescription"]
+- !private ["So18UITraitEnvironmentP", "bookEdition"]
+- !private ["So18UITraitEnvironmentP", "bookName"]
+- !private ["So18UITraitEnvironmentP", "bookcatname"]
+- !private ["So18UITraitEnvironmentP", "booklanguage"]
+- !private ["So18UITraitEnvironmentP", "handleGesture"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isKind"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "popToViewController"]
+- !private ["So18UITraitEnvironmentP", "pushViewController"]
+- !private ["So18UITraitEnvironmentP", "selectedimages"]
+- !private ["So18UITraitEnvironmentP", "storyboard"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewControllers"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "TabBarVC"]
+- ["So23UIUserActivityRestoringP", "UIImage"]
+- !private ["So23UIUserActivityRestoringP", "UISwipeGestureRecognizer"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addGestureRecognizer"]
+- !private ["So23UIUserActivityRestoringP", "bookAuthorName"]
+- !private ["So23UIUserActivityRestoringP", "bookCatID"]
+- !private ["So23UIUserActivityRestoringP", "bookDescription"]
+- !private ["So23UIUserActivityRestoringP", "bookEdition"]
+- !private ["So23UIUserActivityRestoringP", "bookName"]
+- !private ["So23UIUserActivityRestoringP", "bookcatname"]
+- !private ["So23UIUserActivityRestoringP", "booklanguage"]
+- !private ["So23UIUserActivityRestoringP", "handleGesture"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isKind"]
+- !private ["So23UIUserActivityRestoringP", "navigationController"]
+- !private ["So23UIUserActivityRestoringP", "popToViewController"]
+- !private ["So23UIUserActivityRestoringP", "pushViewController"]
+- !private ["So23UIUserActivityRestoringP", "selectedimages"]
+- !private ["So23UIUserActivityRestoringP", "storyboard"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So23UIUserActivityRestoringP", "viewControllers"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "addGestureRecognizer"]
+- !private ["So16UIViewControllerC", "Array"]
+- !private ["So16UIViewControllerC", "BothBookVC"]
+- !private ["So16UIViewControllerC", "RentBookVC"]
+- !private ["So16UIViewControllerC", "SellBookPriceVC"]
+- !private ["So16UIViewControllerC", "TabBarVC"]
+- ["So16UIViewControllerC", "UIImage"]
+- ["So16UIViewControllerC", "UISwipeGestureRecognizer"]
+- ["So16UIViewControllerC", "Void"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "bookAuthorName"]
+- ["So16UIViewControllerC", "bookCatID"]
+- ["So16UIViewControllerC", "bookDescription"]
+- ["So16UIViewControllerC", "bookEdition"]
+- ["So16UIViewControllerC", "bookName"]
+- ["So16UIViewControllerC", "bookcatname"]
+- ["So16UIViewControllerC", "booklanguage"]
+- ["So16UIViewControllerC", "handleGesture"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "isKind"]
+- !private ["So16UIViewControllerC", "navigationController"]
+- ["So16UIViewControllerC", "onClickSell"]
+- ["So16UIViewControllerC", "onClickboth"]
+- ["So16UIViewControllerC", "onClickrent"]
+- !private ["So16UIViewControllerC", "popToViewController"]
+- !private ["So16UIViewControllerC", "pushViewController"]
+- ["So16UIViewControllerC", "selectedimages"]
+- !private ["So16UIViewControllerC", "storyboard"]
+- !private ["So16UIViewControllerC", "view"]
+- !private ["So16UIViewControllerC", "viewControllers"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["s14_ArrayProtocolP", "init"]
+- ["s24_DestructorSafeContainerP", "init"]
+- ["s19_HasContiguousBytesP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TabBarVC"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UISwipeGestureRecognizer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bookAuthorName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bookCatID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bookDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bookEdition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bookName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bookcatname"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "booklanguage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "direction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleGesture"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isKind"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "popToViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pushViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedimages"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "storyboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewControllers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "TabBarVC"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UISwipeGestureRecognizer"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addGestureRecognizer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bookAuthorName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bookCatID"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bookDescription"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bookEdition"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bookName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bookcatname"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "booklanguage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "direction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handleGesture"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "instantiateViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isKind"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "popToViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pushViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "selectedimages"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "storyboard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewControllers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "addGestureRecognizer"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addGestureRecognizer"]
+depends-nominal:
+- "10Accelerate0A6BufferP"
+- "10Accelerate0A13MutableBufferP"
+- "Sa"
+- !private "8BookFarm6BaseVCC"
+- "SK"
+- !private "8BookFarm04BothA2VCC"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "Sl"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- !private "So33UISwipeGestureRecognizerDirectionV"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "s9OptionSetP"
+- !private "Sq"
+- "Sk"
+- "Sm"
+- !private "SY"
+- !private "8BookFarm04RentA2VCC"
+- !private "So30SWRevealViewControllerDelegateP"
+- !private "8BookFarm04SellA7PriceVCC"
+- "8BookFarm10SellTypeVCC"
+- "ST"
+- !private "s10SetAlgebraP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So19UIGestureRecognizerC"
+- !private "So24UILargeContentViewerItemP"
+- !private "So22UINavigationControllerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- !private "So24UISwipeGestureRecognizerC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Accelerate.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreLocation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Photos.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/XLPagerTabStrip.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Modules/YPImagePicker.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Modules/PryntTrimmerView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Headers/YPImagePicker-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Headers/SteviaLayout-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Headers/PryntTrimmerView-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/BookFarm/Third Party Framework/iCarousel/iCarousel.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/FXPageControl.h"
+- "/Users/macbook/Desktop/BookFarm/BookFarm/Third Party Framework/Bridging Header.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/macbook/Desktop/BookFarm/BookFarm/Third Party Framework/SWRevealViewController/SWRevealViewController.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Headers/YPImagePicker-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Headers/PryntTrimmerView-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "18ada2fb64e461c87d684037f93b081d"

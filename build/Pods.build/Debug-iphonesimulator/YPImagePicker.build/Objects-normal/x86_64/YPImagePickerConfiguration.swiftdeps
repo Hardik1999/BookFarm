@@ -1,0 +1,336 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "YPConfig"
+- "YPImagePickerConfiguration"
+- "YPConfigLibrary"
+- "YPConfigVideo"
+- "YPConfigSelectionsGallery"
+- "YPlibraryMediaType"
+provides-nominal:
+- "13YPImagePicker0aB13ConfigurationV"
+- "13YPImagePicker15YPConfigLibraryV"
+- "13YPImagePicker13YPConfigVideoV"
+- "13YPImagePicker25YPConfigSelectionsGalleryV"
+- "13YPImagePicker18YPlibraryMediaTypeO"
+provides-member:
+- ["13YPImagePicker0aB13ConfigurationV", ""]
+- ["13YPImagePicker15YPConfigLibraryV", ""]
+- ["13YPImagePicker13YPConfigVideoV", ""]
+- ["13YPImagePicker25YPConfigSelectionsGalleryV", ""]
+- ["13YPImagePicker18YPlibraryMediaTypeO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AVAssetExportPresetHighestQuality"
+- "AVFileType"
+- "BooleanLiteralType"
+- "CGFloat"
+- "Double"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "PHFetchOptions"
+- "String"
+- "StringLiteralType"
+- "TimeInterval"
+- "UIColor"
+- "UIStatusBarStyle"
+- "UIView"
+- "YPColors"
+- "YPConfig"
+- "YPConfigLibrary"
+- "YPConfigSelectionsGallery"
+- "YPConfigVideo"
+- "YPCropType"
+- "YPFilter"
+- "YPIcons"
+- "YPImagePickerConfiguration"
+- "YPImageSize"
+- "YPMediaItem"
+- "YPPickerScreen"
+- "YPWordings"
+- "YPlibraryMediaType"
+depends-member:
+- ["So10AVFileTypea", "mov"]
+- ["s7CVarArgP", "ypLabel"]
+- ["s7CVarArgP", "ypSecondaryLabel"]
+- ["s28CustomDebugStringConvertibleP", "ypLabel"]
+- ["s28CustomDebugStringConvertibleP", "ypSecondaryLabel"]
+- ["s23CustomStringConvertibleP", "ypLabel"]
+- ["s23CustomStringConvertibleP", "ypSecondaryLabel"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "default"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "library"]
+- ["SQ", "mov"]
+- ["SQ", "photo"]
+- ["SQ", "ypLabel"]
+- ["SQ", "ypSecondaryLabel"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "default"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "library"]
+- ["SH", "mov"]
+- ["SH", "photo"]
+- ["SH", "ypLabel"]
+- ["SH", "ypSecondaryLabel"]
+- !private ["s6HasherV", "combine"]
+- ["So8NSCodingP", "ypLabel"]
+- ["So8NSCodingP", "ypSecondaryLabel"]
+- ["So9NSCopyingP", "ypLabel"]
+- ["So9NSCopyingP", "ypSecondaryLabel"]
+- ["So21NSItemProviderReadingP", "ypLabel"]
+- ["So21NSItemProviderReadingP", "ypSecondaryLabel"]
+- ["So21NSItemProviderWritingP", "ypLabel"]
+- ["So21NSItemProviderWritingP", "ypSecondaryLabel"]
+- ["So8NSObjectC", "ypLabel"]
+- ["So8NSObjectC", "ypSecondaryLabel"]
+- ["So8NSObjectP", "ypLabel"]
+- ["So8NSObjectP", "ypSecondaryLabel"]
+- ["So14NSSecureCodingP", "ypLabel"]
+- ["So14NSSecureCodingP", "ypSecondaryLabel"]
+- ["SY", "default"]
+- ["SY", "mov"]
+- ["So7UIColorC", "ypLabel"]
+- ["So7UIColorC", "ypSecondaryLabel"]
+- ["So16UIStatusBarStyleV", "default"]
+- ["13YPImagePicker8YPColorsV", "init"]
+- ["13YPImagePicker15YPConfigLibraryV", "CGFloat"]
+- ["13YPImagePicker15YPConfigLibraryV", "Int"]
+- ["13YPImagePicker15YPConfigLibraryV", "PHFetchOptions"]
+- ["13YPImagePicker15YPConfigLibraryV", "YPMediaItem"]
+- ["13YPImagePicker15YPConfigLibraryV", "YPlibraryMediaType"]
+- ["13YPImagePicker15YPConfigLibraryV", "defaultMultipleSelection"]
+- ["13YPImagePicker15YPConfigLibraryV", "init"]
+- ["13YPImagePicker15YPConfigLibraryV", "isSquareByDefault"]
+- ["13YPImagePicker15YPConfigLibraryV", "maxNumberOfItems"]
+- ["13YPImagePicker15YPConfigLibraryV", "mediaType"]
+- ["13YPImagePicker15YPConfigLibraryV", "minNumberOfItems"]
+- ["13YPImagePicker15YPConfigLibraryV", "minWidthForItem"]
+- ["13YPImagePicker15YPConfigLibraryV", "numberOfItemsInRow"]
+- ["13YPImagePicker15YPConfigLibraryV", "onlySquare"]
+- ["13YPImagePicker15YPConfigLibraryV", "options"]
+- ["13YPImagePicker15YPConfigLibraryV", "preselectedItems"]
+- ["13YPImagePicker15YPConfigLibraryV", "skipSelectionsGallery"]
+- ["13YPImagePicker15YPConfigLibraryV", "spacingBetweenItems"]
+- ["13YPImagePicker25YPConfigSelectionsGalleryV", "hidesRemoveButton"]
+- ["13YPImagePicker25YPConfigSelectionsGalleryV", "init"]
+- ["13YPImagePicker13YPConfigVideoV", "AVAssetExportPresetHighestQuality"]
+- ["13YPImagePicker13YPConfigVideoV", "AVFileType"]
+- ["13YPImagePicker13YPConfigVideoV", "Double"]
+- ["13YPImagePicker13YPConfigVideoV", "String"]
+- ["13YPImagePicker13YPConfigVideoV", "TimeInterval"]
+- ["13YPImagePicker13YPConfigVideoV", "compression"]
+- ["13YPImagePicker13YPConfigVideoV", "fileType"]
+- ["13YPImagePicker13YPConfigVideoV", "init"]
+- ["13YPImagePicker13YPConfigVideoV", "libraryTimeLimit"]
+- ["13YPImagePicker13YPConfigVideoV", "minimumTimeLimit"]
+- ["13YPImagePicker13YPConfigVideoV", "recordingTimeLimit"]
+- ["13YPImagePicker13YPConfigVideoV", "trimmerMaxDuration"]
+- ["13YPImagePicker13YPConfigVideoV", "trimmerMinDuration"]
+- ["13YPImagePicker10YPCropTypeO", "none"]
+- ["13YPImagePicker8YPFilterV", "apply1977Filter"]
+- ["13YPImagePicker8YPFilterV", "clarendonFilter"]
+- ["13YPImagePicker8YPFilterV", "hazeRemovalFilter"]
+- ["13YPImagePicker8YPFilterV", "init"]
+- ["13YPImagePicker8YPFilterV", "nashvilleFilter"]
+- ["13YPImagePicker8YPFilterV", "toasterFilter"]
+- ["13YPImagePicker7YPIconsV", "init"]
+- ["13YPImagePicker0aB13ConfigurationV", "AVAssetExportPresetHighestQuality"]
+- ["13YPImagePicker0aB13ConfigurationV", "AVFileType"]
+- ["13YPImagePicker0aB13ConfigurationV", "CGFloat"]
+- ["13YPImagePicker0aB13ConfigurationV", "Double"]
+- ["13YPImagePicker0aB13ConfigurationV", "String"]
+- ["13YPImagePicker0aB13ConfigurationV", "TimeInterval"]
+- ["13YPImagePicker0aB13ConfigurationV", "UIColor"]
+- ["13YPImagePicker0aB13ConfigurationV", "UIStatusBarStyle"]
+- ["13YPImagePicker0aB13ConfigurationV", "UIView"]
+- ["13YPImagePicker0aB13ConfigurationV", "YPColors"]
+- ["13YPImagePicker0aB13ConfigurationV", "YPConfigLibrary"]
+- ["13YPImagePicker0aB13ConfigurationV", "YPConfigSelectionsGallery"]
+- ["13YPImagePicker0aB13ConfigurationV", "YPConfigVideo"]
+- ["13YPImagePicker0aB13ConfigurationV", "YPCropType"]
+- ["13YPImagePicker0aB13ConfigurationV", "YPFilter"]
+- ["13YPImagePicker0aB13ConfigurationV", "YPIcons"]
+- ["13YPImagePicker0aB13ConfigurationV", "YPImagePickerConfiguration"]
+- ["13YPImagePicker0aB13ConfigurationV", "YPImageSize"]
+- ["13YPImagePicker0aB13ConfigurationV", "YPPickerScreen"]
+- ["13YPImagePicker0aB13ConfigurationV", "YPWordings"]
+- ["13YPImagePicker0aB13ConfigurationV", "YPlibraryMediaType"]
+- ["13YPImagePicker0aB13ConfigurationV", "albumName"]
+- ["13YPImagePicker0aB13ConfigurationV", "bottomMenuItemSelectedTextColour"]
+- ["13YPImagePicker0aB13ConfigurationV", "bottomMenuItemUnSelectedTextColour"]
+- ["13YPImagePicker0aB13ConfigurationV", "colors"]
+- ["13YPImagePicker0aB13ConfigurationV", "filters"]
+- ["13YPImagePicker0aB13ConfigurationV", "gallery"]
+- ["13YPImagePicker0aB13ConfigurationV", "hidesBottomBar"]
+- ["13YPImagePicker0aB13ConfigurationV", "hidesStatusBar"]
+- ["13YPImagePicker0aB13ConfigurationV", "icons"]
+- ["13YPImagePicker0aB13ConfigurationV", "init"]
+- ["13YPImagePicker0aB13ConfigurationV", "isScrollToChangeModesEnabled"]
+- ["13YPImagePicker0aB13ConfigurationV", "library"]
+- ["13YPImagePicker0aB13ConfigurationV", "libraryMediaType"]
+- ["13YPImagePicker0aB13ConfigurationV", "libraryTargetImageSize"]
+- ["13YPImagePicker0aB13ConfigurationV", "maxCameraZoomFactor"]
+- ["13YPImagePicker0aB13ConfigurationV", "maxNumberOfItems"]
+- ["13YPImagePicker0aB13ConfigurationV", "onlySquareFromLibrary"]
+- ["13YPImagePicker0aB13ConfigurationV", "onlySquareImagesFromCamera"]
+- ["13YPImagePicker0aB13ConfigurationV", "onlySquareImagesFromLibrary"]
+- ["13YPImagePicker0aB13ConfigurationV", "overlayView"]
+- ["13YPImagePicker0aB13ConfigurationV", "preferredStatusBarStyle"]
+- ["13YPImagePicker0aB13ConfigurationV", "screens"]
+- ["13YPImagePicker0aB13ConfigurationV", "shared"]
+- ["13YPImagePicker0aB13ConfigurationV", "shouldSaveNewPicturesToAlbum"]
+- ["13YPImagePicker0aB13ConfigurationV", "showsCrop"]
+- ["13YPImagePicker0aB13ConfigurationV", "showsPhotoFilters"]
+- ["13YPImagePicker0aB13ConfigurationV", "showsVideoInLibrary"]
+- ["13YPImagePicker0aB13ConfigurationV", "showsVideoTrimmer"]
+- ["13YPImagePicker0aB13ConfigurationV", "startOnScreen"]
+- ["13YPImagePicker0aB13ConfigurationV", "targetImageSize"]
+- ["13YPImagePicker0aB13ConfigurationV", "trimmerMaxDuration"]
+- ["13YPImagePicker0aB13ConfigurationV", "trimmerMinDuration"]
+- ["13YPImagePicker0aB13ConfigurationV", "usesFrontCamera"]
+- ["13YPImagePicker0aB13ConfigurationV", "video"]
+- ["13YPImagePicker0aB13ConfigurationV", "videoCompression"]
+- ["13YPImagePicker0aB13ConfigurationV", "videoExtension"]
+- ["13YPImagePicker0aB13ConfigurationV", "videoFromLibraryTimeLimit"]
+- ["13YPImagePicker0aB13ConfigurationV", "videoMinimumTimeLimit"]
+- ["13YPImagePicker0aB13ConfigurationV", "videoRecordingTimeLimit"]
+- ["13YPImagePicker0aB13ConfigurationV", "wordings"]
+- ["13YPImagePicker0A4SizeO", "original"]
+- ["13YPImagePicker14YPPickerScreenO", "library"]
+- ["13YPImagePicker14YPPickerScreenO", "photo"]
+- ["13YPImagePicker10YPWordingsV", "init"]
+- ["13YPImagePicker18YPlibraryMediaTypeO", "=="]
+- ["13YPImagePicker18YPlibraryMediaTypeO", "__derived_enum_equals"]
+- ["13YPImagePicker18YPlibraryMediaTypeO", "_rawHashValue"]
+- ["13YPImagePicker18YPlibraryMediaTypeO", "deinit"]
+- ["13YPImagePicker18YPlibraryMediaTypeO", "hash"]
+- ["13YPImagePicker18YPlibraryMediaTypeO", "hashValue"]
+- ["13YPImagePicker18YPlibraryMediaTypeO", "photo"]
+- ["13YPImagePicker18YPlibraryMediaTypeO", "photoAndVideo"]
+- ["13YPImagePicker18YPlibraryMediaTypeO", "video"]
+- ["s26_ExpressibleByColorLiteralP", "ypLabel"]
+- ["s26_ExpressibleByColorLiteralP", "ypSecondaryLabel"]
+- ["s35_HasCustomAnyHashableRepresentationP", "mov"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ypLabel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ypSecondaryLabel"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ypLabel"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ypSecondaryLabel"]
+- ["s21_ObjectiveCBridgeableP", "mov"]
+- ["s20_SwiftNewtypeWrapperP", "mov"]
+depends-nominal:
+- "So10AVFileTypea"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "SY"
+- "So7UIColorC"
+- "So16UIStatusBarStyleV"
+- "13YPImagePicker8YPColorsV"
+- "13YPImagePicker15YPConfigLibraryV"
+- "13YPImagePicker25YPConfigSelectionsGalleryV"
+- "13YPImagePicker13YPConfigVideoV"
+- "13YPImagePicker10YPCropTypeO"
+- "13YPImagePicker8YPFilterV"
+- "13YPImagePicker7YPIconsV"
+- "13YPImagePicker0aB13ConfigurationV"
+- "13YPImagePicker0A4SizeO"
+- "13YPImagePicker14YPPickerScreenO"
+- "13YPImagePicker10YPWordingsV"
+- "13YPImagePicker18YPlibraryMediaTypeO"
+- "s26_ExpressibleByColorLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreLocation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Photos.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Modules/PryntTrimmerView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/Pods/Target Support Files/YPImagePicker/YPImagePicker-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/Pods/Target Support Files/SteviaLayout/SteviaLayout-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/Pods/Target Support Files/PryntTrimmerView/PryntTrimmerView-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Headers/PryntTrimmerView-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Pods.build/Debug-iphonesimulator/YPImagePicker.build/unextended-module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Pods.build/Debug-iphonesimulator/SteviaLayout.build/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Pods.build/Debug-iphonesimulator/PryntTrimmerView.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b6ee842d1a4323708e998963ec47a43c"

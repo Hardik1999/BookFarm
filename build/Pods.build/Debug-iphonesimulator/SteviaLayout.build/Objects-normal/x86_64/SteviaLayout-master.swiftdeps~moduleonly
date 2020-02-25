@@ -1,0 +1,23 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "0a824eb173f1078e2f44f3fae11fea4c"
+build_time: [1581658393, 484623000]
+inputs:
+  "/Users/macbook/Desktop/BookFarm/Pods/SteviaLayout/Source/Stevia+Alignment.swift": [1580266394, 186526065]
+  "/Users/macbook/Desktop/BookFarm/Pods/SteviaLayout/Source/Stevia+Baselines.swift": [1580266394, 184312519]
+  "/Users/macbook/Desktop/BookFarm/Pods/SteviaLayout/Source/Stevia+Center.swift": [1580266394, 182898910]
+  "/Users/macbook/Desktop/BookFarm/Pods/SteviaLayout/Source/Stevia+Constraints.swift": [1580266394, 184813763]
+  "/Users/macbook/Desktop/BookFarm/Pods/SteviaLayout/Source/Stevia+Content.swift": [1580266394, 187060993]
+  "/Users/macbook/Desktop/BookFarm/Pods/SteviaLayout/Source/Stevia+DoubleDash.swift": [1580266394, 182106596]
+  "/Users/macbook/Desktop/BookFarm/Pods/SteviaLayout/Source/Stevia+Equation.swift": [1580266394, 186035342]
+  "/Users/macbook/Desktop/BookFarm/Pods/SteviaLayout/Source/Stevia+Fill.swift": [1580266394, 183156627]
+  "/Users/macbook/Desktop/BookFarm/Pods/SteviaLayout/Source/Stevia+FlexibleMargin.swift": [1580266394, 184063468]
+  "/Users/macbook/Desktop/BookFarm/Pods/SteviaLayout/Source/Stevia+GetConstraint.swift": [1580266394, 182379403]
+  "/Users/macbook/Desktop/BookFarm/Pods/SteviaLayout/Source/Stevia+Hierarchy.swift": [1580266394, 184567506]
+  "/Users/macbook/Desktop/BookFarm/Pods/SteviaLayout/Source/Stevia+LayoutAnchors.swift": [1580266394, 186805922]
+  "/Users/macbook/Desktop/BookFarm/Pods/SteviaLayout/Source/Stevia+Notifications.swift": [1580266394, 183812869]
+  "/Users/macbook/Desktop/BookFarm/Pods/SteviaLayout/Source/Stevia+Operators.swift": [1580266394, 182635181]
+  "/Users/macbook/Desktop/BookFarm/Pods/SteviaLayout/Source/Stevia+Percentage.swift": [1580266394, 185563329]
+  "/Users/macbook/Desktop/BookFarm/Pods/SteviaLayout/Source/Stevia+Position.swift": [1580266394, 183476376]
+  "/Users/macbook/Desktop/BookFarm/Pods/SteviaLayout/Source/Stevia+Size.swift": [1580266394, 185065046]
+  "/Users/macbook/Desktop/BookFarm/Pods/SteviaLayout/Source/Stevia+Stacks.swift": [1580266394, 185308359]
+  "/Users/macbook/Desktop/BookFarm/Pods/SteviaLayout/Source/Stevia+Style.swift": [1580266394, 181802957]

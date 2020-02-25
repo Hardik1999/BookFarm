@@ -1,0 +1,222 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ImageModifier"
+- "AnyImageModifier"
+- "RenderingModeImageModifier"
+- "FlipsForRightToLeftLayoutDirectionImageModifier"
+- "AlignmentRectInsetsImageModifier"
+provides-nominal:
+- "10Kingfisher13ImageModifierP"
+- "10Kingfisher16AnyImageModifierV"
+- "10Kingfisher26RenderingModeImageModifierV"
+- "10Kingfisher47FlipsForRightToLeftLayoutDirectionImageModifierV"
+- "10Kingfisher32AlignmentRectInsetsImageModifierV"
+provides-member:
+- ["10Kingfisher13ImageModifierP", ""]
+- ["10Kingfisher16AnyImageModifierV", ""]
+- ["10Kingfisher26RenderingModeImageModifierV", ""]
+- ["10Kingfisher47FlipsForRightToLeftLayoutDirectionImageModifierV", ""]
+- ["10Kingfisher32AlignmentRectInsetsImageModifierV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- "AlignmentRectInsetsImageModifier"
+- "AnyImageModifier"
+- "AssignmentPrecedence"
+- "FlipsForRightToLeftLayoutDirectionImageModifier"
+- "Image"
+- "ImageModifier"
+- "RenderingModeImageModifier"
+- "UIEdgeInsets"
+- "UIImage"
+depends-member:
+- ["10Kingfisher32AlignmentRectInsetsImageModifierV", "Image"]
+- ["10Kingfisher32AlignmentRectInsetsImageModifierV", "UIEdgeInsets"]
+- ["10Kingfisher32AlignmentRectInsetsImageModifierV", "alignmentInsets"]
+- ["10Kingfisher32AlignmentRectInsetsImageModifierV", "deinit"]
+- ["10Kingfisher32AlignmentRectInsetsImageModifierV", "init"]
+- ["10Kingfisher32AlignmentRectInsetsImageModifierV", "modify"]
+- ["10Kingfisher16AnyImageModifierV", "Image"]
+- ["10Kingfisher16AnyImageModifierV", "block"]
+- ["10Kingfisher16AnyImageModifierV", "deinit"]
+- ["10Kingfisher16AnyImageModifierV", "init"]
+- ["10Kingfisher16AnyImageModifierV", "modify"]
+- ["s7CVarArgP", "RenderingMode"]
+- !private ["s7CVarArgP", "imageFlippedForRightToLeftLayoutDirection"]
+- !private ["s7CVarArgP", "withAlignmentRectInsets"]
+- !private ["s7CVarArgP", "withRenderingMode"]
+- ["10Kingfisher19CacheCostCalculableP", "RenderingMode"]
+- !private ["10Kingfisher19CacheCostCalculableP", "imageFlippedForRightToLeftLayoutDirection"]
+- !private ["10Kingfisher19CacheCostCalculableP", "withAlignmentRectInsets"]
+- !private ["10Kingfisher19CacheCostCalculableP", "withRenderingMode"]
+- ["s28CustomDebugStringConvertibleP", "RenderingMode"]
+- !private ["s28CustomDebugStringConvertibleP", "imageFlippedForRightToLeftLayoutDirection"]
+- !private ["s28CustomDebugStringConvertibleP", "withAlignmentRectInsets"]
+- !private ["s28CustomDebugStringConvertibleP", "withRenderingMode"]
+- ["s23CustomStringConvertibleP", "RenderingMode"]
+- !private ["s23CustomStringConvertibleP", "imageFlippedForRightToLeftLayoutDirection"]
+- !private ["s23CustomStringConvertibleP", "withAlignmentRectInsets"]
+- !private ["s23CustomStringConvertibleP", "withRenderingMode"]
+- ["SQ", "RenderingMode"]
+- !private ["SQ", "automatic"]
+- !private ["SQ", "imageFlippedForRightToLeftLayoutDirection"]
+- !private ["SQ", "withAlignmentRectInsets"]
+- !private ["SQ", "withRenderingMode"]
+- ["10Kingfisher47FlipsForRightToLeftLayoutDirectionImageModifierV", "Image"]
+- ["10Kingfisher47FlipsForRightToLeftLayoutDirectionImageModifierV", "deinit"]
+- ["10Kingfisher47FlipsForRightToLeftLayoutDirectionImageModifierV", "init"]
+- ["10Kingfisher47FlipsForRightToLeftLayoutDirectionImageModifierV", "modify"]
+- ["SH", "RenderingMode"]
+- !private ["SH", "automatic"]
+- !private ["SH", "imageFlippedForRightToLeftLayoutDirection"]
+- !private ["SH", "withAlignmentRectInsets"]
+- !private ["SH", "withRenderingMode"]
+- ["10Kingfisher13ImageModifierP", "Image"]
+- ["10Kingfisher13ImageModifierP", ""]
+- !private ["10Kingfisher13ImageModifierP", "alignmentInsets"]
+- !private ["10Kingfisher13ImageModifierP", "block"]
+- ["10Kingfisher13ImageModifierP", "modify"]
+- !private ["10Kingfisher13ImageModifierP", "renderingMode"]
+- ["10Kingfisher0A10CompatibleP", "RenderingMode"]
+- !private ["10Kingfisher0A10CompatibleP", "imageFlippedForRightToLeftLayoutDirection"]
+- !private ["10Kingfisher0A10CompatibleP", "withAlignmentRectInsets"]
+- !private ["10Kingfisher0A10CompatibleP", "withRenderingMode"]
+- ["So8NSCodingP", "RenderingMode"]
+- !private ["So8NSCodingP", "imageFlippedForRightToLeftLayoutDirection"]
+- !private ["So8NSCodingP", "withAlignmentRectInsets"]
+- !private ["So8NSCodingP", "withRenderingMode"]
+- ["So21NSItemProviderReadingP", "RenderingMode"]
+- !private ["So21NSItemProviderReadingP", "imageFlippedForRightToLeftLayoutDirection"]
+- !private ["So21NSItemProviderReadingP", "withAlignmentRectInsets"]
+- !private ["So21NSItemProviderReadingP", "withRenderingMode"]
+- ["So21NSItemProviderWritingP", "RenderingMode"]
+- !private ["So21NSItemProviderWritingP", "imageFlippedForRightToLeftLayoutDirection"]
+- !private ["So21NSItemProviderWritingP", "withAlignmentRectInsets"]
+- !private ["So21NSItemProviderWritingP", "withRenderingMode"]
+- ["So8NSObjectC", "RenderingMode"]
+- !private ["So8NSObjectC", "imageFlippedForRightToLeftLayoutDirection"]
+- !private ["So8NSObjectC", "withAlignmentRectInsets"]
+- !private ["So8NSObjectC", "withRenderingMode"]
+- ["So8NSObjectP", "RenderingMode"]
+- !private ["So8NSObjectP", "imageFlippedForRightToLeftLayoutDirection"]
+- !private ["So8NSObjectP", "withAlignmentRectInsets"]
+- !private ["So8NSObjectP", "withRenderingMode"]
+- ["So14NSSecureCodingP", "RenderingMode"]
+- !private ["So14NSSecureCodingP", "imageFlippedForRightToLeftLayoutDirection"]
+- !private ["So14NSSecureCodingP", "withAlignmentRectInsets"]
+- !private ["So14NSSecureCodingP", "withRenderingMode"]
+- ["10Kingfisher11PlaceholderP", "RenderingMode"]
+- !private ["10Kingfisher11PlaceholderP", "imageFlippedForRightToLeftLayoutDirection"]
+- !private ["10Kingfisher11PlaceholderP", "withAlignmentRectInsets"]
+- !private ["10Kingfisher11PlaceholderP", "withRenderingMode"]
+- !private ["SY", "automatic"]
+- !private ["So20UIImageRenderingModeV", "automatic"]
+- ["10Kingfisher26RenderingModeImageModifierV", "Image"]
+- ["10Kingfisher26RenderingModeImageModifierV", "UIImage"]
+- ["10Kingfisher26RenderingModeImageModifierV", "deinit"]
+- ["10Kingfisher26RenderingModeImageModifierV", "init"]
+- ["10Kingfisher26RenderingModeImageModifierV", "modify"]
+- ["10Kingfisher26RenderingModeImageModifierV", "renderingMode"]
+- ["So29UIAccessibilityIdentificationP", "RenderingMode"]
+- !private ["So29UIAccessibilityIdentificationP", "imageFlippedForRightToLeftLayoutDirection"]
+- !private ["So29UIAccessibilityIdentificationP", "withAlignmentRectInsets"]
+- !private ["So29UIAccessibilityIdentificationP", "withRenderingMode"]
+- ["So7UIImageC", "RenderingMode"]
+- !private ["So7UIImageC", "imageFlippedForRightToLeftLayoutDirection"]
+- !private ["So7UIImageC", "withAlignmentRectInsets"]
+- !private ["So7UIImageC", "withRenderingMode"]
+- ["So39UIItemProviderPresentationSizeProvidingP", "RenderingMode"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "imageFlippedForRightToLeftLayoutDirection"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "withAlignmentRectInsets"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "withRenderingMode"]
+- ["s26_ExpressibleByImageLiteralP", "RenderingMode"]
+- !private ["s26_ExpressibleByImageLiteralP", "imageFlippedForRightToLeftLayoutDirection"]
+- !private ["s26_ExpressibleByImageLiteralP", "withAlignmentRectInsets"]
+- !private ["s26_ExpressibleByImageLiteralP", "withRenderingMode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "RenderingMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageFlippedForRightToLeftLayoutDirection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "withAlignmentRectInsets"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "withRenderingMode"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RenderingMode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imageFlippedForRightToLeftLayoutDirection"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "withAlignmentRectInsets"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "withRenderingMode"]
+depends-nominal:
+- "10Kingfisher32AlignmentRectInsetsImageModifierV"
+- "10Kingfisher16AnyImageModifierV"
+- "s7CVarArgP"
+- "10Kingfisher19CacheCostCalculableP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "10Kingfisher47FlipsForRightToLeftLayoutDirectionImageModifierV"
+- "SH"
+- "10Kingfisher13ImageModifierP"
+- "10Kingfisher0A10CompatibleP"
+- "So8NSCodingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "10Kingfisher11PlaceholderP"
+- !private "SY"
+- !private "So20UIImageRenderingModeV"
+- "10Kingfisher26RenderingModeImageModifierV"
+- "So29UIAccessibilityIdentificationP"
+- "So7UIImageC"
+- "So39UIItemProviderPresentationSizeProvidingP"
+- "s26_ExpressibleByImageLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Accelerate.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/Pods/Kingfisher/Sources/Kingfisher.h"
+- "/Users/macbook/Desktop/BookFarm/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2edaf82836eee194b7e5e1c46088f0d3"

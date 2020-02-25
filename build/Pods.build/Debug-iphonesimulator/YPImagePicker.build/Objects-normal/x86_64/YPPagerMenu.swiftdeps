@@ -1,0 +1,708 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "YPPagerMenu"
+provides-nominal:
+- "13YPImagePicker11YPPagerMenuC"
+provides-member:
+- ["13YPImagePicker11YPPagerMenuC", ""]
+provides-dynamic-lookup:
+- "updateConstraints"
+depends-top-level:
+- !private "!"
+- !private "-"
+- !private "/"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- !private "CGFloat"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "UIScreen"
+- "UIView"
+- "YPMenuItem"
+- "YPPagerMenu"
+- !private "|"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "count"]
+- ["Sa", "init"]
+- !private ["SK", "count"]
+- ["SK", "init"]
+- !private ["SB", "init"]
+- !private ["So15CALayerDelegateP", "CGFloat"]
+- !private ["So15CALayerDelegateP", "UIScreen"]
+- ["So15CALayerDelegateP", "UIView"]
+- ["So15CALayerDelegateP", "YPMenuItem"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "clipsToBounds"]
+- !private ["So15CALayerDelegateP", "didSetConstraints"]
+- !private ["So15CALayerDelegateP", "fillVertically"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "menuItems"]
+- !private ["So15CALayerDelegateP", "setUpMenuItemsConstraints"]
+- !private ["So15CALayerDelegateP", "sv"]
+- !private ["So15CALayerDelegateP", "updateConstraints"]
+- !private ["So15CALayerDelegateP", "width"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["So6CGRectV", "width"]
+- !private ["So6CGRectV", "zero"]
+- !private ["s7CVarArgP", "CGFloat"]
+- !private ["s7CVarArgP", "UIScreen"]
+- ["s7CVarArgP", "UIView"]
+- ["s7CVarArgP", "YPMenuItem"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "clipsToBounds"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "didSetConstraints"]
+- !private ["s7CVarArgP", "fillVertically"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "menuItems"]
+- !private ["s7CVarArgP", "offWhiteOrBlack"]
+- !private ["s7CVarArgP", "setUpMenuItemsConstraints"]
+- !private ["s7CVarArgP", "sv"]
+- !private ["s7CVarArgP", "updateConstraints"]
+- !private ["s7CVarArgP", "width"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- !private ["s28CustomDebugStringConvertibleP", "UIScreen"]
+- ["s28CustomDebugStringConvertibleP", "UIView"]
+- ["s28CustomDebugStringConvertibleP", "YPMenuItem"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "clipsToBounds"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "didSetConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "fillVertically"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "menuItems"]
+- !private ["s28CustomDebugStringConvertibleP", "offWhiteOrBlack"]
+- !private ["s28CustomDebugStringConvertibleP", "setUpMenuItemsConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "sv"]
+- !private ["s28CustomDebugStringConvertibleP", "updateConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "offWhiteOrBlack"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- !private ["s23CustomStringConvertibleP", "UIScreen"]
+- ["s23CustomStringConvertibleP", "UIView"]
+- ["s23CustomStringConvertibleP", "YPMenuItem"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "clipsToBounds"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "didSetConstraints"]
+- !private ["s23CustomStringConvertibleP", "fillVertically"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "menuItems"]
+- !private ["s23CustomStringConvertibleP", "offWhiteOrBlack"]
+- !private ["s23CustomStringConvertibleP", "setUpMenuItemsConstraints"]
+- !private ["s23CustomStringConvertibleP", "sv"]
+- !private ["s23CustomStringConvertibleP", "updateConstraints"]
+- !private ["s23CustomStringConvertibleP", "width"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- !private ["Se", "offWhiteOrBlack"]
+- !private ["Se", "width"]
+- !private ["Se", "zero"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- !private ["SE", "offWhiteOrBlack"]
+- !private ["SE", "width"]
+- !private ["SE", "zero"]
+- !private ["SQ", "CGFloat"]
+- !private ["SQ", "UIScreen"]
+- ["SQ", "UIView"]
+- ["SQ", "YPMenuItem"]
+- ["SQ", ""]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "bounds"]
+- !private ["SQ", "clipsToBounds"]
+- !private ["SQ", "count"]
+- !private ["SQ", "didSetConstraints"]
+- !private ["SQ", "fillVertically"]
+- ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "menuItems"]
+- !private ["SQ", "offWhiteOrBlack"]
+- !private ["SQ", "setUpMenuItemsConstraints"]
+- !private ["SQ", "sv"]
+- !private ["SQ", "updateConstraints"]
+- !private ["SQ", "width"]
+- !private ["SQ", "zero"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "offWhiteOrBlack"]
+- !private ["SF", "init"]
+- !private ["SH", "CGFloat"]
+- !private ["SH", "UIScreen"]
+- ["SH", "UIView"]
+- ["SH", "YPMenuItem"]
+- ["SH", ""]
+- !private ["SH", "backgroundColor"]
+- !private ["SH", "bounds"]
+- !private ["SH", "clipsToBounds"]
+- !private ["SH", "count"]
+- !private ["SH", "didSetConstraints"]
+- !private ["SH", "fillVertically"]
+- ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "menuItems"]
+- !private ["SH", "offWhiteOrBlack"]
+- !private ["SH", "setUpMenuItemsConstraints"]
+- !private ["SH", "sv"]
+- !private ["SH", "updateConstraints"]
+- !private ["SH", "width"]
+- !private ["SM", "count"]
+- ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["So8NSCodingP", "CGFloat"]
+- !private ["So8NSCodingP", "UIScreen"]
+- ["So8NSCodingP", "UIView"]
+- ["So8NSCodingP", "YPMenuItem"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "clipsToBounds"]
+- !private ["So8NSCodingP", "didSetConstraints"]
+- !private ["So8NSCodingP", "fillVertically"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "menuItems"]
+- !private ["So8NSCodingP", "offWhiteOrBlack"]
+- !private ["So8NSCodingP", "setUpMenuItemsConstraints"]
+- !private ["So8NSCodingP", "sv"]
+- !private ["So8NSCodingP", "updateConstraints"]
+- !private ["So8NSCodingP", "width"]
+- !private ["So9NSCopyingP", "offWhiteOrBlack"]
+- !private ["So21NSItemProviderReadingP", "offWhiteOrBlack"]
+- !private ["So21NSItemProviderWritingP", "offWhiteOrBlack"]
+- !private ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "UIScreen"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "YPMenuItem"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "clipsToBounds"]
+- ["So8NSObjectC", "didSetConstraints"]
+- !private ["So8NSObjectC", "fillVertically"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "menuItems"]
+- !private ["So8NSObjectC", "offWhiteOrBlack"]
+- ["So8NSObjectC", "refreshMenuItems"]
+- ["So8NSObjectC", "separators"]
+- ["So8NSObjectC", "setUpMenuItemsConstraints"]
+- !private ["So8NSObjectC", "sv"]
+- ["So8NSObjectC", "updateConstraints"]
+- !private ["So8NSObjectC", "width"]
+- !private ["So8NSObjectP", "CGFloat"]
+- !private ["So8NSObjectP", "UIScreen"]
+- ["So8NSObjectP", "UIView"]
+- ["So8NSObjectP", "YPMenuItem"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "backgroundColor"]
+- !private ["So8NSObjectP", "bounds"]
+- !private ["So8NSObjectP", "clipsToBounds"]
+- !private ["So8NSObjectP", "didSetConstraints"]
+- !private ["So8NSObjectP", "fillVertically"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "menuItems"]
+- !private ["So8NSObjectP", "offWhiteOrBlack"]
+- !private ["So8NSObjectP", "setUpMenuItemsConstraints"]
+- !private ["So8NSObjectP", "sv"]
+- !private ["So8NSObjectP", "updateConstraints"]
+- !private ["So8NSObjectP", "width"]
+- !private ["So14NSSecureCodingP", "offWhiteOrBlack"]
+- !private ["Sj", "init"]
+- !private ["Sq", "offWhiteOrBlack"]
+- !private ["Sk", "count"]
+- ["Sk", "init"]
+- !private ["Sm", "count"]
+- ["Sm", "init"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "CGFloat"]
+- !private ["So29UIAccessibilityIdentificationP", "UIScreen"]
+- ["So29UIAccessibilityIdentificationP", "UIView"]
+- ["So29UIAccessibilityIdentificationP", "YPMenuItem"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "clipsToBounds"]
+- !private ["So29UIAccessibilityIdentificationP", "didSetConstraints"]
+- !private ["So29UIAccessibilityIdentificationP", "fillVertically"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "menuItems"]
+- !private ["So29UIAccessibilityIdentificationP", "setUpMenuItemsConstraints"]
+- !private ["So29UIAccessibilityIdentificationP", "sv"]
+- !private ["So29UIAccessibilityIdentificationP", "updateConstraints"]
+- !private ["So29UIAccessibilityIdentificationP", "width"]
+- !private ["So12UIAppearanceP", "CGFloat"]
+- !private ["So12UIAppearanceP", "UIScreen"]
+- ["So12UIAppearanceP", "UIView"]
+- ["So12UIAppearanceP", "YPMenuItem"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "clipsToBounds"]
+- !private ["So12UIAppearanceP", "didSetConstraints"]
+- !private ["So12UIAppearanceP", "fillVertically"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "menuItems"]
+- !private ["So12UIAppearanceP", "setUpMenuItemsConstraints"]
+- !private ["So12UIAppearanceP", "sv"]
+- !private ["So12UIAppearanceP", "updateConstraints"]
+- !private ["So12UIAppearanceP", "width"]
+- !private ["So21UIAppearanceContainerP", "CGFloat"]
+- !private ["So21UIAppearanceContainerP", "UIScreen"]
+- ["So21UIAppearanceContainerP", "UIView"]
+- ["So21UIAppearanceContainerP", "YPMenuItem"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "clipsToBounds"]
+- !private ["So21UIAppearanceContainerP", "didSetConstraints"]
+- !private ["So21UIAppearanceContainerP", "fillVertically"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "menuItems"]
+- !private ["So21UIAppearanceContainerP", "setUpMenuItemsConstraints"]
+- !private ["So21UIAppearanceContainerP", "sv"]
+- !private ["So21UIAppearanceContainerP", "updateConstraints"]
+- !private ["So21UIAppearanceContainerP", "width"]
+- !private ["So7UIColorC", "offWhiteOrBlack"]
+- !private ["So17UICoordinateSpaceP", "CGFloat"]
+- !private ["So17UICoordinateSpaceP", "UIScreen"]
+- ["So17UICoordinateSpaceP", "UIView"]
+- ["So17UICoordinateSpaceP", "YPMenuItem"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "clipsToBounds"]
+- !private ["So17UICoordinateSpaceP", "didSetConstraints"]
+- !private ["So17UICoordinateSpaceP", "fillVertically"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "menuItems"]
+- !private ["So17UICoordinateSpaceP", "setUpMenuItemsConstraints"]
+- !private ["So17UICoordinateSpaceP", "sv"]
+- !private ["So17UICoordinateSpaceP", "updateConstraints"]
+- !private ["So17UICoordinateSpaceP", "width"]
+- !private ["So13UIDynamicItemP", "CGFloat"]
+- !private ["So13UIDynamicItemP", "UIScreen"]
+- ["So13UIDynamicItemP", "UIView"]
+- ["So13UIDynamicItemP", "YPMenuItem"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "clipsToBounds"]
+- !private ["So13UIDynamicItemP", "didSetConstraints"]
+- !private ["So13UIDynamicItemP", "fillVertically"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "menuItems"]
+- !private ["So13UIDynamicItemP", "setUpMenuItemsConstraints"]
+- !private ["So13UIDynamicItemP", "sv"]
+- !private ["So13UIDynamicItemP", "updateConstraints"]
+- !private ["So13UIDynamicItemP", "width"]
+- !private ["So18UIFocusEnvironmentP", "CGFloat"]
+- !private ["So18UIFocusEnvironmentP", "UIScreen"]
+- ["So18UIFocusEnvironmentP", "UIView"]
+- ["So18UIFocusEnvironmentP", "YPMenuItem"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "clipsToBounds"]
+- !private ["So18UIFocusEnvironmentP", "didSetConstraints"]
+- !private ["So18UIFocusEnvironmentP", "fillVertically"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "menuItems"]
+- !private ["So18UIFocusEnvironmentP", "setUpMenuItemsConstraints"]
+- !private ["So18UIFocusEnvironmentP", "sv"]
+- !private ["So18UIFocusEnvironmentP", "updateConstraints"]
+- !private ["So18UIFocusEnvironmentP", "width"]
+- !private ["So11UIFocusItemP", "CGFloat"]
+- !private ["So11UIFocusItemP", "UIScreen"]
+- ["So11UIFocusItemP", "UIView"]
+- ["So11UIFocusItemP", "YPMenuItem"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "clipsToBounds"]
+- !private ["So11UIFocusItemP", "didSetConstraints"]
+- !private ["So11UIFocusItemP", "fillVertically"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "menuItems"]
+- !private ["So11UIFocusItemP", "setUpMenuItemsConstraints"]
+- !private ["So11UIFocusItemP", "sv"]
+- !private ["So11UIFocusItemP", "updateConstraints"]
+- !private ["So11UIFocusItemP", "width"]
+- !private ["So20UIFocusItemContainerP", "CGFloat"]
+- !private ["So20UIFocusItemContainerP", "UIScreen"]
+- ["So20UIFocusItemContainerP", "UIView"]
+- ["So20UIFocusItemContainerP", "YPMenuItem"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- !private ["So20UIFocusItemContainerP", "clipsToBounds"]
+- !private ["So20UIFocusItemContainerP", "didSetConstraints"]
+- !private ["So20UIFocusItemContainerP", "fillVertically"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "menuItems"]
+- !private ["So20UIFocusItemContainerP", "setUpMenuItemsConstraints"]
+- !private ["So20UIFocusItemContainerP", "sv"]
+- !private ["So20UIFocusItemContainerP", "updateConstraints"]
+- !private ["So20UIFocusItemContainerP", "width"]
+- !private ["So24UILargeContentViewerItemP", "CGFloat"]
+- !private ["So24UILargeContentViewerItemP", "UIScreen"]
+- ["So24UILargeContentViewerItemP", "UIView"]
+- ["So24UILargeContentViewerItemP", "YPMenuItem"]
+- ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "backgroundColor"]
+- !private ["So24UILargeContentViewerItemP", "clipsToBounds"]
+- !private ["So24UILargeContentViewerItemP", "didSetConstraints"]
+- !private ["So24UILargeContentViewerItemP", "fillVertically"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "menuItems"]
+- !private ["So24UILargeContentViewerItemP", "setUpMenuItemsConstraints"]
+- !private ["So24UILargeContentViewerItemP", "sv"]
+- !private ["So24UILargeContentViewerItemP", "updateConstraints"]
+- !private ["So24UILargeContentViewerItemP", "width"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGFloat"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIScreen"]
+- ["So30UIPasteConfigurationSupportingP", "UIView"]
+- ["So30UIPasteConfigurationSupportingP", "YPMenuItem"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "clipsToBounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "didSetConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "fillVertically"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "menuItems"]
+- !private ["So30UIPasteConfigurationSupportingP", "setUpMenuItemsConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "sv"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "width"]
+- !private ["So11UIResponderC", "CGFloat"]
+- !private ["So11UIResponderC", "UIScreen"]
+- ["So11UIResponderC", "UIView"]
+- ["So11UIResponderC", "YPMenuItem"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- !private ["So11UIResponderC", "clipsToBounds"]
+- ["So11UIResponderC", "didSetConstraints"]
+- !private ["So11UIResponderC", "fillVertically"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "menuItems"]
+- ["So11UIResponderC", "refreshMenuItems"]
+- ["So11UIResponderC", "separators"]
+- ["So11UIResponderC", "setUpMenuItemsConstraints"]
+- !private ["So11UIResponderC", "sv"]
+- ["So11UIResponderC", "updateConstraints"]
+- !private ["So11UIResponderC", "width"]
+- !private ["So30UIResponderStandardEditActionsP", "CGFloat"]
+- !private ["So30UIResponderStandardEditActionsP", "UIScreen"]
+- ["So30UIResponderStandardEditActionsP", "UIView"]
+- ["So30UIResponderStandardEditActionsP", "YPMenuItem"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "clipsToBounds"]
+- !private ["So30UIResponderStandardEditActionsP", "didSetConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "fillVertically"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "menuItems"]
+- !private ["So30UIResponderStandardEditActionsP", "setUpMenuItemsConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "sv"]
+- !private ["So30UIResponderStandardEditActionsP", "updateConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "width"]
+- !private ["So8UIScreenC", "bounds"]
+- !private ["So8UIScreenC", "main"]
+- !private ["So18UITraitEnvironmentP", "CGFloat"]
+- !private ["So18UITraitEnvironmentP", "UIScreen"]
+- ["So18UITraitEnvironmentP", "UIView"]
+- ["So18UITraitEnvironmentP", "YPMenuItem"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "clipsToBounds"]
+- !private ["So18UITraitEnvironmentP", "didSetConstraints"]
+- !private ["So18UITraitEnvironmentP", "fillVertically"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "main"]
+- !private ["So18UITraitEnvironmentP", "menuItems"]
+- !private ["So18UITraitEnvironmentP", "setUpMenuItemsConstraints"]
+- !private ["So18UITraitEnvironmentP", "sv"]
+- !private ["So18UITraitEnvironmentP", "updateConstraints"]
+- !private ["So18UITraitEnvironmentP", "width"]
+- !private ["So23UIUserActivityRestoringP", "CGFloat"]
+- !private ["So23UIUserActivityRestoringP", "UIScreen"]
+- ["So23UIUserActivityRestoringP", "UIView"]
+- ["So23UIUserActivityRestoringP", "YPMenuItem"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
+- !private ["So23UIUserActivityRestoringP", "clipsToBounds"]
+- !private ["So23UIUserActivityRestoringP", "didSetConstraints"]
+- !private ["So23UIUserActivityRestoringP", "fillVertically"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "menuItems"]
+- !private ["So23UIUserActivityRestoringP", "setUpMenuItemsConstraints"]
+- !private ["So23UIUserActivityRestoringP", "sv"]
+- !private ["So23UIUserActivityRestoringP", "updateConstraints"]
+- !private ["So23UIUserActivityRestoringP", "width"]
+- !private ["So6UIViewC", "CGFloat"]
+- !private ["So6UIViewC", "UIScreen"]
+- ["So6UIViewC", "UIView"]
+- ["So6UIViewC", "YPMenuItem"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "clipsToBounds"]
+- ["So6UIViewC", "didSetConstraints"]
+- !private ["So6UIViewC", "fillVertically"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "menuItems"]
+- ["So6UIViewC", "refreshMenuItems"]
+- ["So6UIViewC", "separators"]
+- ["So6UIViewC", "setUpMenuItemsConstraints"]
+- !private ["So6UIViewC", "sv"]
+- ["So6UIViewC", "updateConstraints"]
+- !private ["So6UIViewC", "width"]
+- !private ["13YPImagePicker10YPMenuItemC", "fillVertically"]
+- !private ["13YPImagePicker10YPMenuItemC", "width"]
+- !private ["13YPImagePicker11YPPagerMenuC", "CGFloat"]
+- !private ["13YPImagePicker11YPPagerMenuC", "UIScreen"]
+- ["13YPImagePicker11YPPagerMenuC", "UIView"]
+- ["13YPImagePicker11YPPagerMenuC", "YPMenuItem"]
+- !private ["13YPImagePicker11YPPagerMenuC", "backgroundColor"]
+- !private ["13YPImagePicker11YPPagerMenuC", "clipsToBounds"]
+- ["13YPImagePicker11YPPagerMenuC", "deinit"]
+- ["13YPImagePicker11YPPagerMenuC", "didSetConstraints"]
+- ["13YPImagePicker11YPPagerMenuC", "init"]
+- ["13YPImagePicker11YPPagerMenuC", "menuItems"]
+- ["13YPImagePicker11YPPagerMenuC", "refreshMenuItems"]
+- ["13YPImagePicker11YPPagerMenuC", "separators"]
+- ["13YPImagePicker11YPPagerMenuC", "setUpMenuItemsConstraints"]
+- !private ["13YPImagePicker11YPPagerMenuC", "sv"]
+- ["13YPImagePicker11YPPagerMenuC", "updateConstraints"]
+- !private ["s14_ArrayProtocolP", "count"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "width"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "offWhiteOrBlack"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIScreen"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "YPMenuItem"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clipsToBounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didSetConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fillVertically"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "menuItems"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "offWhiteOrBlack"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUpMenuItemsConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sv"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "width"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CGFloat"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIScreen"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIView"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "YPMenuItem"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bounds"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "clipsToBounds"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didSetConstraints"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fillVertically"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "menuItems"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "offWhiteOrBlack"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setUpMenuItemsConstraints"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sv"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "updateConstraints"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "offWhiteOrBlack"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "CGFloat"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIScreen"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "UIView"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "YPMenuItem"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "clipsToBounds"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "didSetConstraints"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "fillVertically"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "menuItems"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setUpMenuItemsConstraints"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "sv"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "updateConstraints"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "width"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "Sa"
+- "SK"
+- !private "SB"
+- "So15CALayerDelegateP"
+- !private "12CoreGraphics7CGFloatV"
+- !private "So6CGRectV"
+- "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SF"
+- "SH"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- !private "Sq"
+- "Sk"
+- "Sm"
+- "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So8UIScreenC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "13YPImagePicker10YPMenuItemC"
+- "13YPImagePicker11YPPagerMenuC"
+- "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreLocation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Photos.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Modules/PryntTrimmerView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/Pods/Target Support Files/YPImagePicker/YPImagePicker-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/Pods/Target Support Files/SteviaLayout/SteviaLayout-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/Pods/Target Support Files/PryntTrimmerView/PryntTrimmerView-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Headers/PryntTrimmerView-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Pods.build/Debug-iphonesimulator/YPImagePicker.build/unextended-module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Pods.build/Debug-iphonesimulator/SteviaLayout.build/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Pods.build/Debug-iphonesimulator/PryntTrimmerView.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "474d17146e96fb8831663c80bd7d9a4e"

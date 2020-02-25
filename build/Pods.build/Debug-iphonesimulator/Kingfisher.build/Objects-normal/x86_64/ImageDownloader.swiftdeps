@@ -1,0 +1,686 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ImageLoadingResult"
+- "DownloadTask"
+- "ImageDownloader"
+provides-nominal:
+- "10Kingfisher18ImageLoadingResultV"
+- "10Kingfisher12DownloadTaskV"
+- "10Kingfisher12DownloadTaskV07WrappedC0O"
+- "10Kingfisher15ImageDownloaderC"
+provides-member:
+- ["10Kingfisher18ImageLoadingResultV", ""]
+- ["10Kingfisher12DownloadTaskV", ""]
+- ["10Kingfisher12DownloadTaskV07WrappedC0O", ""]
+- ["10Kingfisher15ImageDownloaderC", ""]
+- ["10Kingfisher12DownloadTaskV", "WrappedTask"]
+- ["10Kingfisher15ImageDownloaderC", "cancelAll"]
+- ["10Kingfisher15ImageDownloaderC", "cancel"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "+"
+- !private "??"
+- "AssignmentPrecedence"
+- "AuthenticationChallengeResponsable"
+- "BooleanLiteralType"
+- "Data"
+- !private "Delegate"
+- "DownloadProgressBlock"
+- "DownloadTask"
+- "FloatLiteralType"
+- "Image"
+- !private "ImageDataProcessor"
+- "ImageDownloader"
+- "ImageDownloaderDelegate"
+- !private "ImageLoadingProgressSideEffect"
+- "ImageLoadingResult"
+- !private "IntegerLiteralType"
+- "KingfisherError"
+- "KingfisherOptionsInfo"
+- "KingfisherParsedOptionsInfo"
+- "Result"
+- "SessionDataTask"
+- "SessionDelegate"
+- "Set"
+- "String"
+- "StringLiteralType"
+- "TimeInterval"
+- "URL"
+- !private "URLRequest"
+- "URLSession"
+- "URLSessionConfiguration"
+- "Void"
+- !private "fatalError"
+depends-member:
+- !private ["10Accelerate0A6BufferP", "forEach"]
+- !private ["10Accelerate0A13MutableBufferP", "forEach"]
+- !private ["Sa", "forEach"]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "Delegate"]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "ImageDataProcessor"]
+- ["10Kingfisher34AuthenticationChallengeResponsableP", "ImageDownloader"]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "ImageLoadingProgressSideEffect"]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "ImageLoadingResult"]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "KingfisherError"]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "KingfisherParsedOptionsInfo"]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "SessionDataTask"]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "SessionDelegate"]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "URLRequest"]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "URLSession"]
+- ["10Kingfisher34AuthenticationChallengeResponsableP", "URLSessionConfiguration"]
+- ["10Kingfisher34AuthenticationChallengeResponsableP", ""]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "authenticationChallengeResponder"]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "delegate"]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "downloadImage"]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "downloadTimeout"]
+- ["10Kingfisher34AuthenticationChallengeResponsableP", "downloader"]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "fatalError"]
+- ["10Kingfisher34AuthenticationChallengeResponsableP", "imageDownloader"]
+- ["10Kingfisher34AuthenticationChallengeResponsableP", "init"]
+- ["10Kingfisher34AuthenticationChallengeResponsableP", "isValidStatusCode"]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "name"]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "requestsUsePipelining"]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "session"]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "sessionConfiguration"]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "sessionDelegate"]
+- !private ["10Kingfisher34AuthenticationChallengeResponsableP", "setupSessionHandler"]
+- !private ["SK", "forEach"]
+- !private ["SK", "isEmpty"]
+- !private ["s7CVarArgP", "add"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "cancel"]
+- !private ["s7CVarArgP", "cancelAll"]
+- !private ["s7CVarArgP", "dataTask"]
+- ["s7CVarArgP", "ephemeral"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "invalidateAndCancel"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "onDidDownloadData"]
+- !private ["s7CVarArgP", "onDownloadingFinished"]
+- !private ["s7CVarArgP", "onReceiveSessionChallenge"]
+- !private ["s7CVarArgP", "onReceiveSessionTaskChallenge"]
+- !private ["s7CVarArgP", "onValidStatusCode"]
+- !private ["s7CVarArgP", "originalRequest"]
+- !private ["s7CVarArgP", "priority"]
+- !private ["s7CVarArgP", "task"]
+- !private ["So23NSURLRequestCachePolicyV", "reloadIgnoringLocalCacheData"]
+- !private ["10Kingfisher13CallbackQueueO", "execute"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "isEmpty"]
+- !private ["SL", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "cancel"]
+- !private ["s28CustomDebugStringConvertibleP", "cancelAll"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- ["s28CustomDebugStringConvertibleP", "ephemeral"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "httpShouldUsePipelining"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "invalidateAndCancel"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "isValidStatusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "onDidDownloadData"]
+- !private ["s28CustomDebugStringConvertibleP", "onDownloadingFinished"]
+- !private ["s28CustomDebugStringConvertibleP", "onReceiveSessionChallenge"]
+- !private ["s28CustomDebugStringConvertibleP", "onReceiveSessionTaskChallenge"]
+- !private ["s28CustomDebugStringConvertibleP", "onValidStatusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "originalRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "priority"]
+- !private ["s28CustomDebugStringConvertibleP", "task"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["10Foundation13CustomNSErrorP", "requestError"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "httpShouldUsePipelining"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "isValidStatusCode"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "url"]
+- !private ["s23CustomStringConvertibleP", "absoluteString"]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "cancel"]
+- !private ["s23CustomStringConvertibleP", "cancelAll"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- ["s23CustomStringConvertibleP", "ephemeral"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "httpShouldUsePipelining"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "invalidateAndCancel"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "onDidDownloadData"]
+- !private ["s23CustomStringConvertibleP", "onDownloadingFinished"]
+- !private ["s23CustomStringConvertibleP", "onReceiveSessionChallenge"]
+- !private ["s23CustomStringConvertibleP", "onReceiveSessionTaskChallenge"]
+- !private ["s23CustomStringConvertibleP", "onValidStatusCode"]
+- !private ["s23CustomStringConvertibleP", "originalRequest"]
+- !private ["s23CustomStringConvertibleP", "priority"]
+- !private ["s23CustomStringConvertibleP", "task"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["10Kingfisher23DataReceivingSideEffectP", "init"]
+- !private ["Se", "absoluteString"]
+- !private ["Se", "forEach"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "isValidStatusCode"]
+- !private ["Se", "map"]
+- !private ["10Kingfisher8DelegateC", "call"]
+- !private ["10Kingfisher8DelegateC", "delegate"]
+- !private ["10Kingfisher8DelegateC", "init"]
+- ["10Kingfisher12DownloadTaskV", "DownloadTask"]
+- ["10Kingfisher12DownloadTaskV", "SessionDataTask"]
+- ["10Kingfisher12DownloadTaskV", "WrappedTask"]
+- ["10Kingfisher12DownloadTaskV", "cancel"]
+- ["10Kingfisher12DownloadTaskV", "cancelToken"]
+- ["10Kingfisher12DownloadTaskV", "init"]
+- ["10Kingfisher12DownloadTaskV", "sessionTask"]
+- !private ["SE", "absoluteString"]
+- !private ["SE", "forEach"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "isValidStatusCode"]
+- !private ["SE", "map"]
+- !private ["SQ", "absoluteString"]
+- !private ["SQ", "add"]
+- !private ["SQ", "append"]
+- !private ["SQ", "cancel"]
+- !private ["SQ", "cancelAll"]
+- !private ["SQ", "dataTask"]
+- ["SQ", "ephemeral"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "get"]
+- !private ["SQ", "httpShouldUsePipelining"]
+- !private ["SQ", "init"]
+- !private ["SQ", "invalidateAndCancel"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "isValidStatusCode"]
+- !private ["SQ", "map"]
+- !private ["SQ", "onDidDownloadData"]
+- !private ["SQ", "onDownloadingFinished"]
+- !private ["SQ", "onReceiveSessionChallenge"]
+- !private ["SQ", "onReceiveSessionTaskChallenge"]
+- !private ["SQ", "onValidStatusCode"]
+- !private ["SQ", "originalRequest"]
+- !private ["SQ", "priority"]
+- !private ["SQ", "reloadIgnoringLocalCacheData"]
+- !private ["SQ", "success"]
+- !private ["SQ", "task"]
+- !private ["SQ", "url"]
+- !private ["s5ErrorP", "requestError"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s23ExpressibleByNilLiteralP", "isValidStatusCode"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["SH", "absoluteString"]
+- !private ["SH", "add"]
+- !private ["SH", "append"]
+- !private ["SH", "cancel"]
+- !private ["SH", "cancelAll"]
+- !private ["SH", "dataTask"]
+- ["SH", "ephemeral"]
+- !private ["SH", "failure"]
+- !private ["SH", "forEach"]
+- !private ["SH", "get"]
+- !private ["SH", "httpShouldUsePipelining"]
+- !private ["SH", "init"]
+- !private ["SH", "invalidateAndCancel"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "isValidStatusCode"]
+- !private ["SH", "map"]
+- !private ["SH", "onDidDownloadData"]
+- !private ["SH", "onDownloadingFinished"]
+- !private ["SH", "onReceiveSessionChallenge"]
+- !private ["SH", "onReceiveSessionTaskChallenge"]
+- !private ["SH", "onValidStatusCode"]
+- !private ["SH", "originalRequest"]
+- !private ["SH", "priority"]
+- !private ["SH", "reloadIgnoringLocalCacheData"]
+- !private ["SH", "success"]
+- !private ["SH", "task"]
+- !private ["SH", "url"]
+- !private ["10Kingfisher18ImageDataProcessorC", "init"]
+- !private ["10Kingfisher18ImageDataProcessorC", "onImageProcessed"]
+- !private ["10Kingfisher18ImageDataProcessorC", "process"]
+- !private ["10Kingfisher28ImageDownloadRequestModifierP", "modified"]
+- ["10Kingfisher15ImageDownloaderC", "AuthenticationChallengeResponsable"]
+- !private ["10Kingfisher15ImageDownloaderC", "Delegate"]
+- ["10Kingfisher15ImageDownloaderC", "DownloadProgressBlock"]
+- ["10Kingfisher15ImageDownloaderC", "DownloadTask"]
+- !private ["10Kingfisher15ImageDownloaderC", "ImageDataProcessor"]
+- ["10Kingfisher15ImageDownloaderC", "ImageDownloader"]
+- ["10Kingfisher15ImageDownloaderC", "ImageDownloaderDelegate"]
+- !private ["10Kingfisher15ImageDownloaderC", "ImageLoadingProgressSideEffect"]
+- ["10Kingfisher15ImageDownloaderC", "ImageLoadingResult"]
+- ["10Kingfisher15ImageDownloaderC", "KingfisherError"]
+- ["10Kingfisher15ImageDownloaderC", "KingfisherOptionsInfo"]
+- ["10Kingfisher15ImageDownloaderC", "KingfisherParsedOptionsInfo"]
+- ["10Kingfisher15ImageDownloaderC", "Result"]
+- !private ["10Kingfisher15ImageDownloaderC", "SessionDataTask"]
+- ["10Kingfisher15ImageDownloaderC", "SessionDelegate"]
+- ["10Kingfisher15ImageDownloaderC", "Set"]
+- ["10Kingfisher15ImageDownloaderC", "String"]
+- ["10Kingfisher15ImageDownloaderC", "TimeInterval"]
+- ["10Kingfisher15ImageDownloaderC", "URL"]
+- !private ["10Kingfisher15ImageDownloaderC", "URLRequest"]
+- ["10Kingfisher15ImageDownloaderC", "URLSession"]
+- ["10Kingfisher15ImageDownloaderC", "URLSessionConfiguration"]
+- ["10Kingfisher15ImageDownloaderC", "Void"]
+- ["10Kingfisher15ImageDownloaderC", "authenticationChallengeResponder"]
+- ["10Kingfisher15ImageDownloaderC", "cancel"]
+- ["10Kingfisher15ImageDownloaderC", "cancelAll"]
+- ["10Kingfisher15ImageDownloaderC", "default"]
+- ["10Kingfisher15ImageDownloaderC", "deinit"]
+- ["10Kingfisher15ImageDownloaderC", "delegate"]
+- ["10Kingfisher15ImageDownloaderC", "downloadImage"]
+- ["10Kingfisher15ImageDownloaderC", "downloadTimeout"]
+- ["10Kingfisher15ImageDownloaderC", "downloader"]
+- !private ["10Kingfisher15ImageDownloaderC", "fatalError"]
+- ["10Kingfisher15ImageDownloaderC", "imageDownloader"]
+- ["10Kingfisher15ImageDownloaderC", "init"]
+- ["10Kingfisher15ImageDownloaderC", "isValidStatusCode"]
+- !private ["10Kingfisher15ImageDownloaderC", "name"]
+- ["10Kingfisher15ImageDownloaderC", "requestsUsePipelining"]
+- !private ["10Kingfisher15ImageDownloaderC", "session"]
+- ["10Kingfisher15ImageDownloaderC", "sessionConfiguration"]
+- !private ["10Kingfisher15ImageDownloaderC", "sessionDelegate"]
+- !private ["10Kingfisher15ImageDownloaderC", "setupSessionHandler"]
+- ["10Kingfisher15ImageDownloaderC", "trustedHosts"]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "Delegate"]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "ImageDataProcessor"]
+- ["10Kingfisher23ImageDownloaderDelegateP", "ImageDownloader"]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "ImageLoadingProgressSideEffect"]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "ImageLoadingResult"]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "KingfisherError"]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "KingfisherParsedOptionsInfo"]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "SessionDataTask"]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "SessionDelegate"]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "URLRequest"]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "URLSession"]
+- ["10Kingfisher23ImageDownloaderDelegateP", "URLSessionConfiguration"]
+- ["10Kingfisher23ImageDownloaderDelegateP", ""]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "authenticationChallengeResponder"]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "delegate"]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "downloadImage"]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "downloadTimeout"]
+- ["10Kingfisher23ImageDownloaderDelegateP", "downloader"]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "fatalError"]
+- ["10Kingfisher23ImageDownloaderDelegateP", "imageDownloader"]
+- ["10Kingfisher23ImageDownloaderDelegateP", "init"]
+- ["10Kingfisher23ImageDownloaderDelegateP", "isValidStatusCode"]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "name"]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "requestsUsePipelining"]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "session"]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "sessionConfiguration"]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "sessionDelegate"]
+- !private ["10Kingfisher23ImageDownloaderDelegateP", "setupSessionHandler"]
+- !private ["10Kingfisher30ImageLoadingProgressSideEffectC", "deinit"]
+- !private ["10Kingfisher30ImageLoadingProgressSideEffectC", "init"]
+- ["10Kingfisher18ImageLoadingResultV", "Data"]
+- ["10Kingfisher18ImageLoadingResultV", "Image"]
+- ["10Kingfisher18ImageLoadingResultV", "URL"]
+- ["10Kingfisher18ImageLoadingResultV", "image"]
+- ["10Kingfisher18ImageLoadingResultV", "init"]
+- ["10Kingfisher18ImageLoadingResultV", "originalData"]
+- ["10Kingfisher18ImageLoadingResultV", "url"]
+- !private ["10Kingfisher0A15CompatibleValueP", "isEmpty"]
+- ["10Kingfisher0A5ErrorO", "deinit"]
+- !private ["10Kingfisher0A5ErrorO", "requestError"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "callbackQueue"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "downloadPriority"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "init"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "onDataReceived"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "processingQueue"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "requestModifier"]
+- !private ["10Foundation14LocalizedErrorP", "requestError"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["SM", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- !private ["So8NSCodingP", "isEmpty"]
+- ["So9NSCopyingP", "ephemeral"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So9NSCopyingP", "originalRequest"]
+- !private ["So9NSCopyingP", "priority"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So8NSObjectC", "add"]
+- !private ["So8NSObjectC", "append"]
+- !private ["So8NSObjectC", "cancel"]
+- !private ["So8NSObjectC", "cancelAll"]
+- !private ["So8NSObjectC", "dataTask"]
+- ["So8NSObjectC", "ephemeral"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "invalidateAndCancel"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "onDidDownloadData"]
+- !private ["So8NSObjectC", "onDownloadingFinished"]
+- !private ["So8NSObjectC", "onReceiveSessionChallenge"]
+- !private ["So8NSObjectC", "onReceiveSessionTaskChallenge"]
+- !private ["So8NSObjectC", "onValidStatusCode"]
+- !private ["So8NSObjectC", "originalRequest"]
+- !private ["So8NSObjectC", "priority"]
+- !private ["So8NSObjectC", "task"]
+- !private ["So8NSObjectP", "add"]
+- !private ["So8NSObjectP", "append"]
+- !private ["So8NSObjectP", "cancel"]
+- !private ["So8NSObjectP", "cancelAll"]
+- !private ["So8NSObjectP", "dataTask"]
+- ["So8NSObjectP", "ephemeral"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "invalidateAndCancel"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So8NSObjectP", "onDidDownloadData"]
+- !private ["So8NSObjectP", "onDownloadingFinished"]
+- !private ["So8NSObjectP", "onReceiveSessionChallenge"]
+- !private ["So8NSObjectP", "onReceiveSessionTaskChallenge"]
+- !private ["So8NSObjectP", "onValidStatusCode"]
+- !private ["So8NSObjectP", "originalRequest"]
+- !private ["So8NSObjectP", "priority"]
+- !private ["So8NSObjectP", "task"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["Sq", "isValidStatusCode"]
+- !private ["Sq", "map"]
+- !private ["So19NSProgressReportingP", "originalRequest"]
+- !private ["So19NSProgressReportingP", "priority"]
+- !private ["Sk", "forEach"]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "isEmpty"]
+- !private ["SY", "reloadIgnoringLocalCacheData"]
+- !private ["10Foundation20ReferenceConvertibleP", "absoluteString"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpShouldUsePipelining"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "url"]
+- !private ["10Kingfisher0A5ErrorO07RequestB6ReasonO", "emptyRequest"]
+- !private ["10Kingfisher0A5ErrorO07RequestB6ReasonO", "invalidURL"]
+- !private ["10Kingfisher8ResourceP", "absoluteString"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "get"]
+- !private ["s6ResultO", "map"]
+- !private ["s6ResultO", "success"]
+- !private ["ST", "forEach"]
+- !private ["ST", "isEmpty"]
+- ["10Kingfisher15SessionDataTaskC", "CancelToken"]
+- !private ["10Kingfisher15SessionDataTaskC", "TaskCallback"]
+- !private ["10Kingfisher15SessionDataTaskC", "cancel"]
+- !private ["10Kingfisher15SessionDataTaskC", "mutableData"]
+- !private ["10Kingfisher15SessionDataTaskC", "onTaskDone"]
+- !private ["10Kingfisher15SessionDataTaskC", "resume"]
+- !private ["10Kingfisher15SessionDataTaskC", "started"]
+- !private ["10Kingfisher15SessionDataTaskC", "task"]
+- !private ["10Kingfisher15SessionDelegateC", "add"]
+- !private ["10Kingfisher15SessionDelegateC", "append"]
+- !private ["10Kingfisher15SessionDelegateC", "cancel"]
+- !private ["10Kingfisher15SessionDelegateC", "cancelAll"]
+- !private ["10Kingfisher15SessionDelegateC", "deinit"]
+- !private ["10Kingfisher15SessionDelegateC", "init"]
+- !private ["10Kingfisher15SessionDelegateC", "onDidDownloadData"]
+- !private ["10Kingfisher15SessionDelegateC", "onDownloadingFinished"]
+- !private ["10Kingfisher15SessionDelegateC", "onReceiveSessionChallenge"]
+- !private ["10Kingfisher15SessionDelegateC", "onReceiveSessionTaskChallenge"]
+- !private ["10Kingfisher15SessionDelegateC", "onValidStatusCode"]
+- !private ["10Kingfisher15SessionDelegateC", "task"]
+- !private ["SS", "isEmpty"]
+- !private ["Sy", "isEmpty"]
+- !private ["10Kingfisher15SessionDataTaskC0D8CallbackV", "init"]
+- !private ["10Kingfisher15SessionDataTaskC0D8CallbackV", "onCompleted"]
+- !private ["10Kingfisher15SessionDataTaskC0D8CallbackV", "options"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["10Foundation3URLV", "absoluteString"]
+- !private ["10Foundation10URLRequestV", "httpShouldUsePipelining"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["10Foundation10URLRequestV", "url"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- !private ["So12NSURLSessionC", "init"]
+- !private ["So12NSURLSessionC", "invalidateAndCancel"]
+- ["So25NSURLSessionConfigurationC", "ephemeral"]
+- !private ["So24NSURLSessionDataDelegateP", "add"]
+- !private ["So24NSURLSessionDataDelegateP", "append"]
+- !private ["So24NSURLSessionDataDelegateP", "cancel"]
+- !private ["So24NSURLSessionDataDelegateP", "cancelAll"]
+- !private ["So24NSURLSessionDataDelegateP", "init"]
+- !private ["So24NSURLSessionDataDelegateP", "onDidDownloadData"]
+- !private ["So24NSURLSessionDataDelegateP", "onDownloadingFinished"]
+- !private ["So24NSURLSessionDataDelegateP", "onReceiveSessionChallenge"]
+- !private ["So24NSURLSessionDataDelegateP", "onReceiveSessionTaskChallenge"]
+- !private ["So24NSURLSessionDataDelegateP", "onValidStatusCode"]
+- !private ["So24NSURLSessionDataDelegateP", "task"]
+- !private ["So20NSURLSessionDataTaskC", "originalRequest"]
+- !private ["So20NSURLSessionDataTaskC", "priority"]
+- !private ["So20NSURLSessionDelegateP", "add"]
+- !private ["So20NSURLSessionDelegateP", "append"]
+- !private ["So20NSURLSessionDelegateP", "cancel"]
+- !private ["So20NSURLSessionDelegateP", "cancelAll"]
+- !private ["So20NSURLSessionDelegateP", "init"]
+- !private ["So20NSURLSessionDelegateP", "onDidDownloadData"]
+- !private ["So20NSURLSessionDelegateP", "onDownloadingFinished"]
+- !private ["So20NSURLSessionDelegateP", "onReceiveSessionChallenge"]
+- !private ["So20NSURLSessionDelegateP", "onReceiveSessionTaskChallenge"]
+- !private ["So20NSURLSessionDelegateP", "onValidStatusCode"]
+- !private ["So20NSURLSessionDelegateP", "task"]
+- !private ["So16NSURLSessionTaskC", "originalRequest"]
+- !private ["So16NSURLSessionTaskC", "priority"]
+- !private ["So24NSURLSessionTaskDelegateP", "add"]
+- !private ["So24NSURLSessionTaskDelegateP", "append"]
+- !private ["So24NSURLSessionTaskDelegateP", "cancel"]
+- !private ["So24NSURLSessionTaskDelegateP", "cancelAll"]
+- !private ["So24NSURLSessionTaskDelegateP", "init"]
+- !private ["So24NSURLSessionTaskDelegateP", "onDidDownloadData"]
+- !private ["So24NSURLSessionTaskDelegateP", "onDownloadingFinished"]
+- !private ["So24NSURLSessionTaskDelegateP", "onReceiveSessionChallenge"]
+- !private ["So24NSURLSessionTaskDelegateP", "onReceiveSessionTaskChallenge"]
+- !private ["So24NSURLSessionTaskDelegateP", "onValidStatusCode"]
+- !private ["So24NSURLSessionTaskDelegateP", "task"]
+- ["10Kingfisher12DownloadTaskV07WrappedC0O", "DownloadTask"]
+- ["10Kingfisher12DownloadTaskV07WrappedC0O", "cancel"]
+- ["10Kingfisher12DownloadTaskV07WrappedC0O", "dataProviding"]
+- ["10Kingfisher12DownloadTaskV07WrappedC0O", "download"]
+- ["10Kingfisher12DownloadTaskV07WrappedC0O", "value"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "absoluteString"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "absoluteString"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "add"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "append"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancelAll"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ephemeral"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "invalidateAndCancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onDidDownloadData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onDownloadingFinished"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onReceiveSessionChallenge"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onReceiveSessionTaskChallenge"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onValidStatusCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "originalRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "priority"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "task"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "add"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "append"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cancel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cancelAll"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataTask"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ephemeral"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "invalidateAndCancel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "onDidDownloadData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "onDownloadingFinished"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "onReceiveSessionChallenge"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "onReceiveSessionTaskChallenge"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "onValidStatusCode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "originalRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "priority"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "task"]
+- !private ["s21_ObjectiveCBridgeableP", "absoluteString"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "httpShouldUsePipelining"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "isValidStatusCode"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "url"]
+depends-nominal:
+- !private "10Accelerate0A6BufferP"
+- !private "10Accelerate0A13MutableBufferP"
+- !private "Sa"
+- "10Kingfisher34AuthenticationChallengeResponsableP"
+- !private "SK"
+- "s7CVarArgP"
+- !private "So23NSURLRequestCachePolicyV"
+- !private "10Kingfisher13CallbackQueueO"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "10Foundation13CustomNSErrorP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "10Kingfisher23DataReceivingSideEffectP"
+- !private "Se"
+- !private "10Kingfisher8DelegateC"
+- "10Kingfisher12DownloadTaskV"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "10Kingfisher18ImageDataProcessorC"
+- !private "10Kingfisher28ImageDownloadRequestModifierP"
+- "10Kingfisher15ImageDownloaderC"
+- "10Kingfisher23ImageDownloaderDelegateP"
+- !private "10Kingfisher30ImageLoadingProgressSideEffectC"
+- "10Kingfisher18ImageLoadingResultV"
+- !private "10Kingfisher0A15CompatibleValueP"
+- "10Kingfisher0A5ErrorO"
+- !private "10Kingfisher0A17ParsedOptionsInfoV"
+- !private "10Foundation14LocalizedErrorP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sq"
+- !private "So19NSProgressReportingP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "10Kingfisher0A5ErrorO07RequestB6ReasonO"
+- !private "10Kingfisher8ResourceP"
+- !private "s6ResultO"
+- !private "ST"
+- "10Kingfisher15SessionDataTaskC"
+- !private "10Kingfisher15SessionDelegateC"
+- !private "SS"
+- !private "Sy"
+- !private "10Kingfisher15SessionDataTaskC0D8CallbackV"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "10Foundation10URLRequestV"
+- !private "So12NSURLSessionC"
+- "So25NSURLSessionConfigurationC"
+- !private "So24NSURLSessionDataDelegateP"
+- !private "So20NSURLSessionDataTaskC"
+- !private "So20NSURLSessionDelegateP"
+- !private "So16NSURLSessionTaskC"
+- !private "So24NSURLSessionTaskDelegateP"
+- "10Kingfisher12DownloadTaskV07WrappedC0O"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Accelerate.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/Pods/Kingfisher/Sources/Kingfisher.h"
+- "/Users/macbook/Desktop/BookFarm/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4a148ba52599fd52e17ef904bc6167a5"

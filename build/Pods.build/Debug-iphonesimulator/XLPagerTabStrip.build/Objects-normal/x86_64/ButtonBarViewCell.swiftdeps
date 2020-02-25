@@ -1,0 +1,340 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ButtonBarViewCell"
+provides-nominal:
+- "15XLPagerTabStrip17ButtonBarViewCellC"
+provides-member:
+- ["15XLPagerTabStrip17ButtonBarViewCellC", ""]
+provides-dynamic-lookup:
+- "imageView"
+- "isSelected"
+- "label"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "ButtonBarViewCell"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSCoder"
+- !private "StringLiteralType"
+- "UICollectionViewCell"
+- "UIImageView"
+- "UILabel"
+depends-member:
+- ["15XLPagerTabStrip17ButtonBarViewCellC", "Bool"]
+- ["15XLPagerTabStrip17ButtonBarViewCellC", "NSCoder"]
+- ["15XLPagerTabStrip17ButtonBarViewCellC", "UIImageView"]
+- ["15XLPagerTabStrip17ButtonBarViewCellC", "UILabel"]
+- !private ["15XLPagerTabStrip17ButtonBarViewCellC", "accessibilityTraits"]
+- ["15XLPagerTabStrip17ButtonBarViewCellC", "deinit"]
+- ["15XLPagerTabStrip17ButtonBarViewCellC", "imageView"]
+- ["15XLPagerTabStrip17ButtonBarViewCellC", "init"]
+- !private ["15XLPagerTabStrip17ButtonBarViewCellC", "isAccessibilityElement"]
+- ["15XLPagerTabStrip17ButtonBarViewCellC", "isSelected"]
+- ["15XLPagerTabStrip17ButtonBarViewCellC", "label"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "accessibilityTraits"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "isAccessibilityElement"]
+- !private ["So15CALayerDelegateP", "isSelected"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "accessibilityTraits"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isAccessibilityElement"]
+- !private ["s7CVarArgP", "isSelected"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "accessibilityTraits"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isAccessibilityElement"]
+- !private ["s28CustomDebugStringConvertibleP", "isSelected"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "accessibilityTraits"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isAccessibilityElement"]
+- !private ["s23CustomStringConvertibleP", "isSelected"]
+- ["SQ", ""]
+- !private ["SQ", "accessibilityTraits"]
+- !private ["SQ", "button"]
+- !private ["SQ", "header"]
+- !private ["SQ", "init"]
+- !private ["SQ", "insert"]
+- !private ["SQ", "isAccessibilityElement"]
+- !private ["SQ", "isSelected"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "selected"]
+- !private ["s25ExpressibleByArrayLiteralP", "button"]
+- !private ["s25ExpressibleByArrayLiteralP", "header"]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s25ExpressibleByArrayLiteralP", "selected"]
+- ["SH", ""]
+- !private ["SH", "accessibilityTraits"]
+- !private ["SH", "button"]
+- !private ["SH", "header"]
+- !private ["SH", "init"]
+- !private ["SH", "insert"]
+- !private ["SH", "isAccessibilityElement"]
+- !private ["SH", "isSelected"]
+- !private ["SH", "remove"]
+- !private ["SH", "selected"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "accessibilityTraits"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isAccessibilityElement"]
+- !private ["So8NSCodingP", "isSelected"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "accessibilityTraits"]
+- ["So8NSObjectC", "imageView"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isAccessibilityElement"]
+- ["So8NSObjectC", "isSelected"]
+- ["So8NSObjectC", "label"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "accessibilityTraits"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isAccessibilityElement"]
+- !private ["So8NSObjectP", "isSelected"]
+- !private ["s9OptionSetP", "button"]
+- !private ["s9OptionSetP", "header"]
+- !private ["s9OptionSetP", "insert"]
+- !private ["s9OptionSetP", "remove"]
+- !private ["s9OptionSetP", "selected"]
+- !private ["SY", "button"]
+- !private ["SY", "header"]
+- !private ["SY", "insert"]
+- !private ["SY", "remove"]
+- !private ["SY", "selected"]
+- !private ["s10SetAlgebraP", "button"]
+- !private ["s10SetAlgebraP", "header"]
+- !private ["s10SetAlgebraP", "insert"]
+- !private ["s10SetAlgebraP", "remove"]
+- !private ["s10SetAlgebraP", "selected"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "accessibilityTraits"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isAccessibilityElement"]
+- !private ["So29UIAccessibilityIdentificationP", "isSelected"]
+- !private ["So21UIAccessibilityTraitsa", "button"]
+- !private ["So21UIAccessibilityTraitsa", "header"]
+- !private ["So21UIAccessibilityTraitsa", "insert"]
+- !private ["So21UIAccessibilityTraitsa", "remove"]
+- !private ["So21UIAccessibilityTraitsa", "selected"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "accessibilityTraits"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "isAccessibilityElement"]
+- !private ["So12UIAppearanceP", "isSelected"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "accessibilityTraits"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isAccessibilityElement"]
+- !private ["So21UIAppearanceContainerP", "isSelected"]
+- ["So24UICollectionReusableViewC", "Bool"]
+- ["So24UICollectionReusableViewC", "NSCoder"]
+- ["So24UICollectionReusableViewC", "UIImageView"]
+- ["So24UICollectionReusableViewC", "UILabel"]
+- !private ["So24UICollectionReusableViewC", "accessibilityTraits"]
+- ["So24UICollectionReusableViewC", "imageView"]
+- ["So24UICollectionReusableViewC", "init"]
+- !private ["So24UICollectionReusableViewC", "isAccessibilityElement"]
+- ["So24UICollectionReusableViewC", "isSelected"]
+- ["So24UICollectionReusableViewC", "label"]
+- ["So20UICollectionViewCellC", "Bool"]
+- ["So20UICollectionViewCellC", "NSCoder"]
+- ["So20UICollectionViewCellC", "UIImageView"]
+- ["So20UICollectionViewCellC", "UILabel"]
+- ["So20UICollectionViewCellC", ""]
+- !private ["So20UICollectionViewCellC", "accessibilityTraits"]
+- ["So20UICollectionViewCellC", "imageView"]
+- ["So20UICollectionViewCellC", "init"]
+- !private ["So20UICollectionViewCellC", "isAccessibilityElement"]
+- ["So20UICollectionViewCellC", "isSelected"]
+- ["So20UICollectionViewCellC", "label"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "accessibilityTraits"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "isAccessibilityElement"]
+- !private ["So17UICoordinateSpaceP", "isSelected"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "accessibilityTraits"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "isAccessibilityElement"]
+- !private ["So13UIDynamicItemP", "isSelected"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "accessibilityTraits"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isAccessibilityElement"]
+- !private ["So18UIFocusEnvironmentP", "isSelected"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "accessibilityTraits"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "isAccessibilityElement"]
+- !private ["So11UIFocusItemP", "isSelected"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "accessibilityTraits"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "isAccessibilityElement"]
+- !private ["So20UIFocusItemContainerP", "isSelected"]
+- ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "accessibilityTraits"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "isAccessibilityElement"]
+- !private ["So24UILargeContentViewerItemP", "isSelected"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "accessibilityTraits"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isAccessibilityElement"]
+- !private ["So30UIPasteConfigurationSupportingP", "isSelected"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "accessibilityTraits"]
+- ["So11UIResponderC", "imageView"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isAccessibilityElement"]
+- ["So11UIResponderC", "isSelected"]
+- ["So11UIResponderC", "label"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "accessibilityTraits"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isAccessibilityElement"]
+- !private ["So30UIResponderStandardEditActionsP", "isSelected"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "accessibilityTraits"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isAccessibilityElement"]
+- !private ["So18UITraitEnvironmentP", "isSelected"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "accessibilityTraits"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isAccessibilityElement"]
+- !private ["So23UIUserActivityRestoringP", "isSelected"]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UILabel"]
+- !private ["So6UIViewC", "accessibilityTraits"]
+- ["So6UIViewC", "imageView"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "isAccessibilityElement"]
+- ["So6UIViewC", "isSelected"]
+- ["So6UIViewC", "label"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "button"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "header"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "insert"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "selected"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "accessibilityTraits"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isAccessibilityElement"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSelected"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "accessibilityTraits"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isAccessibilityElement"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isSelected"]
+- !private ["s21_ObjectiveCBridgeableP", "button"]
+- !private ["s21_ObjectiveCBridgeableP", "header"]
+- !private ["s21_ObjectiveCBridgeableP", "insert"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "selected"]
+- !private ["s20_SwiftNewtypeWrapperP", "button"]
+- !private ["s20_SwiftNewtypeWrapperP", "header"]
+- !private ["s20_SwiftNewtypeWrapperP", "insert"]
+- !private ["s20_SwiftNewtypeWrapperP", "remove"]
+- !private ["s20_SwiftNewtypeWrapperP", "selected"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "accessibilityTraits"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isAccessibilityElement"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isSelected"]
+depends-nominal:
+- "15XLPagerTabStrip17ButtonBarViewCellC"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "s9OptionSetP"
+- !private "SY"
+- !private "s10SetAlgebraP"
+- "So29UIAccessibilityIdentificationP"
+- !private "So21UIAccessibilityTraitsa"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- "So20UICollectionViewCellC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/Pods/Target Support Files/XLPagerTabStrip/XLPagerTabStrip-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/Pods/XLPagerTabStrip/Sources/FXPageControl.h"
+- "/Users/macbook/Desktop/BookFarm/build/Pods.build/Debug-iphonesimulator/XLPagerTabStrip.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "03ae7e5b15971e2bbd5fcb386f0a56db"

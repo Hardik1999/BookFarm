@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "171980d2db7852256a034fded071516a"
+build_time: [1581658393, 484619000]
+inputs:
+  "/Users/macbook/Desktop/BookFarm/Pods/PryntTrimmerView/PryntTrimmerView/Classes/Parents/AssetVideoScrollView.swift": [1580266389, 263342718]
+  "/Users/macbook/Desktop/BookFarm/Pods/PryntTrimmerView/PryntTrimmerView/Classes/Parents/AVAssetTimeSelector.swift": [1580266389, 263657682]
+  "/Users/macbook/Desktop/BookFarm/Pods/PryntTrimmerView/PryntTrimmerView/Classes/Cropper/CropMaskView.swift": [1580266389, 265035756]
+  "/Users/macbook/Desktop/BookFarm/Pods/PryntTrimmerView/PryntTrimmerView/Classes/Trimmer/HandlerView.swift": [1580266389, 265648119]
+  "/Users/macbook/Desktop/BookFarm/Pods/PryntTrimmerView/PryntTrimmerView/Classes/Trimmer/PryntTrimmerView.swift": [1580266389, 266009671]
+  "/Users/macbook/Desktop/BookFarm/Pods/PryntTrimmerView/PryntTrimmerView/Classes/ThumbSelectorView.swift": [1580266389, 263952744]
+  "/Users/macbook/Desktop/BookFarm/Pods/PryntTrimmerView/PryntTrimmerView/Classes/Cropper/VideoCropView.swift": [1580266389, 264498986]
+  "/Users/macbook/Desktop/BookFarm/Pods/PryntTrimmerView/PryntTrimmerView/Classes/Cropper/VideoScrollView.swift": [1580266389, 264758495]

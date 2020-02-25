@@ -1,0 +1,735 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LoginResponse"
+- "CategoryResponse"
+- "Category"
+- "BookResponse"
+- "Book"
+- "BookImage"
+- "UpdateResponse"
+- "ForgotPasswordResponse"
+- "CommonResponse"
+provides-nominal:
+- "8BookFarm13LoginResponseV"
+- "8BookFarm13LoginResponseV10CodingKeysO"
+- "8BookFarm16CategoryResponseV"
+- "8BookFarm16CategoryResponseV10CodingKeysO"
+- "8BookFarm8CategoryV"
+- "8BookFarm8CategoryV10CodingKeysO"
+- "8BookFarm0A8ResponseV"
+- "8BookFarm0A0V"
+- "8BookFarm0A0V10CodingKeysO"
+- "8BookFarm0A5ImageV"
+- "8BookFarm0A5ImageV10CodingKeysO"
+- "8BookFarm14UpdateResponseV"
+- "8BookFarm14UpdateResponseV10CodingKeysO"
+- "8BookFarm22ForgotPasswordResponseV"
+- "8BookFarm22ForgotPasswordResponseV10CodingKeysO"
+- "8BookFarm14CommonResponseV"
+- "8BookFarm14CommonResponseV10CodingKeysO"
+provides-member:
+- ["8BookFarm13LoginResponseV", ""]
+- ["8BookFarm13LoginResponseV10CodingKeysO", ""]
+- ["8BookFarm16CategoryResponseV", ""]
+- ["8BookFarm16CategoryResponseV10CodingKeysO", ""]
+- ["8BookFarm8CategoryV", ""]
+- ["8BookFarm8CategoryV10CodingKeysO", ""]
+- ["8BookFarm0A8ResponseV", ""]
+- ["8BookFarm0A0V", ""]
+- ["8BookFarm0A0V10CodingKeysO", ""]
+- ["8BookFarm0A5ImageV", ""]
+- ["8BookFarm0A5ImageV10CodingKeysO", ""]
+- ["8BookFarm14UpdateResponseV", ""]
+- ["8BookFarm14UpdateResponseV10CodingKeysO", ""]
+- ["8BookFarm22ForgotPasswordResponseV", ""]
+- ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", ""]
+- ["8BookFarm14CommonResponseV", ""]
+- ["8BookFarm14CommonResponseV10CodingKeysO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Book"
+- "BookImage"
+- "BookResponse"
+- "Category"
+- "CategoryResponse"
+- "Codable"
+- "CodingKey"
+- "CommonResponse"
+- !private "FloatLiteralType"
+- "ForgotPasswordResponse"
+- "Int"
+- !private "IntegerLiteralType"
+- "LoginResponse"
+- "String"
+- "StringLiteralType"
+- "UpdateResponse"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["8BookFarm0A0V", "BookImage"]
+- ["8BookFarm0A0V", "CodingKey"]
+- ["8BookFarm0A0V", "CodingKeys"]
+- ["8BookFarm0A0V", "String"]
+- !private ["8BookFarm0A0V", "_findStringSwitchCase"]
+- ["8BookFarm0A0V", "authorName"]
+- ["8BookFarm0A0V", "bookCategory"]
+- ["8BookFarm0A0V", "bookCategoryID"]
+- ["8BookFarm0A0V", "bookDescription"]
+- ["8BookFarm0A0V", "bookEdition"]
+- ["8BookFarm0A0V", "bookImages"]
+- ["8BookFarm0A0V", "bookLanguage"]
+- ["8BookFarm0A0V", "bookName"]
+- ["8BookFarm0A0V", "deinit"]
+- ["8BookFarm0A0V", "encode"]
+- ["8BookFarm0A0V", "init"]
+- ["8BookFarm0A0V", "rentPrice"]
+- ["8BookFarm0A0V", "sellPrice"]
+- ["8BookFarm0A5ImageV", "CodingKey"]
+- ["8BookFarm0A5ImageV", "CodingKeys"]
+- ["8BookFarm0A5ImageV", "String"]
+- !private ["8BookFarm0A5ImageV", "_findStringSwitchCase"]
+- ["8BookFarm0A5ImageV", "bookImageURL"]
+- ["8BookFarm0A5ImageV", "deinit"]
+- ["8BookFarm0A5ImageV", "encode"]
+- ["8BookFarm0A5ImageV", "init"]
+- ["8BookFarm0A8ResponseV", "Book"]
+- ["8BookFarm0A8ResponseV", "String"]
+- ["8BookFarm0A8ResponseV", "books"]
+- ["8BookFarm0A8ResponseV", "deinit"]
+- ["8BookFarm0A8ResponseV", "encode"]
+- ["8BookFarm0A8ResponseV", "init"]
+- ["8BookFarm0A8ResponseV", "message"]
+- ["8BookFarm0A8ResponseV", "status"]
+- ["8BookFarm8CategoryV", "CodingKey"]
+- ["8BookFarm8CategoryV", "CodingKeys"]
+- ["8BookFarm8CategoryV", "String"]
+- !private ["8BookFarm8CategoryV", "_findStringSwitchCase"]
+- ["8BookFarm8CategoryV", "catID"]
+- ["8BookFarm8CategoryV", "catIcon"]
+- ["8BookFarm8CategoryV", "catName"]
+- ["8BookFarm8CategoryV", "deinit"]
+- ["8BookFarm8CategoryV", "encode"]
+- ["8BookFarm8CategoryV", "init"]
+- ["8BookFarm16CategoryResponseV", "Category"]
+- ["8BookFarm16CategoryResponseV", "CodingKey"]
+- ["8BookFarm16CategoryResponseV", "CodingKeys"]
+- ["8BookFarm16CategoryResponseV", "Int"]
+- ["8BookFarm16CategoryResponseV", "String"]
+- !private ["8BookFarm16CategoryResponseV", "_findStringSwitchCase"]
+- ["8BookFarm16CategoryResponseV", "categories"]
+- ["8BookFarm16CategoryResponseV", "deinit"]
+- ["8BookFarm16CategoryResponseV", "encode"]
+- ["8BookFarm16CategoryResponseV", "init"]
+- ["8BookFarm16CategoryResponseV", "message"]
+- ["8BookFarm16CategoryResponseV", "status"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["8BookFarm0A0V10CodingKeysO", "=="]
+- ["8BookFarm0A5ImageV10CodingKeysO", "=="]
+- ["8BookFarm13LoginResponseV10CodingKeysO", "=="]
+- ["8BookFarm14CommonResponseV10CodingKeysO", "=="]
+- ["8BookFarm14UpdateResponseV10CodingKeysO", "=="]
+- ["8BookFarm16CategoryResponseV10CodingKeysO", "=="]
+- ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", "=="]
+- ["8BookFarm8CategoryV10CodingKeysO", "=="]
+- ["8BookFarm0A0V10CodingKeysO", "RawValue"]
+- ["8BookFarm0A5ImageV10CodingKeysO", "RawValue"]
+- ["8BookFarm13LoginResponseV10CodingKeysO", "RawValue"]
+- ["8BookFarm14CommonResponseV10CodingKeysO", "RawValue"]
+- ["8BookFarm14UpdateResponseV10CodingKeysO", "RawValue"]
+- ["8BookFarm16CategoryResponseV10CodingKeysO", "RawValue"]
+- ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", "RawValue"]
+- ["8BookFarm8CategoryV10CodingKeysO", "RawValue"]
+- ["8BookFarm0A0V10CodingKeysO", "_Default_RawValue"]
+- ["8BookFarm0A5ImageV10CodingKeysO", "_Default_RawValue"]
+- ["8BookFarm13LoginResponseV10CodingKeysO", "_Default_RawValue"]
+- ["8BookFarm14CommonResponseV10CodingKeysO", "_Default_RawValue"]
+- ["8BookFarm14UpdateResponseV10CodingKeysO", "_Default_RawValue"]
+- ["8BookFarm16CategoryResponseV10CodingKeysO", "_Default_RawValue"]
+- ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", "_Default_RawValue"]
+- ["8BookFarm8CategoryV10CodingKeysO", "_Default_RawValue"]
+- !private ["8BookFarm0A0V10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8BookFarm0A5ImageV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8BookFarm13LoginResponseV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8BookFarm14CommonResponseV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8BookFarm14UpdateResponseV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8BookFarm16CategoryResponseV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["8BookFarm8CategoryV10CodingKeysO", "_findStringSwitchCase"]
+- ["8BookFarm0A0V10CodingKeysO", "_rawHashValue"]
+- ["8BookFarm0A5ImageV10CodingKeysO", "_rawHashValue"]
+- ["8BookFarm13LoginResponseV10CodingKeysO", "_rawHashValue"]
+- ["8BookFarm14CommonResponseV10CodingKeysO", "_rawHashValue"]
+- ["8BookFarm14UpdateResponseV10CodingKeysO", "_rawHashValue"]
+- ["8BookFarm16CategoryResponseV10CodingKeysO", "_rawHashValue"]
+- ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", "_rawHashValue"]
+- ["8BookFarm8CategoryV10CodingKeysO", "_rawHashValue"]
+- ["8BookFarm0A0V10CodingKeysO", "authorName"]
+- ["8BookFarm0A0V10CodingKeysO", "bookCategory"]
+- ["8BookFarm0A0V10CodingKeysO", "bookCategoryID"]
+- ["8BookFarm0A0V10CodingKeysO", "bookDescription"]
+- ["8BookFarm0A0V10CodingKeysO", "bookEdition"]
+- ["8BookFarm0A5ImageV10CodingKeysO", "bookImageURL"]
+- ["8BookFarm0A0V10CodingKeysO", "bookImages"]
+- ["8BookFarm0A0V10CodingKeysO", "bookLanguage"]
+- ["8BookFarm0A0V10CodingKeysO", "bookName"]
+- ["8BookFarm8CategoryV10CodingKeysO", "catID"]
+- ["8BookFarm8CategoryV10CodingKeysO", "catIcon"]
+- ["8BookFarm8CategoryV10CodingKeysO", "catName"]
+- ["8BookFarm16CategoryResponseV10CodingKeysO", "categories"]
+- ["8BookFarm0A0V10CodingKeysO", "debugDescription"]
+- ["8BookFarm0A5ImageV10CodingKeysO", "debugDescription"]
+- ["8BookFarm13LoginResponseV10CodingKeysO", "debugDescription"]
+- ["8BookFarm14CommonResponseV10CodingKeysO", "debugDescription"]
+- ["8BookFarm14UpdateResponseV10CodingKeysO", "debugDescription"]
+- ["8BookFarm16CategoryResponseV10CodingKeysO", "debugDescription"]
+- ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", "debugDescription"]
+- ["8BookFarm8CategoryV10CodingKeysO", "debugDescription"]
+- ["8BookFarm0A0V10CodingKeysO", "deinit"]
+- ["8BookFarm0A5ImageV10CodingKeysO", "deinit"]
+- ["8BookFarm13LoginResponseV10CodingKeysO", "deinit"]
+- ["8BookFarm14CommonResponseV10CodingKeysO", "deinit"]
+- ["8BookFarm14UpdateResponseV10CodingKeysO", "deinit"]
+- ["8BookFarm16CategoryResponseV10CodingKeysO", "deinit"]
+- ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", "deinit"]
+- ["8BookFarm8CategoryV10CodingKeysO", "deinit"]
+- ["8BookFarm0A0V10CodingKeysO", "description"]
+- ["8BookFarm0A5ImageV10CodingKeysO", "description"]
+- ["8BookFarm13LoginResponseV10CodingKeysO", "description"]
+- ["8BookFarm14CommonResponseV10CodingKeysO", "description"]
+- ["8BookFarm14UpdateResponseV10CodingKeysO", "description"]
+- ["8BookFarm16CategoryResponseV10CodingKeysO", "description"]
+- ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", "description"]
+- ["8BookFarm8CategoryV10CodingKeysO", "description"]
+- ["8BookFarm0A0V10CodingKeysO", "hash"]
+- ["8BookFarm0A5ImageV10CodingKeysO", "hash"]
+- ["8BookFarm13LoginResponseV10CodingKeysO", "hash"]
+- ["8BookFarm14CommonResponseV10CodingKeysO", "hash"]
+- ["8BookFarm14UpdateResponseV10CodingKeysO", "hash"]
+- ["8BookFarm16CategoryResponseV10CodingKeysO", "hash"]
+- ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", "hash"]
+- ["8BookFarm8CategoryV10CodingKeysO", "hash"]
+- ["8BookFarm0A0V10CodingKeysO", "hashValue"]
+- ["8BookFarm0A5ImageV10CodingKeysO", "hashValue"]
+- ["8BookFarm13LoginResponseV10CodingKeysO", "hashValue"]
+- ["8BookFarm14CommonResponseV10CodingKeysO", "hashValue"]
+- ["8BookFarm14UpdateResponseV10CodingKeysO", "hashValue"]
+- ["8BookFarm16CategoryResponseV10CodingKeysO", "hashValue"]
+- ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", "hashValue"]
+- ["8BookFarm8CategoryV10CodingKeysO", "hashValue"]
+- ["8BookFarm0A0V10CodingKeysO", "init"]
+- ["8BookFarm0A5ImageV10CodingKeysO", "init"]
+- ["8BookFarm13LoginResponseV10CodingKeysO", "init"]
+- ["8BookFarm14CommonResponseV10CodingKeysO", "init"]
+- ["8BookFarm14UpdateResponseV10CodingKeysO", "init"]
+- ["8BookFarm16CategoryResponseV10CodingKeysO", "init"]
+- ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", "init"]
+- ["8BookFarm8CategoryV10CodingKeysO", "init"]
+- ["8BookFarm0A0V10CodingKeysO", "intValue"]
+- ["8BookFarm0A5ImageV10CodingKeysO", "intValue"]
+- ["8BookFarm13LoginResponseV10CodingKeysO", "intValue"]
+- ["8BookFarm14CommonResponseV10CodingKeysO", "intValue"]
+- ["8BookFarm14UpdateResponseV10CodingKeysO", "intValue"]
+- ["8BookFarm16CategoryResponseV10CodingKeysO", "intValue"]
+- ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", "intValue"]
+- ["8BookFarm8CategoryV10CodingKeysO", "intValue"]
+- ["8BookFarm13LoginResponseV10CodingKeysO", "message"]
+- ["8BookFarm14CommonResponseV10CodingKeysO", "message"]
+- ["8BookFarm14UpdateResponseV10CodingKeysO", "message"]
+- ["8BookFarm16CategoryResponseV10CodingKeysO", "message"]
+- ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", "message"]
+- ["8BookFarm0A0V10CodingKeysO", "rawValue"]
+- ["8BookFarm0A5ImageV10CodingKeysO", "rawValue"]
+- ["8BookFarm13LoginResponseV10CodingKeysO", "rawValue"]
+- ["8BookFarm14CommonResponseV10CodingKeysO", "rawValue"]
+- ["8BookFarm14UpdateResponseV10CodingKeysO", "rawValue"]
+- ["8BookFarm16CategoryResponseV10CodingKeysO", "rawValue"]
+- ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", "rawValue"]
+- ["8BookFarm8CategoryV10CodingKeysO", "rawValue"]
+- ["8BookFarm0A0V10CodingKeysO", "rentPrice"]
+- ["8BookFarm0A0V10CodingKeysO", "sellPrice"]
+- ["8BookFarm13LoginResponseV10CodingKeysO", "status"]
+- ["8BookFarm14CommonResponseV10CodingKeysO", "status"]
+- ["8BookFarm14UpdateResponseV10CodingKeysO", "status"]
+- ["8BookFarm16CategoryResponseV10CodingKeysO", "status"]
+- ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", "status"]
+- ["8BookFarm0A0V10CodingKeysO", "stringValue"]
+- ["8BookFarm0A5ImageV10CodingKeysO", "stringValue"]
+- ["8BookFarm13LoginResponseV10CodingKeysO", "stringValue"]
+- ["8BookFarm14CommonResponseV10CodingKeysO", "stringValue"]
+- ["8BookFarm14UpdateResponseV10CodingKeysO", "stringValue"]
+- ["8BookFarm16CategoryResponseV10CodingKeysO", "stringValue"]
+- ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", "stringValue"]
+- ["8BookFarm8CategoryV10CodingKeysO", "stringValue"]
+- ["8BookFarm13LoginResponseV10CodingKeysO", "userEmail"]
+- ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", "userEmail"]
+- ["8BookFarm13LoginResponseV10CodingKeysO", "userID"]
+- ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", "userID"]
+- ["8BookFarm13LoginResponseV10CodingKeysO", "userMobile"]
+- ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", "userMobile"]
+- ["8BookFarm13LoginResponseV10CodingKeysO", "userName"]
+- ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", "userName"]
+- ["8BookFarm22ForgotPasswordResponseV10CodingKeysO", "userPassword"]
+- ["8BookFarm13LoginResponseV10CodingKeysO", "userProfile"]
+- ["8BookFarm14CommonResponseV", "CodingKey"]
+- ["8BookFarm14CommonResponseV", "CodingKeys"]
+- ["8BookFarm14CommonResponseV", "String"]
+- !private ["8BookFarm14CommonResponseV", "_findStringSwitchCase"]
+- ["8BookFarm14CommonResponseV", "deinit"]
+- ["8BookFarm14CommonResponseV", "encode"]
+- ["8BookFarm14CommonResponseV", "init"]
+- ["8BookFarm14CommonResponseV", "message"]
+- ["8BookFarm14CommonResponseV", "status"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "authorName"]
+- !private ["Se", "bookCategory"]
+- !private ["Se", "bookCategoryID"]
+- !private ["Se", "bookDescription"]
+- !private ["Se", "bookEdition"]
+- !private ["Se", "bookImageURL"]
+- !private ["Se", "bookImages"]
+- !private ["Se", "bookLanguage"]
+- !private ["Se", "bookName"]
+- !private ["Se", "books"]
+- !private ["Se", "catID"]
+- !private ["Se", "catIcon"]
+- !private ["Se", "catName"]
+- !private ["Se", "categories"]
+- ["Se", "encode"]
+- ["Se", "init"]
+- !private ["Se", "message"]
+- !private ["Se", "rentPrice"]
+- !private ["Se", "sellPrice"]
+- !private ["Se", "status"]
+- !private ["Se", "userEmail"]
+- !private ["Se", "userID"]
+- !private ["Se", "userMobile"]
+- !private ["Se", "userName"]
+- !private ["Se", "userPassword"]
+- !private ["Se", "userProfile"]
+- !private ["s7DecoderP", "container"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "authorName"]
+- !private ["SE", "bookCategory"]
+- !private ["SE", "bookCategoryID"]
+- !private ["SE", "bookDescription"]
+- !private ["SE", "bookEdition"]
+- !private ["SE", "bookImageURL"]
+- !private ["SE", "bookImages"]
+- !private ["SE", "bookLanguage"]
+- !private ["SE", "bookName"]
+- !private ["SE", "books"]
+- !private ["SE", "catID"]
+- !private ["SE", "catIcon"]
+- !private ["SE", "catName"]
+- !private ["SE", "categories"]
+- ["SE", "encode"]
+- ["SE", "init"]
+- !private ["SE", "message"]
+- !private ["SE", "rentPrice"]
+- !private ["SE", "sellPrice"]
+- !private ["SE", "status"]
+- !private ["SE", "userEmail"]
+- !private ["SE", "userID"]
+- !private ["SE", "userMobile"]
+- !private ["SE", "userName"]
+- !private ["SE", "userPassword"]
+- !private ["SE", "userProfile"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- ["8BookFarm22ForgotPasswordResponseV", "CodingKey"]
+- ["8BookFarm22ForgotPasswordResponseV", "CodingKeys"]
+- ["8BookFarm22ForgotPasswordResponseV", "Int"]
+- ["8BookFarm22ForgotPasswordResponseV", "String"]
+- !private ["8BookFarm22ForgotPasswordResponseV", "_findStringSwitchCase"]
+- ["8BookFarm22ForgotPasswordResponseV", "deinit"]
+- ["8BookFarm22ForgotPasswordResponseV", "encode"]
+- ["8BookFarm22ForgotPasswordResponseV", "init"]
+- ["8BookFarm22ForgotPasswordResponseV", "message"]
+- ["8BookFarm22ForgotPasswordResponseV", "status"]
+- ["8BookFarm22ForgotPasswordResponseV", "userEmail"]
+- ["8BookFarm22ForgotPasswordResponseV", "userID"]
+- ["8BookFarm22ForgotPasswordResponseV", "userMobile"]
+- ["8BookFarm22ForgotPasswordResponseV", "userName"]
+- ["8BookFarm22ForgotPasswordResponseV", "userPassword"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- ["8BookFarm13LoginResponseV", "CodingKey"]
+- ["8BookFarm13LoginResponseV", "CodingKeys"]
+- ["8BookFarm13LoginResponseV", "Int"]
+- ["8BookFarm13LoginResponseV", "String"]
+- !private ["8BookFarm13LoginResponseV", "_findStringSwitchCase"]
+- ["8BookFarm13LoginResponseV", "deinit"]
+- ["8BookFarm13LoginResponseV", "encode"]
+- ["8BookFarm13LoginResponseV", "init"]
+- ["8BookFarm13LoginResponseV", "message"]
+- ["8BookFarm13LoginResponseV", "status"]
+- ["8BookFarm13LoginResponseV", "userEmail"]
+- ["8BookFarm13LoginResponseV", "userID"]
+- ["8BookFarm13LoginResponseV", "userMobile"]
+- ["8BookFarm13LoginResponseV", "userName"]
+- ["8BookFarm13LoginResponseV", "userProfile"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- ["8BookFarm14UpdateResponseV", "CodingKey"]
+- ["8BookFarm14UpdateResponseV", "CodingKeys"]
+- ["8BookFarm14UpdateResponseV", "Int"]
+- ["8BookFarm14UpdateResponseV", "String"]
+- !private ["8BookFarm14UpdateResponseV", "_findStringSwitchCase"]
+- ["8BookFarm14UpdateResponseV", "deinit"]
+- ["8BookFarm14UpdateResponseV", "encode"]
+- ["8BookFarm14UpdateResponseV", "init"]
+- ["8BookFarm14UpdateResponseV", "message"]
+- ["8BookFarm14UpdateResponseV", "status"]
+depends-nominal:
+- "8BookFarm0A0V"
+- "8BookFarm0A5ImageV"
+- "8BookFarm0A8ResponseV"
+- "8BookFarm8CategoryV"
+- "8BookFarm16CategoryResponseV"
+- "s9CodingKeyP"
+- "8BookFarm0A0V10CodingKeysO"
+- "8BookFarm0A5ImageV10CodingKeysO"
+- "8BookFarm13LoginResponseV10CodingKeysO"
+- "8BookFarm14CommonResponseV10CodingKeysO"
+- "8BookFarm14UpdateResponseV10CodingKeysO"
+- "8BookFarm16CategoryResponseV10CodingKeysO"
+- "8BookFarm22ForgotPasswordResponseV10CodingKeysO"
+- "8BookFarm8CategoryV10CodingKeysO"
+- "8BookFarm0A0V10CodingKeysO"
+- "8BookFarm0A5ImageV10CodingKeysO"
+- "8BookFarm13LoginResponseV10CodingKeysO"
+- "8BookFarm14CommonResponseV10CodingKeysO"
+- "8BookFarm14UpdateResponseV10CodingKeysO"
+- "8BookFarm16CategoryResponseV10CodingKeysO"
+- "8BookFarm22ForgotPasswordResponseV10CodingKeysO"
+- "8BookFarm8CategoryV10CodingKeysO"
+- "8BookFarm0A0V10CodingKeysO"
+- "8BookFarm0A5ImageV10CodingKeysO"
+- "8BookFarm13LoginResponseV10CodingKeysO"
+- "8BookFarm14CommonResponseV10CodingKeysO"
+- "8BookFarm14UpdateResponseV10CodingKeysO"
+- "8BookFarm16CategoryResponseV10CodingKeysO"
+- "8BookFarm22ForgotPasswordResponseV10CodingKeysO"
+- "8BookFarm8CategoryV10CodingKeysO"
+- !private "8BookFarm0A0V10CodingKeysO"
+- !private "8BookFarm0A5ImageV10CodingKeysO"
+- !private "8BookFarm13LoginResponseV10CodingKeysO"
+- !private "8BookFarm14CommonResponseV10CodingKeysO"
+- !private "8BookFarm14UpdateResponseV10CodingKeysO"
+- !private "8BookFarm16CategoryResponseV10CodingKeysO"
+- !private "8BookFarm22ForgotPasswordResponseV10CodingKeysO"
+- !private "8BookFarm8CategoryV10CodingKeysO"
+- "8BookFarm0A0V10CodingKeysO"
+- "8BookFarm0A5ImageV10CodingKeysO"
+- "8BookFarm13LoginResponseV10CodingKeysO"
+- "8BookFarm14CommonResponseV10CodingKeysO"
+- "8BookFarm14UpdateResponseV10CodingKeysO"
+- "8BookFarm16CategoryResponseV10CodingKeysO"
+- "8BookFarm22ForgotPasswordResponseV10CodingKeysO"
+- "8BookFarm8CategoryV10CodingKeysO"
+- "8BookFarm0A0V10CodingKeysO"
+- "8BookFarm0A5ImageV10CodingKeysO"
+- "8BookFarm0A0V10CodingKeysO"
+- "8BookFarm8CategoryV10CodingKeysO"
+- "8BookFarm16CategoryResponseV10CodingKeysO"
+- "8BookFarm0A0V10CodingKeysO"
+- "8BookFarm0A5ImageV10CodingKeysO"
+- "8BookFarm13LoginResponseV10CodingKeysO"
+- "8BookFarm14CommonResponseV10CodingKeysO"
+- "8BookFarm14UpdateResponseV10CodingKeysO"
+- "8BookFarm16CategoryResponseV10CodingKeysO"
+- "8BookFarm22ForgotPasswordResponseV10CodingKeysO"
+- "8BookFarm8CategoryV10CodingKeysO"
+- "8BookFarm0A0V10CodingKeysO"
+- "8BookFarm0A5ImageV10CodingKeysO"
+- "8BookFarm13LoginResponseV10CodingKeysO"
+- "8BookFarm14CommonResponseV10CodingKeysO"
+- "8BookFarm14UpdateResponseV10CodingKeysO"
+- "8BookFarm16CategoryResponseV10CodingKeysO"
+- "8BookFarm22ForgotPasswordResponseV10CodingKeysO"
+- "8BookFarm8CategoryV10CodingKeysO"
+- "8BookFarm0A0V10CodingKeysO"
+- "8BookFarm0A5ImageV10CodingKeysO"
+- "8BookFarm13LoginResponseV10CodingKeysO"
+- "8BookFarm14CommonResponseV10CodingKeysO"
+- "8BookFarm14UpdateResponseV10CodingKeysO"
+- "8BookFarm16CategoryResponseV10CodingKeysO"
+- "8BookFarm22ForgotPasswordResponseV10CodingKeysO"
+- "8BookFarm8CategoryV10CodingKeysO"
+- "8BookFarm0A0V10CodingKeysO"
+- "8BookFarm0A5ImageV10CodingKeysO"
+- "8BookFarm13LoginResponseV10CodingKeysO"
+- "8BookFarm14CommonResponseV10CodingKeysO"
+- "8BookFarm14UpdateResponseV10CodingKeysO"
+- "8BookFarm16CategoryResponseV10CodingKeysO"
+- "8BookFarm22ForgotPasswordResponseV10CodingKeysO"
+- "8BookFarm8CategoryV10CodingKeysO"
+- "8BookFarm0A0V10CodingKeysO"
+- "8BookFarm0A5ImageV10CodingKeysO"
+- "8BookFarm13LoginResponseV10CodingKeysO"
+- "8BookFarm14CommonResponseV10CodingKeysO"
+- "8BookFarm14UpdateResponseV10CodingKeysO"
+- "8BookFarm16CategoryResponseV10CodingKeysO"
+- "8BookFarm22ForgotPasswordResponseV10CodingKeysO"
+- "8BookFarm8CategoryV10CodingKeysO"
+- "8BookFarm0A0V10CodingKeysO"
+- "8BookFarm0A5ImageV10CodingKeysO"
+- "8BookFarm13LoginResponseV10CodingKeysO"
+- "8BookFarm14CommonResponseV10CodingKeysO"
+- "8BookFarm14UpdateResponseV10CodingKeysO"
+- "8BookFarm16CategoryResponseV10CodingKeysO"
+- "8BookFarm22ForgotPasswordResponseV10CodingKeysO"
+- "8BookFarm8CategoryV10CodingKeysO"
+- "8BookFarm0A0V10CodingKeysO"
+- "8BookFarm0A5ImageV10CodingKeysO"
+- "8BookFarm13LoginResponseV10CodingKeysO"
+- "8BookFarm14CommonResponseV10CodingKeysO"
+- "8BookFarm14UpdateResponseV10CodingKeysO"
+- "8BookFarm16CategoryResponseV10CodingKeysO"
+- "8BookFarm22ForgotPasswordResponseV10CodingKeysO"
+- "8BookFarm8CategoryV10CodingKeysO"
+- "8BookFarm13LoginResponseV10CodingKeysO"
+- "8BookFarm14CommonResponseV10CodingKeysO"
+- "8BookFarm14UpdateResponseV10CodingKeysO"
+- "8BookFarm16CategoryResponseV10CodingKeysO"
+- "8BookFarm22ForgotPasswordResponseV10CodingKeysO"
+- "8BookFarm0A0V10CodingKeysO"
+- "8BookFarm0A5ImageV10CodingKeysO"
+- "8BookFarm13LoginResponseV10CodingKeysO"
+- "8BookFarm14CommonResponseV10CodingKeysO"
+- "8BookFarm14UpdateResponseV10CodingKeysO"
+- "8BookFarm16CategoryResponseV10CodingKeysO"
+- "8BookFarm22ForgotPasswordResponseV10CodingKeysO"
+- "8BookFarm8CategoryV10CodingKeysO"
+- "8BookFarm0A0V10CodingKeysO"
+- "8BookFarm13LoginResponseV10CodingKeysO"
+- "8BookFarm14CommonResponseV10CodingKeysO"
+- "8BookFarm14UpdateResponseV10CodingKeysO"
+- "8BookFarm16CategoryResponseV10CodingKeysO"
+- "8BookFarm22ForgotPasswordResponseV10CodingKeysO"
+- "8BookFarm0A0V10CodingKeysO"
+- "8BookFarm0A5ImageV10CodingKeysO"
+- "8BookFarm13LoginResponseV10CodingKeysO"
+- "8BookFarm14CommonResponseV10CodingKeysO"
+- "8BookFarm14UpdateResponseV10CodingKeysO"
+- "8BookFarm16CategoryResponseV10CodingKeysO"
+- "8BookFarm22ForgotPasswordResponseV10CodingKeysO"
+- "8BookFarm8CategoryV10CodingKeysO"
+- "8BookFarm13LoginResponseV10CodingKeysO"
+- "8BookFarm22ForgotPasswordResponseV10CodingKeysO"
+- "8BookFarm13LoginResponseV10CodingKeysO"
+- "8BookFarm22ForgotPasswordResponseV10CodingKeysO"
+- "8BookFarm13LoginResponseV10CodingKeysO"
+- "8BookFarm22ForgotPasswordResponseV10CodingKeysO"
+- "8BookFarm13LoginResponseV10CodingKeysO"
+- "8BookFarm22ForgotPasswordResponseV10CodingKeysO"
+- "8BookFarm13LoginResponseV10CodingKeysO"
+- "8BookFarm14CommonResponseV"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- "8BookFarm22ForgotPasswordResponseV"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "8BookFarm13LoginResponseV"
+- "SY"
+- "8BookFarm14UpdateResponseV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Accelerate.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreLocation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Photos.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/XLPagerTabStrip.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Modules/YPImagePicker.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Modules/PryntTrimmerView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Headers/YPImagePicker-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Headers/SteviaLayout-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Headers/PryntTrimmerView-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/BookFarm/Third Party Framework/iCarousel/iCarousel.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/FXPageControl.h"
+- "/Users/macbook/Desktop/BookFarm/BookFarm/Third Party Framework/Bridging Header.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/macbook/Desktop/BookFarm/BookFarm/Third Party Framework/SWRevealViewController/SWRevealViewController.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Headers/YPImagePicker-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Headers/PryntTrimmerView-Swift.h"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/SteviaLayout/Stevia.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/YPImagePicker/YPImagePicker.framework/Modules/module.modulemap"
+- "/Users/macbook/Desktop/BookFarm/build/Debug-iphonesimulator/PryntTrimmerView/PryntTrimmerView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2597320f5d6f314983a28c82ab0b07ed"

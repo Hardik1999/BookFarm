@@ -1,0 +1,408 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MemoryStorage"
+provides-nominal:
+- "10Kingfisher13MemoryStorageO"
+- "10Kingfisher13MemoryStorageO7BackendC"
+- "10Kingfisher13MemoryStorageO6ConfigV"
+- "10Kingfisher13MemoryStorageO0C6ObjectC"
+provides-member:
+- ["10Kingfisher13MemoryStorageO", ""]
+- ["10Kingfisher13MemoryStorageO7BackendC", ""]
+- ["10Kingfisher13MemoryStorageO6ConfigV", ""]
+- ["10Kingfisher13MemoryStorageO0C6ObjectC", ""]
+- ["10Kingfisher13MemoryStorageO", "Config"]
+- ["10Kingfisher13MemoryStorageO", "StorageObject"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CacheCostCalculable"
+- "CastingPrecedence"
+- "Date"
+- "ExpirationExtending"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "MemoryStorage"
+- "NSCache"
+- "NSLock"
+- "NSString"
+- "Set"
+- "StorageExpiration"
+- "String"
+- "TimeInterval"
+- "Timer"
+depends-member:
+- ["s18AdditiveArithmeticP", "max"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "Bool"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "Config"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "ExpirationExtending"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "NSCache"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "NSLock"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "NSString"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "Set"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "StorageExpiration"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "StorageObject"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "String"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "Timer"]
+- !private ["10Kingfisher13MemoryStorageO7BackendC", "cleanTimer"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "config"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "init"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "isCached"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "keys"]
+- !private ["10Kingfisher13MemoryStorageO7BackendC", "lock"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "remove"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "removeAll"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "removeExpired"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "storage"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "store"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "storeNoThrow"]
+- ["10Kingfisher13MemoryStorageO7BackendC", "value"]
+- ["Sz", "max"]
+- !private ["s7CVarArgP", "countLimit"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insert"]
+- !private ["s7CVarArgP", "lock"]
+- ["s7CVarArgP", "max"]
+- !private ["s7CVarArgP", "object"]
+- !private ["s7CVarArgP", "remove"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "removeAllObjects"]
+- !private ["s7CVarArgP", "removeObject"]
+- !private ["s7CVarArgP", "scheduledTimer"]
+- !private ["s7CVarArgP", "setObject"]
+- !private ["s7CVarArgP", "totalCostLimit"]
+- !private ["s7CVarArgP", "unlock"]
+- !private ["10Kingfisher19CacheCostCalculableP", "cacheCost"]
+- ["Sl", "init"]
+- !private ["Sl", "insert"]
+- !private ["Sl", "remove"]
+- !private ["Sl", "removeAll"]
+- !private ["SL", "isPast"]
+- ["SL", "max"]
+- ["10Kingfisher13MemoryStorageO6ConfigV", "Int"]
+- ["10Kingfisher13MemoryStorageO6ConfigV", "StorageExpiration"]
+- ["10Kingfisher13MemoryStorageO6ConfigV", "TimeInterval"]
+- ["10Kingfisher13MemoryStorageO6ConfigV", "cleanInterval"]
+- ["10Kingfisher13MemoryStorageO6ConfigV", "countLimit"]
+- ["10Kingfisher13MemoryStorageO6ConfigV", "expiration"]
+- ["10Kingfisher13MemoryStorageO6ConfigV", "init"]
+- ["10Kingfisher13MemoryStorageO6ConfigV", "totalCostLimit"]
+- !private ["s28CustomDebugStringConvertibleP", "countLimit"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "isPast"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- !private ["s28CustomDebugStringConvertibleP", "object"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAllObjects"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObject"]
+- !private ["s28CustomDebugStringConvertibleP", "scheduledTimer"]
+- !private ["s28CustomDebugStringConvertibleP", "setObject"]
+- !private ["s28CustomDebugStringConvertibleP", "totalCostLimit"]
+- !private ["s28CustomDebugStringConvertibleP", "unlock"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "insert"]
+- !private ["s17CustomReflectableP", "isPast"]
+- ["s17CustomReflectableP", "max"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "scheduledTimer"]
+- !private ["s23CustomStringConvertibleP", "countLimit"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "isPast"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "object"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "removeAllObjects"]
+- !private ["s23CustomStringConvertibleP", "removeObject"]
+- !private ["s23CustomStringConvertibleP", "scheduledTimer"]
+- !private ["s23CustomStringConvertibleP", "setObject"]
+- !private ["s23CustomStringConvertibleP", "totalCostLimit"]
+- !private ["s23CustomStringConvertibleP", "unlock"]
+- !private ["10Foundation4DateV", "isPast"]
+- ["Se", "init"]
+- !private ["Se", "insert"]
+- !private ["Se", "isPast"]
+- ["Se", "max"]
+- !private ["Se", "remove"]
+- !private ["Se", "removeAll"]
+- !private ["Se", "scheduledTimer"]
+- ["SE", "init"]
+- !private ["SE", "insert"]
+- !private ["SE", "isPast"]
+- ["SE", "max"]
+- !private ["SE", "remove"]
+- !private ["SE", "removeAll"]
+- !private ["SE", "scheduledTimer"]
+- !private ["SQ", "countLimit"]
+- ["SQ", "init"]
+- !private ["SQ", "insert"]
+- !private ["SQ", "isPast"]
+- !private ["SQ", "lock"]
+- ["SQ", "max"]
+- !private ["SQ", "object"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "removeAllObjects"]
+- !private ["SQ", "removeObject"]
+- !private ["SQ", "scheduledTimer"]
+- !private ["SQ", "setObject"]
+- !private ["SQ", "totalCostLimit"]
+- !private ["SQ", "unlock"]
+- ["10Kingfisher19ExpirationExtendingO", "cacheTime"]
+- ["10Kingfisher19ExpirationExtendingO", "expirationTime"]
+- ["10Kingfisher19ExpirationExtendingO", "none"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- ["s27ExpressibleByIntegerLiteralP", "max"]
+- !private ["s23ExpressibleByNilLiteralP", "scheduledTimer"]
+- ["s17FixedWidthIntegerP", "max"]
+- !private ["SH", "countLimit"]
+- ["SH", "init"]
+- !private ["SH", "insert"]
+- !private ["SH", "isPast"]
+- !private ["SH", "lock"]
+- ["SH", "max"]
+- !private ["SH", "object"]
+- !private ["SH", "remove"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "removeAllObjects"]
+- !private ["SH", "removeObject"]
+- !private ["SH", "scheduledTimer"]
+- !private ["SH", "setObject"]
+- !private ["SH", "totalCostLimit"]
+- !private ["SH", "unlock"]
+- ["Si", "max"]
+- ["s25LosslessStringConvertibleP", "max"]
+- ["10Kingfisher13MemoryStorageO", "Backend"]
+- ["10Kingfisher13MemoryStorageO", "Bool"]
+- ["10Kingfisher13MemoryStorageO", "CacheCostCalculable"]
+- ["10Kingfisher13MemoryStorageO", "Config"]
+- ["10Kingfisher13MemoryStorageO", "Date"]
+- ["10Kingfisher13MemoryStorageO", "ExpirationExtending"]
+- ["10Kingfisher13MemoryStorageO", "Int"]
+- ["10Kingfisher13MemoryStorageO", "NSCache"]
+- ["10Kingfisher13MemoryStorageO", "NSLock"]
+- ["10Kingfisher13MemoryStorageO", "NSString"]
+- ["10Kingfisher13MemoryStorageO", "Set"]
+- ["10Kingfisher13MemoryStorageO", "StorageExpiration"]
+- ["10Kingfisher13MemoryStorageO", "StorageObject"]
+- ["10Kingfisher13MemoryStorageO", "String"]
+- ["10Kingfisher13MemoryStorageO", "TimeInterval"]
+- ["10Kingfisher13MemoryStorageO", "Timer"]
+- ["s10MirrorPathP", "max"]
+- !private ["So7NSCacheC", "countLimit"]
+- ["So7NSCacheC", "init"]
+- !private ["So7NSCacheC", "object"]
+- !private ["So7NSCacheC", "removeAllObjects"]
+- !private ["So7NSCacheC", "removeObject"]
+- !private ["So7NSCacheC", "setObject"]
+- !private ["So7NSCacheC", "totalCostLimit"]
+- ["So6NSLockC", "init"]
+- !private ["So6NSLockC", "lock"]
+- !private ["So6NSLockC", "unlock"]
+- ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "lock"]
+- !private ["So9NSLockingP", "unlock"]
+- !private ["So8NSObjectC", "countLimit"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lock"]
+- !private ["So8NSObjectC", "object"]
+- !private ["So8NSObjectC", "removeAllObjects"]
+- !private ["So8NSObjectC", "removeObject"]
+- !private ["So8NSObjectC", "scheduledTimer"]
+- !private ["So8NSObjectC", "setObject"]
+- !private ["So8NSObjectC", "totalCostLimit"]
+- !private ["So8NSObjectC", "unlock"]
+- !private ["So8NSObjectP", "countLimit"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lock"]
+- !private ["So8NSObjectP", "object"]
+- !private ["So8NSObjectP", "removeAllObjects"]
+- !private ["So8NSObjectP", "removeObject"]
+- !private ["So8NSObjectP", "scheduledTimer"]
+- !private ["So8NSObjectP", "setObject"]
+- !private ["So8NSObjectP", "totalCostLimit"]
+- !private ["So8NSObjectP", "unlock"]
+- ["Sj", "max"]
+- !private ["Sq", "scheduledTimer"]
+- !private ["10Foundation20ReferenceConvertibleP", "isPast"]
+- ["s10SIMDScalarP", "max"]
+- ["ST", "init"]
+- !private ["ST", "insert"]
+- !private ["ST", "remove"]
+- !private ["ST", "removeAll"]
+- ["Sh", "init"]
+- !private ["Sh", "insert"]
+- !private ["Sh", "remove"]
+- !private ["Sh", "removeAll"]
+- ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "insert"]
+- !private ["s10SetAlgebraP", "remove"]
+- !private ["s10SetAlgebraP", "removeAll"]
+- ["SZ", "max"]
+- ["s13SignedNumericP", "max"]
+- !private ["10Kingfisher17StorageExpirationO", "estimatedExpirationSinceNow"]
+- !private ["10Kingfisher17StorageExpirationO", "isExpired"]
+- ["10Kingfisher17StorageExpirationO", "seconds"]
+- ["10Kingfisher13MemoryStorageO0C6ObjectC", "Bool"]
+- ["10Kingfisher13MemoryStorageO0C6ObjectC", "Date"]
+- ["10Kingfisher13MemoryStorageO0C6ObjectC", "ExpirationExtending"]
+- ["10Kingfisher13MemoryStorageO0C6ObjectC", "StorageExpiration"]
+- ["10Kingfisher13MemoryStorageO0C6ObjectC", "String"]
+- ["10Kingfisher13MemoryStorageO0C6ObjectC", "estimatedExpiration"]
+- ["10Kingfisher13MemoryStorageO0C6ObjectC", "expiration"]
+- ["10Kingfisher13MemoryStorageO0C6ObjectC", "expired"]
+- ["10Kingfisher13MemoryStorageO0C6ObjectC", "extendExpiration"]
+- ["10Kingfisher13MemoryStorageO0C6ObjectC", "init"]
+- ["10Kingfisher13MemoryStorageO0C6ObjectC", "key"]
+- ["10Kingfisher13MemoryStorageO0C6ObjectC", "value"]
+- ["Sx", "max"]
+- !private ["So7NSTimerC", "scheduledTimer"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isPast"]
+- ["s30_CustomPlaygroundQuickLookableP", "max"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "max"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "insert"]
+- ["s35_HasCustomAnyHashableRepresentationP", "max"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "countLimit"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "object"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeAllObjects"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scheduledTimer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "totalCostLimit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "countLimit"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "object"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeAllObjects"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scheduledTimer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "totalCostLimit"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unlock"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "insert"]
+- !private ["s21_ObjectiveCBridgeableP", "isPast"]
+- ["s21_ObjectiveCBridgeableP", "max"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "scheduledTimer"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "10Kingfisher13MemoryStorageO7BackendC"
+- "Sz"
+- "s7CVarArgP"
+- !private "10Kingfisher19CacheCostCalculableP"
+- "Sl"
+- "SL"
+- "10Kingfisher13MemoryStorageO6ConfigV"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- "Se"
+- "SE"
+- "SQ"
+- "10Kingfisher19ExpirationExtendingO"
+- "s25ExpressibleByArrayLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s17FixedWidthIntegerP"
+- "SH"
+- "Si"
+- "s25LosslessStringConvertibleP"
+- "10Kingfisher13MemoryStorageO"
+- "s10MirrorPathP"
+- "So7NSCacheC"
+- "So6NSLockC"
+- "So9NSLockingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "Sj"
+- !private "Sq"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s10SIMDScalarP"
+- "ST"
+- "Sh"
+- "s10SetAlgebraP"
+- "SZ"
+- "s13SignedNumericP"
+- "10Kingfisher17StorageExpirationO"
+- "10Kingfisher13MemoryStorageO0C6ObjectC"
+- "Sx"
+- !private "So7NSTimerC"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Accelerate.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macbook/Desktop/BookFarm/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+- "/Users/macbook/Desktop/BookFarm/Pods/Kingfisher/Sources/Kingfisher.h"
+- "/Users/macbook/Desktop/BookFarm/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bfe7a45862f6d059e137f3a9b2e8e7ec"
