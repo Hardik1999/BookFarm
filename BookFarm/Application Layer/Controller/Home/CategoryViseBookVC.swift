@@ -12,9 +12,10 @@ import UIKit
 class CategoryViseBookVC: UIViewController {
     var CategoryVisearray = [Book]()
     var categoryArr : Category!
+    var cat_name = ""
     
     var vc : FilterVC!
-    var cellViewType = "GallaryViewCell"
+    var cellViewType = "MosaicView"
     let itemCell = "NewBookCell"
     let itemcell2 = "NewAllBookCell"
     let itemcell3 = "GallaryViewCell"
@@ -23,6 +24,7 @@ class CategoryViseBookVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+//        cellViewType = "MosaicView"
         let nib = UINib(nibName: itemCell, bundle: nil)
         clvBook.register(nib, forCellWithReuseIdentifier: itemCell)
         
@@ -44,24 +46,25 @@ class CategoryViseBookVC: UIViewController {
     }
     @IBAction func onClickFilter(_ sender: Any) {
         let nextVC = self.storyboard?.instantiateViewController(withIdentifier: "idFilterVC") as! FilterVC
-        nextVC.filterArr = categoryArr!
-        //        nextVC.bookfilterArr = CategoryVisearray[Indexpath]
+        nextVC.filterArr = cat_name
+        nextVC.vc = self
+        nextVC.selectedView = cellViewType
         self.navigationController?.pushViewController(nextVC, animated: true)   
     }
     func docallCategoryviseBook() {
-        let param = ["selectAllBooksByUser":"selectAllBooksByUser",
+        let param = ["view_all_user_book_category_join":"view_all_user_book_category_join",
                      "book_category_id":categoryArr.catID!
         ]
         print("param" ,param)
         let request = AlamofireSingleTon.sharedInstance
-        request.requestPost(serviceName: ServiceNameConstants.AllMybook, parameters: param){
+        request.requestPost(serviceName: ServiceNameConstants.joinAllbookController, parameters: param){
             (json,error)in
             if json != nil{
                 do{
                     print(json as Any)
                     let response = try JSONDecoder().decode(BookResponse.self, from: json!)
                     if response.status == "200" {
-                        self.CategoryVisearray.append(contentsOf: response.books)
+                        self.CategoryVisearray.append(contentsOf: response.book)
                         self.clvBook.reloadData()
                     }
                     else{
@@ -76,6 +79,9 @@ class CategoryViseBookVC: UIViewController {
             }
         }
         
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        clvBook.reloadData()
     }
     
 }
@@ -95,19 +101,37 @@ extension CategoryViseBookVC : UICollectionViewDelegate,UICollectionViewDataSour
             cell.lblRentPrice.text = CategoryVisearray[indexPath.row].rentPrice
             cell.lblauthorName.text = CategoryVisearray[indexPath.row].authorName
             cell.lblBookDetails.text = CategoryVisearray[indexPath.row].bookDescription
-            utils.setImageFromUrl(imageView: cell.ivBookImage, urlString: CategoryVisearray[indexPath.row].bookImages[0].bookImageURL)
+            if CategoryVisearray[indexPath.row].bookIsPrime == "1"{
+                cell.ivPrime.isHidden = false
+            }else{
+                cell.ivPrime.isHidden = true
+            }
+            utils.setImageFromUrl(imageView: cell.ivBookImage, urlString: CategoryVisearray[indexPath.row].bookImages[0].bookImageUrl)
             return cell
         }else if cellViewType == "ListView"{
             let cell = clvBook.dequeueReusableCell(withReuseIdentifier: itemcell2, for: indexPath) as! NewAllBookCell
             cell.lblBookName.text = CategoryVisearray[indexPath.row].bookName
             cell.lblRentPrice.text = CategoryVisearray[indexPath.row].sellPrice
-            utils.setImageFromUrl(imageView: cell.ivBookImage, urlString: CategoryVisearray[indexPath.row].bookImages[0].bookImageURL)
+            
+            cell.ivPrime.isHidden = true
+            
+            if CategoryVisearray[indexPath.row].bookIsPrime == "1"{
+                cell.ivPrime.isHidden = false
+            }else{
+                cell.ivPrime.isHidden = true
+            }
+            utils.setImageFromUrl(imageView: cell.ivBookImage, urlString: CategoryVisearray[indexPath.row].bookImages[0].bookImageUrl)
             return cell
         }else if cellViewType == "MosaicView"{
             let cell = clvBook.dequeueReusableCell(withReuseIdentifier: itemCell, for: indexPath) as! NewBookCell
             cell.lblName.text = CategoryVisearray[indexPath.row].bookName
             cell.lblSellPrice.text = CategoryVisearray[indexPath.row].sellPrice
-            utils.setImageFromUrl(imageView: cell.ibook, urlString: CategoryVisearray[indexPath.row].bookImages[0].bookImageURL)
+            utils.setImageFromUrl(imageView: cell.ibook, urlString: CategoryVisearray[indexPath.row].bookImages[0].bookImageUrl)
+            if CategoryVisearray[indexPath.row].bookIsPrime == "1"{
+                cell.ivPrime.isHidden = false
+            }else{
+                cell.ivPrime.isHidden = true
+            }
             return cell
         }
         return cell
@@ -128,11 +152,11 @@ extension CategoryViseBookVC : UICollectionViewDelegate,UICollectionViewDataSour
             let yourWidth = Int(clvBook.bounds.width)
             return CGSize(width: yourWidth , height: 350)
         } else if cellViewType == "ListView" {
-            let yourWidth = Int(clvBook.bounds.width/2)
+            let yourWidth = Int(clvBook.bounds.width)
             return CGSize(width: yourWidth , height: 130)
         }
         let yourWidth = Int(clvBook.bounds.width/2)
-        return CGSize(width: yourWidth - 1 , height: 160)
+        return CGSize(width: yourWidth , height: 160)
     }
 }
 

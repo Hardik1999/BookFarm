@@ -20,7 +20,7 @@ class MyTimelineAccountVC: ButtonBarPagerTabStripViewController {
         designForPager()
         super.viewDidLoad()
         
-        ivProfile.image = UIImage(named: Data.dogetlocaldatauser().userProfile)
+        utils.setImageFromUrl(imageView: ivProfile, urlString: Data.dogetlocaldatauser().userProfile)
         lblname.text = Data.dogetlocaldatauser().userName
         lblemail.text = Data.dogetlocaldatauser().userEmail
         

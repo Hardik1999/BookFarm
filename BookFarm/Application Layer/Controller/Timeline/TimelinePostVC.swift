@@ -31,10 +31,10 @@ let itemcell = "AddProfileCell"
         tvAbout.text = " write your idea.... "
         tvAbout.textColor = UIColor.lightGray
         let data = dogetlocaldatauser().userProfile
-        ivUser.image = UIImage(named: data!)
+        utils.setImageFromUrl(imageView: ivUser, urlString: data)
         print(data as Any)
         lblUserName.text = dogetlocaldatauser().userName
-        viewUserImage.layer.cornerRadius = viewUserImage.frame.width/2
+        ivUser.layer.cornerRadius = ivUser.frame.width/2
         
     }
     

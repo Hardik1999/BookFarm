@@ -10,9 +10,9 @@ target 'BookFarm' do
     pod 'Alamofire', '~> 4.0'
     pod 'SwiftyJSON', '~> 4.0'
     pod 'YPImagePicker'
-   
+#    pod 'Toppon'
     pod 'Toast-Swift', '~> 5.0.0'
-    #fb
+    pod 'DropDown', '2.3.2'
    
 
 end

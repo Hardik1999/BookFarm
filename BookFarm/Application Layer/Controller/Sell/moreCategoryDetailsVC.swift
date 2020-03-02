@@ -85,6 +85,7 @@ extension moreCategoryDetailsVC : UITableViewDataSource,UITableViewDelegate{
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let nextVc = storyboard?.instantiateViewController(withIdentifier: "idSellDetailsVC")as!SellDetailsVC
+        nextVc.bookcatname = MoreCategoryArray[indexPath.row].catName
         self.navigationController?.pushViewController(nextVc, animated: true)
     }
     

@@ -68,7 +68,7 @@ extension AllBookVC : iCarouselDelegate,iCarouselDataSource{
     
     func carousel(_ carousel: iCarousel, viewForItemAt index: Int, reusing view: UIView?) -> UIView {
          let cell = (Bundle.main.loadNibNamed("BookDetailsicarouselCell", owner: self, options: nil)?[0] as! UIView)as! BookDetailsicarouselCell
-        let data = BookDetailArray.bookImages[index].bookImageURL
+        let data = BookDetailArray.bookImages[index].bookImageUrl
         utils.setImageFromUrl(imageView: cell.IvCarousel, urlString: data)
          cell.frame = viewCarousel.frame
         //cell.frame(forAlignmentRect: viewCarousel.frame)

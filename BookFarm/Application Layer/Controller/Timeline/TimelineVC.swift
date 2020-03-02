@@ -46,6 +46,7 @@ class TimelineVC: BaseVC {
             refreshControl.beginRefreshing()
             timelineList.removeAll()
             doTimelineAPI()
+            tbvTimeline.reloadData()
             refreshControl.endRefreshing()
         }
         
@@ -116,7 +117,11 @@ extension TimelineVC : UITableViewDelegate,UITableViewDataSource,OnClicktimeline
     }
     
     func doclickmenu(index: IndexPath) {
-        print("menu")
+       let nextVC = storyboard?.instantiateViewController(withIdentifier: "idtimelineDialogVC")as! timelineDialogVC
+        nextVC.dialogarr = timelineList[index.row]
+        nextVC.view.backgroundColor = UIColor.black.withAlphaComponent(0.7)
+        addChild(nextVC)
+        view.addSubview(nextVC.view)
     }
     
     func doclicksave(index: IndexPath) {

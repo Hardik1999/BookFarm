@@ -15,4 +15,19 @@ class PrimeVC: UIViewController {
 
     }
    
+    @IBAction func onClickBook(_ sender: Any) {
+        let nextvc = storyboard?.instantiateViewController(withIdentifier: "idPrimebookVC")as! PrimebookVC
+        self.navigationController?.pushViewController(nextvc, animated: true)
+    }
+    @IBAction func onClickEBook(_ sender: Any) {
+    }
+    @IBAction func onClickVideo(_ sender: Any) {
+    }
+    @IBAction func onClickAudio(_ sender: Any) {
+    }
+    @IBAction func onClickBlog(_ sender: Any) {
+    }
+    @IBAction func onClickTestpaper(_ sender: Any) {
+    }
 }
+

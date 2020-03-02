@@ -29,6 +29,9 @@ class MyBookDetailsVC: UIViewController {
         lblCategory.text = MyBookDetailsArr.bookCategory
         lblBookDetails.text = MyBookDetailsArr.bookDescription
         
+        viewCarousel.delegate = self
+        viewCarousel.dataSource = self
+        
     }
     
     @IBAction func onClickBack(_ sender: Any) {
@@ -36,5 +39,19 @@ class MyBookDetailsVC: UIViewController {
     }
     
     }
+extension MyBookDetailsVC : iCarouselDelegate,iCarouselDataSource{
+    func numberOfItems(in carousel: iCarousel) -> Int {
+        return MyBookDetailsArr.bookImages.count
+    }
+    
+    func carousel(_ carousel: iCarousel, viewForItemAt index: Int, reusing view: UIView?) -> UIView {
+        let cell = (Bundle.main.loadNibNamed("BookDetailsicarouselCell", owner: self, options: nil)?[0] as! UIView)as! BookDetailsicarouselCell
+        let data = MyBookDetailsArr.bookImages[index].bookImageUrl
+        utils.setImageFromUrl(imageView: cell.IvCarousel, urlString: data)
+        cell.frame = viewCarousel.frame
+        return cell
+    }
+    
+}
     
 

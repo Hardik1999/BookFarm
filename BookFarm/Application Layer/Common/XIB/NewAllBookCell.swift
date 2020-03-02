@@ -16,6 +16,7 @@ class NewAllBookCell: UICollectionViewCell {
     @IBOutlet weak var ivBookImage: UIImageView!
     @IBOutlet weak var lblRentPrice: UILabel!
     @IBOutlet weak var btnLike: UIButton!
+    @IBOutlet weak var ivPrime: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

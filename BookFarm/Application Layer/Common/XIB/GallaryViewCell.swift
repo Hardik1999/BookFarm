@@ -12,7 +12,7 @@ class GallaryViewCell: UICollectionViewCell {
 
     @IBOutlet weak var lblBookName: UILabel!
     @IBOutlet weak var ivBookImage: UIImageView!
-    
+    @IBOutlet weak var ivPrime: UIImageView!
     @IBOutlet weak var lblauthorName: UILabel!
     @IBOutlet weak var lblSellPrice: UILabel!
     @IBOutlet weak var lblRentPrice: UILabel!

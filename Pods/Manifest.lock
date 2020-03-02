@@ -1,8 +1,9 @@
 PODS:
   - Alamofire (4.9.1)
-  - Kingfisher (5.13.0):
-    - Kingfisher/Core (= 5.13.0)
-  - Kingfisher/Core (5.13.0)
+  - DropDown (2.3.2)
+  - Kingfisher (5.13.1):
+    - Kingfisher/Core (= 5.13.1)
+  - Kingfisher/Core (5.13.1)
   - PryntTrimmerView (4.0.0)
   - SteviaLayout (4.7.3)
   - SwiftyJSON (4.3.0)
@@ -14,6 +15,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.0)
+  - DropDown (= 2.3.2)
   - Kingfisher (~> 5.0)
   - SwiftyJSON (~> 4.0)
   - Toast-Swift (~> 5.0.0)
@@ -23,6 +25,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - DropDown
     - Kingfisher
     - PryntTrimmerView
     - SteviaLayout
@@ -33,7 +36,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  Kingfisher: 0d334cada987fcddbe9b5cec516406e1ee9d4748
+  DropDown: 7f87abecc28f9b4edad810fe1211c5c018c257e5
+  Kingfisher: f33a848445e33c543620812158dc5d47f6bf90df
   PryntTrimmerView: 67e67573ffd4c073f1308effa66aefd0cfa667a0
   SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
@@ -41,6 +45,6 @@ SPEC CHECKSUMS:
   XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
   YPImagePicker: accf310f9526641a84372c0ecf943547d9b1e52c
 
-PODFILE CHECKSUM: ebf4aa1db3e5c172d9acef606221968ff15d5dee
+PODFILE CHECKSUM: e6c7c39044933b347bd40a31cf3aa52e54b5fcb4
 
 COCOAPODS: 1.8.4

@@ -19,6 +19,8 @@ class SellBookVC: UIViewController {
     var BookCategory = [categorylist]()
     @IBOutlet weak var cvSellCategory: UICollectionView!
     let itemcell = "SellCategoryCell"
+    var backGroundColour = [#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0),#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0),#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0),#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0),#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0),#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0),#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0),#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0),#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)]
+    var flag : Int!
     override func viewDidLoad() {
         super.viewDidLoad()
         let nib = UINib(nibName: itemcell, bundle: nil)
@@ -39,11 +41,10 @@ class SellBookVC: UIViewController {
     
     
     @IBAction func onClickCancel(_ sender: Any) {
-        for nextVC in self.navigationController!.viewControllers as Array{
-            if nextVC.isKind(of: TabBarVC.self){
-                self.navigationController?.popToViewController(nextVC, animated: true)
-            }
-        }
+        let nextVC = storyboard?.instantiateViewController(withIdentifier: "idViewVC")as! ViewVC
+        nextVC.view.backgroundColor = UIColor.black.withAlphaComponent(0.7)
+        addChild(nextVC)
+        view.addSubview(nextVC.view)
     }
 }
 extension SellBookVC : UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout{
@@ -58,7 +59,7 @@ extension SellBookVC : UICollectionViewDataSource,UICollectionViewDelegate,UICol
         cell.icategory.image = BookCategory[indexPath.row].image
         return cell
     }
- 
+    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let yourwidth = cvSellCategory.frame.width/2
         return CGSize(width: yourwidth-1, height: collectionView.frame.height/4)
@@ -70,10 +71,19 @@ extension SellBookVC : UICollectionViewDataSource,UICollectionViewDelegate,UICol
             self.navigationController?.pushViewController(nextVC, animated: true)
         }
         else {
-            let nextVC = self.storyboard?.instantiateViewController(withIdentifier: "idSellDetailsVC")as!SellDetailsVC
-            nextVC.bookCatID = BookCategory[indexPath.row].book_cat_id
-            nextVC.bookcatname = BookCategory[indexPath.row].name
-            self.navigationController?.pushViewController(nextVC, animated: true)
+            if flag == 1{
+                let nextVC = self.storyboard?.instantiateViewController(withIdentifier: "idSellDetailsVC")as!SellDetailsVC
+                nextVC.bookCatID = BookCategory[indexPath.row].book_cat_id
+                nextVC.bookcatname = BookCategory[indexPath.row].name
+                self.navigationController?.pushViewController(nextVC, animated: true)
+            }else if flag == 2{
+                let nextVC = self.storyboard?.instantiateViewController(withIdentifier: "idEbookSellDetailsVC")as!EbookSellDetailsVC
+//                nextVC.bookCatID = BookCategory[indexPath.row].book_cat_id
+                nextVC.Flag = flag
+                nextVC.bookcatname = BookCategory[indexPath.row].name
+                self.navigationController?.pushViewController(nextVC, animated: true)
+            }
+            
         }
         
     }

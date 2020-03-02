@@ -60,11 +60,41 @@ class MyTimelineVC: BaseVC {
     }
     
 }
-extension MyTimelineVC : IndicatorInfoProvider,UITableViewDelegate,UITableViewDataSource{
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return myTimelineArr.count
+extension MyTimelineVC : IndicatorInfoProvider,UITableViewDelegate,UITableViewDataSource,OnClicktimeline{
+    func doclicklike(index: IndexPath) {
+        print("like")
+    }
+    
+    func doclickcomment(index: IndexPath) {
+        print("comment")
+    }
+    
+    func doclickshare(index: IndexPath) {
+        print("share")
+    }
+    
+    func doclickmenu(index: IndexPath) {
+//        print("Timelinesddd:" + String(myTimelineArr[index.row].timelineId))
+        let nextVC = storyboard?.instantiateViewController(withIdentifier: "idMyTimelineDialogVC")as! MyTimelineDialogVC
+        nextVC.mytimelinearr = myTimelineArr[index.row]
+        nextVC.view.backgroundColor = UIColor.black.withAlphaComponent(0.7)
+        addChild(nextVC)
+        view.addSubview(nextVC.view)
         
-        print(myTimelineArr.count)
+        
+    }
+    
+    func doclicksave(index: IndexPath) {
+        print("save")
+    }
+    
+    func doclickprofile(index: IndexPath) {
+        print("profile")
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        return myTimelineArr.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -84,7 +114,8 @@ extension MyTimelineVC : IndicatorInfoProvider,UITableViewDelegate,UITableViewDa
             cell.ivUserProfile.cornerRadius = cell.ivUserProfile.frame.width/2
             utils.setImageFromUrl(imageView: cell.ivUserProfile, urlString: myTimelineArr[indexPath.row].userProfilePicture)
             cell.setImage(imgArr: myTimelineArr[indexPath.row].timelineImage)
-            
+            cell.data = self
+            cell.index = indexPath
             return cell
         }
         

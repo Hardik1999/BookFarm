@@ -36,7 +36,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kxt-Iy-eMg">
-                                <rect key="frame" x="82" y="2" width="308" height="20"/>
+                                <rect key="frame" x="82" y="2" width="286" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="UzA-Rv-IXg"/>
                                 </constraints>
@@ -118,6 +118,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="crown" translatesAutoresizingMaskIntoConstraints="NO" id="BGG-9Y-lxA">
+                                <rect key="frame" x="370" y="2" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="G24-fA-85B"/>
+                                    <constraint firstAttribute="height" constant="20" id="dG2-Mh-h04"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -135,6 +142,7 @@
                             <constraint firstItem="EWK-mh-L7N" firstAttribute="leading" secondItem="cl6-58-nmM" secondAttribute="trailing" constant="2" id="SlV-fN-gHe"/>
                             <constraint firstItem="Kxt-Iy-eMg" firstAttribute="leading" secondItem="cl6-58-nmM" secondAttribute="trailing" constant="2" id="T4p-lD-cU0"/>
                             <constraint firstItem="EWK-mh-L7N" firstAttribute="top" secondItem="9Tq-qE-NbP" secondAttribute="bottom" constant="2" id="VaW-jF-J8T"/>
+                            <constraint firstItem="BGG-9Y-lxA" firstAttribute="top" secondItem="8nj-9i-i45" secondAttribute="top" constant="2" id="Ye4-JT-USt"/>
                             <constraint firstItem="BLs-Yc-Bn9" firstAttribute="top" secondItem="9Tq-qE-NbP" secondAttribute="bottom" constant="2" id="a5C-ge-Uyp"/>
                             <constraint firstItem="aNO-U4-VeJ" firstAttribute="top" secondItem="9Tq-qE-NbP" secondAttribute="bottom" constant="2" id="b2g-zv-B4k"/>
                             <constraint firstItem="Kxt-Iy-eMg" firstAttribute="top" secondItem="8nj-9i-i45" secondAttribute="top" constant="2" id="cl8-dV-7LN"/>
@@ -144,19 +152,26 @@
                             <constraint firstItem="9Tq-qE-NbP" firstAttribute="leading" secondItem="cl6-58-nmM" secondAttribute="trailing" constant="2" id="liq-lE-a9X"/>
                             <constraint firstItem="cl6-58-nmM" firstAttribute="leading" secondItem="8nj-9i-i45" secondAttribute="leading" id="pPC-nD-MYw"/>
                             <constraint firstItem="BLs-Yc-Bn9" firstAttribute="top" secondItem="9Tq-qE-NbP" secondAttribute="bottom" constant="2" id="ugt-gl-qsH"/>
-                            <constraint firstAttribute="trailing" secondItem="Kxt-Iy-eMg" secondAttribute="trailing" constant="2" id="vvB-tS-ZKT"/>
                             <constraint firstItem="BLs-Yc-Bn9" firstAttribute="leading" secondItem="EWK-mh-L7N" secondAttribute="trailing" id="wI8-kw-EF4"/>
                             <constraint firstItem="cl6-58-nmM" firstAttribute="top" secondItem="8nj-9i-i45" secondAttribute="top" id="wdO-Ox-aqF"/>
+                            <constraint firstAttribute="trailing" secondItem="BGG-9Y-lxA" secondAttribute="trailing" constant="2" id="wpf-lk-iRt"/>
+                            <constraint firstItem="BGG-9Y-lxA" firstAttribute="leading" secondItem="Kxt-Iy-eMg" secondAttribute="trailing" constant="2" id="zJl-cF-RMK"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                 <real key="value" value="5"/>
                             </userDefinedRuntimeAttribute>
-                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="4"/>
                             </userDefinedRuntimeAttribute>
-                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                <real key="value" value="1"/>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" red="0.12549019610000001" green="0.45098039220000002" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="4" height="4"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
@@ -173,6 +188,7 @@
             <connections>
                 <outlet property="btnLike" destination="iD4-gt-X6V" id="zmx-bx-HJN"/>
                 <outlet property="ivBookImage" destination="76r-3j-BDv" id="QsO-F6-Z4t"/>
+                <outlet property="ivPrime" destination="BGG-9Y-lxA" id="Kko-YO-brN"/>
                 <outlet property="lblBookAuthor" destination="9Tq-qE-NbP" id="f4F-f2-fnQ"/>
                 <outlet property="lblBookLanguage" destination="Mvb-H6-VJx" id="Axn-Fd-sYK"/>
                 <outlet property="lblBookName" destination="Kxt-Iy-eMg" id="zTw-uv-nPr"/>
@@ -183,6 +199,7 @@
         </collectionViewCell>
     </objects>
     <resources>
+        <image name="crown" width="32" height="32"/>
         <image name="like" width="32" height="32"/>
     </resources>
 </document>

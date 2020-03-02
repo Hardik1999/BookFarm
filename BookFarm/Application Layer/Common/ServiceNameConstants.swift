@@ -19,5 +19,8 @@ struct ServiceNameConstants {
     public static let BookRegister = "bookRegistrationMultipart.php"
     public static let Timeline = "timelineController.php"
      public static let JoinTimeline = "joinController_user_timeline.php"
+    public static let EbookController = "ebook_controller.php"
+    public static let joinAllbookController = "jointablecontroller.php"
+    public static let deleteTimelineController = "timelineController.php"
 }
 

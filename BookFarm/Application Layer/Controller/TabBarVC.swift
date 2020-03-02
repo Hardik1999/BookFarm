@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TabBarVC: UIViewController {
+class TabBarVC: BaseVC {
     
     @IBOutlet  var imgtabbar: [UIImageView]!
     @IBOutlet  var lbltabbar: [UILabel]!
@@ -23,9 +23,13 @@ class TabBarVC: UIViewController {
     @IBOutlet weak var MainView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print(dogetlocaldatauser())
         homeViewController = self.storyboard?.instantiateViewController(withIdentifier: "idHomeVC")as! HomeVC
+        if dogetlocaldatauser().userPremiumStatus == "1"{
         chatViewController = self.storyboard?.instantiateViewController(withIdentifier: "idPrimeVC")as! PrimeVC
+        }else{
+            chatViewController = self.storyboard?.instantiateViewController(withIdentifier: "id PrimeRegistrationVC")as! PrimeRegistrationVC
+        }
         sellBookViewController = self.storyboard?.instantiateViewController(withIdentifier: "idSellCategoryVC")as! SellCategoryVC
         MyStoreViewController = self.storyboard?.instantiateViewController(withIdentifier: "idMyStoreVC")as! MyStoreVC
         myAccountViewController = self.storyboard?.instantiateViewController(withIdentifier: "idMyAccountVC")as! MyAccountVC
